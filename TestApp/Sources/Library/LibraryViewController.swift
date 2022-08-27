@@ -67,6 +67,24 @@ class LibraryViewController: UIViewController, Loggable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+   
+        
+        let docsPath = Bundle.main.resourcePath! + "/Samples"
+        let fileManager = FileManager.default
+
+        do {
+            let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
+            print(docsArray)
+            for doc in docsArray {
+                let epubName = doc
+                let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
+                print(epubFileURL)
+                addBookFromSample(url: epubFileURL!)
+            }
+        } catch {
+            print(error)
+        }
+
         
         library.allBooks()
             .receive(on: DispatchQueue.main)
@@ -216,6 +234,17 @@ class LibraryViewController: UIViewController, Loggable {
         present(alert, animated: true, completion: nil)
     }
     
+    private func addBookFromSample(url: URL) {
+       
+                library.importPublication(from: url, sender: self)
+                    .receive(on: DispatchQueue.main)
+                    .sink { completion in
+                        if case .failure(let error) = completion {
+                            print("ERROR ADD BOOK")
+                        }
+                    } receiveValue: { _ in }
+                    .store(in: &subscriptions)
+    }
 }
 
 extension LibraryViewController {
