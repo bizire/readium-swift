@@ -65,13 +65,11 @@ class LibraryViewController: UIViewController, Loggable {
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-   
+    private func initBooksFromSamples() {
         
         let docsPath = Bundle.main.resourcePath! + "/Samples"
         let fileManager = FileManager.default
-
+        
         do {
             let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
             print(docsArray)
@@ -79,13 +77,31 @@ class LibraryViewController: UIViewController, Loggable {
                 let epubName = doc
                 let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
                 print(epubFileURL)
-                addBookFromSample(url: epubFileURL!)
+                let alraedyInDB = ifBookAlreadyInDB(epubFileURL)
+                if (!alraedyInDB) {
+                    addBookFromSample(url: epubFileURL!)
+                }
             }
         } catch {
             print(error)
         }
-
+    }
+    
+    private func ifBookAlreadyInDB(_ epubFileURL: URL?) -> Bool {
         
+        return false
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+   
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if !launchedBefore  {
+            print("First launch, setting UserDefault.")
+            initBooksFromSamples()
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+        } 
+
         library.allBooks()
             .receive(on: DispatchQueue.main)
             .sink { completion in
@@ -235,15 +251,14 @@ class LibraryViewController: UIViewController, Loggable {
     }
     
     private func addBookFromSample(url: URL) {
-       
-                library.importPublication(from: url, sender: self)
-                    .receive(on: DispatchQueue.main)
-                    .sink { completion in
-                        if case .failure(let error) = completion {
-                            print("ERROR ADD BOOK")
-                        }
-                    } receiveValue: { _ in }
-                    .store(in: &subscriptions)
+        library.importPublication(from: url, sender: self)
+            .receive(on: DispatchQueue.main)
+            .sink { completion in
+                if case .failure(let error) = completion {
+                    print("ERROR ADD BOOK")
+                }
+            } receiveValue: { _ in }
+            .store(in: &subscriptions)
     }
 }
 
