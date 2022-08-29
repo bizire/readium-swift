@@ -77,19 +77,11 @@ class LibraryViewController: UIViewController, Loggable {
                 let epubName = doc
                 let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
                 print(epubFileURL)
-                let alraedyInDB = ifBookAlreadyInDB(epubFileURL)
-                if (!alraedyInDB) {
-                    addBookFromSample(url: epubFileURL!)
-                }
+                addBookFromSample(url: epubFileURL!)
             }
         } catch {
             print(error)
         }
-    }
-    
-    private func ifBookAlreadyInDB(_ epubFileURL: URL?) -> Bool {
-        
-        return false
     }
     
     override func viewDidLoad() {
@@ -100,7 +92,7 @@ class LibraryViewController: UIViewController, Loggable {
             print("First launch, setting UserDefault.")
             initBooksFromSamples()
             UserDefaults.standard.set(true, forKey: "launchedBefore")
-        } 
+        }
 
         library.allBooks()
             .receive(on: DispatchQueue.main)
