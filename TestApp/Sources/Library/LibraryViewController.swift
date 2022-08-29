@@ -325,6 +325,7 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.accessibilityLabel = book.title
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
+        cell.authorLabel.isHidden = true
         
         // Load image and then apply the shadow.
         if
