@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Кодексы Законы</string>
+	<string>Кодексы</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
