@@ -73,7 +73,7 @@ class LibraryViewController: UIViewController, Loggable {
         do {
             let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
             print(docsArray)
-            for doc in docsArray {
+             for doc in docsArray {
                 let epubName = doc
                 let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
                 print(epubFileURL)
