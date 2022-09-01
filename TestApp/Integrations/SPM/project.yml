@@ -1,6 +1,6 @@
-name: TestApp
+name: ReadiumBook
 options:
-  bundleIdPrefix: org.readium
+  bundleIdPrefix: com.zodinplex.book
 packages:
   Readium:
     url: https://github.com/readium/swift-toolkit.git
@@ -17,8 +17,11 @@ packages:
   SwiftSoup:
     url: https://github.com/scinfu/SwiftSoup.git
     from: 2.3.2
+  AdMob:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    from: 9.9.0
 targets:
-  TestApp:
+  ReadiumBook:
     type: application
     platform: iOS
     deploymentTarget: "14.0"
@@ -36,4 +39,5 @@ targets:
       - package: GRDB
       - package: Kingfisher
       - package: MBProgressHUD
+      - package: AdMob
 
