@@ -10,12 +10,12 @@
 //  LICENSE file present in the project repository where this source code is maintained.
 //
 
+import GoogleMobileAds
 import Combine
 import UIKit
-import GoogleMobileAds
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate {
     
     var window: UIWindow?
     
@@ -59,6 +59,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
+        
+        AppOpenAdManager.shared.loadAd()
 
         return true
     }
@@ -71,4 +73,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        let rootViewController = application.windows.first(
+          where: { $0.isKeyWindow })?.rootViewController
+        if let rootViewController = rootViewController {
+          AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
+        }
+      }
 }
