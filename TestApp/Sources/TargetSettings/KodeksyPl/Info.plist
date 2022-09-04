@@ -8,6 +8,14 @@
 	<string>Kodeksy PL</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7590866680405485~5510730134</string>
+	<key>AdmobBannerID</key>
+	<string>ca-app-pub-7590866680405485/5066348328</string>
+	<key>AdmobInterID</key>
+	<string>ca-app-pub-7590866680405485/3753266657</string>
+	<key>AdmobOpenID</key>
+	<string>ca-app-pub-7590866680405485/1127103315</string>
+	<key>AdmobRewardID</key>
+	<string>ca-app-pub-7590866680405485/2440184986</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

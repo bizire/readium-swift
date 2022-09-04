@@ -28,34 +28,9 @@ class AboutTableViewController: UITableViewController {
         buildNumberCell.textLabel?.text = NSLocalizedString("build_version_caption", comment: "Caption for the build version in About screen")
         buildNumberCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
         
-        admobBannerInit()
+        AdHelper().admobBannerInit(uiView: self)
     }
-
-    func admobBannerInit() {
-        var bannerView: GADBannerView
-        bannerView = GADBannerView(adSize: GADAdSizeBanner)
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-              [NSLayoutConstraint(item: bannerView,
-                                  attribute: .bottom,
-                                  relatedBy: .equal,
-                                  toItem: bottomLayoutGuide,
-                                  attribute: .top,
-                                  multiplier: 1,
-                                  constant: 0),
-               NSLayoutConstraint(item: bannerView,
-                                  attribute: .centerX,
-                                  relatedBy: .equal,
-                                  toItem: view,
-                                  attribute: .centerX,
-                                  multiplier: 1,
-                                  constant: 0)
-              ])
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
-    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {

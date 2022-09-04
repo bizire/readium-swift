@@ -49,33 +49,7 @@ class OPDSCatalogSelectorViewController: UITableViewController {
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         navigationController?.view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
-        admobBannerInit()
-    }
-    
-    func admobBannerInit() {
-        var bannerView: GADBannerView
-        bannerView = GADBannerView(adSize: GADAdSizeBanner)
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-              [NSLayoutConstraint(item: bannerView,
-                                  attribute: .bottom,
-                                  relatedBy: .equal,
-                                  toItem: bottomLayoutGuide,
-                                  attribute: .top,
-                                  multiplier: 1,
-                                  constant: 0),
-               NSLayoutConstraint(item: bannerView,
-                                  attribute: .centerX,
-                                  relatedBy: .equal,
-                                  toItem: view,
-                                  attribute: .centerX,
-                                  multiplier: 1,
-                                  constant: 0)
-              ])
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        AdHelper().admobBannerInit(uiView: self)
     }
     
     func preloadTestFeeds() {
