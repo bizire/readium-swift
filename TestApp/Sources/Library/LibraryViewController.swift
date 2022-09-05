@@ -49,6 +49,8 @@ class LibraryViewController: UIViewController, Loggable {
     lazy var loadingIndicator = PublicationIndicator()
     private lazy var addBookButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addBook))
     
+    var adHelper = AdHelper()
+    
     @IBOutlet weak var collectionView: UICollectionView! {
         didSet {
             // The contentInset of collectionVIew might be changed by iOS 9/10.
@@ -120,7 +122,8 @@ class LibraryViewController: UIViewController, Loggable {
         navigationController?.navigationBar.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
-        AdHelper().admobBannerInit(uiView: self)
+        adHelper.admobBannerInit(uiView: self)
+        adHelper.admobInterstitialInit()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -376,6 +379,7 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         }
         
         let book = books[indexPath.item]
+        adHelper.showInterstitial(uiView: self)
         library.openBook(book, forPresentation: true, sender: self)
             .receive(on: DispatchQueue.main)
             .sink { completion in

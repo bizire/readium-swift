@@ -55,7 +55,7 @@ class AppOpenAdManager: NSObject {
       return
     }
     isLoadingAd = true
-    print("Start loading app open ad.")
+    print("Admob Start loading app open ad.")
     GADAppOpenAd.load(
       withAdUnitID: Bundle.main.object(forInfoDictionaryKey: "AdmobOpenID") as! String,
       request: GADRequest(),
@@ -65,34 +65,34 @@ class AppOpenAdManager: NSObject {
       if let error = error {
         self.appOpenAd = nil
         self.loadTime = nil
-        print("App open ad failed to load with error: \(error.localizedDescription).")
+        print("Admob App open ad failed to load with error: \(error.localizedDescription).")
         return
       }
 
       self.appOpenAd = ad
       self.appOpenAd?.fullScreenContentDelegate = self
       self.loadTime = Date()
-      print("App open ad loaded successfully.")
+      print("Admob App open ad loaded successfully.")
     }
   }
 
   func showAdIfAvailable(viewController: UIViewController) {
     // If the app open ad is already showing, do not show the ad again.
     if isShowingAd {
-      print("App open ad is already showing.")
+      print("Admob App open ad is already showing.")
       return
     }
     // If the app open ad is not available yet but it is supposed to show,
     // it is considered to be complete in this example. Call the appOpenAdManagerAdDidComplete
     // method and load a new ad.
     if !isAdAvailable() {
-      print("App open ad is not ready yet.")
+      print("Admob App open ad is not ready yet.")
       appOpenAdManagerAdDidComplete()
       loadAd()
       return
     }
     if let ad = appOpenAd {
-      print("App open ad will be displayed.")
+      print("Admob App open ad will be displayed.")
       isShowingAd = true
       ad.present(fromRootViewController: viewController)
     }
@@ -101,13 +101,13 @@ class AppOpenAdManager: NSObject {
 
 extension AppOpenAdManager: GADFullScreenContentDelegate {
   func adWillPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
-    print("App open ad is will be presented.")
+    print("Admob App open ad is will be presented.")
   }
 
   func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
     appOpenAd = nil
     isShowingAd = false
-    print("App open ad was dismissed.")
+    print("Admob App open ad was dismissed.")
     appOpenAdManagerAdDidComplete()
     loadAd()
   }
@@ -118,7 +118,7 @@ extension AppOpenAdManager: GADFullScreenContentDelegate {
   ) {
     appOpenAd = nil
     isShowingAd = false
-    print("App open ad failed to present with error: \(error.localizedDescription).")
+    print("Admob App open ad failed to present with error: \(error.localizedDescription).")
     appOpenAdManagerAdDidComplete()
     loadAd()
   }
