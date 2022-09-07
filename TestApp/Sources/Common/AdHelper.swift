@@ -13,6 +13,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     var interstitial: GADInterstitialAd?
     
     func admobBannerInit(uiView: UIViewController) {
+        print("Admob Banner start init")
         var bannerView: GADBannerView
         bannerView = GADBannerView(adSize: GADAdSizeBanner)
         bannerView.translatesAutoresizingMaskIntoConstraints = false
@@ -33,6 +34,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
                                   multiplier: 1,
                                   constant: 0)
               ])
+//        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.adUnitID = Bundle.main.object(forInfoDictionaryKey: "AdmobBannerID") as? String
         bannerView.rootViewController = uiView
         bannerView.delegate = self
@@ -55,6 +57,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
                 }
                 interstitial = ad
                 interstitial?.fullScreenContentDelegate = self
+                print("Admob Interstitial was load successfully")
             }
         )
     }
