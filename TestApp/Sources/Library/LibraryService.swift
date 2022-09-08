@@ -184,7 +184,7 @@ final class LibraryService: Loggable {
     
     /// Moves the given `sourceURL` to the user Documents/ directory.
     private func moveToDocuments(from source: URL, title: String, mediaType: MediaType) -> AnyPublisher<URL, LibraryError> {
-        Paths.makeDocumentURL(title: title, mediaType: mediaType)
+        Paths.makeDocumentURL(for: source, title: title, mediaType: mediaType)
             .flatMap { destination in
                 Future(on: .global()) { promise in
                     // Necessary to read URL exported from the Files app, for example.

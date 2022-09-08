@@ -29,7 +29,7 @@ final class Paths {
         return url
     }()
     
-    static func makeDocumentURL(for source: URL? = nil, title: String?, mediaType: MediaType) -> AnyPublisher<URL, Never> {
+    static func makeDocumentURL(for source: URL?, title: String?, mediaType: MediaType) -> AnyPublisher<URL, Never> {
         Future(on: .global()) { promise in
             // Is the file already in Documents/?
             if let source = source, source.standardizedFileURL.deletingLastPathComponent() == documents.standardizedFileURL {
@@ -37,7 +37,8 @@ final class Paths {
             } else {
                 let title = title.takeIf { !$0.isEmpty } ?? UUID().uuidString
                 let ext = mediaType.fileExtension?.addingPrefix(".") ?? ""
-                let filename = "\(title)\(ext)".sanitizedPathComponent
+                //let filename = "\(title)\(ext)".sanitizedPathComponent
+                let filename = "\(source!.lastPathComponent)".sanitizedPathComponent
                 promise(.success(documents.appendingUniquePathComponent(filename)))
             }
         }.eraseToAnyPublisher()

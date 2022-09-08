@@ -105,6 +105,7 @@ class LibraryViewController: UIViewController, Loggable {
                 }
             } receiveValue: { newBooks in
                 self.books = newBooks
+                self.books.sort {$0.path < $1.path}
                 self.collectionView.reloadData()
             }
             .store(in: &subscriptions)
@@ -332,6 +333,8 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
         cell.authorLabel.isHidden = true
+        
+        print("\(indexPath.item) - \(book.title) - \(book.type) - \(book.path)")
         
         // Load image and then apply the shadow.
         if
