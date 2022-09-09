@@ -11,13 +11,13 @@
         <!--LibraryViewController-->
         <scene sceneID="JIb-eP-eRV">
             <objects>
-                <viewController storyboardIdentifier="LibraryViewController" automaticallyAdjustsScrollViewInsets="NO" id="4L6-5j-ce4" userLabel="LibraryViewController" customClass="LibraryViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LibraryViewController" automaticallyAdjustsScrollViewInsets="NO" id="4L6-5j-ce4" userLabel="LibraryViewController" customClass="LibraryViewController" customModule="KodeksyPl" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UPL-MW-x8R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5l4-XZ-QZP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="612"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="elb-4x-lyb">
                                     <size key="itemSize" width="50" height="50"/>
@@ -32,9 +32,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="5l4-XZ-QZP" firstAttribute="top" secondItem="rk8-q6-nzT" secondAttribute="top" id="0rg-Gf-H26"/>
+                            <constraint firstItem="5l4-XZ-QZP" firstAttribute="bottom" secondItem="rk8-q6-nzT" secondAttribute="bottom" constant="55" id="Jn7-yu-CKw"/>
                             <constraint firstItem="5l4-XZ-QZP" firstAttribute="leading" secondItem="rk8-q6-nzT" secondAttribute="leading" id="bM5-KQ-W3j"/>
                             <constraint firstItem="rk8-q6-nzT" firstAttribute="trailing" secondItem="5l4-XZ-QZP" secondAttribute="trailing" id="dDZ-Tx-NTA"/>
-                            <constraint firstItem="rk8-q6-nzT" firstAttribute="bottom" secondItem="5l4-XZ-QZP" secondAttribute="bottom" id="wAX-C4-vft"/>
+                            <constraint firstItem="rk8-q6-nzT" firstAttribute="bottom" secondItem="5l4-XZ-QZP" secondAttribute="bottom" constant="55" id="wAX-C4-vft"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Library" id="ayk-i8-5FT"/>
@@ -49,7 +50,7 @@
         <!--Details Table View Controller-->
         <scene sceneID="Izc-Ya-ytG">
             <objects>
-                <tableViewController storyboardIdentifier="DetailsTableViewController" id="0xU-fa-b9y" customClass="DetailsTableViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="DetailsTableViewController" id="0xU-fa-b9y" customClass="DetailsTableViewController" customModule="KodeksyPl" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="pDe-by-ypK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
