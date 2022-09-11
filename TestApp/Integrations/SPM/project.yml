@@ -20,6 +20,9 @@ packages:
   AdMob:
     url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
     from: 9.9.0
+  RevenueCat:
+    url: https://github.com/RevenueCat/purchases-ios.git
+    from: 4.12.0
 targets:
   ReadiumBook:
     type: application
@@ -40,4 +43,5 @@ targets:
       - package: Kingfisher
       - package: MBProgressHUD
       - package: AdMob
+      - package: RevenueCat
 
