@@ -68,25 +68,6 @@ class LibraryViewController: UIViewController, Loggable {
         }
     }
     
-    private func initBooksFromSamples() {
-        
-        let docsPath = Bundle.main.resourcePath! + "/Samples"
-        let fileManager = FileManager.default
-        
-        do {
-            let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
-            print(docsArray)
-             for doc in docsArray {
-                let epubName = doc
-                let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
-                print(epubFileURL)
-                addBookFromSample(url: epubFileURL!)
-            }
-        } catch {
-            print(error)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
    
@@ -185,6 +166,25 @@ class LibraryViewController: UIViewController, Loggable {
         alert.addAction(UIAlertAction(title: NSLocalizedString("cancel_button", comment: "Cancel adding a book from a URL"), style: .cancel))
         alert.popoverPresentationController?.barButtonItem = addBookButton
         present(alert, animated: true)
+    }
+    
+    private func initBooksFromSamples() {
+        
+        let docsPath = Bundle.main.resourcePath! + "/Samples"
+        let fileManager = FileManager.default
+        
+        do {
+            let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
+            print(docsArray)
+             for doc in docsArray {
+                let epubName = doc
+                let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
+                print(epubFileURL)
+                addBookFromSample(url: epubFileURL!)
+            }
+        } catch {
+            print(error)
+        }
     }
     
     private func addBookFromDevice() {

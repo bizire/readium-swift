@@ -13,6 +13,7 @@
 import GoogleMobileAds
 import Combine
 import UIKit
+import RevenueCat
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate {
@@ -60,6 +61,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         window?.makeKeyAndVisible()
         
         AppOpenAdManager.shared.loadAd()
+        
+        Purchases.logLevel = .debug
+        let revenueCatPublicKey = Bundle.main.object(forInfoDictionaryKey: "RevenueCatPublicKey") as! String
+        Purchases.configure(withAPIKey: revenueCatPublicKey)
 
         return true
     }
