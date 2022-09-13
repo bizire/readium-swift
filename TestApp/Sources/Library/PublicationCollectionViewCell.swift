@@ -25,6 +25,7 @@ class PublicationCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var coverImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorLabel: UILabel!
+    @IBOutlet weak var lockImageView: UIImageView!
     
     weak var delegate: PublicationCollectionViewCellDelegate?
     

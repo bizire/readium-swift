@@ -12,6 +12,8 @@
 	<string>ca-app-pub-7590866680405485/9935531620</string>
 	<key>RevenueCatPublicKey</key>
 	<string>appl_cKclCyjjeVqEKBqLUlFUmtQayUa</string>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

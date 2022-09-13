@@ -20,6 +20,7 @@ import R2Navigator
 import Kingfisher
 import ReadiumOPDS
 import GoogleMobileAds
+import RevenueCat
 
 
 protocol LibraryViewControllerFactory {
@@ -332,9 +333,14 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.accessibilityLabel = book.title
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
-        cell.authorLabel.isHidden = true
         
-        print("\(indexPath.item) - \(book.title) - \(book.type) - \(book.path)")
+        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: "FreeItemsAmount") as! Int) {
+            cell.lockImageView.isHidden = true
+            print("\(indexPath.item) - \(book.title) - PREMIUM = FALSE")
+        } else {
+            cell.lockImageView.isHidden = false
+            print("\(indexPath.item) - \(book.title) - PREMIUM = TRUE")
+        }
         
         // Load image and then apply the shadow.
         if
@@ -382,18 +388,33 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         }
         
         let book = books[indexPath.item]
-        adHelper.showInterstitial(uiView: self)
-        library.openBook(book, forPresentation: true, sender: self)
-            .receive(on: DispatchQueue.main)
-            .sink { completion in
-                if case .failure(let error) = completion {
-                    self.libraryDelegate?.presentError(error, from: self)
-                }
+        
+        
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true ||
+                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: "FreeItemsAmount") as! Int {
+                
+                self.library.openBook(book, forPresentation: true, sender: self)
+                    .receive(on: DispatchQueue.main)
+                    .sink { completion in
+                        if case .failure(let error) = completion {
+                            self.libraryDelegate?.presentError(error, from: self)
+                        }
+                        done()
+                    } receiveValue: { pub in
+                        libraryDelegate.libraryDidSelectPublication(pub, book: book, completion: done)
+                    }
+                    .store(in: &self.subscriptions)
+                
+            } else {
                 done()
-            } receiveValue: { pub in
-                libraryDelegate.libraryDidSelectPublication(pub, book: book, completion: done)
+                let main = UIStoryboard(name: "PaywallBoard", bundle: nil).instantiateInitialViewController()!
+                self.present(main, animated: true, completion: nil)
             }
-            .store(in: &subscriptions)
+        }
+        
+        //adHelper.showInterstitial(uiView: self)
+        
     }
 }
 
