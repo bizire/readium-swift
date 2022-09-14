@@ -180,7 +180,6 @@ class LibraryViewController: UIViewController, Loggable {
              for doc in docsArray {
                 let epubName = doc
                 let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
-                print(epubFileURL)
                 addBookFromSample(url: epubFileURL!)
             }
         } catch {
@@ -334,12 +333,17 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
         
-        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: "FreeItemsAmount") as! Int) {
+        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeItemsAmount) as! Int) {
             cell.lockImageView.isHidden = true
-            print("\(indexPath.item) - \(book.title) - PREMIUM = FALSE")
         } else {
-            cell.lockImageView.isHidden = false
-            print("\(indexPath.item) - \(book.title) - PREMIUM = TRUE")
+            Purchases.shared.getCustomerInfo { (customerInfo, error) in
+                if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true{
+                    cell.lockImageView.isHidden = true
+                } else {
+                    cell.lockImageView.isHidden = false
+                }
+            }
+            
         }
         
         // Load image and then apply the shadow.
@@ -389,11 +393,11 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         
         let book = books[indexPath.item]
         
-        
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
             if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true ||
-                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: "FreeItemsAmount") as! Int {
+                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeItemsAmount) as! Int {
                 
+                self.adHelper.showInterstitial(uiView: self)
                 self.library.openBook(book, forPresentation: true, sender: self)
                     .receive(on: DispatchQueue.main)
                     .sink { completion in
@@ -412,8 +416,6 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
                 self.present(main, animated: true, completion: nil)
             }
         }
-        
-        //adHelper.showInterstitial(uiView: self)
         
     }
 }
