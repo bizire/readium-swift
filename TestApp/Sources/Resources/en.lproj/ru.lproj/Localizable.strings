@@ -51,7 +51,7 @@
 "library_add_book_from_url_placeholder" = "URL";
 
 /* Alert when a publication is successfully imported */
-"library_import_success_message" = "Publication added to library";
+"library_import_success_message" = "Книга добавлена в библиотеку";
 /* Alert when a publication is successfully downloaded */
 "library_download_success_message" = "[%@] added to library.";
 
@@ -60,8 +60,8 @@
 "library_duplicate_alert_message" = "Would you like to add it anyways?";
 
 /* Remove confirmation alert when the user deletes a publication */
-"library_delete_alert_title" = "Are you sure?";
-"library_delete_alert_message" = "This will remove the Publication from your library.";
+"library_delete_alert_title" = "Вы уверены?";
+"library_delete_alert_message" = "Книга будет удалена из библиотеки";
 
 /* Error message used when trying to import a publication that is not valid */
 "library_error_publicationIsNotValid" = "The publication isn't valid";
@@ -75,7 +75,7 @@
 "library_error_downloadFailed" = "Download failed: %@";
 
 /* Accessibility label for the library collection view */
-"library_a11y_label" = "Library";
+"library_a11y_label" = "Библиотека";
 
 /* Accessibility hint for the publication collection cell */
 "library_publication_a11y_hint" = "Hold to access options.";
@@ -89,9 +89,9 @@
 "reader_bookmark_success_message" = "Закладка добавлена";
 
 /* Error message when adding a new highlight failed */
-"reader_highlight_failure_message" = "Could not add highlight";
+"reader_highlight_failure_message" = "Невозможно добавить заметку";
 /* Success message when adding a highlight */
-"reader_highlight_success_message" = "Highlight added";
+"reader_highlight_success_message" = "Заметка добавлена";
 
 /* Error message when trying to read a publication with a unsupported format */
 "reader_error_formatNotSupported" = "Unsupported format";
