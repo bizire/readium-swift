@@ -1,0 +1,33 @@
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "4Jb-8m-jtJ"; */
+"4Jb-8m-jtJ.title" = "О приложении";
+
+/* Class = "UILabel"; text = "[BSD-3 license]"; ObjectID = "5Eh-02-w3x"; */
+"5Eh-02-w3x.text" = "[BSD-3 license]";
+
+/* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
+"81r-ek-xdu.headerTitle" = "Версия";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "AJB-jl-oRw"; */
+"AJB-jl-oRw.text" = "версия";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgments"; ObjectID = "C0F-Xn-bao"; */
+"C0F-Xn-bao.headerTitle" = "Благодарность";
+
+/* Class = "UITableViewSection"; headerTitle = "Copyright"; ObjectID = "IoA-oA-Dga"; */
+"IoA-oA-Dga.headerTitle" = "Копирайт";
+
+/* Class = "UILabel"; text = "© European Digital Reading Lab"; ObjectID = "UdW-hM-bJC"; */
+"UdW-hM-bJC.text" = "© European Digital Reading Lab";
+
+/* Class = "UILabel"; text = "build"; ObjectID = "aQ4-bl-29m"; */
+"aQ4-bl-29m.text" = "сборка";
+
+/* Class = "UILabel"; text = "R2 Reader wouldn't have been developed without the financial help of the French State."; ObjectID = "goA-PY-6mv"; */
+"goA-PY-6mv.text" = "R2 Reader wouldn't have been developed without the financial help of the French State.";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "iRb-UO-KnL"; */
+"iRb-UO-KnL.text" = "Детали";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "uhp-hA-PYD"; */
+"uhp-hA-PYD.text" = "Детали";
