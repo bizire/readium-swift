@@ -42,7 +42,7 @@ class PaywallViewController: UITableViewController {
     /* Some UITableView methods for customization */
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Magic Weather Premium"
+        return (Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as! String)
     }
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
@@ -69,7 +69,7 @@ class PaywallViewController: UITableViewController {
 
                 cell.packageTermsLabelA.text = packageTermsLabelText
             } else {
-                cell.packageTermsLabelA.text = "Unlocks Premium"
+                cell.packageTermsLabelA.text = NSLocalizedString("paywall_unlocks_premium", comment: "InApp Terms Label")
             }
         }
         

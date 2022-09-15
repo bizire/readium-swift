@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-696" y="112"/>
         </scene>
-        <!--✨ Magic Weather Premium-->
+        <!--Premium Version-->
         <scene sceneID="Umz-nv-Kyl">
             <objects>
                 <tableViewController id="Mk4-8x-dvj" customClass="PaywallViewController" customModule="KodeksyPl" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,7 +94,7 @@
                             <outlet property="delegate" destination="Mk4-8x-dvj" id="z7L-vJ-KCA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="✨ Magic Weather Premium" id="T2n-Xj-jYR">
+                    <navigationItem key="navigationItem" title="Premium Version" id="T2n-Xj-jYR">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="x.circle.fill" catalog="system" id="5mQ-FV-8fe">
                             <connections>
                                 <action selector="dismissModal" destination="Mk4-8x-dvj" id="riA-hW-fCm"/>

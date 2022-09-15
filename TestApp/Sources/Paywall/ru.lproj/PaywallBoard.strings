@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "5mQ-FV-8fe"; */
+"5mQ-FV-8fe.title" = "Item";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "Baw-ch-W2x"; */
+"Baw-ch-W2x.text" = "Monthly";
+
+/* Class = "UINavigationItem"; title = "✨ Magic Weather Premium"; ObjectID = "T2n-Xj-jYR"; */
+"T2n-Xj-jYR.title" = "Премиум версия";
+
+/* Class = "UILabel"; text = "$17.99"; ObjectID = "Zs8-PC-EGx"; */
+"Zs8-PC-EGx.text" = "$17.99";
+
+/* Class = "UILabel"; text = "Includes 7-day Free Trial"; ObjectID = "klJ-c1-asM"; */
+"klJ-c1-asM.text" = "Includes 7-day Free Trial";

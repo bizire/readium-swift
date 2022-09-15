@@ -181,3 +181,7 @@
 "user_settings_column_auto_a11y_label" = "Column auto";
 "user_settings_column_1_a11y_label" = "Column 1";
 "user_settings_column_2_a11y_label" = "Column 2";
+
+
+/* MARK: Paywall */
+"paywall_unlocks_premium" = "Unlocks Premium";

@@ -17,7 +17,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Кодексы</string>
+	<string>Кодексы РФ</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
