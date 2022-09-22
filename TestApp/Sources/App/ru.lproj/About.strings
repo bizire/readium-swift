@@ -3,7 +3,7 @@
 "4Jb-8m-jtJ.title" = "О приложении";
 
 /* Class = "UILabel"; text = "[BSD-3 license]"; ObjectID = "5Eh-02-w3x"; */
-"5Eh-02-w3x.text" = "[BSD-3 license]";
+"5Eh-02-w3x.text" = "Оценить приложение";
 
 /* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
 "81r-ek-xdu.headerTitle" = "Версия";
@@ -15,10 +15,10 @@
 "C0F-Xn-bao.headerTitle" = "Благодарность";
 
 /* Class = "UITableViewSection"; headerTitle = "Copyright"; ObjectID = "IoA-oA-Dga"; */
-"IoA-oA-Dga.headerTitle" = "Копирайт";
+"IoA-oA-Dga.headerTitle" = "Настройки";
 
 /* Class = "UILabel"; text = "© European Digital Reading Lab"; ObjectID = "UdW-hM-bJC"; */
-"UdW-hM-bJC.text" = "© European Digital Reading Lab";
+"UdW-hM-bJC.text" = "Восстановить покупки";
 
 /* Class = "UILabel"; text = "build"; ObjectID = "aQ4-bl-29m"; */
 "aQ4-bl-29m.text" = "сборка";
