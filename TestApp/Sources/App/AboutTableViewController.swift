@@ -12,6 +12,8 @@
 
 import UIKit
 import GoogleMobileAds
+import RevenueCat
+import StoreKit
 
 
 class AboutTableViewController: UITableViewController {
@@ -46,9 +48,18 @@ class AboutTableViewController: UITableViewController {
         
         if indexPath.section == 1 {
             if indexPath.row == 0 {
-                url = URL(string: "https://www.edrlab.org/")
+                
+                Purchases.shared.restorePurchases { (purchaserInfo, error) in
+                    if let error = error {
+                        self.present(UIAlertController.errorAlert(message: error.localizedDescription), animated: true, completion: nil)
+                    }
+                    
+                    //self.refreshUserDetails()
+                }
+                
             } else {
-                url = URL(string: "https://opensource.org/licenses/BSD-3-Clause")
+                guard let scene = UIApplication.shared.foregroundActiveScene else { return }
+                SKStoreReviewController.requestReview(in: scene)
             }
         }
         
@@ -59,4 +70,11 @@ class AboutTableViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
+}
+
+extension UIApplication {
+    var foregroundActiveScene: UIWindowScene? {
+        connectedScenes
+            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene
+    }
 }
