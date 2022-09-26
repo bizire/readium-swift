@@ -14,6 +14,8 @@ import GoogleMobileAds
 import Combine
 import UIKit
 import RevenueCat
+import AppTrackingTransparency
+import AdSupport
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate {
@@ -83,5 +85,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         if let rootViewController = rootViewController {
           AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
         }
-      }
+        if #available(iOS 15.0, *) {
+            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+                
+            })
+        }
+    }
 }
