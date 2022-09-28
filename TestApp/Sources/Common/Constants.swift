@@ -20,4 +20,7 @@ struct Constants {
     static let entitlementID = "premium_entitlement"
     
     static let freeItemsAmount = "FreeItemsAmount"
+    
+    static let privacyPolicyURL = "https://vilendoo.com/Privacy-Policy/"
+    static let termsOfUseURL = "https://vilendoo.com/Terms-of-Use/"
 }

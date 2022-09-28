@@ -185,3 +185,7 @@
 
 /* MARK: Paywall */
 "paywall_unlocks_premium" = "Unlocks Premium";
+"paywall_free_trial" = "1 week free trial";
+"paywall_tos" = "Subscription";
+"paywall_privacy" = "Privacy Policy";
+"paywall_terms" = "Terms of Use";

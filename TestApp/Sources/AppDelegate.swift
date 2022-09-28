@@ -85,9 +85,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         if let rootViewController = rootViewController {
           AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
         }
-        if #available(iOS 15.0, *) {
+        if #available(iOS 14.0, *) {
             ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
-                
+                print("Status \(status)")
             })
         }
     }
