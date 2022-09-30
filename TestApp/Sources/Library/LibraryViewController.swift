@@ -105,6 +105,11 @@ class LibraryViewController: UIViewController, Loggable {
         navigationController?.navigationBar.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
+        NotificationCenter.default.addObserver(self,
+                                                  selector: #selector(handleAppDidBecomeActiveNotification(notification:)),
+                                                  name: UIApplication.didBecomeActiveNotification,
+                                                  object: nil)
+        
         adHelper.admobBannerInit(uiView: self)
         adHelper.admobInterstitialInit()
         
@@ -116,6 +121,15 @@ class LibraryViewController: UIViewController, Loggable {
             }
             print("offerings?.current \(offerings?.current)")
         }
+    }
+    
+    @objc func handleAppDidBecomeActiveNotification(notification: Notification) {
+        print("handleAppDidBecomeActiveNotification reloadData")
+        collectionView.reloadData()
+    }
+    
+    deinit {
+       NotificationCenter.default.removeObserver(self)
     }
     
     override func viewWillAppear(_ animated: Bool) {

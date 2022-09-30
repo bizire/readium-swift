@@ -53,54 +53,63 @@ class PaywallViewController: UITableViewController {
         return self.offering?.availablePackages.count ?? 0
     }
     
+    
+    
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         guard section == 0 else { return nil }
 
-        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 140.0))
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 240.0))
     
-        let privacyButton = UIButton(frame: CGRect(x: 70, y: 70, width: tableView.frame.width/3, height: 50.0))
-        privacyButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
-        privacyButton.contentHorizontalAlignment = .left;
-        privacyButton.setTitle(NSLocalizedString("paywall_privacy", comment: "InApp Terms Label"), for: .normal)
-        privacyButton.setTitleColor(.systemBlue, for: .normal)
-        privacyButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
-        privacyButton.addTarget(self, action:#selector(self.pressedPrivacy), for: .touchUpInside)
+        let privacyButton = UILabel()
+        privacyButton.numberOfLines = 0
+        privacyButton.lineBreakMode = NSLineBreakMode.byWordWrapping;
+        privacyButton.textAlignment = .center;
+        privacyButton.text = NSLocalizedString("paywall_privacy", comment: "InApp Terms Label")
+        privacyButton.textColor = .systemBlue
+        privacyButton.font = UIFont.systemFont(ofSize: 10)
+        let tap1 = UITapGestureRecognizer(target: self, action: #selector(pressedPrivacy))
+        privacyButton.isUserInteractionEnabled = true
+        privacyButton.addGestureRecognizer(tap1)
         footerView.addSubview(privacyButton)
      
-        let termsButton = UIButton(frame: CGRect(x: 0, y: 0, width: tableView.frame.width/3, height: 50.0))
-        termsButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
-        termsButton.contentHorizontalAlignment = .right;
-        termsButton.setTitle(NSLocalizedString("paywall_terms", comment: "InApp Terms Label"), for: .normal)
-        termsButton.setTitleColor(.systemBlue, for: .normal)
-        termsButton.titleLabel?.font = UIFont.systemFont(ofSize: 12)
-        termsButton.addTarget(self, action:#selector(self.pressedTerms), for: .touchUpInside)
+        let termsButton = UILabel()
+        termsButton.numberOfLines = 0
+        termsButton.lineBreakMode = NSLineBreakMode.byWordWrapping;
+        termsButton.textAlignment = .center;
+        termsButton.text = NSLocalizedString("paywall_terms", comment: "InApp Terms Label")
+        termsButton.textColor = .systemBlue
+        termsButton.font = UIFont.systemFont(ofSize: 10)
+        let tap2 = UITapGestureRecognizer(target: self, action: #selector(pressedTerms))
+        termsButton.isUserInteractionEnabled = true
+        termsButton.addGestureRecognizer(tap2)
         footerView.addSubview(termsButton)
-    
-        let termsLabel = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 50.0))
+        
+        let termsLabel = UILabel()
         termsLabel.numberOfLines = 0
         termsLabel.lineBreakMode = .byWordWrapping
         termsLabel.text = NSLocalizedString("paywall_tos", comment: "InApp Terms Label")
         termsLabel.textColor = .lightGray
-        termsLabel.font = UIFont.systemFont(ofSize: 12)
+        termsLabel.font = UIFont.systemFont(ofSize: 10)
         footerView.addSubview(termsLabel)
+        
+        privacyButton.translatesAutoresizingMaskIntoConstraints = false
+        privacyButton.leadingAnchor.constraint(equalTo: footerView.leadingAnchor).isActive = true
+        privacyButton.topAnchor.constraint(equalTo: footerView.topAnchor, constant: 60).isActive = true
+        
+        termsButton.translatesAutoresizingMaskIntoConstraints = false
+        termsButton.trailingAnchor.constraint(equalTo: footerView.trailingAnchor).isActive = true
+        termsButton.topAnchor.constraint(equalTo: footerView.topAnchor, constant: 60).isActive = true
         
         termsLabel.translatesAutoresizingMaskIntoConstraints = false
         termsLabel.leadingAnchor.constraint(equalTo: footerView.leadingAnchor).isActive = true
         termsLabel.trailingAnchor.constraint(equalTo: footerView.trailingAnchor).isActive = true
-        termsLabel.topAnchor.constraint(equalTo: footerView.topAnchor, constant: 50).isActive = true
-        
-        privacyButton.translatesAutoresizingMaskIntoConstraints = false
-        privacyButton.leadingAnchor.constraint(equalTo: footerView.leadingAnchor).isActive = true
-        privacyButton.topAnchor.constraint(equalTo: termsLabel.bottomAnchor, constant: 0).isActive = true
-        
-        termsButton.translatesAutoresizingMaskIntoConstraints = false
-        termsButton.trailingAnchor.constraint(equalTo: footerView.trailingAnchor).isActive = true
-        termsButton.topAnchor.constraint(equalTo: termsLabel.bottomAnchor, constant: 0).isActive = true
+        termsLabel.topAnchor.constraint(equalTo: privacyButton.bottomAnchor, constant: 30).isActive = true
 
         return footerView
     }
     
     @objc func pressedPrivacy() {
+        print("pressedPrivacy")
         guard let url = URL(string: Constants.privacyPolicyURL) else {
           return //be safe
         }
@@ -113,6 +122,7 @@ class PaywallViewController: UITableViewController {
     }
     
     @objc func pressedTerms() {
+        print("pressedTerms")
         guard let url = URL(string: Constants.termsOfUseURL) else {
           return //be safe
         }
@@ -185,3 +195,8 @@ extension SubscriptionPeriod {
     }
 }
 
+class CustomButton: UIButton {
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        return bounds.insetBy(dx: -10, dy: -10).contains(point)
+    }
+}
