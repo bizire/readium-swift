@@ -185,7 +185,8 @@
 
 /* MARK: Paywall */
 "paywall_unlocks_premium" = "Unlocks Premium";
-"paywall_free_trial" = "1 week free trial";
-"paywall_tos" = "Subscription";
+"paywall_free_trial" = "Unlocks Premium. 1 week free trial";
+"paywall_tos" = "Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.\n
+Subscription may be managed by the user and auto-renewal may be turned off by going to the  user's Account Settings after purchase.";
 "paywall_privacy" = "Privacy Policy";
 "paywall_terms" = "Terms of Use";
