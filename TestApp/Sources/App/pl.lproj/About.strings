@@ -1,0 +1,33 @@
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "4Jb-8m-jtJ"; */
+"4Jb-8m-jtJ.title" = "O aplikacji";
+
+/* Class = "UILabel"; text = "Rate the application"; ObjectID = "5Eh-02-w3x"; */
+"5Eh-02-w3x.text" = "Oceń aplikację";
+
+/* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
+"81r-ek-xdu.headerTitle" = "Wersja";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "AJB-jl-oRw"; */
+"AJB-jl-oRw.text" = "цersja";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgments"; ObjectID = "C0F-Xn-bao"; */
+"C0F-Xn-bao.headerTitle" = "Podziękowanie";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "IoA-oA-Dga"; */
+"IoA-oA-Dga.headerTitle" = "Ustawienia";
+
+/* Class = "UILabel"; text = "Restore purchases"; ObjectID = "UdW-hM-bJC"; */
+"UdW-hM-bJC.text" = "Przywróć zakupy";
+
+/* Class = "UILabel"; text = "build"; ObjectID = "aQ4-bl-29m"; */
+"aQ4-bl-29m.text" = "build";
+
+/* Class = "UILabel"; text = "R2 Reader wouldn't have been developed without the financial help of the French State."; ObjectID = "goA-PY-6mv"; */
+"goA-PY-6mv.text" = "R2 Reader wouldn't have been developed without the financial help of the French State.";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "iRb-UO-KnL"; */
+"iRb-UO-KnL.text" = "Szczegół";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "uhp-hA-PYD"; */
+"uhp-hA-PYD.text" = "Szczegół";

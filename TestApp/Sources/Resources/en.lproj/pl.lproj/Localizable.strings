@@ -1,0 +1,192 @@
+/* 
+  Localizable.strings
+  r2-testapp-swift
+
+  Created by Mickaël Menu on 12.06.19.
+ 
+  Copyright 2018 European Digital Reading Lab. All rights reserved.
+  Licensed to the Readium Foundation under one or more contributor license agreements.
+  Use of this source code is governed by a BSD-style license which is detailed in the
+  LICENSE file present in the project repository where this source code is maintained.
+*/
+
+
+/* MARK: App */
+
+/* Library tab title */
+"bookshelf_tab" = "Półka na książki";
+"catalogs_tab" = "Kanały OPDS";
+"about_tab" = "O aplikacji";
+
+/* Buttons */
+"ok_button" = "OK";
+"cancel_button" = "Anuluj";
+"confirm_button" = "Potwierdź";
+"add_button" = "Dodaj";
+"edit_button" = "Edytuj";
+"remove_button" = "Usuń";
+"filter_button" = "Filtr";
+
+/* Alerts */
+"error_title" = "Błąd";
+"success_title" = "Sukces";
+
+/* Caption for the app version in About screen */
+"app_version_caption" = "Wersja aplikacji:";
+/* Caption for the build version in About screen */
+"build_version_caption" = "Wersja kompilacji:";
+
+
+/* MARK: Library */
+
+/* Hint message when the library is empty */
+"library_empty_message" = "📖 Otwórz plik EPUB/CBZ do zaimportowania";
+
+/* Add book alert message */
+"library_add_book_title" = "Add a book to your library";
+"library_add_book_from_device_button" = "From your device";
+"library_add_book_from_url_button" = "From a URL";
+"library_add_book_from_url_title" = "Add a book from a URL";
+"library_add_book_from_url_failure_message" = "URL is not valid, please try again";
+"library_add_book_from_url_placeholder" = "URL";
+
+/* Alert when a publication is successfully imported */
+"library_import_success_message" = "Publikacja dodana do biblioteki";
+/* Alert when a publication is successfully downloaded */
+"library_download_success_message" = "[%@] added to library.";
+
+/* Import confirmation alert when the publication already exists in the library */
+"library_duplicate_alert_title" = "The publication already exists";
+"library_duplicate_alert_message" = "Would you like to add it anyways?";
+
+/* Remove confirmation alert when the user deletes a publication */
+"library_delete_alert_title" = "Jesteś pewny?";
+"library_delete_alert_message" = "Spowoduje to usunięcie publikacji z Twojej biblioteki.";
+
+/* Error message used when trying to import a publication that is not valid */
+"library_error_publicationIsNotValid" = "The publication isn't valid";
+/* Error message used when trying to open a book whose file is not found */
+"library_error_bookNotFound" = "The book file was not found";
+/* Error message used when a low-level error occured while importing a publication */
+"library_error_importFailed" = "Error while importing this publication: %@";
+/* Error message used when a low-level error occured while opening a publication */
+"library_error_openFailed" = "Error while opening this publication: %@";
+/* Error message when the download of a publication failed */
+"library_error_downloadFailed" = "Download failed: %@";
+
+/* Accessibility label for the library collection view */
+"library_a11y_label" = "Library";
+
+/* Accessibility hint for the publication collection cell */
+"library_publication_a11y_hint" = "Hold to access options.";
+
+
+/* MARK: Reader */
+
+/* Error message when adding a new bookmark failed */
+"reader_bookmark_failure_message" = "Nie udało się dodać zakładki";
+/* Success message when adding a bookmark */
+"reader_bookmark_success_message" = "Dodano zakładkę";
+
+/* Error message when adding a new highlight failed */
+"reader_highlight_failure_message" = "Nie udało się dodać wyróżnienia";
+/* Success message when adding a highlight */
+"reader_highlight_success_message" = "Dodano wyróżnienie";
+
+/* Error message when trying to read a publication with a unsupported format */
+"reader_error_formatNotSupported" = "Format nieobsługiwany";
+/* Error message when trying to read an EPUB that is invalid */
+"reader_error_epubNotValid" = "Nieprawidłowy plik EPUB";
+
+/* Accessibility label to go backward in the publication */
+"reader_backward_a11y_label" = "Poprzedni rozdział";
+/* Accessibility label to go forward in the publication */
+"reader_forward_a11y_label" = "Następny rozdział";
+
+/* Outline bookmark label when the position is available */
+"reader_outline_position_label" = "position %d";
+/* Outline bookmark label when the progression is available */
+"reader_outline_progression_label" = "%.2f%% through the chapter";
+/* Outline tab name for Contents */
+"reader_outline_tab_contents" = "Treść";
+/* Outline tab name for Bookmarks */
+"reader_outline_tab_bookmarks" = "Zakładki";
+/* Outline tab name for Pagelist */
+"reader_outline_tab_pagelist" = "Lista stron";
+/* Outline tab name for Landmarks */
+"reader_outline_tab_landmarks" = "Zabytki";
+/* Outline tab name for Highlights */
+"reader_outline_tab_highlights" = "Highlights";
+
+/* Title of the DRM management view */
+"reader_drm_management_title" = "DRM Management";
+/* Unlimited quantity for a given DRM consumable right */
+"reader_drm_unlimited_label" = "unlimited";
+/* Title of the renew confirmation alert */
+"reader_drm_renew_title" = "Renew License";
+/* Message of the renew confirmation alert */
+"reader_drm_renew_message" = "The provider will receive your request and process it.";
+/* Success message after renewing a publication */
+"reader_drm_renew_success_message" = "Publication renewed successfully.";
+/* Title of the return confirmation alert */
+"reader_drm_return_title" = "Return License";
+/* Message of the return confirmation alert */
+"reader_drm_return_message" = "Returning the loan will prevent you from accessing the publication.";
+/* Success message after returning a publication */
+"reader_drm_return_success_message" = "Publication returned successfully.";
+
+
+/* MARK: LCP */
+
+/* Quantity of characters left to be copied */
+"lcp_characters_label" = "%d characters";
+/* Quantity of pages left to be printed */
+"lcp_pages_label" = "%d stron";
+
+
+/* MARK: OPDS */
+
+/* Button to edit the OPDS catalog */
+"opds_edit_button" = "Edit catalog";
+/* Button to expand a feed gallery */
+"opds_more_button" = "more >";
+"opds_more_button_a11y_label" = "expand feed";
+/* Title of the section displaying the feeds */
+"opds_browse_title" = "Browse";
+/* Title of the add feed alert */
+"opds_add_title" = "Enter feed title and URL";
+/* Message when adding an invalid OPDS feed */
+"opds_add_failure_message" = "Feed is not valid, please try again.";
+/* Label for the OPDS feed title field */
+"opds_feed_title_caption" = "Feed Title";
+/* Label for the OPDS feed URL field */
+"opds_feed_url_caption" = "Feed URL";
+/* Error message when the feed couldn't be loaded */
+"opds_failure_message" = "Something went wrong.";
+/* Add OPDS Feed button label */
+"opds_add_button_a11y_label" = "Add OPDS Feed";
+"opds_show_detail_view_a11y_hint" = "tap to view details";
+"opds_feed_header_a11y_hint" = "Feed Group Header";
+
+
+/* MARK: User Settings */
+
+"user_settings_appearance_default_a11y_label" = "Appearance default";
+"user_settings_appearance_sepia_a11y_label" = "Appearance sepia";
+"user_settings_appearance_night_a11y_label" = "Appearance night";
+
+"user_settings_alignment_justify_a11y_label" = "Alignment justify";
+"user_settings_alignment_left_a11y_label" = "Alignment left";
+
+"user_settings_column_auto_a11y_label" = "Column auto";
+"user_settings_column_1_a11y_label" = "Column 1";
+"user_settings_column_2_a11y_label" = "Column 2";
+
+
+/* MARK: Paywall */
+"paywall_unlocks_premium" = "Odblokuj Premium";
+"paywall_free_trial" = "1 tydzień bezpłatnego okresu próbnego";
+"paywall_tos" = "Subskrypcja odnawia się automatycznie, chyba że automatyczne odnawianie zostanie wyłączone co najmniej 24 godziny przed końcem bieżącego okresu.\n
+Subskrypcja może być zarządzana przez użytkownika, a automatyczne odnawianie można wyłączyć, przechodząc do Ustawień konta użytkownika po zakupie.";
+"paywall_privacy" = "Polityka prywatności";
+"paywall_terms" = "Warunki korzystania";
