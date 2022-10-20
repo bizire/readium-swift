@@ -11,15 +11,15 @@
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-7590866680405485/2440184986</string>
 	<key>RevenueCatPublicKey</key>
-	<string>XXXXXXXXXXX</string>
+	<string>appl_tEvttxyQyKlJNOieBmSlwbTKADC</string>
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>Kodeksy PL</string>
-    <key>NSUserTrackingUsageDescription</key>
-    <string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -219,10 +219,10 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
-        <key>NSAllowsArbitraryLoadsForMedia</key>
-        <true/>
-        <key>NSAllowsArbitraryLoadsInWebContent</key>
-        <true/>
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
 	</dict>
 	<key>SKAdNetworkItems</key>
 	<array>
