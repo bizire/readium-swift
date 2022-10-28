@@ -24,11 +24,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
     
     private var app: AppModule!
     private var subscriptions = Set<AnyCancellable>()
+    
+    private var appBecomeActiveCounter = 0
+    private var launchedAppDelegateCounter = 0
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         app = try! AppModule()
         
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
+        launchedAppDelegateCounter = UserDefaults.standard.integer(forKey: "launchedAppDelegateCounter")
+        launchedAppDelegateCounter = launchedAppDelegateCounter + 1
+        print("Launch AppDelagate, launchedAppDelegateCounter = \(launchedAppDelegateCounter). appBecomeActiveCounter")
+        UserDefaults.standard.set(launchedAppDelegateCounter, forKey: "launchedAppDelegateCounter")
         
         func makeItem(title: String, image: String) -> UITabBarItem {
             return UITabBarItem(
@@ -80,11 +88,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-        let rootViewController = application.windows.first(
-          where: { $0.isKeyWindow })?.rootViewController
+        
+        let rootViewController = application.windows.first(where: { $0.isKeyWindow })?.rootViewController
+        
         if let rootViewController = rootViewController {
-          AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
+            if (appBecomeActiveCounter > 1 || launchedAppDelegateCounter > 1) {
+                print("appBecomeActiveCounter = \(appBecomeActiveCounter) & launchedAppDelegateCounter = \(launchedAppDelegateCounter)")
+                AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
+            }
         }
+        
+        appBecomeActiveCounter = appBecomeActiveCounter + 1
+        
         if #available(iOS 14.0, *) {
             ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
                 print("Status \(status)")
