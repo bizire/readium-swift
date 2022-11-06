@@ -110,18 +110,35 @@ class LibraryViewController: UIViewController, Loggable {
                                                   name: UIApplication.didBecomeActiveNotification,
                                                   object: nil)
         
-        adHelper.admobBannerInit(uiView: self)
-        adHelper.admobInterstitialInit()
-        
         Purchases.shared.getOfferings { (offerings, error) in
             
             /// - If we have an error fetching offerings here, we'll print it out. You'll want to handle this case by either retrying, or letting your users know offerings weren't able to be fetched.
             if let error = error {
                 print(error.localizedDescription)
             }
-            print("offerings?.current \(offerings?.current)")
+            print("offerings?.current \(String(describing: offerings?.current))")
+        }
+        
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                self.adHelper.loadAdmobInterstitial()
+            }
         }
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("viewDidAppear Admob Banner Library")
+        // Note loadBannerAd is called in viewDidAppear as this is the first time that
+        // the safe area is known. If safe area is not a concern (e.g., your app is
+        // locked in portrait mode), the banner can be loaded in viewWillAppear.
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                self.adHelper.loadAdmobBanner(uiView: self)
+            }
+        }
+      }
     
     @objc func handleAppDidBecomeActiveNotification(notification: Notification) {
         print("handleAppDidBecomeActiveNotification reloadData")

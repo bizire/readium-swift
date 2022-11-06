@@ -7,16 +7,22 @@
 
 import Foundation
 import GoogleMobileAds
+import RevenueCat
 
 class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     
-    var interstitial: GADInterstitialAd?
+    private var interstitial: GADInterstitialAd?
+    public var bannerView = GADBannerView()
     
-    func admobBannerInit(uiView: UIViewController) {
-        print("Admob Banner start init")
-        var bannerView: GADBannerView
-        bannerView = GADBannerView(adSize: GADAdSizeBanner)
+    override init() {
+        super.init()
+        //bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = Bundle.main.object(forInfoDictionaryKey: "AdmobBannerID") as? String
         bannerView.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    func loadAdmobBanner(uiView: UIViewController) {
+
         uiView.view.addSubview(bannerView)
         uiView.view.addConstraints(
               [NSLayoutConstraint(item: bannerView,
@@ -34,10 +40,20 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
                                   multiplier: 1,
                                   constant: 0)
               ])
-//        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.adUnitID = Bundle.main.object(forInfoDictionaryKey: "AdmobBannerID") as? String
+
         bannerView.rootViewController = uiView
         bannerView.delegate = self
+        
+        let frame = { () -> CGRect in
+            if #available(iOS 11.0, *) {
+                return uiView.view.frame.inset(by: uiView.view.safeAreaInsets)
+            } else {
+                return uiView.view.frame
+            }
+        }()
+        
+        let viewWidth = frame.size.width
+        bannerView.adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(viewWidth)
         bannerView.load(GADRequest())
     }
     
@@ -45,7 +61,11 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
       print("Admob Banner bannerViewDidReceiveAd")
     }
     
-    func admobInterstitialInit() {
+    func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: Error) {
+      print("Admob bannerView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+    }
+    
+    func loadAdmobInterstitial() {
         let request = GADRequest()
         GADInterstitialAd.load(
             withAdUnitID: Bundle.main.object(forInfoDictionaryKey: "AdmobInterID") as! String,
@@ -83,5 +103,10 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     /// Tells the delegate that the ad dismissed full screen content.
     func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
         print("Admob Interstitial did dismiss full screen content.")
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                self.loadAdmobInterstitial()
+            }
+        }
     }
 }

@@ -21,6 +21,8 @@ class AboutTableViewController: UITableViewController {
     @IBOutlet weak var versionNumberCell: UITableViewCell!
     @IBOutlet weak var buildNumberCell: UITableViewCell!
     
+    var adHelper = AdHelper()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,8 +31,19 @@ class AboutTableViewController: UITableViewController {
 
         buildNumberCell.textLabel?.text = NSLocalizedString("build_version_caption", comment: "Caption for the build version in About screen")
         buildNumberCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
-        
-        AdHelper().admobBannerInit(uiView: self)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear Admob Banner About")
+        // Note loadBannerAd is called in viewDidAppear as this is the first time that
+        // the safe area is known. If safe area is not a concern (e.g., your app is
+        // locked in portrait mode), the banner can be loaded in viewWillAppear.
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                self.adHelper.loadAdmobBanner(uiView: self)
+            }
+        }
     }
     
     // MARK: - Table view data source
