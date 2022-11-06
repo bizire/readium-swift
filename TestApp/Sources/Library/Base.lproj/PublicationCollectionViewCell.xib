@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -59,17 +59,23 @@
                             </view>
                         </subviews>
                     </stackView>
-                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="LyW-hE-2kR" userLabel="Lock Image View">
-                        <rect key="frame" x="0.0" y="95" width="150" height="74"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="LyW-hE-2kR" userLabel="Lock Image View">
+                        <rect key="frame" x="25" y="82.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="LyW-hE-2kR" secondAttribute="height" multiplier="1:1" id="Dtv-u0-Q3B"/>
+                        </constraints>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstItem="KhJ-A1-NVt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0zg-fP-jcr"/>
+                <constraint firstItem="LyW-hE-2kR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1NJ-wP-YKy"/>
+                <constraint firstItem="LyW-hE-2kR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="1fg-h7-gqE"/>
                 <constraint firstItem="KhJ-A1-NVt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JGi-ub-Xfe"/>
                 <constraint firstAttribute="trailing" secondItem="KhJ-A1-NVt" secondAttribute="trailing" id="JpO-SN-xWE"/>
+                <constraint firstItem="LyW-hE-2kR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="25" id="dBg-My-Hcj"/>
+                <constraint firstAttribute="trailing" secondItem="LyW-hE-2kR" secondAttribute="trailing" constant="25" id="iZ8-ro-Iu7"/>
                 <constraint firstAttribute="bottom" secondItem="KhJ-A1-NVt" secondAttribute="bottom" id="lg8-f2-pRv"/>
             </constraints>
             <connections>
