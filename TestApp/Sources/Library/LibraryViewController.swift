@@ -100,6 +100,21 @@ class LibraryViewController: UIViewController, Loggable {
         collectionView.addGestureRecognizer(recognizer)
         collectionView.accessibilityLabel = NSLocalizedString("library_a11y_label", comment: "Accessibility label for the library collection view")
         
+        var bottomSpace: CGFloat!
+        bottomSpace = -55
+        if (UIDevice.current.userInterfaceIdiom == .pad) {
+            bottomSpace = -90
+        }
+        view.addConstraints(
+            [NSLayoutConstraint(item: self.collectionView,
+                                  attribute: .bottom,
+                                  relatedBy: .equal,
+                                  toItem: self.bottomLayoutGuide,
+                                  attribute: .top,
+                                  multiplier: 1,
+                                  constant: bottomSpace),
+              ])
+        
         //self.navigationItem.rightBarButtonItem = addBookButton
         
         navigationController?.navigationBar.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)

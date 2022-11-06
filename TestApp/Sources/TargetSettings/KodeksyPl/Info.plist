@@ -10,16 +10,10 @@
 	<string>ca-app-pub-7590866680405485/1127103315</string>
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-7590866680405485/2440184986</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_tEvttxyQyKlJNOieBmSlwbTKADC</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>Kodeksy PL</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -209,6 +203,8 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7590866680405485~5510730134</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -224,6 +220,10 @@
 		<key>NSAllowsArbitraryLoadsInWebContent</key>
 		<true/>
 	</dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>RevenueCatPublicKey</key>
+	<string>appl_tEvttxyQyKlJNOieBmSlwbTKADC</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -393,8 +393,6 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UTExportedTypeDeclarations</key>
 	<array>

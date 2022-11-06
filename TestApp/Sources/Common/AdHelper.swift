@@ -19,6 +19,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
         //bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.adUnitID = Bundle.main.object(forInfoDictionaryKey: "AdmobBannerID") as? String
         bannerView.translatesAutoresizingMaskIntoConstraints = false
+        print("admob bannerView.adUnitID \(bannerView.adUnitID)")
     }
     
     func loadAdmobBanner(uiView: UIViewController) {
