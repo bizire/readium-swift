@@ -4,7 +4,7 @@ options:
 packages:
   Readium:
     url: https://github.com/readium/swift-toolkit.git
-    from: 2.3.0
+    version: 2.3.0
   GRDB:
     url: https://github.com/groue/GRDB.swift.git
     from: 5.8.0
@@ -22,7 +22,7 @@ packages:
     from: 9.9.0
   RevenueCat:
     url: https://github.com/RevenueCat/purchases-ios.git
-    from: 4.12.0
+    version: 4.12.0
 targets:
   ReadiumBook:
     type: application
