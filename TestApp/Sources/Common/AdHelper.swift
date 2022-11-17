@@ -104,10 +104,5 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     /// Tells the delegate that the ad dismissed full screen content.
     func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
         print("Admob Interstitial did dismiss full screen content.")
-        Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
-                self.loadAdmobInterstitial()
-            }
-        }
     }
 }
