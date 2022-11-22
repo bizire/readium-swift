@@ -204,7 +204,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FreeItemsAmount</key>
-	<integer>5</integer>
+	<integer>100</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~7739882540</string>
 	<key>LSRequiresIPhoneOS</key>
