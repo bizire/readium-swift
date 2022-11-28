@@ -391,6 +391,7 @@
 		BC66135DDACA0800F593CE06 /* PublicationMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationMenuViewController.swift; sourceTree = "<group>"; };
 		C07A4FDE30E7C7D9D2E6587F /* OutlineTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineTableView.swift; sourceTree = "<group>"; };
 		C367C1B82934CEA9001239E5 /* Design */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Design; sourceTree = "<group>"; };
+		C367C1BA2934CFF5001239E5 /* Bible_Copyrights.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bible_Copyrights.md; sourceTree = "<group>"; };
 		C3A32F292927566F00EA386A /* BibleEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A32F2C2927580B00EA386A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3EFA32E29275AE300EACE42 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
@@ -528,6 +529,7 @@
 		1ED26426925A9C10B3DC859C = {
 			isa = PBXGroup;
 			children = (
+				C367C1B92934CF65001239E5 /* Docs */,
 				DE3A9F7FDF76C6B0B8FB2FFC /* Sources */,
 				373576F027873391B8FAC423 /* Products */,
 				0587F5F528C27B2E004DCF93 /* Frameworks */,
@@ -698,6 +700,14 @@
 				43595DBE2748858D41904CFF /* PDFViewController.swift */,
 			);
 			path = PDF;
+			sourceTree = "<group>";
+		};
+		C367C1B92934CF65001239E5 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				C367C1BA2934CFF5001239E5 /* Bible_Copyrights.md */,
+			);
+			path = Docs;
 			sourceTree = "<group>";
 		};
 		C3A32F2B292756F100EA386A /* BibleEn */ = {
