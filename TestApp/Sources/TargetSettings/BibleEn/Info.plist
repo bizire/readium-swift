@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-2983224055780222~7739882540</string>
 	<key>AdmobBannerID</key>
 	<string>ca-app-pub-2983224055780222/1310205560</string>
 	<key>AdmobInterID</key>
@@ -10,6 +12,14 @@
 	<string>ca-app-pub-2983224055780222/2695138108</string>
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-2983224055780222/6370960558</string>
+	<key>RevenueCatPublicKey</key>
+	<string>appl_XSGHFbPVGKUxjkBMlPNECXNdoXp</string>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
+	<key>privacyPolicyURL</key>
+	<string>https://sites.google.com/view/paulvi-app-bible/</string>
+	<key>termsOfUseURL</key>
+	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -203,10 +213,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FreeItemsAmount</key>
-	<integer>100</integer>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~7739882540</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
@@ -222,8 +228,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_XSGHFbPVGKUxjkBMlPNECXNdoXp</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

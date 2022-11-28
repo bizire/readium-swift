@@ -10,6 +10,10 @@
 	<string>ca-app-pub-7590866680405485/1127103315</string>
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-7590866680405485/2440184986</string>
+	<key>privacyPolicyURL</key>
+	<string>https://vilendoo.com/Privacy-Policy/</string>
+	<key>termsOfUseURL</key>
+	<string>https://vilendoo.com/Terms-of-Use/</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

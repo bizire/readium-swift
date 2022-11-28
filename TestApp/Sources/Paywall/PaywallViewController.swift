@@ -110,7 +110,8 @@ class PaywallViewController: UITableViewController {
     
     @objc func pressedPrivacy() {
         print("pressedPrivacy")
-        guard let url = URL(string: Constants.privacyPolicyURL) else {
+        
+        guard let url = URL(string: Bundle.main.object(forInfoDictionaryKey: "privacyPolicyURL") as! String) else {
           return //be safe
         }
 
@@ -123,7 +124,7 @@ class PaywallViewController: UITableViewController {
     
     @objc func pressedTerms() {
         print("pressedTerms")
-        guard let url = URL(string: Constants.termsOfUseURL) else {
+        guard let url = URL(string: Bundle.main.object(forInfoDictionaryKey: "termsOfUseURL") as! String) else {
           return //be safe
         }
 
