@@ -1482,9 +1482,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.4.1;
-				DEVELOPMENT_TEAM = C44T395X8A;
+				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1493,8 +1494,9 @@
 				);
 				MARKETING_VERSION = 1.4.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.book.bible.en;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1505,9 +1507,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.4.1;
-				DEVELOPMENT_TEAM = C44T395X8A;
+				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1516,8 +1519,9 @@
 				);
 				MARKETING_VERSION = 1.4.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.book.bible.en;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
