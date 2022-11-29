@@ -102,8 +102,8 @@ struct OutlineTablePicker: View {
         Picker("", selection: $selectedSection, content: {
             Text(OutlineTableViewConstants.tabContents).tag(OutlineSection.tableOfContents)
             Text(OutlineTableViewConstants.tabBookmarks).tag(OutlineSection.bookmarks)
-            Text(OutlineTableViewConstants.tabPagelist).tag(OutlineSection.pageList)
-            Text(OutlineTableViewConstants.tabLandmarks).tag(OutlineSection.landmarks)
+            //Text(OutlineTableViewConstants.tabPagelist).tag(OutlineSection.pageList)
+            //Text(OutlineTableViewConstants.tabLandmarks).tag(OutlineSection.landmarks)
             Text(OutlineTableViewConstants.tabHighlights).tag(OutlineSection.highlights)
         })
         .pickerStyle(SegmentedPickerStyle())
