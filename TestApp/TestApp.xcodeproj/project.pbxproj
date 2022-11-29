@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		011976BAFD54F2217864AF63 /* LibraryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E743FF44F492916D9A0C88 /* LibraryFactory.swift */; };
 		04CF01E262CCD2B181EF235A /* PublicationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8516E9EFD3F88FB72636C8 /* PublicationCollectionViewCell.xib */; };
+		05289AF829360358005D6C76 /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AF729360358005D6C76 /* TTSView.swift */; };
+		05289AF929360358005D6C76 /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AF729360358005D6C76 /* TTSView.swift */; };
+		05289AFA29360358005D6C76 /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AF729360358005D6C76 /* TTSView.swift */; };
+		05289AFC29360379005D6C76 /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AFB29360379005D6C76 /* TTSViewModel.swift */; };
+		05289AFD29360379005D6C76 /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AFB29360379005D6C76 /* TTSViewModel.swift */; };
+		05289AFE29360379005D6C76 /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AFB29360379005D6C76 /* TTSViewModel.swift */; };
+		05289B01293604BA005D6C76 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289B00293604BA005D6C76 /* IconButton.swift */; };
+		05289B02293604BA005D6C76 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289B00293604BA005D6C76 /* IconButton.swift */; };
+		05289B03293604BA005D6C76 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289B00293604BA005D6C76 /* IconButton.swift */; };
 		05592E5F28C51A0500A9F993 /* AdHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05592E5E28C51A0500A9F993 /* AdHelper.swift */; };
 		05592E6028C51A0500A9F993 /* AdHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05592E5E28C51A0500A9F993 /* AdHelper.swift */; };
 		05592E6228C5210700A9F993 /* AppOpenAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05592E6128C5210700A9F993 /* AppOpenAdManager.swift */; };
@@ -299,6 +308,9 @@
 
 /* Begin PBXFileReference section */
 		01DD0948FF2B0226BAF8A58C /* Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		05289AF729360358005D6C76 /* TTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSView.swift; sourceTree = "<group>"; };
+		05289AFB29360379005D6C76 /* TTSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSViewModel.swift; sourceTree = "<group>"; };
+		05289B00293604BA005D6C76 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		05592E5E28C51A0500A9F993 /* AdHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdHelper.swift; sourceTree = "<group>"; };
 		05592E6128C5210700A9F993 /* AppOpenAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOpenAdManager.swift; sourceTree = "<group>"; };
 		05592E6428C6106A00A9F993 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -470,6 +482,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05289AF629360308005D6C76 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				05289AF729360358005D6C76 /* TTSView.swift */,
+				05289AFB29360379005D6C76 /* TTSViewModel.swift */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		05289AFF2936047F005D6C76 /* UX */ = {
+			isa = PBXGroup;
+			children = (
+				05289B00293604BA005D6C76 /* IconButton.swift */,
+			);
+			path = UX;
+			sourceTree = "<group>";
+		};
 		0587F5F528C27B2E004DCF93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -671,6 +700,7 @@
 		8A2F34A5F130F65CB7D45DA8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				05289AFF2936047F005D6C76 /* UX */,
 				05592E5E28C51A0500A9F993 /* AdHelper.swift */,
 				05592E6128C5210700A9F993 /* AppOpenAdManager.swift */,
 				05FF1BAB28CF46570048FF43 /* Constants.swift */,
@@ -794,6 +824,7 @@
 				1669DBB8716DA9477D64C180 /* Highlight */,
 				6CCC5EE115AA6CCF02BB14DC /* Outline */,
 				3AE7B79033C2702B67BD0F6F /* Search */,
+				05289AF629360308005D6C76 /* TTS */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1011,6 +1042,7 @@
 				05C8E99828BF97EF00DA8485 /* BookmarkCellView.swift in Sources */,
 				05C8E99928BF97EF00DA8485 /* CBZModule.swift in Sources */,
 				05C8E99A28BF97EF00DA8485 /* CBZViewController.swift in Sources */,
+				05289AF829360358005D6C76 /* TTSView.swift in Sources */,
 				05C8E99B28BF97EF00DA8485 /* ColorScheme.swift in Sources */,
 				05C8E99C28BF97EF00DA8485 /* DRMLibraryService.swift in Sources */,
 				05C8E99D28BF97EF00DA8485 /* DRMManagementTableViewController.swift in Sources */,
@@ -1038,12 +1070,14 @@
 				05C8E9B228BF97EF00DA8485 /* OPDSFacetViewController.swift in Sources */,
 				05C8E9B328BF97EF00DA8485 /* OPDSFactory.swift in Sources */,
 				05C8E9B428BF97EF00DA8485 /* OPDSGroupCollectionViewCell.swift in Sources */,
+				05289B01293604BA005D6C76 /* IconButton.swift in Sources */,
 				05FF1BA728CF45A90048FF43 /* PaywallViewController.swift in Sources */,
 				05C8E9B528BF97EF00DA8485 /* OPDSGroupTableViewCell.swift in Sources */,
 				05C8E9B628BF97EF00DA8485 /* OPDSModule.swift in Sources */,
 				05C8E9B728BF97EF00DA8485 /* OPDSNavigationTableViewCell.swift in Sources */,
 				05C8E9B828BF97EF00DA8485 /* OPDSPlaceholderView.swift in Sources */,
 				05C8E9B928BF97EF00DA8485 /* OPDSPublicationInfoViewController.swift in Sources */,
+				05289AFC29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				05C8E9BA28BF97EF00DA8485 /* OPDSPublicationTableViewCell.swift in Sources */,
 				05C8E9BB28BF97EF00DA8485 /* OPDSRootTableViewController.swift in Sources */,
 				05C8E9BC28BF97EF00DA8485 /* OutlineTableView.swift in Sources */,
@@ -1091,6 +1125,7 @@
 				C3A32ECD2927566F00EA386A /* BookmarkCellView.swift in Sources */,
 				C3A32ECE2927566F00EA386A /* CBZModule.swift in Sources */,
 				C3A32ECF2927566F00EA386A /* CBZViewController.swift in Sources */,
+				05289AFA29360358005D6C76 /* TTSView.swift in Sources */,
 				C3A32ED02927566F00EA386A /* ColorScheme.swift in Sources */,
 				C3A32ED12927566F00EA386A /* DRMLibraryService.swift in Sources */,
 				C3A32ED22927566F00EA386A /* DRMManagementTableViewController.swift in Sources */,
@@ -1118,12 +1153,14 @@
 				C3A32EE82927566F00EA386A /* OPDSFacetViewController.swift in Sources */,
 				C3A32EE92927566F00EA386A /* OPDSFactory.swift in Sources */,
 				C3A32EEA2927566F00EA386A /* OPDSGroupCollectionViewCell.swift in Sources */,
+				05289B03293604BA005D6C76 /* IconButton.swift in Sources */,
 				C3A32EEB2927566F00EA386A /* PaywallViewController.swift in Sources */,
 				C3A32EEC2927566F00EA386A /* OPDSGroupTableViewCell.swift in Sources */,
 				C3A32EED2927566F00EA386A /* OPDSModule.swift in Sources */,
 				C3A32EEE2927566F00EA386A /* OPDSNavigationTableViewCell.swift in Sources */,
 				C3A32EEF2927566F00EA386A /* OPDSPlaceholderView.swift in Sources */,
 				C3A32EF02927566F00EA386A /* OPDSPublicationInfoViewController.swift in Sources */,
+				05289AFE29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				C3A32EF12927566F00EA386A /* OPDSPublicationTableViewCell.swift in Sources */,
 				C3A32EF22927566F00EA386A /* OPDSRootTableViewController.swift in Sources */,
 				C3A32EF32927566F00EA386A /* OutlineTableView.swift in Sources */,
@@ -1171,6 +1208,7 @@
 				9D03C5BDE244F59C6E2DBECB /* BookmarkCellView.swift in Sources */,
 				ECE90167DD1F45850FA2380C /* CBZModule.swift in Sources */,
 				15E8C4A262237E817D8BF55B /* CBZViewController.swift in Sources */,
+				05289AF929360358005D6C76 /* TTSView.swift in Sources */,
 				5A20DFDCFD88680D196C870D /* ColorScheme.swift in Sources */,
 				653C1610C425FF01976ADF76 /* DRMLibraryService.swift in Sources */,
 				524687DC0FD17B900832B634 /* DRMManagementTableViewController.swift in Sources */,
@@ -1198,12 +1236,14 @@
 				4D6912259AE5D1355AB04859 /* OPDSFacetViewController.swift in Sources */,
 				E2AFF1ECD6E962847F22076A /* OPDSFactory.swift in Sources */,
 				D2D6ADF300E471A97B86C83B /* OPDSGroupCollectionViewCell.swift in Sources */,
+				05289B02293604BA005D6C76 /* IconButton.swift in Sources */,
 				05FF1BA628CF45A90048FF43 /* PaywallViewController.swift in Sources */,
 				42837DD1D2622D1C217E9C67 /* OPDSGroupTableViewCell.swift in Sources */,
 				5633B2EE3AAAC62DDE2DCCC7 /* OPDSModule.swift in Sources */,
 				E6462EB36DC6B8ABCF55D216 /* OPDSNavigationTableViewCell.swift in Sources */,
 				318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */,
 				0E4AE3C60753EA5A7E0E659B /* OPDSPublicationInfoViewController.swift in Sources */,
+				05289AFD29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				B562669B42AA447E0E6F125F /* OPDSPublicationTableViewCell.swift in Sources */,
 				8AF48CB4A32FC5B76EA555A5 /* OPDSRootTableViewController.swift in Sources */,
 				98886CAA8C2A61A59DDFEA1F /* OutlineTableView.swift in Sources */,
@@ -1705,7 +1745,7 @@
 			repositoryURL = "https://github.com/readium/swift-toolkit.git";
 			requirement = {
 				kind = exactVersion;
-				version = 2.3.0;
+				version = 2.4.0;
 			};
 		};
 		2FFCA29FFABA23C539A990FE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
