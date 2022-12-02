@@ -117,6 +117,9 @@
 		05C8E9E628BF97EF00DA8485 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 05C8E98C28BF97EF00DA8485 /* MBProgressHUD */; };
 		05C8E9F028BFA49200DA8485 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 05C8E9EF28BFA49200DA8485 /* Samples */; };
 		05C8E9F228BFA64200DA8485 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 05C8E9F128BFA64200DA8485 /* Samples */; };
+		05C95D182939E48600E4FD77 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C95D172939E48600E4FD77 /* Media.xcassets */; };
+		05C95D1A2939E4A300E4FD77 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C95D192939E4A300E4FD77 /* Media.xcassets */; };
+		05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C95D1B2939E59700E4FD77 /* Media.xcassets */; };
 		05FF1BA128CDDCA00048FF43 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 05FF1BA028CDDCA00048FF43 /* RevenueCat */; };
 		05FF1BA328CDDD150048FF43 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 05FF1BA228CDDD150048FF43 /* RevenueCat */; };
 		05FF1BA628CF45A90048FF43 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF1BA528CF45A90048FF43 /* PaywallViewController.swift */; };
@@ -336,6 +339,9 @@
 		05C8E9EA28BF97EF00DA8485 /* KodeksyPl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodeksyPl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C8E9EF28BFA49200DA8485 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		05C8E9F128BFA64200DA8485 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		05C95D172939E48600E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		05C95D192939E4A300E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		05C95D1B2939E59700E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		05FF1BA528CF45A90048FF43 /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
 		05FF1BAB28CF46570048FF43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05FF1BAE28CF46C10048FF43 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -523,6 +529,7 @@
 			children = (
 				05C8E9EF28BFA49200DA8485 /* Samples */,
 				D26A1DBE3771E28684A255E2 /* Info.plist */,
+				05C95D1B2939E59700E4FD77 /* Media.xcassets */,
 			);
 			path = KodeksyRu;
 			sourceTree = "<group>";
@@ -532,6 +539,7 @@
 			children = (
 				05C8E9F128BFA64200DA8485 /* Samples */,
 				0587F5F428C10115004DCF93 /* Info.plist */,
+				05C95D192939E4A300E4FD77 /* Media.xcassets */,
 			);
 			path = KodeksyPl;
 			sourceTree = "<group>";
@@ -745,6 +753,7 @@
 			children = (
 				C3EFA32E29275AE300EACE42 /* Samples */,
 				C3A32F2C2927580B00EA386A /* Info.plist */,
+				05C95D172939E48600E4FD77 /* Media.xcassets */,
 			);
 			path = BibleEn;
 			sourceTree = "<group>";
@@ -969,6 +978,7 @@
 			files = (
 				05C8E9F228BFA64200DA8485 /* Samples in Resources */,
 				05C8E9D428BF97EF00DA8485 /* About.storyboard in Resources */,
+				05C95D1A2939E4A300E4FD77 /* Media.xcassets in Resources */,
 				0579E1D228E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				05C8E9D628BF97EF00DA8485 /* DRM.storyboard in Resources */,
 				05647AF628D358EC00AEBE48 /* PaywallBoard.storyboard in Resources */,
@@ -989,6 +999,7 @@
 			files = (
 				BC554D97079BEB92E83B8A6C /* About.storyboard in Resources */,
 				90FAB514369287FF6C5B019F /* Assets.xcassets in Resources */,
+				05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,
 				0579E1D128E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				A76472C2F4B19FB6946708D1 /* LaunchScreen.storyboard in Resources */,
@@ -1009,6 +1020,7 @@
 			files = (
 				C3A32F0E2927566F00EA386A /* About.storyboard in Resources */,
 				C3A32F0F2927566F00EA386A /* Assets.xcassets in Resources */,
+				05C95D182939E48600E4FD77 /* Media.xcassets in Resources */,
 				C3A32F102927566F00EA386A /* DRM.storyboard in Resources */,
 				C3A32F112927566F00EA386A /* InfoPlist.strings in Resources */,
 				C3A32F122927566F00EA386A /* LaunchScreen.storyboard in Resources */,
