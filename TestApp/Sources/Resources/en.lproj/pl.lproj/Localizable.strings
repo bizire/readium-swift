@@ -40,7 +40,7 @@
 /* MARK: Library */
 
 /* Hint message when the library is empty */
-"library_empty_message" = "📖 Otwórz plik EPUB/CBZ do zaimportowania";
+"library_empty_message" = "📖";
 
 /* Add book alert message */
 "library_add_book_title" = "Add a book to your library";
