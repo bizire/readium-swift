@@ -54,6 +54,11 @@ class ReaderViewController: UIViewController, Loggable {
         self.highlights = highlights
 
         ttsViewModel = TTSViewModel(navigator: navigator, publication: publication)
+        
+        var configurationTTS = PublicationSpeechSynthesizer.Configuration()
+        configurationTTS.defaultLanguage = Language(locale: Locale(identifier: "en-US"))
+        ttsViewModel?.setConfig(configurationTTS)
+        
         ttsControlsViewController = ttsViewModel.map { UIHostingController(rootView: TTSControls(viewModel: $0)) }
 
         super.init(nibName: nil, bundle: nil)

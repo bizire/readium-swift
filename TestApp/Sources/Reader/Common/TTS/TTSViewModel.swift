@@ -31,7 +31,10 @@ final class TTSViewModel: ObservableObject, Loggable {
                 Dictionary(grouping: synthesizer.availableVoices, by: \.language)
 
             self.config = synthesizer.config
-            self.availableLanguages = voicesByLanguage.keys.sorted { $0.localizedDescription() < $1.localizedDescription() }
+            self.availableLanguages = voicesByLanguage.keys
+                .filter { $0.description.hasPrefix("en") }
+                .sorted { $0.localizedDescription() < $1.localizedDescription() }
+            
             self.availableVoiceIds = synthesizer.config.defaultLanguage
                 .flatMap { voicesByLanguage[$0]?.map { $0.identifier } }
                 ?? []
