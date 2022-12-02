@@ -20,6 +20,9 @@
 /* Class = "UILabel"; text = "Restore purchases"; ObjectID = "UdW-hM-bJC"; */
 "UdW-hM-bJC.text" = "Przywróć zakupy";
 
+/* Class = "UILabel"; text = "© European Digital Reading Lab"; ObjectID = "UdW-hM-bJC"; */
+"GHG-y0-JHc.text" = "Kupuj premium";
+
 /* Class = "UILabel"; text = "build"; ObjectID = "aQ4-bl-29m"; */
 "aQ4-bl-29m.text" = "build";
 

@@ -35,6 +35,8 @@
 "app_version_caption" = "Версия приложения:";
 /* Caption for the build version in About screen */
 "build_version_caption" = "Номер сборки:";
+/* Caption for the name of the app in About screen */
+"name_app_caption" = "Название приложения:";
 
 
 /* MARK: Library */

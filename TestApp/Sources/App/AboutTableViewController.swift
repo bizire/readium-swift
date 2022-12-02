@@ -20,6 +20,7 @@ class AboutTableViewController: UITableViewController {
 
     @IBOutlet weak var versionNumberCell: UITableViewCell!
     @IBOutlet weak var buildNumberCell: UITableViewCell!
+    @IBOutlet weak var nameCell: UITableViewCell!
     
     var adHelper = AdHelper()
     
@@ -31,6 +32,9 @@ class AboutTableViewController: UITableViewController {
 
         buildNumberCell.textLabel?.text = NSLocalizedString("build_version_caption", comment: "Caption for the build version in About screen")
         buildNumberCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleVersion"] as? String
+        
+        nameCell.textLabel?.text = NSLocalizedString("name_app_caption", comment: "Caption for the app title in About screen")
+        nameCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -53,7 +57,7 @@ class AboutTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -66,13 +70,16 @@ class AboutTableViewController: UITableViewController {
                     if let error = error {
                         self.present(UIAlertController.errorAlert(message: error.localizedDescription), animated: true, completion: nil)
                     }
-                    
                     //self.refreshUserDetails()
                 }
+            } else if indexPath.row == 1 {
                 
-            } else {
                 guard let scene = UIApplication.shared.foregroundActiveScene else { return }
                 SKStoreReviewController.requestReview(in: scene)
+            } else {
+                
+                let main = UIStoryboard(name: "PaywallBoard", bundle: nil).instantiateInitialViewController()!
+                self.present(main, animated: true, completion: nil)
             }
         }
         

@@ -35,6 +35,8 @@
 "app_version_caption" = "Wersja aplikacji:";
 /* Caption for the build version in About screen */
 "build_version_caption" = "Wersja kompilacji:";
+/* Caption for the name of the app in About screen */
+"name_app_caption" = "Tytuł aplikacji:";
 
 
 /* MARK: Library */

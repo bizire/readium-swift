@@ -35,6 +35,8 @@
 "app_version_caption" = "App Version:";
 /* Caption for the build version in About screen */
 "build_version_caption" = "Build Version:";
+/* Caption for the name of the app in About screen */
+"name_app_caption" = "App Title:";
 
 
 /* MARK: Library */
