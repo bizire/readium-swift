@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         app = try! AppModule()
         
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = ["820e4703cd201ffed879f66fe499bc05"]
         
         launchedAppDelegateCounter = UserDefaults.standard.integer(forKey: "launchedAppDelegateCounter")
         launchedAppDelegateCounter = launchedAppDelegateCounter + 1
