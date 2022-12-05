@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RLd-eX-QeE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RLd-eX-QeE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,16 +24,16 @@
             </objects>
             <point key="canvasLocation" x="-696" y="112"/>
         </scene>
-        <!--Premium Version-->
+        <!--Unlock All Books with Premium-->
         <scene sceneID="Umz-nv-Kyl">
             <objects>
-                <tableViewController id="Mk4-8x-dvj" customClass="PaywallViewController" customModule="KodeksyPl" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Mk4-8x-dvj" customClass="PaywallViewController" customModule="BibleEn" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="OLg-XE-0zm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PackageCellView" rowHeight="89" id="4bw-Od-7N0" customClass="PackageCellView" customModule="KodeksyPl" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PackageCellView" rowHeight="89" id="4bw-Od-7N0" customClass="PackageCellView" customModule="BibleEn" customModuleProvider="target">
                                 <rect key="frame" x="20" y="55.5" width="374" height="89"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4bw-Od-7N0" id="r1p-pu-mAb">
@@ -94,7 +94,7 @@
                             <outlet property="delegate" destination="Mk4-8x-dvj" id="z7L-vJ-KCA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Premium Version" id="T2n-Xj-jYR">
+                    <navigationItem key="navigationItem" title="Unlock All Books with Premium" id="T2n-Xj-jYR">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="x.circle.fill" catalog="system" id="5mQ-FV-8fe">
                             <connections>
                                 <action selector="dismissModal" destination="Mk4-8x-dvj" id="riA-hW-fCm"/>

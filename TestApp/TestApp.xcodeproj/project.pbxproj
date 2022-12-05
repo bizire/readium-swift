@@ -342,6 +342,7 @@
 		05C95D172939E48600E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		05C95D192939E4A300E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		05C95D1B2939E59700E4FD77 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		05E9C314293DD8520072ABD4 /* Support_Messages.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Support_Messages.md; sourceTree = "<group>"; };
 		05FF1BA528CF45A90048FF43 /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
 		05FF1BAB28CF46570048FF43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05FF1BAE28CF46C10048FF43 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -744,6 +745,7 @@
 			isa = PBXGroup;
 			children = (
 				C367C1BA2934CFF5001239E5 /* Bible_Copyrights.md */,
+				05E9C314293DD8520072ABD4 /* Support_Messages.md */,
 			);
 			path = Docs;
 			sourceTree = "<group>";
@@ -1548,7 +1550,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.4.1;
+				CURRENT_PROJECT_VERSION = 1.4.2;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1556,7 +1558,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1573,7 +1575,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.4.1;
+				CURRENT_PROJECT_VERSION = 1.4.2;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1581,7 +1583,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
