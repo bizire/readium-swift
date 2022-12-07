@@ -21,6 +21,9 @@ class PaywallViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.sectionHeaderHeight = 150
+        tableView.estimatedSectionHeaderHeight = 150
 
         /// - Load offerings when the paywall is displayed
         Purchases.shared.getOfferings { (offerings, error) in
@@ -41,9 +44,9 @@ class PaywallViewController: UITableViewController {
 
     /* Some UITableView methods for customization */
 
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return (Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as! String)
-    }
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return (Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as! String)
+//    }
     
     override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         return NSLocalizedString("paywall_tos", comment: "InApp Terms Label")
@@ -53,7 +56,25 @@ class PaywallViewController: UITableViewController {
         return self.offering?.availablePackages.count ?? 0
     }
     
-    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 300))
+        
+        let termsLabel = UILabel()
+        termsLabel.numberOfLines = 0
+        termsLabel.lineBreakMode = .byWordWrapping
+        termsLabel.text = NSLocalizedString("paywall_header", comment: "InApp Terms Label")
+        termsLabel.textColor = .black
+        termsLabel.textAlignment = .left
+        termsLabel.font = UIFont.systemFont(ofSize: 20)
+        headerView.addSubview(termsLabel)
+        
+        termsLabel.translatesAutoresizingMaskIntoConstraints = false
+        termsLabel.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 15).isActive = true
+        termsLabel.trailingAnchor.constraint(equalTo: headerView.trailingAnchor).isActive = true
+        termsLabel.topAnchor.constraint(equalTo: headerView.topAnchor, constant: 30).isActive = true
+        
+        return headerView
+    }
     
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         guard section == 0 else { return nil }
@@ -138,10 +159,13 @@ class PaywallViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PackageCellView", for: indexPath) as! PackageCellView
         
+        //cell.layoutMargins = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
+        
         /// - Configure the PackageCellView to display the appropriate name, pricing, and terms
         if let package = self.offering?.availablePackages[indexPath.row] {
-            cell.packageTitleLabelA.text = package.storeProduct.localizedTitle
-            cell.packagePriceLabelA.text = package.localizedPriceString
+            //cell.packageTitleLabelA.text = package.storeProduct.localizedTitle
+            var timePeriod = package.storeProduct.subscriptionPeriod?.durationTitle ?? "Lifetime"
+            cell.packageTitleLabelA.text = package.localizedPriceString + " / " + timePeriod
             
             if let intro = package.storeProduct.introductoryDiscount {
                 let packageTermsLabelText = intro.price == 0
@@ -151,6 +175,13 @@ class PaywallViewController: UITableViewController {
                 cell.packageTermsLabelA.text = packageTermsLabelText
             } else {
                 cell.packageTermsLabelA.text = NSLocalizedString("paywall_unlocks_premium", comment: "InApp Terms Label")
+//                (cell.packageTermsLabelA.constraints.filter{$0.firstAttribute == .height}.first)?.constant = 30.0
+                cell.packageTermsLabelA.isHidden = true
+//                cell.packageTermsLabelA.layoutIfNeeded()
+//                cell.packageTermsLabelA.setNeedsUpdateConstraints()
+//                view.addConstraints([NSLayoutConstraint(item: cell.packageTermsLabelA, attribute: .top, relatedBy: .equal, toItem: cell.packageTitleLabelA, attribute: .bottom, multiplier: 1.0, constant: 20.0),
+//                    ])
+                
             }
         }
         

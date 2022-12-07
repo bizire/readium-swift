@@ -16,5 +16,5 @@ class PackageCellView: UITableViewCell {
     
     @IBOutlet var packageTitleLabelA: UILabel!
     @IBOutlet var packageTermsLabelA: UILabel!
-    @IBOutlet var packagePriceLabelA: UILabel!
+    @IBOutlet var packageButton: UIButton!
 }

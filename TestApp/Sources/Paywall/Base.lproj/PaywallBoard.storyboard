@@ -24,66 +24,74 @@
             </objects>
             <point key="canvasLocation" x="-696" y="112"/>
         </scene>
-        <!--Unlock All Books with Premium-->
+        <!--BIBLES PREMIUM-->
         <scene sceneID="Umz-nv-Kyl">
             <objects>
                 <tableViewController id="Mk4-8x-dvj" customClass="PaywallViewController" customModule="BibleEn" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="OLg-XE-0zm">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="OLg-XE-0zm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="separatorColor" systemColor="systemBackgroundColor"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PackageCellView" rowHeight="89" id="4bw-Od-7N0" customClass="PackageCellView" customModule="BibleEn" customModuleProvider="target">
                                 <rect key="frame" x="20" y="55.5" width="374" height="89"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4bw-Od-7N0" id="r1p-pu-mAb">
+                                <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4bw-Od-7N0" id="r1p-pu-mAb">
                                     <rect key="frame" x="0.0" y="0.0" width="374" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baw-ch-W2x">
-                                            <rect key="frame" x="20" y="20" width="71" height="24"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                            <nil key="textColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baw-ch-W2x">
+                                            <rect key="frame" x="30" y="29.5" width="314" height="30"/>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes 7-day Free Trial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klJ-c1-asM">
-                                            <rect key="frame" x="20" y="52" width="168.5" height="18"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                            <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleTop" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAk-vz-h6w">
+                                            <rect key="frame" x="30" y="15" width="314" height="14.5"/>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                            <color key="textColor" systemColor="systemBlueColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAU-RZ-RwI">
-                                            <rect key="frame" x="291.5" y="0.0" width="74.5" height="89"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$17.99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs8-PC-EGx">
-                                                    <rect key="frame" x="8" y="32.5" width="58.5" height="24"/>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <constraints>
-                                                <constraint firstItem="Zs8-PC-EGx" firstAttribute="leading" secondItem="aAU-RZ-RwI" secondAttribute="leading" constant="8" id="80m-jN-QuV"/>
-                                                <constraint firstAttribute="trailing" secondItem="Zs8-PC-EGx" secondAttribute="trailing" constant="8" id="iJ4-xl-IiV"/>
-                                                <constraint firstItem="Zs8-PC-EGx" firstAttribute="centerY" secondItem="aAU-RZ-RwI" secondAttribute="centerY" id="yQy-z4-Mgt"/>
-                                            </constraints>
-                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleBottom" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxP-3M-OGk">
+                                            <rect key="frame" x="30" y="59.5" width="314" height="14.5"/>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                            <color key="textColor" systemColor="systemBlueColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Includes 7-day Free Trial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klJ-c1-asM">
+                                            <rect key="frame" x="112.5" y="64.5" width="149" height="23.5"/>
+                                            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="tintColor" red="0.17364451289999999" green="0.40456667540000002" blue="0.36078321930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="aAU-RZ-RwI" secondAttribute="trailing" constant="8" id="2mk-L4-4Ld"/>
-                                        <constraint firstItem="Baw-ch-W2x" firstAttribute="top" secondItem="r1p-pu-mAb" secondAttribute="topMargin" constant="9" id="8gz-KM-8Fj"/>
-                                        <constraint firstItem="klJ-c1-asM" firstAttribute="top" secondItem="Baw-ch-W2x" secondAttribute="bottom" constant="8" symbolic="YES" id="9rb-lW-2kc"/>
-                                        <constraint firstItem="aAU-RZ-RwI" firstAttribute="top" secondItem="r1p-pu-mAb" secondAttribute="top" id="Ajs-QU-xYb"/>
-                                        <constraint firstItem="Baw-ch-W2x" firstAttribute="leading" secondItem="r1p-pu-mAb" secondAttribute="leadingMargin" id="BBL-y2-vho"/>
-                                        <constraint firstItem="klJ-c1-asM" firstAttribute="leading" secondItem="r1p-pu-mAb" secondAttribute="leadingMargin" id="ulD-Ze-gxT"/>
-                                        <constraint firstAttribute="bottom" secondItem="aAU-RZ-RwI" secondAttribute="bottom" id="xqy-7m-Av5"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="klJ-c1-asM" secondAttribute="bottom" constant="8" id="yr4-5r-VgA"/>
+                                        <constraint firstItem="zxP-3M-OGk" firstAttribute="bottom" secondItem="r1p-pu-mAb" secondAttribute="bottom" constant="-15" id="4tc-c7-ckU"/>
+                                        <constraint firstItem="Baw-ch-W2x" firstAttribute="centerY" secondItem="r1p-pu-mAb" secondAttribute="centerY" id="5of-97-b5t"/>
+                                        <constraint firstItem="klJ-c1-asM" firstAttribute="top" secondItem="Baw-ch-W2x" secondAttribute="bottom" constant="5" id="9rb-lW-2kc"/>
+                                        <constraint firstItem="GAk-vz-h6w" firstAttribute="trailing" secondItem="Baw-ch-W2x" secondAttribute="trailing" id="C3F-9F-KUF"/>
+                                        <constraint firstItem="GAk-vz-h6w" firstAttribute="top" secondItem="r1p-pu-mAb" secondAttribute="top" constant="15" id="EDZ-K5-p9m"/>
+                                        <constraint firstItem="zxP-3M-OGk" firstAttribute="top" secondItem="Baw-ch-W2x" secondAttribute="bottom" id="HmZ-j0-6el"/>
+                                        <constraint firstItem="klJ-c1-asM" firstAttribute="bottomMargin" secondItem="r1p-pu-mAb" secondAttribute="bottom" constant="-9" id="KbJ-Hk-4fZ"/>
+                                        <constraint firstItem="zxP-3M-OGk" firstAttribute="leading" secondItem="Baw-ch-W2x" secondAttribute="leading" id="TJK-KX-Nem"/>
+                                        <constraint firstItem="zxP-3M-OGk" firstAttribute="trailing" secondItem="Baw-ch-W2x" secondAttribute="trailing" id="hjx-v4-Ays"/>
+                                        <constraint firstItem="Baw-ch-W2x" firstAttribute="trailing" secondItem="r1p-pu-mAb" secondAttribute="trailing" constant="-30" id="muS-Rm-qL9"/>
+                                        <constraint firstItem="GAk-vz-h6w" firstAttribute="bottom" secondItem="Baw-ch-W2x" secondAttribute="top" id="pI2-dC-g12"/>
+                                        <constraint firstItem="Baw-ch-W2x" firstAttribute="leading" secondItem="r1p-pu-mAb" secondAttribute="leading" constant="30" id="thH-Yn-Yzr"/>
+                                        <constraint firstItem="klJ-c1-asM" firstAttribute="centerX" secondItem="r1p-pu-mAb" secondAttribute="centerXWithinMargins" id="ulD-Ze-gxT"/>
+                                        <constraint firstItem="GAk-vz-h6w" firstAttribute="leading" secondItem="Baw-ch-W2x" secondAttribute="leading" id="ysH-wy-FiJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
-                                    <outlet property="packagePriceLabelA" destination="Zs8-PC-EGx" id="sfE-Wk-HpB"/>
                                     <outlet property="packageTermsLabelA" destination="klJ-c1-asM" id="Yij-Yu-MOt"/>
                                     <outlet property="packageTitleLabelA" destination="Baw-ch-W2x" id="Ylq-6m-eFo"/>
                                 </connections>
@@ -94,7 +102,7 @@
                             <outlet property="delegate" destination="Mk4-8x-dvj" id="z7L-vJ-KCA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Unlock All Books with Premium" id="T2n-Xj-jYR">
+                    <navigationItem key="navigationItem" title="BIBLES PREMIUM" id="T2n-Xj-jYR">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="x.circle.fill" catalog="system" id="5mQ-FV-8fe">
                             <connections>
                                 <action selector="dismissModal" destination="Mk4-8x-dvj" id="riA-hW-fCm"/>
@@ -109,14 +117,11 @@
     </scenes>
     <resources>
         <image name="x.circle.fill" catalog="system" width="128" height="123"/>
-        <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
