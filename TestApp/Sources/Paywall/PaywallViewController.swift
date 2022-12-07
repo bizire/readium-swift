@@ -59,6 +59,8 @@ class PaywallViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 300))
         
+        //headerView.backgroundColor = .lightGray
+        
         let termsLabel = UILabel()
         termsLabel.numberOfLines = 0
         termsLabel.lineBreakMode = .byWordWrapping
@@ -159,13 +161,18 @@ class PaywallViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PackageCellView", for: indexPath) as! PackageCellView
         
-        //cell.layoutMargins = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
-        
         /// - Configure the PackageCellView to display the appropriate name, pricing, and terms
         if let package = self.offering?.availablePackages[indexPath.row] {
-            //cell.packageTitleLabelA.text = package.storeProduct.localizedTitle
-            var timePeriod = package.storeProduct.subscriptionPeriod?.durationTitle ?? "Lifetime"
-            cell.packageTitleLabelA.text = package.localizedPriceString + " / " + timePeriod
+            var timePeriod = package.storeProduct.subscriptionPeriod?.durationTitle ?? "lifetime"
+            
+            var timePeriodLocalized = NSLocalizedString("paywall_lifetime", comment: "InApp Period")
+            if (timePeriod.caseInsensitivelyEqual(to: "month")) {
+                timePeriodLocalized = NSLocalizedString("paywall_month", comment: "InApp Period")
+            } else if (timePeriod.caseInsensitivelyEqual(to: "year")) {
+                timePeriodLocalized = NSLocalizedString("paywall_year", comment: "InApp Period")
+            }
+            
+            cell.packageTitleLabelA.text = package.localizedPriceString + " / " + timePeriodLocalized
             
             if let intro = package.storeProduct.introductoryDiscount {
                 let packageTermsLabelText = intro.price == 0
@@ -173,15 +180,13 @@ class PaywallViewController: UITableViewController {
                 : NSLocalizedString("paywall_unlocks_premium", comment: "InApp Terms Label")
 
                 cell.packageTermsLabelA.text = packageTermsLabelText
+                cell.packageTermsLabelA.layer.cornerRadius = 8
+                cell.packageTermsLabelA.layer.borderColor = UIColor.systemYellow.cgColor
+                cell.packageTermsLabelA.layer.borderWidth = 1.5
+                cell.packageTermsLabelA.layer.masksToBounds = true
             } else {
                 cell.packageTermsLabelA.text = NSLocalizedString("paywall_unlocks_premium", comment: "InApp Terms Label")
-//                (cell.packageTermsLabelA.constraints.filter{$0.firstAttribute == .height}.first)?.constant = 30.0
                 cell.packageTermsLabelA.isHidden = true
-//                cell.packageTermsLabelA.layoutIfNeeded()
-//                cell.packageTermsLabelA.setNeedsUpdateConstraints()
-//                view.addConstraints([NSLayoutConstraint(item: cell.packageTermsLabelA, attribute: .top, relatedBy: .equal, toItem: cell.packageTitleLabelA, attribute: .bottom, multiplier: 1.0, constant: 20.0),
-//                    ])
-                
             }
         }
         

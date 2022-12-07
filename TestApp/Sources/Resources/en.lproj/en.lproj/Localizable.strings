@@ -187,9 +187,13 @@
 
 /* MARK: Paywall */
 "paywall_unlocks_premium" = "Unlock All Books";
-"paywall_free_trial" = " 1 week free trial  ";
+"paywall_free_trial" = " 1 week free trial ";
 "paywall_tos" = "Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.\n
 Subscription may be managed by the user and auto-renewal may be turned off by going to the  user's Account Settings after purchase. Removing the app doesn’t automatically cancel the subscription.";
 "paywall_privacy" = "Privacy Policy";
 "paywall_terms" = "Terms of Use";
+"paywall_lifetime" = "Lifetime";
+"paywall_month" = "Month";
+"paywall_year" = "Year";
 "paywall_header" = "• Unlock All Access\n• Remove Ads in PRO Version\n• New Books Added Every Month\n• All Books Continuously Update";
+

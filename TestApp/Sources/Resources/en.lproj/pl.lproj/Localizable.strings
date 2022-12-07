@@ -192,3 +192,6 @@
 Subskrypcja może być zarządzana przez użytkownika, a automatyczne odnawianie można wyłączyć, przechodząc do Ustawień konta użytkownika po zakupie.";
 "paywall_privacy" = "Polityka prywatności";
 "paywall_terms" = "Warunki korzystania";
+"paywall_lifetime" = "Na zawsze";
+"paywall_month" = "Miesiąc";
+"paywall_year" = "Rok";

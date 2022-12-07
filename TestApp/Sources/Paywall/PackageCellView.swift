@@ -14,7 +14,8 @@ import UIKit
 
 class PackageCellView: UITableViewCell {
     
+    @IBOutlet var packageTitleTop: UILabel!
+    @IBOutlet var packageTitleBottom: UILabel!
     @IBOutlet var packageTitleLabelA: UILabel!
     @IBOutlet var packageTermsLabelA: UILabel!
-    @IBOutlet var packageButton: UIButton!
 }
