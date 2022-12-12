@@ -2,11 +2,15 @@
 Links
 https://www.gutenberg.org/
 https://ebible.org/ or http://pacificbibles.org/
+https://dbs.org/
+http://www.htmlbible.com/#google_vignette   https://www.ph4.org/b4_1.php?l=ko
+https://freebiblegospeltoallnations.wordpress.com/bibles/
+https://librivox.org/
 
 
 
 Copyright
-
+English
 01  King James Version + Apocrypha                          http://pacificbibles.org/details.php?id=eng-kjv
 02  World English Bible                                     http://pacificbibles.org/details.php?id=engwebp
 03  Revised Version with Apocrypha (1895)                   http://pacificbibles.org/details.php?id=eng-rv
@@ -28,3 +32,23 @@ Copyright
 19  Geneva Bible 1599                                           http://pacificbibles.org/details.php?id=enggnv
 20  Open English Bible (Commonwealth Spelling)                  http://pacificbibles.org/details.php?id=engoebcw
 21  King James (Authorized) Version                             http://pacificbibles.org/details.php?id=eng-kjv2006
+
+
+Copyright
+https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1
+Complete Bible Revised Korean Version    July 10, 1961    December 31, 2011 Copyright protection period expires
+Gwangju Bible Book Revised Korean Version    May 10, 1962    December 31, 2012 Copyright protection period expires
+Gwanju Bible in Korean and Chinese    November 30, 1964    December 31, 2014 Copyright protection period expires
+
+ABOUT coryrights archive.org
+https://library.law.hawaii.edu/2018/05/29/open-library-openlibrary-org/
+
+Korean
+01   First Korean Bible (1911)          https://dbs.org/bibles/KORSYS
+02   Sinyak chynsy ch'ansongga happu    https://archive.org/details/sinyakchynsychan00soeuuoft
+03   Korean Bible         http://www.htmlbible.com/#google_vignette
+
+
+??? Bilbi KJV KOR OTNT     аналог       https://archive.org/details/bilbi-kjv-kor-otnt/mode/2up
+???? https://www.christunite.com/index.php/korean-bible-in-pdg
+???? https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/languages/korean?lang=eng
