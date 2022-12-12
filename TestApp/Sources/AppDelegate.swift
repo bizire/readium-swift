@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
 //            opdsViewController,
             aboutViewController
         ]
-        tabBarController.tabBar.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        tabBarController.tabBar.tintColor = .label
 
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController

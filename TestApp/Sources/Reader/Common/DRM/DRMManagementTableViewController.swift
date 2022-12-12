@@ -40,9 +40,9 @@ class DRMManagementTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         title = NSLocalizedString("reader_drm_management_title", comment: "Title of the DRM management view")
-        reload()
-        self.navigationController?.navigationBar.barTintColor = UIColor.white
-        self.navigationController?.navigationBar.tintColor = UIColor.black
+//        reload()
+////        self.navigationController?.navigationBar.barTintColor = UIColor.white
+////        self.navigationController?.navigationBar.tintColor = UIColor.black
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
     }
     

@@ -65,7 +65,7 @@ class PaywallViewController: UITableViewController {
         termsLabel.numberOfLines = 0
         termsLabel.lineBreakMode = .byWordWrapping
         termsLabel.text = NSLocalizedString("paywall_header", comment: "InApp Terms Label")
-        termsLabel.textColor = .black
+        termsLabel.textColor = .label
         termsLabel.textAlignment = .left
         termsLabel.font = UIFont.systemFont(ofSize: 20)
         headerView.addSubview(termsLabel)

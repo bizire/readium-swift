@@ -56,9 +56,8 @@ class LibraryViewController: UIViewController, Loggable {
     @IBOutlet weak var collectionView: UICollectionView! {
         didSet {
             
-            collectionView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-            collectionView.contentInset = UIEdgeInsets(top: 15, left: 20,
-                                                       bottom: 20, right: 20)
+            //collectionView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            collectionView.contentInset = UIEdgeInsets(top: 15, left: 20, bottom: 20, right: 20)
             collectionView.register(UINib(nibName: "PublicationCollectionViewCell", bundle: nil),
                                     forCellWithReuseIdentifier: "publicationCollectionViewCell")
             collectionView.delegate = self
@@ -114,8 +113,8 @@ class LibraryViewController: UIViewController, Loggable {
         
         //self.navigationItem.rightBarButtonItem = addBookButton
         
-        navigationController?.navigationBar.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        navigationController?.navigationBar.tintColor = .systemBackground
+        navigationController?.navigationBar.barTintColor = .systemBackground
         
         NotificationCenter.default.addObserver(self,
                                                   selector: #selector(handleAppDidBecomeActiveNotification(notification:)),
@@ -141,6 +140,10 @@ class LibraryViewController: UIViewController, Loggable {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        navigationController?.navigationBar.tintColor = .systemBackground
+        navigationController?.navigationBar.barTintColor = .systemBackground
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.label]
+        
         print("viewDidAppear Admob Banner Library")
         // Note loadBannerAd is called in viewDidAppear as this is the first time that
         // the safe area is known. If safe area is not a concern (e.g., your app is
@@ -162,7 +165,7 @@ class LibraryViewController: UIViewController, Loggable {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        navigationController?.setNavigationBarHidden(false, animated: animated)
+        navigationController?.setNavigationBarHidden(false, animated: false)
         super.viewWillAppear(animated)
     }
     
