@@ -14,6 +14,8 @@
 	<string>https://vilendoo.com/Privacy-Policy/</string>
 	<key>termsOfUseURL</key>
 	<string>https://vilendoo.com/Terms-of-Use/</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

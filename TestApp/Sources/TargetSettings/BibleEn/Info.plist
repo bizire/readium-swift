@@ -20,6 +20,8 @@
 	<string>https://sites.google.com/view/paulvi-app-bible/</string>
 	<key>termsOfUseURL</key>
 	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
