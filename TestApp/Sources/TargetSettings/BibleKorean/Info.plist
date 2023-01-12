@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~7739882540</string>
+	<string>ca-app-pub-2983224055780222~6503702747</string>
 	<key>AdmobBannerID</key>
-	<string>XXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/8961263559</string>
 	<key>AdmobInterID</key>
-	<string>XXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/5264888674</string>
 	<key>AdmobOpenID</key>
-	<string>XXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/7648181885</string>
 	<key>AdmobRewardID</key>
-	<string>XXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/5022018545</string>
 	<key>RevenueCatPublicKey</key>
 	<string>YYYYYYYYYYYYYYYYYYY</string>
 	<key>FreeItemsAmount</key>
