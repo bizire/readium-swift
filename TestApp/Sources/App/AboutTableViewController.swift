@@ -21,6 +21,8 @@ class AboutTableViewController: UITableViewController {
     @IBOutlet weak var versionNumberCell: UITableViewCell!
     @IBOutlet weak var buildNumberCell: UITableViewCell!
     @IBOutlet weak var nameCell: UITableViewCell!
+    @IBOutlet weak var upgradeCell: UITableViewCell!
+    @IBOutlet weak var restoreCell: UITableViewCell!
     
     var adHelper = AdHelper()
     
@@ -35,6 +37,9 @@ class AboutTableViewController: UITableViewController {
         
         nameCell.textLabel?.text = NSLocalizedString("name_app_caption", comment: "Caption for the app title in About screen")
         nameCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String
+        
+        upgradeCell.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasPremiumContent") as? Bool ?? true)
+        restoreCell.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasPremiumContent") as? Bool ?? true)
     }
     
     override func viewDidAppear(_ animated: Bool) {

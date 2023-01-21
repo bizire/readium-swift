@@ -94,7 +94,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Settings" id="IoA-oA-Dga">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="UdW-hM-bJC" style="IBUITableViewCellStyleDefault" id="NBj-2b-rNb">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="UdW-hM-bJC" style="IBUITableViewCellStyleDefault" id="NBj-2b-rNb" userLabel="restoreCell">
                                         <rect key="frame" x="0.0" y="260" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NBj-2b-rNb" id="oVA-QQ-gKH">
@@ -111,7 +111,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="5Eh-02-w3x" style="IBUITableViewCellStyleDefault" id="m8B-a2-OgU">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="5Eh-02-w3x" style="IBUITableViewCellStyleDefault" id="m8B-a2-OgU" userLabel="rateCell">
                                         <rect key="frame" x="0.0" y="304" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m8B-a2-OgU" id="vjJ-pv-rox">
@@ -128,7 +128,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="GHG-y0-JHc" style="IBUITableViewCellStyleDefault" id="Ycu-LS-tYe">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="aboutCell" textLabel="GHG-y0-JHc" style="IBUITableViewCellStyleDefault" id="Ycu-LS-tYe" userLabel="upgradeCell">
                                         <rect key="frame" x="0.0" y="348" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ycu-LS-tYe" id="vKd-CC-igL">
@@ -194,6 +194,8 @@
                     <connections>
                         <outlet property="buildNumberCell" destination="SgV-X4-gg2" id="CdD-2J-p3L"/>
                         <outlet property="nameCell" destination="ToO-YZ-Hgc" id="fj4-sI-UVZ"/>
+                        <outlet property="restoreCell" destination="NBj-2b-rNb" id="OXO-h4-zRS"/>
+                        <outlet property="upgradeCell" destination="Ycu-LS-tYe" id="obj-Oi-GgH"/>
                         <outlet property="versionNumberCell" destination="0IZ-gc-Ya0" id="C92-Ba-if5"/>
                     </connections>
                 </tableViewController>

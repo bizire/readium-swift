@@ -45,8 +45,8 @@ https://library.law.hawaii.edu/2018/05/29/open-library-openlibrary-org/
 
 Korean
 01   First Korean Bible (1911)          https://dbs.org/bibles/KORSYS
-02   Sinyak chynsy ch'ansongga happu    https://archive.org/details/sinyakchynsychan00soeuuoft
-03   Korean Bible         http://www.htmlbible.com/#google_vignette
+02   Sinyak chynsy ch'ansongga happu    https://archive.org/details/sinyakchynsychan00soeuuoft (формат плохой)
+03   Korean Bible         http://www.htmlbible.com/#google_vignette (формат плохой)
 
 
 ??? Bilbi KJV KOR OTNT     аналог       https://archive.org/details/bilbi-kjv-kor-otnt/mode/2up

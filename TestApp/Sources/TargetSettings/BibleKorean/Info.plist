@@ -7,7 +7,7 @@
 	<key>AdmobBannerID</key>
 	<string>ca-app-pub-2983224055780222/8961263559</string>
 	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/5264888674</string>
+	<string>ca-app-pub-2983224055780222/5264888674_</string>
 	<key>AdmobOpenID</key>
 	<string>ca-app-pub-2983224055780222/7648181885</string>
 	<key>AdmobRewardID</key>
@@ -20,6 +20,8 @@
 	<string>https://sites.google.com/view/paulvi-app-bible/</string>
 	<key>termsOfUseURL</key>
 	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
+	<key>hasPremiumContent</key>
+	<false/>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>CFBundleDevelopmentRegion</key>
