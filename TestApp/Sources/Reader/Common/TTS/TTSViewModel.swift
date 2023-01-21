@@ -32,7 +32,7 @@ final class TTSViewModel: ObservableObject, Loggable {
 
             self.config = synthesizer.config
             self.availableLanguages = voicesByLanguage.keys
-                .filter { $0.description.hasPrefix("en") }
+                //.filter { $0.description.hasPrefix("en") }
                 .sorted { $0.localizedDescription() < $1.localizedDescription() }
             
             self.availableVoiceIds = synthesizer.config.defaultLanguage
