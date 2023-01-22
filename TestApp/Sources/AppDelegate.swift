@@ -101,10 +101,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         appBecomeActiveCounter = appBecomeActiveCounter + 1
         
-        if #available(iOS 14.0, *) {
-            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
-                print("Status \(status)")
-            })
-        }
+//        if #available(iOS 14.0, *) {
+//            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+//                print("Status \(status)")
+//            })
+//        }
+        
+
     }
 }

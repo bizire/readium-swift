@@ -22,7 +22,7 @@ import ReadiumOPDS
 import GoogleMobileAds
 import RevenueCat
 import UniformTypeIdentifiers
-
+import UserMessagingPlatform
 
 protocol LibraryViewControllerFactory {
     func make() -> LibraryViewController
@@ -65,8 +65,63 @@ class LibraryViewController: UIViewController, Loggable {
         }
     }
     
+    func loadForm() {
+        UMPConsentForm.load(completionHandler: { form, loadError in
+        if loadError != nil {
+            // Handle the error.
+            print("startUMPConsent error = \(String(describing: loadError))")
+        } else {
+          // Present the form. You can also hold on to the reference to present later.
+          if UMPConsentInformation.sharedInstance.consentStatus == UMPConsentStatus.required {
+            print("startUMPConsent UMPConsentStatus is required: show consent form")
+            form?.present(
+                from: self,
+                completionHandler: { dismissError in
+                  if UMPConsentInformation.sharedInstance.consentStatus == UMPConsentStatus.obtained {
+                      print("startUMPConsent UMPConsentStatus is obtained: you can show ADs")
+                      // App can start requesting ads.
+                  }
+
+                })
+          } else {
+              // Keep the form available for changes to user consent.
+              print("startUMPConsent UMPConsentStatus NOT required")
+          }
+        }
+      })
+    }
+    
+    func startUMPConsent() {
+        // Create a UMPRequestParameters object.
+        let parameters = UMPRequestParameters()
+        // Set tag for under age of consent. Here false means users are not under age.
+        parameters.tagForUnderAgeOfConsent = false
+        
+        // Request an update to the consent information.
+        UMPConsentInformation.sharedInstance.requestConsentInfoUpdate(
+            with: parameters,
+            completionHandler: { [self] error in
+
+              // The consent information has updated.
+              if error != nil {
+                  // Handle the error.
+                  print("startUMPConsent error = \(String(describing: error))")
+              } else {
+                // The consent information state was updated.
+                // You are now ready to see if a form is available.
+                let formStatus = UMPConsentInformation.sharedInstance.formStatus
+                  print("startUMPConsent formStatus = \(formStatus)")
+                if formStatus == UMPFormStatus.available {
+                  loadForm()
+                }
+              }
+            })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        startUMPConsent();
    
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if !launchedBefore  {
