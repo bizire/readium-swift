@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; accessibilityLabel = "Delete Publication"; ObjectID = "XNx-HX-fJ0"; */
+"XNx-HX-fJ0.accessibilityLabel" = "간행물 삭제";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "XNx-HX-fJ0"; */
+"XNx-HX-fJ0.normalTitle" = "제거하다";
+
+/* Class = "UIButton"; accessibilityLabel = "Publication Information"; ObjectID = "gmr-BT-CvG"; */
+"gmr-BT-CvG.accessibilityLabel" = "출판 정보";
+
+/* Class = "UIButton"; normalTitle = "Infos"; ObjectID = "gmr-BT-CvG"; */
+"gmr-BT-CvG.normalTitle" = "정보";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "kn0-yM-9Ms"; */
+"kn0-yM-9Ms.normalTitle" = "취소";

@@ -1,0 +1,36 @@
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "ANj-qF-gHE"; */
+"ANj-qF-gHE.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Dhv-oz-JD9"; */
+"Dhv-oz-JD9.text" = "Label";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "EDf-Ot-LEd"; */
+"EDf-Ot-LEd.text" = "Detail";
+
+/* Class = "UILabel"; text = "Two lines Two lines Two lines"; ObjectID = "FGP-0C-KHm"; */
+"FGP-0C-KHm.text" = "Two lines Two lines Two lines";
+
+/* Class = "UIButton"; normalTitle = "Download"; ObjectID = "ZIq-yW-8qr"; */
+"ZIq-yW-8qr.normalTitle" = "Download";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cgc-Pq-nWR"; */
+"cgc-Pq-nWR.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "egR-mI-QgY"; */
+"egR-mI-QgY.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jb4-he-yej"; */
+"jb4-he-yej.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Filters"; ObjectID = "kh1-rA-168"; */
+"kh1-rA-168.title" = "Filters";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "v4x-Wk-h3D"; */
+"v4x-Wk-h3D.text" = "Title";
+
+/* Class = "UILabel"; text = "999999"; ObjectID = "xu2-fu-xG8"; */
+"xu2-fu-xG8.text" = "999999";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "yj5-Ng-kb9"; */
+"yj5-Ng-kb9.text" = "Count";

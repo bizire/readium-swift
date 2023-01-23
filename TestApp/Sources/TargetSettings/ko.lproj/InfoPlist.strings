@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  TestApp
+
+  Created by Andrei on 28.09.2022.
+  
+*/
+
+NSUserTrackingUsageDescription = "이 식별자는 귀하에게 개인화된 광고를 제공하는 데 사용됩니다";
