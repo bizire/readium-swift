@@ -20,6 +20,8 @@
 	<false/>
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
+	<key>numberPerRow</key>
+	<integer>3</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

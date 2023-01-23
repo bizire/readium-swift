@@ -234,8 +234,10 @@ class LibraryViewController: UIViewController, Loggable {
         collectionView.collectionViewLayout.invalidateLayout()
     }
 
-    static let iPadLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: 4, .landscape: 5]
-    static let iPhoneLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: 3, .landscape: 4]
+    static let numberPerRowFromPlist = Bundle.main.object(forInfoDictionaryKey: "numberPerRow") as? Int ?? 3
+    
+    static let iPadLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: numberPerRowFromPlist+1, .landscape: numberPerRowFromPlist+2]
+    static let iPhoneLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: numberPerRowFromPlist, .landscape: numberPerRowFromPlist+1]
     
     static let layoutNumberPerRow:[UIUserInterfaceIdiom:[ScreenOrientation: Int]] = [
         .pad : LibraryViewController.iPadLayoutNumberPerRow,

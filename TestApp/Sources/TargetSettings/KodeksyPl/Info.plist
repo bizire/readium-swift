@@ -18,6 +18,8 @@
 	<false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+    <key>numberPerRow</key>
+    <integer>3</integer>
 	<key>CFBundleDisplayName</key>
 	<string>Kodeksy PL</string>
 	<key>CFBundleDocumentTypes</key>

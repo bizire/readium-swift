@@ -22,6 +22,8 @@
 	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 	<key>hasPremiumContent</key>
 	<true/>
+    <key>numberPerRow</key>
+    <integer>3</integer>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>CFBundleDevelopmentRegion</key>
