@@ -121,7 +121,7 @@ class LibraryViewController: UIViewController, Loggable {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        startUMPConsent();
+        //startUMPConsent();
    
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if !launchedBefore  {
