@@ -648,6 +648,24 @@
 			path = UX;
 			sourceTree = "<group>";
 		};
+		054C351B298B96AB002986E8 /* Bibles */ = {
+			isa = PBXGroup;
+			children = (
+				C3A32F2B292756F100EA386A /* BibleEn */,
+				0509576B296836B0004F14AA /* BibleKorean */,
+			);
+			path = Bibles;
+			sourceTree = "<group>";
+		};
+		054C351C298B980A002986E8 /* Andrei */ = {
+			isa = PBXGroup;
+			children = (
+				05C8E9ED28BF9B5B00DA8485 /* KodeksyRu */,
+				05C8E9EE28BF9B7100DA8485 /* KodeksyPl */,
+			);
+			path = Andrei;
+			sourceTree = "<group>";
+		};
 		0587F5F528C27B2E004DCF93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,10 +677,8 @@
 		05C8E9EC28BF9B4700DA8485 /* TargetSettings */ = {
 			isa = PBXGroup;
 			children = (
-				C3A32F2B292756F100EA386A /* BibleEn */,
-				0509576B296836B0004F14AA /* BibleKorean */,
-				05C8E9EE28BF9B7100DA8485 /* KodeksyPl */,
-				05C8E9ED28BF9B5B00DA8485 /* KodeksyRu */,
+				054C351C298B980A002986E8 /* Andrei */,
+				054C351B298B96AB002986E8 /* Bibles */,
 				0579E1D428E45F6D007C84E9 /* InfoPlist.strings */,
 			);
 			path = TargetSettings;
@@ -1699,7 +1715,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = Sources/TargetSettings/BibleKorean/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleKorean/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "성경";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1726,7 +1742,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = Sources/TargetSettings/BibleKorean/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleKorean/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "성경";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -1751,7 +1767,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = C44T395X8A;
-				INFOPLIST_FILE = Sources/TargetSettings/KodeksyPl/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyPl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1773,7 +1789,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = C44T395X8A;
-				INFOPLIST_FILE = Sources/TargetSettings/KodeksyPl/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyPl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1795,7 +1811,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.4.1;
 				DEVELOPMENT_TEAM = C44T395X8A;
-				INFOPLIST_FILE = Sources/TargetSettings/KodeksyRu/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyRu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1872,7 +1888,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.4.1;
 				DEVELOPMENT_TEAM = C44T395X8A;
-				INFOPLIST_FILE = Sources/TargetSettings/KodeksyRu/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyRu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1895,7 +1911,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1920,7 +1936,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = Sources/TargetSettings/BibleEn/Info.plist;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
