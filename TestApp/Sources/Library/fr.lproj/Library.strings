@@ -1,0 +1,18 @@
+
+/* Class = "UITableViewSection"; headerTitle = "Informations"; ObjectID = "7HA-fQ-L6b"; */
+"7HA-fQ-L6b.headerTitle" = "Informations";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "AeP-YY-VQi"; */
+"AeP-YY-VQi.text" = "-";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "SdF-1d-PYd"; */
+"SdF-1d-PYd.text" = "Titre";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "UKy-Ff-YAM"; */
+"UKy-Ff-YAM.text" = "-";
+
+/* Class = "UINavigationItem"; title = "Library"; ObjectID = "ayk-i8-5FT"; */
+"ayk-i8-5FT.title" = "Une bibliothèque";
+
+/* Class = "UILabel"; text = "Id"; ObjectID = "p9s-Zu-SAp"; */
+"p9s-Zu-SAp.text" = "Id";

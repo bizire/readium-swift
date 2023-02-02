@@ -1,0 +1,37 @@
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "4Jb-8m-jtJ"; */
+"4Jb-8m-jtJ.title" = "À propos de";
+
+/* Class = "UILabel"; text = "Rate the application"; ObjectID = "5Eh-02-w3x"; */
+"5Eh-02-w3x.text" = "Évaluez l'application" ;
+
+/* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
+"81r-ek-xdu.headerTitle" = "Version";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "AJB-jl-oRw"; */
+"AJB-jl-oRw.text" = "version";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgments"; ObjectID = "C0F-Xn-bao"; */
+"C0F-Xn-bao.headerTitle" = "Remerciements";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Chj-Xu-pEV"; */
+"Chj-Xu-pEV.text" = "Détail";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "ETW-vh-NeW"; */
+"ETW-vh-NeW.text" = "Nom";
+
+/* Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "GHG-y0-JHc"; */
+"GHG-y0-JHc.text" = "Passer à la version premium";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "IoA-oA-Dga"; */
+"IoA-oA-Dga.headerTitle" = "Paramètres";
+
+"UdW-hM-bJC.text" = "Restaurer les achats" ;
+
+"aQ4-bl-29m.text" = "construire" ;
+
+"goA-PY-6mv.text" = "R2 Reader n'aurait pas vu le jour sans l'aide financière de l'État français.";
+
+"iRb-UO-KnL.text" = "Détail" ;
+
+"uhp-hA-PYD.text" = "Détail" ;

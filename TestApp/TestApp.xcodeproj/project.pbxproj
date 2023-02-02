@@ -522,6 +522,17 @@
 		054C359A298B9A2C002986E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054C359B298B9A4C002986E8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		054C359D298B9D37002986E8 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		054C359F298BAE3A002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/About.strings; sourceTree = "<group>"; };
+		054C35A0298BAE3A002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Library.strings; sourceTree = "<group>"; };
+		054C35A1298BAE3A002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/PublicationCollectionViewCell.strings; sourceTree = "<group>"; };
+		054C35A2298BAE3A002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/PublicationMenuViewController.strings; sourceTree = "<group>"; };
+		054C35A3298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/PaywallBoard.strings; sourceTree = "<group>"; };
+		054C35A4298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/OPDS.strings; sourceTree = "<group>"; };
+		054C35A5298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/DRM.strings; sourceTree = "<group>"; };
+		054C35A6298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/UserSettings.strings; sourceTree = "<group>"; };
+		054C35A7298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		054C35A8298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		054C35A9298BAE3B002986E8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		05592E5E28C51A0500A9F993 /* AdHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdHelper.swift; sourceTree = "<group>"; };
 		05592E6128C5210700A9F993 /* AppOpenAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOpenAdManager.swift; sourceTree = "<group>"; };
 		05592E6428C6106A00A9F993 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -1302,6 +1313,7 @@
 				ru,
 				pl,
 				ko,
+				fr,
 			);
 			mainGroup = 1ED26426925A9C10B3DC859C;
 			packageReferences = (
@@ -1857,6 +1869,7 @@
 			children = (
 				E8B8E0D58FB49952B77BA2FC /* Base */,
 				0570AA1E297E855E00B78B80 /* ko */,
+				054C35A5298BAE3B002986E8 /* fr */,
 			);
 			name = DRM.storyboard;
 			sourceTree = "<group>";
@@ -1868,6 +1881,7 @@
 				05647B0128D3598800AEBE48 /* ru */,
 				05697C9229013B0C00A27891 /* pl */,
 				0570AA1C297E855E00B78B80 /* ko */,
+				054C35A3298BAE3B002986E8 /* fr */,
 			);
 			name = PaywallBoard.storyboard;
 			sourceTree = "<group>";
@@ -1879,6 +1893,7 @@
 				0579E1D528E45F71007C84E9 /* ru */,
 				05697C9429013B0C00A27891 /* pl */,
 				0570AA21297E855E00B78B80 /* ko */,
+				054C35A8298BAE3B002986E8 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1890,6 +1905,7 @@
 				05BCF17528D1D788007B37A6 /* en */,
 				05697C9529013B0C00A27891 /* pl */,
 				0570AA22297E855E00B78B80 /* ko */,
+				054C35A9298BAE3B002986E8 /* fr */,
 			);
 			name = Localizable.strings;
 			path = en.lproj;
@@ -1900,6 +1916,7 @@
 			children = (
 				DCE11921E244628EA381393D /* Base */,
 				0570AA20297E855E00B78B80 /* ko */,
+				054C35A7298BAE3B002986E8 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1912,6 +1929,7 @@
 				05BCF16F28D1C55F007B37A6 /* ru */,
 				05697C9129013B0B00A27891 /* pl */,
 				0570AA1B297E855E00B78B80 /* ko */,
+				054C35A2298BAE3A002986E8 /* fr */,
 			);
 			name = PublicationMenuViewController.xib;
 			sourceTree = "<group>";
@@ -1921,6 +1939,7 @@
 			children = (
 				14B7A54478D7171B916B23A1 /* Base */,
 				0570AA1D297E855E00B78B80 /* ko */,
+				054C35A4298BAE3B002986E8 /* fr */,
 			);
 			name = OPDS.storyboard;
 			sourceTree = "<group>";
@@ -1933,6 +1952,7 @@
 				05BCF17928D1DEF3007B37A6 /* en */,
 				05697C9029013B0B00A27891 /* pl */,
 				0570AA19297E855D00B78B80 /* ko */,
+				054C35A0298BAE3A002986E8 /* fr */,
 			);
 			name = Library.storyboard;
 			sourceTree = "<group>";
@@ -1944,6 +1964,7 @@
 				05BCF16E28D1C55F007B37A6 /* ru */,
 				05697C8F29013B0B00A27891 /* pl */,
 				0570AA18297E855D00B78B80 /* ko */,
+				054C359F298BAE3A002986E8 /* fr */,
 			);
 			name = About.storyboard;
 			sourceTree = "<group>";
@@ -1956,6 +1977,7 @@
 				05BCF17028D1C55F007B37A6 /* ru */,
 				05697C9329013B0C00A27891 /* pl */,
 				0570AA1F297E855E00B78B80 /* ko */,
+				054C35A6298BAE3B002986E8 /* fr */,
 			);
 			name = UserSettings.storyboard;
 			sourceTree = "<group>";
@@ -1965,6 +1987,7 @@
 			children = (
 				E2741BE6EBD71BCAB6D48BF8 /* Base */,
 				0570AA1A297E855D00B78B80 /* ko */,
+				054C35A1298BAE3A002986E8 /* fr */,
 			);
 			name = PublicationCollectionViewCell.xib;
 			sourceTree = "<group>";

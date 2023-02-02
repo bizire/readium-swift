@@ -1,0 +1,18 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "5mQ-FV-8fe"; */
+"5mQ-FV-8fe.title" = "Article";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "Baw-ch-W2x"; */
+"Baw-ch-W2x.text" = "Mensuel";
+
+/* Class = "UILabel"; text = "TitleTop"; ObjectID = "GAk-vz-h6w"; */
+"GAk-vz-h6w.text" = "TitleTop";
+
+/* Class = "UINavigationItem"; title = "BIBLES PREMIUM"; ObjectID = "T2n-Xj-jYR"; */
+"T2n-Xj-jYR.title" = "BIBLES PREMIUM";
+
+/* Class = "UILabel"; text = "Includes 7-day Free Trial"; ObjectID = "klJ-c1-asM"; */
+"klJ-c1-asM.text" = "Comprend un essai gratuit de 7 jours";
+
+/* Class = "UILabel"; text = "TitleBottom"; ObjectID = "zxP-3M-OGk"; */
+"zxP-3M-OGk.text" = "TitleBottom";

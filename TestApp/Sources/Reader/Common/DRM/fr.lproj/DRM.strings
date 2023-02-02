@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "Provider"; ObjectID = "1Qn-t2-LIJ"; */
+"1Qn-t2-LIJ.text" = "Provider";
+
+/* Class = "UILabel"; text = "Updated"; ObjectID = "3Vd-5C-Uht"; */
+"3Vd-5C-Uht.text" = "Updated";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "5p9-km-LSD"; */
+"5p9-km-LSD.text" = "Start";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "8m8-xB-1cd"; */
+"8m8-xB-1cd.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "8p2-G3-e0g"; */
+"8p2-G3-e0g.text" = "-";
+
+/* Class = "UILabel"; text = "End"; ObjectID = "92k-jD-1sa"; */
+"92k-jD-1sa.text" = "End";
+
+/* Class = "UILabel"; text = "Prints left"; ObjectID = "D2B-f1-3ZD"; */
+"D2B-f1-3ZD.text" = "Prints left";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "FHq-hg-Ygk"; */
+"FHq-hg-Ygk.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "G8m-ts-beC"; */
+"G8m-ts-beC.normalTitle" = "Return";
+
+/* Class = "UILabel"; text = "Copies left"; ObjectID = "IFG-M8-lvK"; */
+"IFG-M8-lvK.text" = "Copies left";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "LZe-YP-nLY"; */
+"LZe-YP-nLY.text" = "-";
+
+/* Class = "UITableViewController"; title = "Drm Management"; ObjectID = "Odk-Rs-3Y9"; */
+"Odk-Rs-3Y9.title" = "Drm Management";
+
+/* Class = "UIButton"; normalTitle = "Renew"; ObjectID = "Rpa-mS-YHK"; */
+"Rpa-mS-YHK.normalTitle" = "Renew";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "SgJ-A1-pYt"; */
+"SgJ-A1-pYt.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "dNt-as-5wG"; */
+"dNt-as-5wG.text" = "-";
+
+/* Class = "UILabel"; text = "License Type"; ObjectID = "dt5-oW-aIQ"; */
+"dt5-oW-aIQ.text" = "License Type";
+
+/* Class = "UILabel"; text = "Issued"; ObjectID = "gkM-mq-QV0"; */
+"gkM-mq-QV0.text" = "Issued";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "kXr-dn-BqD"; */
+"kXr-dn-BqD.text" = "-";
+
+/* Class = "UITableViewSection"; headerTitle = "Actions"; ObjectID = "lHb-PR-oKX"; */
+"lHb-PR-oKX.headerTitle" = "Actions";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "qV8-05-ogH"; */
+"qV8-05-ogH.text" = "-";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "qgc-GM-4E8"; */
+"qgc-GM-4E8.text" = "State";
+
+/* Class = "UITableViewSection"; headerTitle = "Rights"; ObjectID = "roR-UT-5fX"; */
+"roR-UT-5fX.headerTitle" = "Rights";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "wyZ-L4-cEw"; */
+"wyZ-L4-cEw.text" = "-";
+
+/* Class = "UITableViewSection"; headerTitle = "Informations"; ObjectID = "xKa-kv-HPr"; */
+"xKa-kv-HPr.headerTitle" = "Informations";
