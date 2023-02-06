@@ -3,7 +3,7 @@
 "4Jb-8m-jtJ.title" = "À propos de";
 
 /* Class = "UILabel"; text = "Rate the application"; ObjectID = "5Eh-02-w3x"; */
-"5Eh-02-w3x.text" = "Évaluez l'application" ;
+"5Eh-02-w3x.text" = "Évaluez l'application";
 
 /* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
 "81r-ek-xdu.headerTitle" = "Version";
@@ -26,12 +26,12 @@
 /* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "IoA-oA-Dga"; */
 "IoA-oA-Dga.headerTitle" = "Paramètres";
 
-"UdW-hM-bJC.text" = "Restaurer les achats" ;
+"UdW-hM-bJC.text" = "Restaurer les achats";
 
-"aQ4-bl-29m.text" = "construire" ;
+"aQ4-bl-29m.text" = "construire";
 
 "goA-PY-6mv.text" = "R2 Reader n'aurait pas vu le jour sans l'aide financière de l'État français.";
 
-"iRb-UO-KnL.text" = "Détail" ;
+"iRb-UO-KnL.text" = "Détail";
 
-"uhp-hA-PYD.text" = "Détail" ;
+"uhp-hA-PYD.text" = "Détail";
