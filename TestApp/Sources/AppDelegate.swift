@@ -71,11 +71,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
         
-        AppOpenAdManager.shared.loadAd()
-        
         Purchases.logLevel = .debug
         let revenueCatPublicKey = Bundle.main.object(forInfoDictionaryKey: "RevenueCatPublicKey") as! String
         Purchases.configure(withAPIKey: revenueCatPublicKey)
+        
+        
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                AppOpenAdManager.shared.loadAd()
+            }
+        }
 
         return true
     }
@@ -94,8 +99,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         if let rootViewController = rootViewController {
             if (appBecomeActiveCounter > 1 || launchedAppDelegateCounter > 1) {
-                print("appBecomeActiveCounter = \(appBecomeActiveCounter) & launchedAppDelegateCounter = \(launchedAppDelegateCounter)")
-                AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
+                
+                Purchases.shared.getCustomerInfo { (customerInfo, error) in
+                    if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                        print("appBecomeActiveCounter = \(self.appBecomeActiveCounter) & launchedAppDelegateCounter = \(self.launchedAppDelegateCounter)")
+                        AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
+                    }
+                }
             }
         }
         
