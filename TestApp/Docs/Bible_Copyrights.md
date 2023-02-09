@@ -37,13 +37,13 @@ ENGLISH
 
 KORERAN
 01  First Korean Bible (1911)          https://dbs.org/bibles/KORSYS
-02  KJV Bible
+02  KJV Bible                          http://pacificbibles.org/details.php?id=eng-kjv
 ??  Sinyak chynsy ch'ansongga happu    https://archive.org/details/sinyakchynsychan00soeuuoft (формат плохой)
-??  Korean Bible         http://www.htmlbible.com/#google_vignette (формат плохой)
-??  Bilbi KJV KOR OTNT     аналог       https://archive.org/details/bilbi-kjv-kor-otnt/mode/2up
+??  Korean Bible                       http://www.htmlbible.com/#google_vignette (формат плохой)
+??  Bilbi KJV KOR OTNT     аналог      https://archive.org/details/bilbi-kjv-kor-otnt/mode/2up
 ??  https://www.christunite.com/index.php/korean-bible-in-pdg
 ??  https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/languages/korean?lang=eng
-https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1
+??  https://www.bskorea.or.kr/bbs/content.php?co_id=subpage2_3_4_1
 Complete Bible Revised Korean Version    July 10, 1961    December 31, 2011 Copyright protection period expires
 Gwangju Bible Book Revised Korean Version    May 10, 1962    December 31, 2012 Copyright protection period expires
 Gwanju Bible in Korean and Chinese    November 30, 1964    December 31, 2014 Copyright protection period expires
@@ -52,8 +52,8 @@ Gwanju Bible in Korean and Chinese    November 30, 1964    December 31, 2014 Cop
 
 FRENCH
 01  Sainte Bible libre pour le monde (French Free Holy Bible for the World) https://ebible.org/details.php?id=frasbl
-02  French Louis Segond 1910 https://ebible.org/details.php?id=fraLSG
+02  French Louis Segond 1910        https://ebible.org/details.php?id=fraLSG
 03  Sainte Bible néo-Crampon Libre  https://ebible.org/details.php?id=francl
-04  La Sainte Bible https://ebible.org/details.php?id=fra_fob
-05  Breton Gospels  https://ebible.org/details.php?id=breBRG
-06  KJV Bible  
+04  La Sainte Bible                 https://ebible.org/details.php?id=fra_fob
+05  Breton Gospels                  https://ebible.org/details.php?id=breBRG
+06  KJV Bible                       http://pacificbibles.org/details.php?id=eng-kjv
