@@ -82,7 +82,9 @@
 "paywall_free_trial" = " 1 semaine d'essai gratuit ";
 "paywall_privacy" = "Politique de confidentialité";
 "paywall_terms" = "Conditions d'utilisation";
-"paywall_lifetime" = "À vie";
+"paywall_lifetime" = "durée de vie";
 "paywall_month" = "Mois";
 "paywall_year" = "Année";
 "paywall_header" = "• Déverrouiller tous les accès\n• Supprimer les publicités dans la version PRO\n• Nouveaux livres ajoutés chaque mois\n• Tous les livres sont mis à jour en continu";
+"paywall_tos" = "L'abonnement se renouvelle automatiquement à moins que le renouvellement automatique ne soit désactivé au moins 24 heures avant la fin de la période en cours.\n
+L'abonnement peut être géré par l'utilisateur et le renouvellement automatique peut être désactivé en accédant aux paramètres du compte de l'utilisateur après l'achat. La suppression de l'application n'annule pas automatiquement l'abonnement.";

@@ -22,8 +22,8 @@ class PaywallViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.sectionHeaderHeight = 150
-        tableView.estimatedSectionHeaderHeight = 150
+        tableView.sectionHeaderHeight = 175
+        tableView.estimatedSectionHeaderHeight = 175
 
         /// - Load offerings when the paywall is displayed
         Purchases.shared.getOfferings { (offerings, error) in
@@ -57,7 +57,7 @@ class PaywallViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 300))
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 0))
         
         //headerView.backgroundColor = .lightGray
         
@@ -81,7 +81,7 @@ class PaywallViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         guard section == 0 else { return nil }
 
-        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 240.0))
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 0))
     
         let privacyButton = UILabel()
         privacyButton.numberOfLines = 0
