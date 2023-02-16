@@ -57,3 +57,12 @@ FRENCH
 04  La Sainte Bible                 https://ebible.org/details.php?id=fra_fob
 05  Breton Gospels                  https://ebible.org/details.php?id=breBRG
 06  KJV Bible                       http://pacificbibles.org/details.php?id=eng-kjv
+
+
+SPANISH
+01  Santa Biblia — Reina Valera 1909    https://ebible.org/Scriptures/details.php?id=spaRV1909
+02  Santa Biblia libre para el mundo    https://ebible.org/Scriptures/details.php?id=spablm
+03  La Biblia en España, Tomo I (de 3) by George Borrow https://www.gutenberg.org/ebooks/51019
+04  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
+05  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
+
