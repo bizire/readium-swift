@@ -57,3 +57,20 @@ FRENCH
 04  La Sainte Bible                 https://ebible.org/details.php?id=fra_fob
 05  Breton Gospels                  https://ebible.org/details.php?id=breBRG
 06  KJV Bible                       http://pacificbibles.org/details.php?id=eng-kjv
+
+French Crampon Bible (1923)     https://dbs.org/bibles/FRABAC
+French 1885 Darby               https://dbs.org/bibles/FRADBY
+Louis Claude Fillion Bible      https://dbs.org/bibles/FRALCF
+The Roques-Martin 1744 Revision https://dbs.org/bibles/FRAM44
+?   Vie de Ste Mère Thérèse d'Avila Gravures    https://archive.org/details/vie_de_ste_mere_therese_de_jesus-d_avila-vita_s_virginis_teresiae_a_iesv_gravures/mode/2up
+
+
+SPANISH
+01  Santa Biblia — Reina Valera 1909    https://ebible.org/Scriptures/details.php?id=spaRV1909
+02  Santa Biblia libre para el mundo    https://ebible.org/Scriptures/details.php?id=spablm
+03  Caló Gospel of Luke 1872            https://dbs.org/bibles/RMQLUK
+
+03  La Biblia en España, Tomo I (de 3) by George Borrow https://www.gutenberg.org/ebooks/51019
+04  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
+05  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
+
