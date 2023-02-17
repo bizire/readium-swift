@@ -58,10 +58,12 @@ FRENCH
 05  Breton Gospels                  https://ebible.org/details.php?id=breBRG
 06  KJV Bible                       http://pacificbibles.org/details.php?id=eng-kjv
 
+pdf
 French Crampon Bible (1923)     https://dbs.org/bibles/FRABAC
 French 1885 Darby               https://dbs.org/bibles/FRADBY
 Louis Claude Fillion Bible      https://dbs.org/bibles/FRALCF
 The Roques-Martin 1744 Revision https://dbs.org/bibles/FRAM44
+
 ?   Vie de Ste Mère Thérèse d'Avila Gravures    https://archive.org/details/vie_de_ste_mere_therese_de_jesus-d_avila-vita_s_virginis_teresiae_a_iesv_gravures/mode/2up
 
 
@@ -74,3 +76,7 @@ SPANISH
 04  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
 05  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
 
+? качества
+Sagrada Biblia Nacar Colunga (1944) (1ª Edición)    https://archive.org/details/SagradaBibliaNacarColunga19441Edicin/page/n7/mode/2up
+Sagrada Biblia Bover Cantera    https://archive.org/details/SagradaBiblia.BoverCantera/mode/2up
+Biblia de Casiodoro de Reina 1569   https://archive.org/details/BibliaDeCasiodoroDeReina1569/page/n1/mode/2up
