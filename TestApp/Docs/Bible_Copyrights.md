@@ -57,12 +57,12 @@ FRENCH
 04  La Sainte Bible                 https://ebible.org/details.php?id=fra_fob
 05  Breton Gospels                  https://ebible.org/details.php?id=breBRG
 06  KJV Bible                       http://pacificbibles.org/details.php?id=eng-kjv
+07-11   Vie de Ste Mère Thérèse d'Avila Gravures https://archive.org/details/vie_de_ste_mere_therese_de_jesus-d_avila-vita_s_virginis_teresiae_a_iesv_gravures/mode/2up
+12  French Crampon Bible (1923)     https://dbs.org/bibles/FRABAC
+13  French 1885 Darby               https://dbs.org/bibles/FRADBY
+14  Louis Claude Fillion Bible      https://dbs.org/bibles/FRALCF
+15  The Roques-Martin 1744 Revision https://dbs.org/bibles/FRAM44
 
-French Crampon Bible (1923)     https://dbs.org/bibles/FRABAC
-French 1885 Darby               https://dbs.org/bibles/FRADBY
-Louis Claude Fillion Bible      https://dbs.org/bibles/FRALCF
-The Roques-Martin 1744 Revision https://dbs.org/bibles/FRAM44
-?   Vie de Ste Mère Thérèse d'Avila Gravures    https://archive.org/details/vie_de_ste_mere_therese_de_jesus-d_avila-vita_s_virginis_teresiae_a_iesv_gravures/mode/2up
 
 
 SPANISH
