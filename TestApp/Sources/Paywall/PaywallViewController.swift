@@ -127,6 +127,8 @@ class PaywallViewController: UITableViewController {
         termsLabel.leadingAnchor.constraint(equalTo: footerView.leadingAnchor).isActive = true
         termsLabel.trailingAnchor.constraint(equalTo: footerView.trailingAnchor).isActive = true
         termsLabel.topAnchor.constraint(equalTo: privacyButton.bottomAnchor, constant: 30).isActive = true
+        
+        termsLabel.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasSubscriptions") as? Bool ?? true)
 
         return footerView
     }
