@@ -19,9 +19,11 @@
 	<key>CFBundleDisplayName</key>
 	<string>la Bible</string>
 	<key>FreeItemsAmount</key>
-	<integer>2</integer>
+	<integer>5</integer>
 	<key>hasPremiumContent</key>
 	<true/>
+	<key>hasSubscriptions</key>
+	<false/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>privacyPolicyURL</key>
