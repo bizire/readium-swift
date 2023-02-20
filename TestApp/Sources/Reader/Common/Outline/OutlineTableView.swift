@@ -24,6 +24,9 @@ struct OutlineTableView: View {
     @ObservedObject private var highlightsModel: HighlightsViewModel
     @State private var selectedSection: OutlineSection = .tableOfContents
     
+    private var  highlightRepository: HighlightRepository
+    private var  bookmarkRepository: BookmarkRepository
+    
     // Outlines (list of links) to display for each section.
     private var outlines: [OutlineSection: [(level: Int, link: R2Shared.Link)]] = [:]
 
@@ -31,6 +34,9 @@ struct OutlineTableView: View {
         self.publication = publication
         self.bookmarksModel = BookmarksViewModel(bookId: bookId, repository: bookmarkRepository)
         self.highlightsModel = HighlightsViewModel(bookId: bookId, repository: highlightRepository)
+        
+        self.highlightRepository = highlightRepository
+        self.bookmarkRepository = bookmarkRepository
 
         func flatten(_ links: [R2Shared.Link], level: Int = 0) -> [(level: Int, link: R2Shared.Link)] {
             return links.flatMap { [(level, $0)] + flatten($0.children, level: level + 1) }
@@ -72,6 +78,17 @@ struct OutlineTableView: View {
                         .onTapGesture {
                             locatorSubject.send(bookmark.locator)
                         }
+                        .contextMenu {
+                            Button {
+                                print("Remove Bookmark \(bookmark.id) - \(bookmarksModel)")
+                                bookmarkRepository.remove(bookmark.id ?? 0)
+                                    .assertNoFailure()
+                                    .sink {}
+                                bookmarksModel.load()
+                            } label: {
+                                Label("Remove Bookmark", systemImage: "trash")
+                            }
+                        }
                 }
                 .onAppear { self.bookmarksModel.loadIfNeeded() }
             case .highlights:
@@ -81,6 +98,17 @@ struct OutlineTableView: View {
                         .listRowInsets(EdgeInsets()) // to remove padding at the left side
                         .onTapGesture {
                             locatorSubject.send(highlight.locator)
+                        }
+                        .contextMenu {
+                            Button {
+                                print("Remove Highlight \(highlight.id) - \(highlightsModel)")
+                                highlightRepository.remove(highlight.id)
+                                    .assertNoFailure()
+                                    .sink {}
+                                highlightsModel.load()
+                            } label: {
+                                Label("Remove Highlight", systemImage: "trash")
+                            }
                         }
                 }
                 .onAppear { self.highlightsModel.loadIfNeeded() }
