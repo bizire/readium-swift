@@ -486,6 +486,106 @@
 		C3A32F232927566F00EA386A /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = C3A32EB92927566F00EA386A /* GRDB */; };
 		C3A32F242927566F00EA386A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C3A32EBB2927566F00EA386A /* Kingfisher */; };
 		C3A32F252927566F00EA386A /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3A32EBD2927566F00EA386A /* MBProgressHUD */; };
+		C3E0FC5329B1DF7F000791FA /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
+		C3E0FC5429B1DF7F000791FA /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
+		C3E0FC5529B1DF7F000791FA /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
+		C3E0FC5629B1DF7F000791FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1930F8CFCBB7CC4E9D0DA /* AppDelegate.swift */; };
+		C3E0FC5729B1DF7F000791FA /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7E71E8C0ABD5B77C83B87 /* AppModule.swift */; };
+		C3E0FC5829B1DF7F000791FA /* AssociatedColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BCA7CE8B471C3F3D5A868 /* AssociatedColors.swift */; };
+		C3E0FC5929B1DF7F000791FA /* BarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20986FFBF781124291B16A /* BarButtonItem.swift */; };
+		C3E0FC5A29B1DF7F000791FA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4BEF972CC84C0C164F786 /* Book.swift */; };
+		C3E0FC5B29B1DF7F000791FA /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B6D32BBF721EC9447161B /* Bookmark.swift */; };
+		C3E0FC5C29B1DF7F000791FA /* BookmarkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ED5672B3672F2755778E7 /* BookmarkCellView.swift */; };
+		C3E0FC5D29B1DF7F000791FA /* CBZModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63C7716E3EA2AF3C824C96 /* CBZModule.swift */; };
+		C3E0FC5E29B1DF7F000791FA /* CBZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EB45CF8E5CB0A84F737EF /* CBZViewController.swift */; };
+		C3E0FC5F29B1DF7F000791FA /* TTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AF729360358005D6C76 /* TTSView.swift */; };
+		C3E0FC6029B1DF7F000791FA /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F1739776752B342DAC86E /* ColorScheme.swift */; };
+		C3E0FC6129B1DF7F000791FA /* DRMLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6362C74EC6EAF98710B865 /* DRMLibraryService.swift */; };
+		C3E0FC6229B1DF7F000791FA /* DRMManagementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA68C48E761AD0E761A6E27F /* DRMManagementTableViewController.swift */; };
+		C3E0FC6329B1DF7F000791FA /* DRMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E576E76A22085B41F109F1 /* DRMViewModel.swift */; };
+		C3E0FC6429B1DF7F000791FA /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C5EDECAA900C3461CE9C7 /* Database.swift */; };
+		C3E0FC6529B1DF7F000791FA /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3D58B9E3F9238B61A5EB0A /* DetailsTableViewController.swift */; };
+		C3E0FC6629B1DF7F000791FA /* EPUBModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295DD61B5976596FF29B134F /* EPUBModule.swift */; };
+		C3E0FC6729B1DF7F000791FA /* EPUBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D7C372DC613AB648E24A5 /* EPUBViewController.swift */; };
+		C3E0FC6829B1DF7F000791FA /* FontSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB0DBEF8FA7DA2AA818CBF /* FontSelectionViewController.swift */; };
+		C3E0FC6929B1DF7F000791FA /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD0948FF2B0226BAF8A58C /* Future.swift */; };
+		C3E0FC6A29B1DF7F000791FA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2E8703CA4536C6A9F1DA4 /* HTTPClient.swift */; };
+		C3E0FC6B29B1DF7F000791FA /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE73F029228D69949169CA /* Highlight.swift */; };
+		C3E0FC6C29B1DF7F000791FA /* HighlightCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */; };
+		C3E0FC6D29B1DF7F000791FA /* HighlightContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646477FFB2C6B197EB588F6D /* HighlightContextMenu.swift */; };
+		C3E0FC6E29B1DF7F000791FA /* AdHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05592E5E28C51A0500A9F993 /* AdHelper.swift */; };
+		C3E0FC6F29B1DF7F000791FA /* LCPLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC3078ED4F28ECED45116A6 /* LCPLibraryService.swift */; };
+		C3E0FC7029B1DF7F000791FA /* LCPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219A5E268854BBE24946DCDA /* LCPViewModel.swift */; };
+		C3E0FC7129B1DF7F000791FA /* LibraryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6AACD738052407C7A458A /* LibraryError.swift */; };
+		C3E0FC7229B1DF7F000791FA /* LibraryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E743FF44F492916D9A0C88 /* LibraryFactory.swift */; };
+		C3E0FC7329B1DF7F000791FA /* LibraryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBACED055500DE4FD673361 /* LibraryModule.swift */; };
+		C3E0FC7429B1DF7F000791FA /* LibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A073FB589CF3FF67B1238B /* LibraryService.swift */; };
+		C3E0FC7529B1DF7F000791FA /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D9C160BD5493504106075 /* LibraryViewController.swift */; };
+		C3E0FC7629B1DF7F000791FA /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8D849936E1E72620852C0 /* Locator.swift */; };
+		C3E0FC7729B1DF7F000791FA /* OPDSCatalogSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E676227562375B05DF893 /* OPDSCatalogSelectorViewController.swift */; };
+		C3E0FC7829B1DF7F000791FA /* OPDSFacetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2E8DA2F2C42843B0E518A /* OPDSFacetViewController.swift */; };
+		C3E0FC7929B1DF7F000791FA /* OPDSFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A413A22C29CF61F5B865FE /* OPDSFactory.swift */; };
+		C3E0FC7A29B1DF7F000791FA /* OPDSGroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDB3E005B0D50A67E4B302 /* OPDSGroupCollectionViewCell.swift */; };
+		C3E0FC7B29B1DF7F000791FA /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289B00293604BA005D6C76 /* IconButton.swift */; };
+		C3E0FC7C29B1DF7F000791FA /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF1BA528CF45A90048FF43 /* PaywallViewController.swift */; };
+		C3E0FC7D29B1DF7F000791FA /* OPDSGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C335362E05BA9C2262377B5 /* OPDSGroupTableViewCell.swift */; };
+		C3E0FC7E29B1DF7F000791FA /* OPDSModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F6AA7CFB54828587B4C2BD /* OPDSModule.swift */; };
+		C3E0FC7F29B1DF7F000791FA /* OPDSNavigationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BE625C00E4E3FA05DADFF4 /* OPDSNavigationTableViewCell.swift */; };
+		C3E0FC8029B1DF7F000791FA /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
+		C3E0FC8129B1DF7F000791FA /* OPDSPublicationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A472DB41B4B1A08ACB2790 /* OPDSPublicationInfoViewController.swift */; };
+		C3E0FC8229B1DF7F000791FA /* TTSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05289AFB29360379005D6C76 /* TTSViewModel.swift */; };
+		C3E0FC8329B1DF7F000791FA /* OPDSPublicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FF4E41531C4B7E5F56CA9 /* OPDSPublicationTableViewCell.swift */; };
+		C3E0FC8429B1DF7F000791FA /* OPDSRootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C484C35B4B09F3172AE21 /* OPDSRootTableViewController.swift */; };
+		C3E0FC8529B1DF7F000791FA /* OutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A4FDE30E7C7D9D2E6587F /* OutlineTableView.swift */; };
+		C3E0FC8629B1DF7F000791FA /* OutlineViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AECAB98D231AFEE0038AA /* OutlineViewModels.swift */; };
+		C3E0FC8729B1DF7F000791FA /* PDFModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412A4C20FF3322DA6572148 /* PDFModule.swift */; };
+		C3E0FC8829B1DF7F000791FA /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43595DBE2748858D41904CFF /* PDFViewController.swift */; };
+		C3E0FC8929B1DF7F000791FA /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898D20CA53FACF93D1112AD /* Paths.swift */; };
+		C3E0FC8A29B1DF7F000791FA /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8813BAB0364FFF2AB749EF /* Publication.swift */; };
+		C3E0FC8B29B1DF7F000791FA /* PublicationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C701AE077B8C41F5670B54 /* PublicationCollectionViewCell.swift */; };
+		C3E0FC8C29B1DF7F000791FA /* PublicationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC66135DDACA0800F593CE06 /* PublicationMenuViewController.swift */; };
+		C3E0FC8D29B1DF7F000791FA /* ReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7504EA8EEA2275B1E6314E /* ReaderError.swift */; };
+		C3E0FC8E29B1DF7F000791FA /* ReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1022CE4E01407AA8008657F /* ReaderFactory.swift */; };
+		C3E0FC8F29B1DF7F000791FA /* AppOpenAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05592E6128C5210700A9F993 /* AppOpenAdManager.swift */; };
+		C3E0FC9029B1DF7F000791FA /* ReaderFormatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE6839679D50BCA960FDC7 /* ReaderFormatModule.swift */; };
+		C3E0FC9129B1DF7F000791FA /* ReaderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC385C308B084FC1818C4C3B /* ReaderModule.swift */; };
+		C3E0FC9229B1DF7F000791FA /* PackageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF1BB428CF4DB80048FF43 /* PackageCellView.swift */; };
+		C3E0FC9329B1DF7F000791FA /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B824A652FF4727AE8BBE10CB /* ReaderViewController.swift */; };
+		C3E0FC9429B1DF7F000791FA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF1BAE28CF46C10048FF43 /* Errors.swift */; };
+		C3E0FC9529B1DF7F000791FA /* ScreenOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC99136B5512E18CAE5ED0 /* ScreenOrientation.swift */; };
+		C3E0FC9629B1DF7F000791FA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07694348D60D625573BF0D54 /* SearchView.swift */; };
+		C3E0FC9729B1DF7F000791FA /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6568CDFCE7AADEE9571FD0 /* SearchViewModel.swift */; };
+		C3E0FC9829B1DF7F000791FA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2508914046BC11A5C631927 /* String.swift */; };
+		C3E0FC9929B1DF7F000791FA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D1FD4B7536F2554CBD5346 /* Toast.swift */; };
+		C3E0FC9A29B1DF7F000791FA /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81CF03F43222ACEFC22746 /* UIImage.swift */; };
+		C3E0FC9B29B1DF7F000791FA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46655229273F3E0A5D37B2 /* UIViewController.swift */; };
+		C3E0FC9C29B1DF7F000791FA /* UserSettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECCD8766EA443E1BC1BA04B /* UserSettingsNavigationController.swift */; };
+		C3E0FC9D29B1DF7F000791FA /* UserSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE226B7C320728ED746F284 /* UserSettingsTableViewController.swift */; };
+		C3E0FC9E29B1DF7F000791FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF1BAB28CF46570048FF43 /* Constants.swift */; };
+		C3E0FCA029B1DF7F000791FA /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7768A1D1FA79C3F1FB8DEEE /* About.storyboard */; };
+		C3E0FCA129B1DF7F000791FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7949E96E2A7327FBB333B1A7 /* Assets.xcassets */; };
+		C3E0FCA329B1DF7F000791FA /* DRM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F5DD3300F571D9E52F7EEA /* DRM.storyboard */; };
+		C3E0FCA429B1DF7F000791FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0579E1D428E45F6D007C84E9 /* InfoPlist.strings */; };
+		C3E0FCA529B1DF7F000791FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2DCBF5B466E61387AC185F /* LaunchScreen.storyboard */; };
+		C3E0FCA629B1DF7F000791FA /* PaywallBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05647AF828D358EC00AEBE48 /* PaywallBoard.storyboard */; };
+		C3E0FCA729B1DF7F000791FA /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BD5448CA18BF8E497236AD /* Library.storyboard */; };
+		C3E0FCA829B1DF7F000791FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05BCF17428D1D775007B37A6 /* Localizable.strings */; };
+		C3E0FCA929B1DF7F000791FA /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
+		C3E0FCAB29B1DF7F000791FA /* PublicationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8516E9EFD3F88FB72636C8 /* PublicationCollectionViewCell.xib */; };
+		C3E0FCAC29B1DF7F000791FA /* PublicationMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E882ACEF2870D05704E7890 /* PublicationMenuViewController.xib */; };
+		C3E0FCAD29B1DF7F000791FA /* UserSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8E5FD3DA735987AAEDF22 /* UserSettings.storyboard */; };
+		C3E0FCAF29B1DF7F000791FA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05592E6428C6106A00A9F993 /* StoreKit.framework */; };
+		C3E0FCB029B1DF7F000791FA /* R2Shared in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4329B1DF7F000791FA /* R2Shared */; };
+		C3E0FCB129B1DF7F000791FA /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC5029B1DF7F000791FA /* RevenueCat */; };
+		C3E0FCB229B1DF7F000791FA /* R2Streamer in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4529B1DF7F000791FA /* R2Streamer */; };
+		C3E0FCB329B1DF7F000791FA /* R2Navigator in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4629B1DF7F000791FA /* R2Navigator */; };
+		C3E0FCB429B1DF7F000791FA /* ReadiumOPDS in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4729B1DF7F000791FA /* ReadiumOPDS */; };
+		C3E0FCB529B1DF7F000791FA /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4E29B1DF7F000791FA /* GoogleMobileAds */; };
+		C3E0FCB629B1DF7F000791FA /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4829B1DF7F000791FA /* GRDB */; };
+		C3E0FCB729B1DF7F000791FA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4A29B1DF7F000791FA /* Kingfisher */; };
+		C3E0FCB829B1DF7F000791FA /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3E0FC4C29B1DF7F000791FA /* MBProgressHUD */; };
+		C3E0FCC129B1E44F000791FA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E0FCC029B1E44F000791FA /* Media.xcassets */; };
+		C3E0FCC329B1E5B3000791FA /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = C3E0FCC229B1E5B3000791FA /* Samples */; };
 		C3EFA32F29275AE300EACE42 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = C3EFA32E29275AE300EACE42 /* Samples */; };
 		C508D75B17670B8D30D7AAC7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F4BEF972CC84C0C164F786 /* Book.swift */; };
 		C56984E92B7A2E926C636838 /* R2Streamer in Frameworks */ = {isa = PBXBuildFile; productRef = 97AB05BF98CE51653F1D78D2 /* R2Streamer */; };
@@ -643,6 +743,10 @@
 		C367C1BA2934CFF5001239E5 /* Bible_Copyrights.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bible_Copyrights.md; sourceTree = "<group>"; };
 		C3A32F292927566F00EA386A /* BibleEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A32F2C2927580B00EA386A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E0FCBC29B1DF7F000791FA /* BibleSpain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleSpain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E0FCBF29B1E17B000791FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E0FCC029B1E44F000791FA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C3E0FCC229B1E5B3000791FA /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		C3EFA32E29275AE300EACE42 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		CCE8D849936E1E72620852C0 /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
 		CD2BCA7CE8B471C3F3D5A868 /* AssociatedColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedColors.swift; sourceTree = "<group>"; };
@@ -733,6 +837,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3E0FCAE29B1DF7F000791FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0FCAF29B1DF7F000791FA /* StoreKit.framework in Frameworks */,
+				C3E0FCB029B1DF7F000791FA /* R2Shared in Frameworks */,
+				C3E0FCB129B1DF7F000791FA /* RevenueCat in Frameworks */,
+				C3E0FCB229B1DF7F000791FA /* R2Streamer in Frameworks */,
+				C3E0FCB329B1DF7F000791FA /* R2Navigator in Frameworks */,
+				C3E0FCB429B1DF7F000791FA /* ReadiumOPDS in Frameworks */,
+				C3E0FCB529B1DF7F000791FA /* GoogleMobileAds in Frameworks */,
+				C3E0FCB629B1DF7F000791FA /* GRDB in Frameworks */,
+				C3E0FCB729B1DF7F000791FA /* Kingfisher in Frameworks */,
+				C3E0FCB829B1DF7F000791FA /* MBProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ECE286862E1EDFD8B918F23A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -786,6 +907,7 @@
 				C3A32F2B292756F100EA386A /* BibleEn */,
 				054C351D298B99C1002986E8 /* BibleFrench */,
 				0509576B296836B0004F14AA /* BibleKorean */,
+				C3E0FCBE29B1E0B7000791FA /* BibleSpain */,
 			);
 			path = Bibles;
 			sourceTree = "<group>";
@@ -894,6 +1016,7 @@
 				C3A32F292927566F00EA386A /* BibleEn.app */,
 				0509576929683682004F14AA /* BibleKorean.app */,
 				054C3598298B99EE002986E8 /* BibleFrench.app */,
+				C3E0FCBC29B1DF7F000791FA /* BibleSpain.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1062,6 +1185,16 @@
 				05C95D172939E48600E4FD77 /* Media.xcassets */,
 			);
 			path = BibleEn;
+			sourceTree = "<group>";
+		};
+		C3E0FCBE29B1E0B7000791FA /* BibleSpain */ = {
+			isa = PBXGroup;
+			children = (
+				C3E0FCBF29B1E17B000791FA /* Info.plist */,
+				C3E0FCC229B1E5B3000791FA /* Samples */,
+				C3E0FCC029B1E44F000791FA /* Media.xcassets */,
+			);
+			path = BibleSpain;
 			sourceTree = "<group>";
 		};
 		C8FA8C0B8A2200D765746926 /* OPDS */ = {
@@ -1295,6 +1428,34 @@
 			productReference = C3A32F292927566F00EA386A /* BibleEn.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C3E0FC4229B1DF7F000791FA /* BibleSpain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E0FCB929B1DF7F000791FA /* Build configuration list for PBXNativeTarget "BibleSpain" */;
+			buildPhases = (
+				C3E0FC5229B1DF7F000791FA /* Sources */,
+				C3E0FC9F29B1DF7F000791FA /* Resources */,
+				C3E0FCAE29B1DF7F000791FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleSpain;
+			packageProductDependencies = (
+				C3E0FC4329B1DF7F000791FA /* R2Shared */,
+				C3E0FC4529B1DF7F000791FA /* R2Streamer */,
+				C3E0FC4629B1DF7F000791FA /* R2Navigator */,
+				C3E0FC4729B1DF7F000791FA /* ReadiumOPDS */,
+				C3E0FC4829B1DF7F000791FA /* GRDB */,
+				C3E0FC4A29B1DF7F000791FA /* Kingfisher */,
+				C3E0FC4C29B1DF7F000791FA /* MBProgressHUD */,
+				C3E0FC4E29B1DF7F000791FA /* GoogleMobileAds */,
+				C3E0FC5029B1DF7F000791FA /* RevenueCat */,
+			);
+			productName = TestApp;
+			productReference = C3E0FCBC29B1DF7F000791FA /* BibleSpain.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1333,6 +1494,7 @@
 				C3A32EB32927566F00EA386A /* BibleEn */,
 				050956EF29683682004F14AA /* BibleKorean */,
 				054C351E298B99EE002986E8 /* BibleFrench */,
+				C3E0FC4229B1DF7F000791FA /* BibleSpain */,
 			);
 		};
 /* End PBXProject section */
@@ -1440,6 +1602,27 @@
 				C3A32F182927566F00EA386A /* PublicationCollectionViewCell.xib in Resources */,
 				C3A32F192927566F00EA386A /* PublicationMenuViewController.xib in Resources */,
 				C3A32F1A2927566F00EA386A /* UserSettings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0FC9F29B1DF7F000791FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0FCA029B1DF7F000791FA /* About.storyboard in Resources */,
+				C3E0FCA129B1DF7F000791FA /* Assets.xcassets in Resources */,
+				C3E0FCA329B1DF7F000791FA /* DRM.storyboard in Resources */,
+				C3E0FCA429B1DF7F000791FA /* InfoPlist.strings in Resources */,
+				C3E0FCA529B1DF7F000791FA /* LaunchScreen.storyboard in Resources */,
+				C3E0FCA629B1DF7F000791FA /* PaywallBoard.storyboard in Resources */,
+				C3E0FCA729B1DF7F000791FA /* Library.storyboard in Resources */,
+				C3E0FCA829B1DF7F000791FA /* Localizable.strings in Resources */,
+				C3E0FCA929B1DF7F000791FA /* OPDS.storyboard in Resources */,
+				C3E0FCC129B1E44F000791FA /* Media.xcassets in Resources */,
+				C3E0FCC329B1E5B3000791FA /* Samples in Resources */,
+				C3E0FCAB29B1DF7F000791FA /* PublicationCollectionViewCell.xib in Resources */,
+				C3E0FCAC29B1DF7F000791FA /* PublicationMenuViewController.xib in Resources */,
+				C3E0FCAD29B1DF7F000791FA /* UserSettings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,6 +1958,89 @@
 				C3A32F0A2927566F00EA386A /* UserSettingsNavigationController.swift in Sources */,
 				C3A32F0B2927566F00EA386A /* UserSettingsTableViewController.swift in Sources */,
 				C3A32F0C2927566F00EA386A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0FC5229B1DF7F000791FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0FC5329B1DF7F000791FA /* AboutTableViewController.swift in Sources */,
+				C3E0FC5429B1DF7F000791FA /* AdvancedSettingsViewController.swift in Sources */,
+				C3E0FC5529B1DF7F000791FA /* AnyPublisher.swift in Sources */,
+				C3E0FC5629B1DF7F000791FA /* AppDelegate.swift in Sources */,
+				C3E0FC5729B1DF7F000791FA /* AppModule.swift in Sources */,
+				C3E0FC5829B1DF7F000791FA /* AssociatedColors.swift in Sources */,
+				C3E0FC5929B1DF7F000791FA /* BarButtonItem.swift in Sources */,
+				C3E0FC5A29B1DF7F000791FA /* Book.swift in Sources */,
+				C3E0FC5B29B1DF7F000791FA /* Bookmark.swift in Sources */,
+				C3E0FC5C29B1DF7F000791FA /* BookmarkCellView.swift in Sources */,
+				C3E0FC5D29B1DF7F000791FA /* CBZModule.swift in Sources */,
+				C3E0FC5E29B1DF7F000791FA /* CBZViewController.swift in Sources */,
+				C3E0FC5F29B1DF7F000791FA /* TTSView.swift in Sources */,
+				C3E0FC6029B1DF7F000791FA /* ColorScheme.swift in Sources */,
+				C3E0FC6129B1DF7F000791FA /* DRMLibraryService.swift in Sources */,
+				C3E0FC6229B1DF7F000791FA /* DRMManagementTableViewController.swift in Sources */,
+				C3E0FC6329B1DF7F000791FA /* DRMViewModel.swift in Sources */,
+				C3E0FC6429B1DF7F000791FA /* Database.swift in Sources */,
+				C3E0FC6529B1DF7F000791FA /* DetailsTableViewController.swift in Sources */,
+				C3E0FC6629B1DF7F000791FA /* EPUBModule.swift in Sources */,
+				C3E0FC6729B1DF7F000791FA /* EPUBViewController.swift in Sources */,
+				C3E0FC6829B1DF7F000791FA /* FontSelectionViewController.swift in Sources */,
+				C3E0FC6929B1DF7F000791FA /* Future.swift in Sources */,
+				C3E0FC6A29B1DF7F000791FA /* HTTPClient.swift in Sources */,
+				C3E0FC6B29B1DF7F000791FA /* Highlight.swift in Sources */,
+				C3E0FC6C29B1DF7F000791FA /* HighlightCellView.swift in Sources */,
+				C3E0FC6D29B1DF7F000791FA /* HighlightContextMenu.swift in Sources */,
+				C3E0FC6E29B1DF7F000791FA /* AdHelper.swift in Sources */,
+				C3E0FC6F29B1DF7F000791FA /* LCPLibraryService.swift in Sources */,
+				C3E0FC7029B1DF7F000791FA /* LCPViewModel.swift in Sources */,
+				C3E0FC7129B1DF7F000791FA /* LibraryError.swift in Sources */,
+				C3E0FC7229B1DF7F000791FA /* LibraryFactory.swift in Sources */,
+				C3E0FC7329B1DF7F000791FA /* LibraryModule.swift in Sources */,
+				C3E0FC7429B1DF7F000791FA /* LibraryService.swift in Sources */,
+				C3E0FC7529B1DF7F000791FA /* LibraryViewController.swift in Sources */,
+				C3E0FC7629B1DF7F000791FA /* Locator.swift in Sources */,
+				C3E0FC7729B1DF7F000791FA /* OPDSCatalogSelectorViewController.swift in Sources */,
+				C3E0FC7829B1DF7F000791FA /* OPDSFacetViewController.swift in Sources */,
+				C3E0FC7929B1DF7F000791FA /* OPDSFactory.swift in Sources */,
+				C3E0FC7A29B1DF7F000791FA /* OPDSGroupCollectionViewCell.swift in Sources */,
+				C3E0FC7B29B1DF7F000791FA /* IconButton.swift in Sources */,
+				C3E0FC7C29B1DF7F000791FA /* PaywallViewController.swift in Sources */,
+				C3E0FC7D29B1DF7F000791FA /* OPDSGroupTableViewCell.swift in Sources */,
+				C3E0FC7E29B1DF7F000791FA /* OPDSModule.swift in Sources */,
+				C3E0FC7F29B1DF7F000791FA /* OPDSNavigationTableViewCell.swift in Sources */,
+				C3E0FC8029B1DF7F000791FA /* OPDSPlaceholderView.swift in Sources */,
+				C3E0FC8129B1DF7F000791FA /* OPDSPublicationInfoViewController.swift in Sources */,
+				C3E0FC8229B1DF7F000791FA /* TTSViewModel.swift in Sources */,
+				C3E0FC8329B1DF7F000791FA /* OPDSPublicationTableViewCell.swift in Sources */,
+				C3E0FC8429B1DF7F000791FA /* OPDSRootTableViewController.swift in Sources */,
+				C3E0FC8529B1DF7F000791FA /* OutlineTableView.swift in Sources */,
+				C3E0FC8629B1DF7F000791FA /* OutlineViewModels.swift in Sources */,
+				C3E0FC8729B1DF7F000791FA /* PDFModule.swift in Sources */,
+				C3E0FC8829B1DF7F000791FA /* PDFViewController.swift in Sources */,
+				C3E0FC8929B1DF7F000791FA /* Paths.swift in Sources */,
+				C3E0FC8A29B1DF7F000791FA /* Publication.swift in Sources */,
+				C3E0FC8B29B1DF7F000791FA /* PublicationCollectionViewCell.swift in Sources */,
+				C3E0FC8C29B1DF7F000791FA /* PublicationMenuViewController.swift in Sources */,
+				C3E0FC8D29B1DF7F000791FA /* ReaderError.swift in Sources */,
+				C3E0FC8E29B1DF7F000791FA /* ReaderFactory.swift in Sources */,
+				C3E0FC8F29B1DF7F000791FA /* AppOpenAdManager.swift in Sources */,
+				C3E0FC9029B1DF7F000791FA /* ReaderFormatModule.swift in Sources */,
+				C3E0FC9129B1DF7F000791FA /* ReaderModule.swift in Sources */,
+				C3E0FC9229B1DF7F000791FA /* PackageCellView.swift in Sources */,
+				C3E0FC9329B1DF7F000791FA /* ReaderViewController.swift in Sources */,
+				C3E0FC9429B1DF7F000791FA /* Errors.swift in Sources */,
+				C3E0FC9529B1DF7F000791FA /* ScreenOrientation.swift in Sources */,
+				C3E0FC9629B1DF7F000791FA /* SearchView.swift in Sources */,
+				C3E0FC9729B1DF7F000791FA /* SearchViewModel.swift in Sources */,
+				C3E0FC9829B1DF7F000791FA /* String.swift in Sources */,
+				C3E0FC9929B1DF7F000791FA /* Toast.swift in Sources */,
+				C3E0FC9A29B1DF7F000791FA /* UIImage.swift in Sources */,
+				C3E0FC9B29B1DF7F000791FA /* UIViewController.swift in Sources */,
+				C3E0FC9C29B1DF7F000791FA /* UserSettingsNavigationController.swift in Sources */,
+				C3E0FC9D29B1DF7F000791FA /* UserSettingsTableViewController.swift in Sources */,
+				C3E0FC9E29B1DF7F000791FA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2295,6 +2561,60 @@
 			};
 			name = Release;
 		};
+		C3E0FCBA29B1DF7F000791FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = DCMJJYX234;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleSpain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Biblia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.spain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E0FCBB29B1DF7F000791FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = DCMJJYX234;
+				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleSpain/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Biblia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.spain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F0CF92268772E70E8650A390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2402,6 +2722,15 @@
 			buildConfigurations = (
 				C3A32F272927566F00EA386A /* Debug */,
 				C3A32F282927566F00EA386A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3E0FCB929B1DF7F000791FA /* Build configuration list for PBXNativeTarget "BibleSpain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E0FCBA29B1DF7F000791FA /* Debug */,
+				C3E0FCBB29B1DF7F000791FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -2650,6 +2979,54 @@
 				version = 4.12.0;
 			};
 		};
+		C3E0FC4429B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-toolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/readium/swift-toolkit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.0;
+			};
+		};
+		C3E0FC4929B1DF7F000791FA /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.26.0;
+			};
+		};
+		C3E0FC4B29B1DF7F000791FA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.8;
+			};
+		};
+		C3E0FC4D29B1DF7F000791FA /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		C3E0FC4F29B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.9.0;
+			};
+		};
+		C3E0FC5129B1DF7F000791FA /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -2871,6 +3248,51 @@
 		C3A32EC12927566F00EA386A /* RevenueCat */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C3A32EC22927566F00EA386A /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		C3E0FC4329B1DF7F000791FA /* R2Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4429B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Shared;
+		};
+		C3E0FC4529B1DF7F000791FA /* R2Streamer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4429B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Streamer;
+		};
+		C3E0FC4629B1DF7F000791FA /* R2Navigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4429B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Navigator;
+		};
+		C3E0FC4729B1DF7F000791FA /* ReadiumOPDS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4429B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = ReadiumOPDS;
+		};
+		C3E0FC4829B1DF7F000791FA /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4929B1DF7F000791FA /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		C3E0FC4A29B1DF7F000791FA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4B29B1DF7F000791FA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C3E0FC4C29B1DF7F000791FA /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4D29B1DF7F000791FA /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		C3E0FC4E29B1DF7F000791FA /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC4F29B1DF7F000791FA /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		C3E0FC5029B1DF7F000791FA /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E0FC5129B1DF7F000791FA /* XCRemoteSwiftPackageReference "purchases-ios" */;
 			productName = RevenueCat;
 		};
 		CAC376E233AE957E79EF8671 /* GRDB */ = {
