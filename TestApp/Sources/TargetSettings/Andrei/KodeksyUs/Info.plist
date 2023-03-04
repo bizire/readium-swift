@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>AdmobBannerID</key>
-	<string>XXXXXXX</string>
+	<string>ca-app-pub-7590866680405485/1787943945</string>
 	<key>AdmobInterID</key>
-	<string>XXXXXXX</string>
+	<string>ca-app-pub-7590866680405485/9052190445</string>
 	<key>AdmobOpenID</key>
-	<string>XXXXXXX</string>
+	<string>ca-app-pub-7590866680405485/3448509976</string>
 	<key>AdmobRewardID</key>
 	<string>XXXXXXX</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -206,7 +206,7 @@
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-7590866680405485~5510730134</string>
+	<string>ca-app-pub-7590866680405485~3145241733</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
