@@ -18,7 +18,7 @@ import AppTrackingTransparency
 import AdSupport
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate, PurchasesDelegate {
     
     var window: UIWindow?
     
@@ -75,7 +75,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         let revenueCatPublicKey = Bundle.main.object(forInfoDictionaryKey: "RevenueCatPublicKey") as! String
         Purchases.configure(withAPIKey: revenueCatPublicKey)
         
-        
+        Purchases.shared.delegate = self
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
             if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
                 AppOpenAdManager.shared.loadAd()
@@ -83,6 +83,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         }
 
         return true
+    }
+    
+    func purchases(_ purchases: Purchases, readyForPromotedProduct product: StoreProduct, purchase startPurchase: @escaping StartPurchaseBlock) {
+        startPurchase { (transaction, purchaserInfo, error, userCancelled) in
+            if let error = error {
+                let alert = UIAlertController(title: nil, message: error.localizedDescription, preferredStyle: UIAlertController.Style.alert)
+                // add an action (button)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                // show the alert
+                self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+            }
+//            else {
+//                /// - If the entitlement is active after the purchase completed, dismiss the paywall
+//                if purchaserInfo?.entitlements[Constants.entitlementID]?.isActive == true {
+//                    self.dismissModal()
+//                }
+//            }
+        }
     }
     
     func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
