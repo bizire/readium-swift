@@ -794,7 +794,7 @@
 		2C20986FFBF781124291B16A /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
-		37A8C19129B2348000569F92 /* KodeksyUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodeksyUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A8C19129B2348000569F92 /* US Laws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US Laws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A8C19329B234EA00569F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A8C19429B234F800569F92 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		37A8C19629B236E400569F92 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
@@ -1139,7 +1139,7 @@
 				0509576929683682004F14AA /* BibleKorean.app */,
 				054C3598298B99EE002986E8 /* BibleFrench.app */,
 				C3E0FCBC29B1DF7F000791FA /* BibleSpain.app */,
-				37A8C19129B2348000569F92 /* KodeksyUs.app */,
+				37A8C19129B2348000569F92 /* US Laws.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1530,7 +1530,7 @@
 				37A8C12529B2348000569F92 /* RevenueCat */,
 			);
 			productName = TestApp;
-			productReference = 37A8C19129B2348000569F92 /* KodeksyUs.app */;
+			productReference = 37A8C19129B2348000569F92 /* US Laws.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BED194980D56484BC288A866 /* KodeksyRu */ = {
@@ -2759,7 +2759,7 @@
 		37A8C18F29B2348000569F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-KodeksyPl";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-KodeksyUs";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = C44T395X8A;
@@ -2774,7 +2774,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "US Laws";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2783,7 +2783,7 @@
 		37A8C19029B2348000569F92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-KodeksyPl";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-KodeksyUs";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = C44T395X8A;
@@ -2798,7 +2798,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "US Laws";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

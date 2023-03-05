@@ -5,7 +5,7 @@
 	<key>AdmobBannerID</key>
 	<string>ca-app-pub-7590866680405485/1787943945</string>
 	<key>AdmobInterID</key>
-	<string>ca-app-pub-7590866680405485/9052190445</string>
+	<string>ca-app-pub-7590866680405485/9052190445_</string>
 	<key>AdmobOpenID</key>
 	<string>ca-app-pub-7590866680405485/3448509976</string>
 	<key>AdmobRewardID</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Kodeksy US</string>
+	<string>US Laws</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
