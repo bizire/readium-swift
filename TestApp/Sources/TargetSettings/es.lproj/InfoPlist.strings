@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  TestApp
+
+  Created by Andrei on 28.09.2022.
+  
+*/
+
+NSUserTrackingUsageDescription = "Este identificador se utilizará para enviarle anuncios personalizados.";

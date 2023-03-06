@@ -794,6 +794,13 @@
 		2C20986FFBF781124291B16A /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
+		3791323329B5DA7800D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/About.strings; sourceTree = "<group>"; };
+		3791323429B5DA7800D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Library.strings; sourceTree = "<group>"; };
+		3791323529B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PublicationMenuViewController.strings; sourceTree = "<group>"; };
+		3791323629B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PaywallBoard.strings; sourceTree = "<group>"; };
+		3791323729B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UserSettings.strings; sourceTree = "<group>"; };
+		3791323829B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3791323929B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37A8C19129B2348000569F92 /* US Laws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US Laws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A8C19329B234EA00569F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A8C19429B234F800569F92 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1636,6 +1643,7 @@
 				pl,
 				ko,
 				fr,
+				es,
 			);
 			mainGroup = 1ED26426925A9C10B3DC859C;
 			packageReferences = (
@@ -2414,6 +2422,7 @@
 				05697C9229013B0C00A27891 /* pl */,
 				0570AA1C297E855E00B78B80 /* ko */,
 				054C35A3298BAE3B002986E8 /* fr */,
+				3791323629B5DA7900D06305 /* es */,
 			);
 			name = PaywallBoard.storyboard;
 			sourceTree = "<group>";
@@ -2426,6 +2435,7 @@
 				05697C9429013B0C00A27891 /* pl */,
 				0570AA21297E855E00B78B80 /* ko */,
 				054C35A8298BAE3B002986E8 /* fr */,
+				3791323829B5DA7900D06305 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2438,6 +2448,7 @@
 				05697C9529013B0C00A27891 /* pl */,
 				0570AA22297E855E00B78B80 /* ko */,
 				054C35A9298BAE3B002986E8 /* fr */,
+				3791323929B5DA7900D06305 /* es */,
 			);
 			name = Localizable.strings;
 			path = en.lproj;
@@ -2462,6 +2473,7 @@
 				05697C9129013B0B00A27891 /* pl */,
 				0570AA1B297E855E00B78B80 /* ko */,
 				054C35A2298BAE3A002986E8 /* fr */,
+				3791323529B5DA7900D06305 /* es */,
 			);
 			name = PublicationMenuViewController.xib;
 			sourceTree = "<group>";
@@ -2485,6 +2497,7 @@
 				05697C9029013B0B00A27891 /* pl */,
 				0570AA19297E855D00B78B80 /* ko */,
 				054C35A0298BAE3A002986E8 /* fr */,
+				3791323429B5DA7800D06305 /* es */,
 			);
 			name = Library.storyboard;
 			sourceTree = "<group>";
@@ -2497,6 +2510,7 @@
 				05697C8F29013B0B00A27891 /* pl */,
 				0570AA18297E855D00B78B80 /* ko */,
 				054C359F298BAE3A002986E8 /* fr */,
+				3791323329B5DA7800D06305 /* es */,
 			);
 			name = About.storyboard;
 			sourceTree = "<group>";
@@ -2510,6 +2524,7 @@
 				05697C9329013B0C00A27891 /* pl */,
 				0570AA1F297E855E00B78B80 /* ko */,
 				054C35A6298BAE3B002986E8 /* fr */,
+				3791323729B5DA7900D06305 /* es */,
 			);
 			name = UserSettings.storyboard;
 			sourceTree = "<group>";
