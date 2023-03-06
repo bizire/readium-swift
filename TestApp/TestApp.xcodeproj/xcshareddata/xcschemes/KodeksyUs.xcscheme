@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "37A8C11729B2348000569F92"
-               BuildableName = "KodeksyUs.app"
+               BuildableName = "US Laws.app"
                BlueprintName = "KodeksyUs"
                ReferencedContainer = "container:TestApp.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "37A8C11729B2348000569F92"
-            BuildableName = "KodeksyUs.app"
+            BuildableName = "US Laws.app"
             BlueprintName = "KodeksyUs"
             ReferencedContainer = "container:TestApp.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "37A8C11729B2348000569F92"
-            BuildableName = "KodeksyUs.app"
+            BuildableName = "US Laws.app"
             BlueprintName = "KodeksyUs"
             ReferencedContainer = "container:TestApp.xcodeproj">
          </BuildableReference>

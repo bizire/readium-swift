@@ -11,9 +11,9 @@
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-2983224055780222/8333386597</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>es</string>
 	<key>CFBundleDisplayName</key>
-	<string>Bible</string>
+	<string>Biblia</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -225,7 +225,7 @@
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>RevenueCatPublicKey</key>
-	<string>XXXXXXXXXXXXX</string>
+	<string>appl_HqsecLHaDnaxzLCRPUAmmBjzEea</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -559,7 +559,7 @@
 	<key>hasPremiumContent</key>
 	<true/>
 	<key>hasSubscriptions</key>
-	<true/>
+	<false/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>privacyPolicyURL</key>

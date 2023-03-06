@@ -68,11 +68,20 @@ FRENCH
 SPANISH
 01  Santa Biblia — Reina Valera 1909    https://ebible.org/Scriptures/details.php?id=spaRV1909
 02  Santa Biblia libre para el mundo    https://ebible.org/Scriptures/details.php?id=spablm
-03  Caló Gospel of Luke 1872            https://dbs.org/bibles/RMQLUK
-
-03  La Biblia en España, Tomo I (de 3) by George Borrow https://www.gutenberg.org/ebooks/51019
-04  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
-05  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
+03  Versión Biblia Libre                https://ebible.org/details.php?id=spavbl
+04  La Biblia en Español Sencillo       https://ebible.org/details.php?id=spabes
+05  Palabra de Dios para ti             https://ebible.org/details.php?id=spapddpt
+06  Santa Biblia Reina Valera Gómez     https://ebible.org/details.php?id=sparvg
+07  Caló Gospel of Luke 1872            https://dbs.org/bibles/RMQLUK
+08  La Biblia en España, Tomo I (de 3) by George Borrow     https://www.gutenberg.org/ebooks/51019
+09  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
+10  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
+11  Reina Valera New Testament of the Bible 1858            https://www.gutenberg.org/ebooks/5878
+12  Reina Valera New Testament of the Bible 1862            https://www.gutenberg.org/ebooks/5879
+13  Reina Valera New Testament of the Bible 1865            https://www.gutenberg.org/ebooks/5880
+14  Reina Valera New Testament of the Bible 1602, Book of Matthew by Reina and Valera  https://www.gutenberg.org/ebooks/5877
+15  Los Apóstoles by Ernest Renan                           https://www.gutenberg.org/ebooks/65410
+16  Vida de Jesús by Ernest Renan                           https://www.gutenberg.org/ebooks/65165
 
 ? качества
 Sagrada Biblia Nacar Colunga (1944) (1ª Edición)    https://archive.org/details/SagradaBibliaNacarColunga19441Edicin/page/n7/mode/2up
