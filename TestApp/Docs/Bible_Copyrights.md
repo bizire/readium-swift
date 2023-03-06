@@ -79,7 +79,7 @@ SPANISH
 11  Reina Valera New Testament of the Bible 1858            https://www.gutenberg.org/ebooks/5878
 12  Reina Valera New Testament of the Bible 1862            https://www.gutenberg.org/ebooks/5879
 13  Reina Valera New Testament of the Bible 1865            https://www.gutenberg.org/ebooks/5880
-14  Reina Valera New Testament of the Bible 1602, Book of Matthew by Reina and Valera  https://www.gutenberg.org/ebooks/5877
+14  Reina Valera New Testament of the Bible 1602            https://www.gutenberg.org/ebooks/5877
 15  Los Apóstoles by Ernest Renan                           https://www.gutenberg.org/ebooks/65410
 16  Vida de Jesús by Ernest Renan                           https://www.gutenberg.org/ebooks/65165
 
