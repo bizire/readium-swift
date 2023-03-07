@@ -79,7 +79,7 @@ SPANISH
 04  La Biblia en Español Sencillo       https://ebible.org/details.php?id=spabes
 05  Palabra de Dios para ti             https://ebible.org/details.php?id=spapddpt
 06  Santa Biblia Reina Valera Gómez     https://ebible.org/details.php?id=sparvg
-07  Caló Gospel of Luke 1872            https://dbs.org/bibles/RMQLUK
+
 08  La Biblia en España, Tomo I (de 3) by George Borrow     https://www.gutenberg.org/ebooks/51019
 09  La Biblia en España, Tomo II (de 3) by George Borrow    https://www.gutenberg.org/ebooks/51020
 10  La Biblia en España, Tomo III (de 3) by George Borrow   https://www.gutenberg.org/ebooks/51689
