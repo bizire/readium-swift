@@ -86,3 +86,5 @@
 "paywall_month" = "Mes";
 "paywall_year" = "Año";
 "paywall_header" = "• Desbloquee el acceso total\n• Quite los anuncios en la versión PRO\n• Se agregan nuevos libros cada mes\n• Todos los libros se actualizan continuamente";
+"paywall_tos" = "La suscripción se renueva automáticamente a menos que la renovación automática se desactive al menos 24 horas antes del final del período actual.\n
+El usuario puede administrar la suscripción y la renovación automática puede desactivarse yendo a la Configuración de la cuenta del usuario después de la compra. Eliminar la aplicación no cancela automáticamente la suscripción.";

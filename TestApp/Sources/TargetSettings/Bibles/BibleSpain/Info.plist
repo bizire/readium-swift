@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-2983224055780222~2174623614</string>
 	<key>AdmobBannerID</key>
 	<string>ca-app-pub-2983224055780222/8185498198_</string>
 	<key>AdmobInterID</key>
@@ -14,6 +16,16 @@
 	<string>es</string>
 	<key>CFBundleDisplayName</key>
 	<string>Biblia</string>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
+	<key>numberPerRow</key>
+	<integer>3</integer>
+	<key>RevenueCatPublicKey</key>
+	<string>appl_HqsecLHaDnaxzLCRPUAmmBjzEea</string>
+	<key>hasPremiumContent</key>
+	<true/>
+	<key>hasSubscriptions</key>
+	<true/>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -203,10 +215,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~2174623614</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
@@ -224,8 +232,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_HqsecLHaDnaxzLCRPUAmmBjzEea</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -556,12 +562,6 @@
 			</dict>
 		</dict>
 	</array>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<false/>
-	<key>numberPerRow</key>
-	<integer>3</integer>
 	<key>privacyPolicyURL</key>
 	<string>https://sites.google.com/view/paulvi-app-bible/</string>
 	<key>termsOfUseURL</key>
