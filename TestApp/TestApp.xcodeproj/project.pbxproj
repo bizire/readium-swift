@@ -2893,7 +2893,7 @@
 		C3E0FCBA29B1DF7F000791FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleSpanish";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -2920,7 +2920,7 @@
 		C3E0FCBB29B1DF7F000791FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleEn";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-BibleSpanish";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
