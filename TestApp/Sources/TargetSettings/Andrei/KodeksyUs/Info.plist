@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7590866680405485~3145241733</string>
 	<key>AdmobBannerID</key>
 	<string>ca-app-pub-7590866680405485/1787943945</string>
 	<key>AdmobInterID</key>
-	<string>ca-app-pub-7590866680405485/9052190445_</string>
+	<string>ca-app-pub-7590866680405485/9052190445</string>
 	<key>AdmobOpenID</key>
 	<string>ca-app-pub-7590866680405485/3448509976</string>
 	<key>AdmobRewardID</key>
@@ -205,8 +207,6 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-7590866680405485~3145241733</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
@@ -225,7 +225,7 @@
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>RevenueCatPublicKey</key>
-	<string>XXXXXXX</string>
+	<string>appl_uYqoQbDYKrthCtbBzWQXgmslOhh</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
