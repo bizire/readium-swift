@@ -5,11 +5,11 @@
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~2174623614</string>
 	<key>AdmobBannerID</key>
-	<string>ca-app-pub-2983224055780222/8185498198_</string>
+	<string>ca-app-pub-2983224055780222/8185498198</string>
 	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/4246253187_</string>
+	<string>ca-app-pub-2983224055780222/4246253187</string>
 	<key>AdmobOpenID</key>
-	<string>ca-app-pub-2983224055780222/7020304923_</string>
+	<string>ca-app-pub-2983224055780222/7020304923</string>
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-2983224055780222/8333386597</string>
 	<key>CFBundleDevelopmentRegion</key>
