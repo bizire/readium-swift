@@ -2,32 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~7739882540</string>
 	<key>AdmobBannerID</key>
-	<string>ca-app-pub-2983224055780222/1310205560</string>
+	<string>XXXXXXXXXXXX</string>
 	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/8997123897</string>
+	<string>XXXXXXXXXXXX</string>
 	<key>AdmobOpenID</key>
-	<string>ca-app-pub-2983224055780222/2695138108</string>
+	<string>XXXXXXXXXXXX</string>
 	<key>AdmobRewardID</key>
-	<string>ca-app-pub-2983224055780222/6370960558</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_XSGHFbPVGKUxjkBMlPNECXNdoXp</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://sites.google.com/view/paulvi-app-bible/</string>
-	<key>termsOfUseURL</key>
-	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
+	<string>XXXXXXXXXXXX</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -221,6 +203,12 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-2983224055780222~7739882540</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
@@ -236,6 +224,8 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>RevenueCatPublicKey</key>
+	<string>XXXXXXXXXXXX</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -566,5 +556,15 @@
 			</dict>
 		</dict>
 	</array>
+	<key>hasPremiumContent</key>
+	<true/>
+	<key>hasSubscriptions</key>
+	<true/>
+	<key>numberPerRow</key>
+	<integer>3</integer>
+	<key>privacyPolicyURL</key>
+	<string>https://sites.google.com/view/paulvi-app-bible/</string>
+	<key>termsOfUseURL</key>
+	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 </dict>
 </plist>
