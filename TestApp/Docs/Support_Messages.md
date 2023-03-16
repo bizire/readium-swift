@@ -19,7 +19,7 @@ SUBSCRIPTIONS:
 *Prices are equal to the value that "Apple's App Store Matrix" determines is the equivalent subscription price in $USD.
 ------------------------------------------------------------------
 
-------------------------------------------------------------------
+
 Pavel Vinnik:
 
 SUBSCRIPTIONS:
