@@ -94,3 +94,11 @@ SPANISH
 Sagrada Biblia Nacar Colunga (1944) (1ª Edición)    https://archive.org/details/SagradaBibliaNacarColunga19441Edicin/page/n7/mode/2up
 Sagrada Biblia Bover Cantera    https://archive.org/details/SagradaBiblia.BoverCantera/mode/2up
 Biblia de Casiodoro de Reina 1569   https://archive.org/details/BibliaDeCasiodoroDeReina1569/page/n1/mode/2up
+
+
+
+QURAN ENGLISH
+01 https://www.gutenberg.org/ebooks/2800
+02 https://www.gutenberg.org/ebooks/16955
+03 https://www.gutenberg.org/ebooks/7440
+04 https://www.gutenberg.org/ebooks/44515
