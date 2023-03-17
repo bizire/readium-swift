@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>AdmobBannerID</key>
-	<string>XXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/1164829665</string>
 	<key>AdmobInterID</key>
-	<string>XXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/8851747998</string>
 	<key>AdmobOpenID</key>
-	<string>XXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/7793268450</string>
 	<key>AdmobRewardID</key>
-	<string>XXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/2732513467</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -206,7 +206,7 @@
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~7739882540</string>
+	<string>ca-app-pub-2983224055780222~7634605918</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
@@ -225,7 +225,7 @@
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>RevenueCatPublicKey</key>
-	<string>XXXXXXXXXXXX</string>
+	<string>appl_XSGHFbPVGKUxjkBMlPNECXNdoXp</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
