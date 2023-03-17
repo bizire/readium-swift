@@ -102,3 +102,11 @@ QURAN ENGLISH
 02 https://www.gutenberg.org/ebooks/16955
 03 https://www.gutenberg.org/ebooks/7440
 04 https://www.gutenberg.org/ebooks/44515
+05
+06 https://islamicbulletin.org/?books=stories-of-the-prophets-2
+07 https://islamicbulletin.org/?books=stories-of-the-prophets
+08 https://islamicbulletin.org/?books=relationships-of-the-great
+09 https://islamicbulletin.org/?books=jesus-prophet-of-islam
+10 https://islamicbulletin.org/?books=ahsan-al-qasas-the-story-of-prophet-yusuf
+11 https://islamicbulletin.org/?books=ramadan-daily-planner
+12 https://islamicbulletin.org/?books=essentials-of-ramadan
