@@ -110,3 +110,7 @@ QURAN ENGLISH
 10 https://www.gutenberg.org/ebooks/44515 
 11 https://islamicbulletin.org/?books=ramadan-daily-planner
 12 https://islamicbulletin.org/?books=essentials-of-ramadan
+13 https://islamicbulletin.org/en/ebooks/resources/rights_in_islam.pdf
+14 https://islamicbulletin.org/en/ebooks/new_muslim/islam_the_path.pdf
+15 https://islamicbulletin.org/en/ebooks/prayer/prayer.pdf
+16 
