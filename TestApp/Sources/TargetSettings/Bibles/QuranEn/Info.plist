@@ -204,7 +204,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FreeItemsAmount</key>
-	<integer>99</integer>
+	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~7634605918</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -225,7 +225,7 @@
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>RevenueCatPublicKey</key>
-	<string>appl_XSGHFbPVGKUxjkBMlPNECXNdoXp</string>
+	<string>appl_ZWHuQKyqqwtykhLTOZVJWctVnmX</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
