@@ -3044,7 +3044,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/QuranEn/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Quran;
@@ -3054,7 +3054,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.quran.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3071,7 +3071,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/QuranEn/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Quran;
@@ -3081,7 +3081,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.quran.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";

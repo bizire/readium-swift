@@ -88,3 +88,9 @@
 "paywall_header" = "• Déverrouiller tous les accès\n• Supprimer les publicités dans la version PRO\n• Nouveaux livres ajoutés chaque mois\n• Tous les livres sont mis à jour en continu";
 "paywall_tos" = "L'abonnement se renouvelle automatiquement à moins que le renouvellement automatique ne soit désactivé au moins 24 heures avant la fin de la période en cours.\n
 L'abonnement peut être géré par l'utilisateur et le renouvellement automatique peut être désactivé en accédant aux paramètres du compte de l'utilisateur après l'achat. La suppression de l'application n'annule pas automatiquement l'abonnement.";
+
+
+
+"restore_purchases" = "Restaurer les achats";
+"nothing_to_restore" = "Vous n'avez rien à restaurer";
+"success_restore" = "Vos achats restaurés avec succès";

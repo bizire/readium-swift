@@ -197,3 +197,6 @@ Subscription may be managed by the user and auto-renewal may be turned off by go
 "paywall_year" = "Year";
 "paywall_header" = "• Unlock All Access\n• Remove Ads in PRO Version\n• New Books Added Every Month\n• All Books Continuously Update";
 
+"restore_purchases" = "Restore purchases";
+"nothing_to_restore" = "You have nothing to restore";
+"success_restore" = "Your purchases restored successfully";

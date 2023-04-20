@@ -197,3 +197,6 @@
 "paywall_year" = "연도";
 "paywall_header" = "• 모든 액세스 잠금 해제\n• PRO 버전에서 광고 제거\n• 매달 새로운 책 추가\n• 모든 책 지속적으로 업데이트";
 
+"restore_purchases" = "구매를 복원";
+"nothing_to_restore" = "복원할 항목이 없습니다.";
+"success_restore" = "구매가 성공적으로 복원되었습니다";

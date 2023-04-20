@@ -65,15 +65,27 @@ class AboutTableViewController: UITableViewController {
         return 3
     }
     
+    
+    func showSimpleAlert(message: String) {
+        let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var url: URL?
         
         if indexPath.section == 1 {
             if indexPath.row == 0 {
                 
-                Purchases.shared.restorePurchases { (purchaserInfo, error) in
+                Purchases.shared.restorePurchases { purchaserInfo, error in
                     if let error = error {
                         self.present(UIAlertController.errorAlert(message: error.localizedDescription), animated: true, completion: nil)
+                    }
+                    if purchaserInfo?.entitlements[Constants.entitlementID]?.isActive == true {
+                        self.showSimpleAlert(message: NSLocalizedString("success_restore", comment: ""))
+                    } else {
+                        self.showSimpleAlert(message: NSLocalizedString("nothing_to_restore", comment: ""))
                     }
                     //self.refreshUserDetails()
                 }

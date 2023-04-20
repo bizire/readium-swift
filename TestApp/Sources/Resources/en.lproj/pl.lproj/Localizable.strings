@@ -195,3 +195,8 @@ Subskrypcja może być zarządzana przez użytkownika, a automatyczne odnawianie
 "paywall_lifetime" = "Na zawsze";
 "paywall_month" = "Miesiąc";
 "paywall_year" = "Rok";
+
+
+"restore_purchases" = "Przywróć zakupy";
+"nothing_to_restore" = "Nie masz nic do przywrócenia";
+"success_restore" = "Twoje zakupy zostały pomyślnie przywrócone";
