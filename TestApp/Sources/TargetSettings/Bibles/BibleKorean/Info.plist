@@ -21,7 +21,7 @@
 	<key>termsOfUseURL</key>
 	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 	<key>hasPremiumContent</key>
-	<false/>
+	<true/>
 	<key>hasSubscriptions</key>
 	<false/>
 	<key>numberPerRow</key>
