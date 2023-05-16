@@ -114,3 +114,6 @@ QURAN ENGLISH
 14 https://islamicbulletin.org/en/ebooks/new_muslim/islam_the_path.pdf
 15 https://islamicbulletin.org/en/ebooks/prayer/prayer.pdf
 16 
+
+
+QURAN FRENCH
