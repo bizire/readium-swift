@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>AdmobBannerID</key>
-	<string>XXXXXXXXXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/4937693721</string>
 	<key>AdmobInterID</key>
-	<string>XXXXXXXXXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/3165447056</string>
 	<key>AdmobOpenID</key>
-	<string>XXXXXXXXXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/2311530388</string>
 	<key>AdmobRewardID</key>
-	<string>XXXXXXXXXXXXXXXXXXX</string>
+	<string>ca-app-pub-2983224055780222/3293401571</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>fr</string>
 	<key>CFBundleDisplayName</key>
 	<string>Quran</string>
 	<key>CFBundleDocumentTypes</key>
@@ -206,7 +206,7 @@
 	<key>FreeItemsAmount</key>
 	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-2983224055780222~7634605918</string>
+	<string>ca-app-pub-2983224055780222~7296263751</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
