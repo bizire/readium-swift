@@ -225,7 +225,7 @@
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>RevenueCatPublicKey</key>
-	<string>XXXXXXXXXXXXXXXXXXX</string>
+	<string>appl_jOvfSHhHuGPrOguwOIoXzmHgSjB</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
