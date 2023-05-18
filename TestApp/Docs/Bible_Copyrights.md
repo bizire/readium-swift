@@ -117,3 +117,5 @@ QURAN ENGLISH
 
 
 QURAN FRENCH
+01 https://ia902904.us.archive.org/9/items/TranslationOfTheMeaningsOfTheNobleQuranInTheFrenchPdf/TranslationOfTheMeaningsOfTheNobleQuranInTheFrench.pdf
+02 
