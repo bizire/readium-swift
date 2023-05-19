@@ -1107,6 +1107,7 @@
 		376EDD432A13901E0029074A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		376EDD442A1390780029074A /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		376EDD462A13909C0029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		376EDD9D2A1764DF0029074A /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		3791323329B5DA7800D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/About.strings; sourceTree = "<group>"; };
 		3791323429B5DA7800D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Library.strings; sourceTree = "<group>"; };
 		3791323529B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PublicationMenuViewController.strings; sourceTree = "<group>"; };
@@ -1713,6 +1714,7 @@
 			children = (
 				C367C1BA2934CFF5001239E5 /* Bible_Copyrights.md */,
 				05E9C314293DD8520072ABD4 /* Support_Messages.md */,
+				376EDD9D2A1764DF0029074A /* ReadMe.md */,
 				376EDCC52A138E590029074A /* Kodeksy_Copyrights.md */,
 			);
 			path = Docs;

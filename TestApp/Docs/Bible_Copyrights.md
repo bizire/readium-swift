@@ -44,7 +44,10 @@ Gutenberg Religious Books: https://www.gutenberg.org/browse/loccs/bs
 
 KORERAN
 01  First Korean Bible (1911)          https://dbs.org/bibles/KORSYS
-02  KJV Bible                          http://pacificbibles.org/details.php?id=eng-kjv
+02  KJV Korean                         http://www.pbbc.or.kr/kjv.pdf
+03  KJV Bible  English                 http://pacificbibles.org/details.php?id=eng-kjv
+04  Korean Bible Anonymous             https://ccel.org/ccel/bible/ko/ko?queryID=25386826&resultID=1141
+??  Revised New Korean Standard Ver    
 ??  Sinyak chynsy ch'ansongga happu    https://archive.org/details/sinyakchynsychan00soeuuoft (формат плохой)
 ??  Korean Bible                       http://www.htmlbible.com/#google_vignette (формат плохой)
 ??  Bilbi KJV KOR OTNT     аналог      https://archive.org/details/bilbi-kjv-kor-otnt/mode/2up
@@ -117,5 +120,21 @@ QURAN ENGLISH
 
 
 QURAN FRENCH
-01 https://ia902904.us.archive.org/9/items/TranslationOfTheMeaningsOfTheNobleQuranInTheFrenchPdf/TranslationOfTheMeaningsOfTheNobleQuranInTheFrench.pdf
-02 
+01 https://downloadfreeholyquran.com/wp-content/uploads/2021/07/Holy-Quran-French.pdf
+02 https://ia802904.us.archive.org/9/items/TranslationOfTheMeaningsOfTheNobleQuranInTheFrenchPdf/TranslationOfTheMeaningsOfTheNobleQuranInTheFrench.pdf
+03 https://d1.islamhouse.com/data/fr/ih_books/single/fr-if-they-knew-you-surely-love-you.pdf
+04 https://d1.islamhouse.com/data/fr/ih_books/single/fr-alistifaa.pdf
+05 https://d1.islamhouse.com/data/fr/ih_books/single/fr-alatfal.pdf
+06 https://d1.islamhouse.com/data/fr/ih_books/single/fr-fadl-al-islam.pdf`
+07 https://d1.islamhouse.com/data/fr/ih_books/single/fr-regard-sur-la-verite.pdf
+08 https://d1.islamhouse.com/data/fr/ih_books/single/fr-din-alislam-00.pdf
+09 https://d1.islamhouse.com/data/fr/ih_books/single/fr-rasul-al-islam.pdf
+10
+11
+12
+13
+14
+15
+16 https://d1.islamhouse.com/data/fr/ih_books/single/fr-memorandum-de-sheikh-haitham.pdf
+17 https://d1.islamhouse.com/data/fr/ih_books/single/fr-biographie-du-prophete.pdf
+18 https://d1.islamhouse.com/data/fr/ih_books/single/fr-Islamhouse_Les_cles_du_bonheur.pdf
