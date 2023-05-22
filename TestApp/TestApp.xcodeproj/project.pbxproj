@@ -3637,7 +3637,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/QuranFrench/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Quran;
+				INFOPLIST_KEY_CFBundleDisplayName = Coran;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3664,7 +3664,7 @@
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/QuranFrench/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Quran;
+				INFOPLIST_KEY_CFBundleDisplayName = Coran;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

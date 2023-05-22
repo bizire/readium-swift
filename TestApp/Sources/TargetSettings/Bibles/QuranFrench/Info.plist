@@ -13,7 +13,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>fr</string>
 	<key>CFBundleDisplayName</key>
-	<string>Quran</string>
+	<string>Coran</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
