@@ -142,8 +142,10 @@ QURAN FRENCH
 
 
 PORTUGESE
-01
-02
-03
-04
-05
+01 https://ebible.org/details.php?id=porblt
+02 https://ebible.org/details.php?id=porbr2018
+03 https://ebible.org/details.php?id=porbrbsl
+04 https://ebible.org/details.php?id=portft
+05 https://www.gutenberg.org/ebooks/62383
+06 https://www.gutenberg.org/ebooks/62352
+07 https://www.gutenberg.org/ebooks/32868
