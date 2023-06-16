@@ -138,3 +138,12 @@ QURAN FRENCH
 16 https://d1.islamhouse.com/data/fr/ih_books/single/fr-memorandum-de-sheikh-haitham.pdf
 17 https://d1.islamhouse.com/data/fr/ih_books/single/fr-biographie-du-prophete.pdf
 18 https://d1.islamhouse.com/data/fr/ih_books/single/fr-Islamhouse_Les_cles_du_bonheur.pdf
+
+
+
+PORTUGESE
+01
+02
+03
+04
+05
