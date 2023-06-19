@@ -559,7 +559,7 @@
 	<key>hasPremiumContent</key>
 	<true/>
 	<key>hasSubscriptions</key>
-	<true/>
+	<false/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>privacyPolicyURL</key>
