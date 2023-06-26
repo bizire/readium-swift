@@ -16,6 +16,7 @@
 /* Library tab title */
 "bookshelf_tab" = "책장";
 "catalogs_tab" = "OPDS 피드";
+"audio_tab" = "Audio";
 "about_tab" = "정보";
 
 /* Buttons */

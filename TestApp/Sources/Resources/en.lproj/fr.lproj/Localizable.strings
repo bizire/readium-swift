@@ -1,5 +1,6 @@
 "bookshelf_tab" = "Bibliothèque";
 "catalogs_tab" = "Flux OPDS";
+"audio_tab" = "Audio";
 "about_tab" = "À propos de";
 "bouton_ok" = "OK";
 "cancel_button" = "Annuler";

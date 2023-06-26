@@ -51,6 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         let libraryViewController = app.library.rootViewController
         libraryViewController.tabBarItem = makeItem(title: "bookshelf_tab", image: "bookshelf")
         
+        // Audio Player
+        let audioPlayerViewController = app.audioplayerViewController
+        audioPlayerViewController.tabBarItem = makeItem(title: "audio_tab", image: "audio")
+        
         // OPDS Feeds
         let opdsViewController = app.opds.rootViewController
         opdsViewController.tabBarItem = makeItem(title: "catalogs_tab", image: "catalogs")
@@ -60,11 +64,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         aboutViewController.tabBarItem = makeItem(title: "about_tab", image: "about")
         
         let tabBarController = UITabBarController()
+        let hasAudioPlayer = Bundle.main.object(forInfoDictionaryKey: "hasAudioPlayer") as? Bool ?? false
         tabBarController.viewControllers = [
             libraryViewController,
 //            opdsViewController,
+//            audioPlayerViewController,
             aboutViewController
         ]
+        if (hasAudioPlayer) {
+            tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
+        }
         tabBarController.tabBar.tintColor = .label
 
         window = UIWindow(frame: UIScreen.main.bounds)

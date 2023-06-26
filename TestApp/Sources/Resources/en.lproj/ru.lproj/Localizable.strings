@@ -16,6 +16,7 @@
 /* Library tab title */
 "bookshelf_tab" = "Книги";
 "catalogs_tab" = "OPDS Католог";
+"audio_tab" = "Аудио";
 "about_tab" = "Информация";
 
 /* Buttons */

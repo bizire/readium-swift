@@ -60,6 +60,12 @@ final class AppModule {
         let aboutViewController = storyboard.instantiateViewController(withIdentifier: "AboutTableViewController") as! AboutTableViewController
         return UINavigationController(rootViewController: aboutViewController)
     }()
+    
+    private(set) lazy var audioplayerViewController: UIViewController = {
+        let storyboard = UIStoryboard(name: "AudioPlayer", bundle: nil)
+        let audioplayerViewController = storyboard.instantiateViewController(withIdentifier: "FolderListViewController") as! FolderListViewController
+        return UINavigationController(rootViewController: audioplayerViewController)
+    }()
 
 }
 

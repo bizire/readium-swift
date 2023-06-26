@@ -845,6 +845,29 @@
 		37ED056E2A3C438B00B64356 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 37ED05022A3C438B00B64356 /* MBProgressHUD */; };
 		37ED05772A3C44B100B64356 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05762A3C44B100B64356 /* Media.xcassets */; };
 		37ED05792A3C480700B64356 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05782A3C480700B64356 /* Samples */; };
+		37ED05882A4184D700B64356 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05872A4184D700B64356 /* AudioPlayerFiles */; };
+		37ED058B2A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED058C2A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED058D2A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED058E2A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED058F2A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05902A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05912A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05922A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05932A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05942A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05952A418C0300B64356 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ED058A2A418C0300B64356 /* FolderListViewController.swift */; };
+		37ED05972A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED05982A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED05992A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059A2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059B2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059C2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059D2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059E2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED059F2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED05A02A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
+		37ED05A12A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
 		3A9344D4634E53FBC0ABA2DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8298F775261E56C7117369 /* Kingfisher */; };
 		3B976407BACECEE3611FB5F1 /* ReaderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC385C308B084FC1818C4C3B /* ReaderModule.swift */; };
 		42837DD1D2622D1C217E9C67 /* OPDSGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C335362E05BA9C2262377B5 /* OPDSGroupTableViewCell.swift */; };
@@ -1234,6 +1257,9 @@
 		37ED05822A3C654600B64356 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		37ED05832A3C654600B64356 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		37ED05842A3C654600B64356 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		37ED05872A4184D700B64356 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		37ED058A2A418C0300B64356 /* FolderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListViewController.swift; sourceTree = "<group>"; };
+		37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioPlayer.storyboard; sourceTree = "<group>"; };
 		3C2AECAB98D231AFEE0038AA /* OutlineViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewModels.swift; sourceTree = "<group>"; };
 		3C7ED5672B3672F2755778E7 /* BookmarkCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCellView.swift; sourceTree = "<group>"; };
 		43595DBE2748858D41904CFF /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
@@ -1706,6 +1732,15 @@
 			path = BiblePortugal;
 			sourceTree = "<group>";
 		};
+		37ED05892A418BC800B64356 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				37ED058A2A418C0300B64356 /* FolderListViewController.swift */,
+				37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
 		3AE7B79033C2702B67BD0F6F /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -1867,6 +1902,7 @@
 		C3A32F2B292756F100EA386A /* BibleEn */ = {
 			isa = PBXGroup;
 			children = (
+				37ED05872A4184D700B64356 /* AudioPlayerFiles */,
 				C3EFA32E29275AE300EACE42 /* Samples */,
 				C3A32F2C2927580B00EA386A /* Info.plist */,
 				05C95D172939E48600E4FD77 /* Media.xcassets */,
@@ -1910,6 +1946,7 @@
 				4A6C36D1B181DC5D0DD2BC34 /* r2-testapp-swift.entitlements */,
 				05C8E9EC28BF9B4700DA8485 /* TargetSettings */,
 				50CE47A8753BDF2AFC906382 /* App */,
+				37ED05892A418BC800B64356 /* AudioPlayer */,
 				8A2F34A5F130F65CB7D45DA8 /* Common */,
 				7047830EFDF29D208984C29F /* Data */,
 				E9807BBEBF8401FB0BA852FF /* Library */,
@@ -2343,6 +2380,7 @@
 				0509574E29683682004F14AA /* Assets.xcassets in Resources */,
 				0509575029683682004F14AA /* DRM.storyboard in Resources */,
 				0509575129683682004F14AA /* InfoPlist.strings in Resources */,
+				37ED059B2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				0509575229683682004F14AA /* LaunchScreen.storyboard in Resources */,
 				0509575329683682004F14AA /* PaywallBoard.storyboard in Resources */,
 				0509575429683682004F14AA /* Library.storyboard in Resources */,
@@ -2364,6 +2402,7 @@
 				054C357F298B99EE002986E8 /* DRM.storyboard in Resources */,
 				054C3580298B99EE002986E8 /* InfoPlist.strings in Resources */,
 				054C359E298B9D38002986E8 /* Samples in Resources */,
+				37ED059C2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				054C3581298B99EE002986E8 /* LaunchScreen.storyboard in Resources */,
 				054C3582298B99EE002986E8 /* PaywallBoard.storyboard in Resources */,
 				054C3583298B99EE002986E8 /* Library.storyboard in Resources */,
@@ -2385,6 +2424,7 @@
 				05C95D1A2939E4A300E4FD77 /* Media.xcassets in Resources */,
 				0579E1D228E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				05C8E9D628BF97EF00DA8485 /* DRM.storyboard in Resources */,
+				37ED05972A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				05647AF628D358EC00AEBE48 /* PaywallBoard.storyboard in Resources */,
 				05C8E9D728BF97EF00DA8485 /* LaunchScreen.storyboard in Resources */,
 				058F1C1028E9C9EC003E6E68 /* Assets.xcassets in Resources */,
@@ -2406,6 +2446,7 @@
 				3755597729C2F1DD0049661D /* DRM.storyboard in Resources */,
 				3755597829C2F1DD0049661D /* InfoPlist.strings in Resources */,
 				3755597929C2F1DD0049661D /* LaunchScreen.storyboard in Resources */,
+				37ED059F2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				3755597A29C2F1DD0049661D /* PaywallBoard.storyboard in Resources */,
 				3755597B29C2F1DD0049661D /* Library.storyboard in Resources */,
 				3755597C29C2F1DD0049661D /* Localizable.strings in Resources */,
@@ -2427,6 +2468,7 @@
 				376EDCA12A1371600029074A /* Assets.xcassets in Resources */,
 				376EDCC12A1371F50029074A /* Media.xcassets in Resources */,
 				376EDCA22A1371600029074A /* DRM.storyboard in Resources */,
+				37ED05A02A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				376EDCA32A1371600029074A /* InfoPlist.strings in Resources */,
 				376EDCA42A1371600029074A /* LaunchScreen.storyboard in Resources */,
 				376EDCA52A1371600029074A /* PaywallBoard.storyboard in Resources */,
@@ -2448,6 +2490,7 @@
 				376EDD472A13909C0029074A /* Media.xcassets in Resources */,
 				376EDD262A138FE80029074A /* InfoPlist.strings in Resources */,
 				376EDD272A138FE80029074A /* DRM.storyboard in Resources */,
+				37ED05A12A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				376EDD282A138FE80029074A /* PaywallBoard.storyboard in Resources */,
 				376EDD292A138FE80029074A /* LaunchScreen.storyboard in Resources */,
 				376EDD2A2A138FE80029074A /* Assets.xcassets in Resources */,
@@ -2469,6 +2512,7 @@
 				37A8C17929B2348000569F92 /* DRM.storyboard in Resources */,
 				37A8C17A29B2348000569F92 /* PaywallBoard.storyboard in Resources */,
 				37A8C17B29B2348000569F92 /* LaunchScreen.storyboard in Resources */,
+				37ED05992A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				37A8C17C29B2348000569F92 /* Assets.xcassets in Resources */,
 				37A8C17D29B2348000569F92 /* Library.storyboard in Resources */,
 				37A8C17E29B2348000569F92 /* Localizable.strings in Resources */,
@@ -2490,6 +2534,7 @@
 				37ED05582A3C438B00B64356 /* DRM.storyboard in Resources */,
 				37ED05592A3C438B00B64356 /* InfoPlist.strings in Resources */,
 				37ED055A2A3C438B00B64356 /* LaunchScreen.storyboard in Resources */,
+				37ED059D2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				37ED055B2A3C438B00B64356 /* PaywallBoard.storyboard in Resources */,
 				37ED055C2A3C438B00B64356 /* Library.storyboard in Resources */,
 				37ED055D2A3C438B00B64356 /* Localizable.strings in Resources */,
@@ -2511,6 +2556,7 @@
 				05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,
 				0579E1D128E45F6D007C84E9 /* InfoPlist.strings in Resources */,
+				37ED05982A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				A76472C2F4B19FB6946708D1 /* LaunchScreen.storyboard in Resources */,
 				05647AF528D358EC00AEBE48 /* PaywallBoard.storyboard in Resources */,
 				CC81FE9057CC6A8F7E71B984 /* Library.storyboard in Resources */,
@@ -2534,10 +2580,12 @@
 				C3A32F112927566F00EA386A /* InfoPlist.strings in Resources */,
 				C3A32F122927566F00EA386A /* LaunchScreen.storyboard in Resources */,
 				C3A32F132927566F00EA386A /* PaywallBoard.storyboard in Resources */,
+				37ED05882A4184D700B64356 /* AudioPlayerFiles in Resources */,
 				C3A32F142927566F00EA386A /* Library.storyboard in Resources */,
 				C3A32F152927566F00EA386A /* Localizable.strings in Resources */,
 				C3A32F162927566F00EA386A /* OPDS.storyboard in Resources */,
 				C3EFA32F29275AE300EACE42 /* Samples in Resources */,
+				37ED059A2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				C3A32F182927566F00EA386A /* PublicationCollectionViewCell.xib in Resources */,
 				C3A32F192927566F00EA386A /* PublicationMenuViewController.xib in Resources */,
 				C3A32F1A2927566F00EA386A /* UserSettings.storyboard in Resources */,
@@ -2553,6 +2601,7 @@
 				C3E0FCA329B1DF7F000791FA /* DRM.storyboard in Resources */,
 				C3E0FCA429B1DF7F000791FA /* InfoPlist.strings in Resources */,
 				C3E0FCA529B1DF7F000791FA /* LaunchScreen.storyboard in Resources */,
+				37ED059E2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				C3E0FCA629B1DF7F000791FA /* PaywallBoard.storyboard in Resources */,
 				C3E0FCA729B1DF7F000791FA /* Library.storyboard in Resources */,
 				C3E0FCA829B1DF7F000791FA /* Localizable.strings in Resources */,
@@ -2646,6 +2695,7 @@
 				0509574729683682004F14AA /* UIImage.swift in Sources */,
 				0509574829683682004F14AA /* UIViewController.swift in Sources */,
 				0509574929683682004F14AA /* UserSettingsNavigationController.swift in Sources */,
+				37ED058F2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				0509574A29683682004F14AA /* UserSettingsTableViewController.swift in Sources */,
 				0509574B29683682004F14AA /* Constants.swift in Sources */,
 			);
@@ -2729,6 +2779,7 @@
 				054C3576298B99EE002986E8 /* UIImage.swift in Sources */,
 				054C3577298B99EE002986E8 /* UIViewController.swift in Sources */,
 				054C3578298B99EE002986E8 /* UserSettingsNavigationController.swift in Sources */,
+				37ED05902A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				054C3579298B99EE002986E8 /* UserSettingsTableViewController.swift in Sources */,
 				054C357A298B99EE002986E8 /* Constants.swift in Sources */,
 			);
@@ -2812,6 +2863,7 @@
 				05C8E9CE28BF97EF00DA8485 /* UIImage.swift in Sources */,
 				05C8E9CF28BF97EF00DA8485 /* UIViewController.swift in Sources */,
 				05C8E9D028BF97EF00DA8485 /* UserSettingsNavigationController.swift in Sources */,
+				37ED058B2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				05C8E9D128BF97EF00DA8485 /* UserSettingsTableViewController.swift in Sources */,
 				05FF1BAD28CF46580048FF43 /* Constants.swift in Sources */,
 			);
@@ -2895,6 +2947,7 @@
 				3755596E29C2F1DD0049661D /* UIImage.swift in Sources */,
 				3755596F29C2F1DD0049661D /* UIViewController.swift in Sources */,
 				3755597029C2F1DD0049661D /* UserSettingsNavigationController.swift in Sources */,
+				37ED05932A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				3755597129C2F1DD0049661D /* UserSettingsTableViewController.swift in Sources */,
 				3755597229C2F1DD0049661D /* Constants.swift in Sources */,
 			);
@@ -2978,6 +3031,7 @@
 				376EDC9A2A1371600029074A /* UIImage.swift in Sources */,
 				376EDC9B2A1371600029074A /* UIViewController.swift in Sources */,
 				376EDC9C2A1371600029074A /* UserSettingsNavigationController.swift in Sources */,
+				37ED05942A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				376EDC9D2A1371600029074A /* UserSettingsTableViewController.swift in Sources */,
 				376EDC9E2A1371600029074A /* Constants.swift in Sources */,
 			);
@@ -3061,6 +3115,7 @@
 				376EDD1F2A138FE80029074A /* UIImage.swift in Sources */,
 				376EDD202A138FE80029074A /* UIViewController.swift in Sources */,
 				376EDD212A138FE80029074A /* UserSettingsNavigationController.swift in Sources */,
+				37ED05952A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				376EDD222A138FE80029074A /* UserSettingsTableViewController.swift in Sources */,
 				376EDD232A138FE80029074A /* Constants.swift in Sources */,
 			);
@@ -3144,6 +3199,7 @@
 				37A8C16F29B2348000569F92 /* UIImage.swift in Sources */,
 				37A8C17029B2348000569F92 /* UIViewController.swift in Sources */,
 				37A8C17129B2348000569F92 /* UserSettingsNavigationController.swift in Sources */,
+				37ED058D2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				37A8C17229B2348000569F92 /* UserSettingsTableViewController.swift in Sources */,
 				37A8C17329B2348000569F92 /* Constants.swift in Sources */,
 			);
@@ -3227,6 +3283,7 @@
 				37ED05502A3C438B00B64356 /* UIImage.swift in Sources */,
 				37ED05512A3C438B00B64356 /* UIViewController.swift in Sources */,
 				37ED05522A3C438B00B64356 /* UserSettingsNavigationController.swift in Sources */,
+				37ED05912A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				37ED05532A3C438B00B64356 /* UserSettingsTableViewController.swift in Sources */,
 				37ED05542A3C438B00B64356 /* Constants.swift in Sources */,
 			);
@@ -3310,6 +3367,7 @@
 				C3A32F082927566F00EA386A /* UIImage.swift in Sources */,
 				C3A32F092927566F00EA386A /* UIViewController.swift in Sources */,
 				C3A32F0A2927566F00EA386A /* UserSettingsNavigationController.swift in Sources */,
+				37ED058E2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				C3A32F0B2927566F00EA386A /* UserSettingsTableViewController.swift in Sources */,
 				C3A32F0C2927566F00EA386A /* Constants.swift in Sources */,
 			);
@@ -3393,6 +3451,7 @@
 				C3E0FC9A29B1DF7F000791FA /* UIImage.swift in Sources */,
 				C3E0FC9B29B1DF7F000791FA /* UIViewController.swift in Sources */,
 				C3E0FC9C29B1DF7F000791FA /* UserSettingsNavigationController.swift in Sources */,
+				37ED05922A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				C3E0FC9D29B1DF7F000791FA /* UserSettingsTableViewController.swift in Sources */,
 				C3E0FC9E29B1DF7F000791FA /* Constants.swift in Sources */,
 			);
@@ -3476,6 +3535,7 @@
 				D409F84BA5B8795E5267DE40 /* UIImage.swift in Sources */,
 				53231B2AF0C7495885C02F67 /* UIViewController.swift in Sources */,
 				10AE9794149FE28BD342938D /* UserSettingsNavigationController.swift in Sources */,
+				37ED058C2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				27751F7E452D817E5A9F13A6 /* UserSettingsTableViewController.swift in Sources */,
 				05FF1BAC28CF46570048FF43 /* Constants.swift in Sources */,
 			);

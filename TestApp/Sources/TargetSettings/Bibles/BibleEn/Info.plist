@@ -24,6 +24,8 @@
 	<true/>
 	<key>hasSubscriptions</key>
 	<true/>
+	<key>hasAudioPlayer</key>
+	<false/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>ITSAppUsesNonExemptEncryption</key>
