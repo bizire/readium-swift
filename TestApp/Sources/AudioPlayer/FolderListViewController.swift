@@ -86,8 +86,14 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     var adHelper = AdHelper()
     
     let playPauseButton = UIButton(type: .system)
-    let playImage = UIImage(named: "player_upnext_play")
-    let pauseImage = UIImage(named: "player_upnext_pause")
+    let playImage = UIImage(named: "player_play")
+    let pauseImage = UIImage(named: "player_pause")
+    
+    let previousButton = UIButton(type: .system)
+    let nextButton = UIButton(type: .system)
+    let audioSlider = UISlider()
+    
+    var sliderTimer: Timer?
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -145,16 +151,45 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         }
     }
     
+    let FOOTER_HEIGHT: CGFloat = 100
+    
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 80))
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: FOOTER_HEIGHT))
         
         footerView.backgroundColor = UIColor.darkGray
+        
+        let yCenter = (footerView.frame.height - 50) * 0.8
+        let xCenter = (footerView.frame.width - 50) / 2
+        
+        let sliderWidth = footerView.frame.width - 100
+        let sliderHeight: CGFloat = 20
+        let sliderX = (footerView.frame.width - sliderWidth) / 2
+
+        audioSlider.frame = CGRect(x: sliderX, y: yCenter-20, width: sliderWidth, height: sliderHeight)
+        audioSlider.minimumValue = 0
+        audioSlider.maximumValue = 1
+        audioSlider.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
+        audioSlider.addTarget(self, action: #selector(sliderTouchUp(_:)), for: .touchUpInside)
+        footerView.addSubview(audioSlider)
+        
+        // Create the previous button
+        previousButton.frame = CGRect(x: xCenter - 100, y: yCenter, width: 50, height: 50)
+        previousButton.setImage(UIImage(named: "player_previous"), for: .normal)
+        previousButton.addTarget(self, action: #selector(previousButtonTapped(_:)), for: .touchUpInside)
+        footerView.addSubview(previousButton)
+           
         
         playPauseButton.setImage(playImage, for: .normal)
         playPauseButton.addTarget(self, action: #selector(playPauseButtonTapped(_:)), for: .touchUpInside)
         
+        // Create the next button
+        nextButton.frame = CGRect(x: xCenter + 100, y: yCenter, width: 50, height: 50)
+        nextButton.setImage(UIImage(named: "player_next"), for: .normal)
+        nextButton.addTarget(self, action: #selector(nextButtonTapped(_:)), for: .touchUpInside)
+        footerView.addSubview(nextButton)
+        
         // Set the initial play/pause button position
-        playPauseButton.frame = CGRect(x: (footerView.frame.width - 100) / 2, y: (footerView.frame.height - 50) / 2, width: 100, height: 50)
+        playPauseButton.frame = CGRect(x: xCenter, y: yCenter, width: 50, height: 50)
         
         // Add the play/pause button to the footer view
         footerView.addSubview(playPauseButton)
@@ -163,7 +198,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     }
 
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 80
+        return FOOTER_HEIGHT
     }
     
     @objc func playPauseButtonTapped(_ sender: UIButton) {
@@ -171,6 +206,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             let firstFile = folderFiles[0]
             playAudio(file: firstFile)
             playPauseButton.setImage(pauseImage, for: .normal)
+            let indexPath = IndexPath(row: 0, section: 0)
+            tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
         } else {
             if audioPlayer.isPlaying {
                 audioPlayer.pause()
@@ -179,6 +216,61 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
                 audioPlayer.play()
                 sender.setImage(pauseImage, for: .normal)
             }
+        }
+    }
+    
+    @objc func previousButtonTapped(_ sender: UIButton) {
+        guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        
+        let currentIndex = selectedIndexPath.row
+        let previousIndex = currentIndex - 1
+        
+        if previousIndex >= 0 && previousIndex < folderFiles.count {
+            let previousFile = folderFiles[previousIndex]
+            playAudio(file: previousFile)
+            
+            // Deselect the current row
+            tableView.deselectRow(at: selectedIndexPath, animated: false)
+            
+            // Select the previous row
+            let previousIndexPath = IndexPath(row: previousIndex, section: selectedIndexPath.section)
+            tableView.selectRow(at: previousIndexPath, animated: true, scrollPosition: .none)
+        }
+    }
+
+    @objc func nextButtonTapped(_ sender: UIButton) {
+        guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        
+        let currentIndex = selectedIndexPath.row
+        let nextIndex = currentIndex + 1
+        
+        if nextIndex >= 0 && nextIndex < folderFiles.count {
+            let nextFile = folderFiles[nextIndex]
+            playAudio(file: nextFile)
+            
+            // Deselect the current row
+            tableView.deselectRow(at: selectedIndexPath, animated: false)
+            
+            // Select the next row
+            let nextIndexPath = IndexPath(row: nextIndex, section: selectedIndexPath.section)
+            tableView.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
+        }
+    }
+
+    @objc func sliderValueChanged(_ sender: UISlider) {
+        let value = sender.value
+        let duration = audioPlayer.duration
+        let seekTime = TimeInterval(value) * duration
+        audioPlayer.currentTime = seekTime
+    }
+    
+    @objc func sliderTouchUp(_ sender: UISlider) {
+        if audioPlayer.isPlaying {
+            audioPlayer.play()
         }
     }
     
@@ -194,14 +286,52 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             audioPlayer.delegate = self
             audioPlayer.prepareToPlay()
             audioPlayer.play()
+            startSliderTimer()
         } catch {
             print("Failed to play audio: \(error.localizedDescription)")
         }
     }
     
+    func startSliderTimer() {
+        sliderTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updateSlider() {
+        guard let audioPlayer = audioPlayer else {
+            return
+        }
+        
+        let currentTime = audioPlayer.currentTime
+        let duration = audioPlayer.duration
+        let sliderValue = Float(currentTime / duration)
+        audioSlider.value = sliderValue
+    }
+
+    
     // MARK: - AVAudioPlayerDelegate
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        guard flag else {
+            print("Audio playback finished unsuccessfully.")
+            return
+        }
+        
         // Perform any necessary actions after audio playback finishes
+        sliderTimer?.invalidate()
+        sliderTimer = nil
+        
+        // Find the index of the current playing file
+        guard let currentFile = player.url?.lastPathComponent,
+              let currentIndex = folderFiles.firstIndex(of: currentFile) else {
+            return
+        }
+        
+        // Check if there is a next file available
+        let nextIndex = currentIndex + 1
+        if nextIndex < folderFiles.count {
+            let nextFile = folderFiles[nextIndex]
+            playAudio(file: nextFile)
+            tableView.selectRow(at: IndexPath(row: nextIndex, section: 0), animated: true, scrollPosition: .none)
+        }
     }
 }
