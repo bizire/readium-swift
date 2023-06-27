@@ -91,6 +91,9 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     let previousButton = UIButton(type: .system)
     let nextButton = UIButton(type: .system)
+    
+    let currentPositionLabel = UILabel()
+    let totalDurationLabel = UILabel()
     let audioSlider = UISlider()
     
     var sliderTimer: Timer?
@@ -161,7 +164,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let yCenter = (footerView.frame.height - 50) * 0.8
         let xCenter = (footerView.frame.width - 50) / 2
         
-        let sliderWidth = footerView.frame.width - 100
+        let sliderWidth = footerView.frame.width - 120
         let sliderHeight: CGFloat = 20
         let sliderX = (footerView.frame.width - sliderWidth) / 2
 
@@ -190,6 +193,25 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         // Set the initial play/pause button position
         playPauseButton.frame = CGRect(x: xCenter, y: yCenter, width: 50, height: 50)
+        
+        // Create the current position label
+        
+        currentPositionLabel.frame = CGRect(x: xCenter - 160, y: yCenter-35, width: 60, height: 50)
+        currentPositionLabel.textColor = UIColor.white
+        currentPositionLabel.textAlignment = .center
+        currentPositionLabel.font = UIFont.systemFont(ofSize: 9)
+        footerView.addSubview(currentPositionLabel)
+        
+        // Create the total duration label
+        totalDurationLabel.frame = CGRect(x: xCenter + 160, y: yCenter-35, width: 60, height: 50)
+        totalDurationLabel.textColor = UIColor.white
+        totalDurationLabel.textAlignment = .center
+        totalDurationLabel.font = UIFont.systemFont(ofSize: 9)
+        footerView.addSubview(totalDurationLabel)
+        
+        // Set the initial values of the position and duration labels
+        currentPositionLabel.text = "00:00"
+        totalDurationLabel.text = "00:00"
         
         // Add the play/pause button to the footer view
         footerView.addSubview(playPauseButton)
@@ -260,12 +282,27 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             tableView.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
         }
     }
-
+    
+    var wasPlaying = false
     @objc func sliderValueChanged(_ sender: UISlider) {
         let value = sender.value
+        
+        // Pause the audio player if it's currently playing
+        if audioPlayer.isPlaying {
+            wasPlaying = true
+            audioPlayer.pause()
+        }
         let duration = audioPlayer.duration
         let seekTime = TimeInterval(value) * duration
         audioPlayer.currentTime = seekTime
+        
+        
+        // Resume playback if it was previously playing
+        if !audioPlayer.isPlaying {
+            if (wasPlaying){
+                audioPlayer.play()
+            }
+        }
     }
     
     @objc func sliderTouchUp(_ sender: UISlider) {
@@ -287,13 +324,15 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             audioPlayer.prepareToPlay()
             audioPlayer.play()
             startSliderTimer()
+            // Update the position and duration labels based on the audio player state
+            updateDurationLabel(totalDurationLabel)
         } catch {
             print("Failed to play audio: \(error.localizedDescription)")
         }
     }
     
     func startSliderTimer() {
-        sliderTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
+        sliderTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
     }
     
     @objc func updateSlider() {
@@ -305,17 +344,40 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let duration = audioPlayer.duration
         let sliderValue = Float(currentTime / duration)
         audioSlider.value = sliderValue
+        updatePositionLabel(currentPositionLabel)
+    }
+    
+    func updatePositionLabel(_ label: UILabel) {
+        if let player = audioPlayer {
+            let currentTime = Int(player.currentTime)
+            let minutes = currentTime / 60
+            let seconds = currentTime % 60
+            label.text = String(format: "%02d:%02d", minutes, seconds)
+        }
+    }
+
+    // Helper method to update the total duration label with the audio player's total duration
+    func updateDurationLabel(_ label: UILabel) {
+        if let player = audioPlayer {
+            let duration = Int(player.duration)
+            let minutes = duration / 60
+            let seconds = duration % 60
+            label.text = String(format: "%02d:%02d", minutes, seconds)
+        }
     }
 
     
     // MARK: - AVAudioPlayerDelegate
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("audioPlayerDidFinishPlaying audioplayer playback finished unsuccessfully.")
         guard flag else {
             print("Audio playback finished unsuccessfully.")
             return
         }
         
+        
+        print("flag = \(flag).")
         // Perform any necessary actions after audio playback finishes
         sliderTimer?.invalidate()
         sliderTimer = nil
@@ -333,5 +395,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             playAudio(file: nextFile)
             tableView.selectRow(at: IndexPath(row: nextIndex, section: 0), animated: true, scrollPosition: .none)
         }
+        
+        
     }
 }
