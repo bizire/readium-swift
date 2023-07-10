@@ -5,19 +5,25 @@ import RevenueCat
 
 class FolderListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var folderNames = [String]() // Array containing the folder names
-    let audioPlayer = AVAudioPlayer()
     var adHelper = AdHelper()
     
     @IBOutlet weak var tableView: UITableView!
     
     private func initAudioPlayerFolders() {
-        
-        let docsPath = Bundle.main.path(forResource: "AudioPlayerFiles", ofType: nil)
+        let docsURL = Bundle.main.resourceURL?.appendingPathComponent("AudioPlayerFiles")
         let fileManager = FileManager.default
         
         do {
-            folderNames = try fileManager.contentsOfDirectory(atPath: docsPath!)
-            folderNames = folderNames.sorted()
+            let contents = try fileManager.contentsOfDirectory(at: docsURL!, includingPropertiesForKeys: nil)
+            
+            folderNames = contents
+                .filter { (url) -> Bool in
+                    var isDirectory: ObjCBool = false
+                    return fileManager.fileExists(atPath: url.path, isDirectory: &isDirectory) && isDirectory.boolValue
+                }
+                .map { $0.lastPathComponent }
+                .sorted()
+            
             print("folderNames = \(folderNames)")
         } catch {
             print(error)
@@ -81,8 +87,9 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
 
 class FolderContentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate,  AVAudioPlayerDelegate {
     var folderName: String!
+    var currentFileIndex = 0
+    var currentFile = ""
     var folderFiles = [String]()
-    var audioPlayer: AVAudioPlayer!
     var adHelper = AdHelper()
     
     let playPauseButton = UIButton(type: .system)
@@ -91,6 +98,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     let previousButton = UIButton(type: .system)
     let nextButton = UIButton(type: .system)
+    
+    let audioFileLabel = UILabel()
     
     let currentPositionLabel = UILabel()
     let totalDurationLabel = UILabel()
@@ -108,6 +117,55 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         tableView.delegate = self
         print("folderNames folderName = \(folderName)")
         loadFolderFiles()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(handleSliderUpdateNotification(_:)), name: Notification.Name("SliderUpdateNotification"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleAudioInfoNotification(_:)), name: Notification.Name("AudioInfoUpdateNotification"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(handleAudioPlayerDidFinish(_:)), name: Notification.Name("AudioPlayerDidFinishPlaying"), object: nil)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        if self.isMovingFromParent {
+            AudioPlayerManager.shared.destroyPlayer()
+        }
+    }
+    
+    @objc func handleSliderUpdateNotification(_ notification: Notification) {
+        if let progress = notification.userInfo?["Progress"] as? Float {
+            audioSlider.value = progress
+            updatePositionLabel(currentPositionLabel)
+        }
+    }
+    
+    @objc func handleAudioInfoNotification(_ notification: Notification) {
+        updateDurationLabel(totalDurationLabel)
+        updateFileInfoLabel(audioFileLabel)
+    }
+    
+    @objc func handleAudioPlayerDidFinish(_ notification: Notification) {
+        print("audioPlayerDidFinishPlaying audioplayer playback finished unsuccessfully.")
+
+        // Find the index of the current playing file
+        guard let currentFile = AudioPlayerManager.shared.lastPathComponent(),
+              let currentIndex = folderFiles.firstIndex(of: currentFile) else {
+            return
+        }
+        
+        // Check if there is a next file available
+        let nextIndex = currentIndex + 1
+        if nextIndex < folderFiles.count {
+            let nextFile = folderFiles[nextIndex]
+//            playAudio(file: nextFile)
+            AudioPlayerManager.shared.playAudio(folderName: folderName, file: nextFile)
+            tableView.selectRow(at: IndexPath(row: nextIndex, section: 0), animated: true, scrollPosition: .none)
+        }
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: Notification.Name("SliderUpdateNotification"), object: nil)
+        NotificationCenter.default.removeObserver(self, name: Notification.Name("AudioInfoUpdateNotification"), object: nil)
+        NotificationCenter.default.removeObserver(self, name: Notification.Name("AudioPlayerDidFinishPlaying"), object: nil)
     }
     
     func loadFolderFiles() {
@@ -129,7 +187,9 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FileCell", for: indexPath)
-        cell.textLabel?.text = folderFiles[indexPath.row]
+        let fileName = folderFiles[indexPath.row]
+        let fileNameWithoutExtension = (fileName as NSString).deletingPathExtension
+        cell.textLabel?.text = "\(folderName!) - Chapter: \(fileNameWithoutExtension)"
         return cell
     }
     
@@ -138,37 +198,51 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedFile = folderFiles[indexPath.row]
         
-        if let currentPlayingFile = audioPlayer?.url?.lastPathComponent,
+        if let currentPlayingFile = AudioPlayerManager.shared.lastPathComponent(),
            currentPlayingFile == selectedFile {
             // Pause the audio if the selected cell is already playing
-            if audioPlayer.isPlaying {
-                audioPlayer.pause()
+            if AudioPlayerManager.shared.isPlaying() {
+                AudioPlayerManager.shared.pauseAudio()
                 playPauseButton.setImage(playImage, for: .normal)
             } else {
-                audioPlayer.play()
+                AudioPlayerManager.shared.playAudio(folderName: folderName, file: selectedFile)
                 playPauseButton.setImage(pauseImage, for: .normal)
             }
         } else {
-            playAudio(file: selectedFile)
+            AudioPlayerManager.shared.playAudio(folderName: folderName, file: selectedFile)
+            AudioPlayerManager.shared.startSliderUpdateTimer()
             playPauseButton.setImage(pauseImage, for: .normal)
         }
+        
+        currentFileIndex = indexPath.row
     }
     
-    let FOOTER_HEIGHT: CGFloat = 100
+    let FOOTER_HEIGHT: CGFloat = 80
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        if tableView.numberOfRows(inSection: section) == 0 {
+               return nil  // Return nil to hide the footer view
+           }
+        
         let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: FOOTER_HEIGHT))
         
         footerView.backgroundColor = UIColor.darkGray
         
-        let yCenter = (footerView.frame.height - 50) * 0.8
+        let yCenter = (footerView.frame.height - 40) * 0.8
         let xCenter = (footerView.frame.width - 50) / 2
         
         let sliderWidth = footerView.frame.width - 120
         let sliderHeight: CGFloat = 20
         let sliderX = (footerView.frame.width - sliderWidth) / 2
+        
+        audioFileLabel.frame = CGRect(x: sliderX, y: yCenter-30, width: sliderWidth, height: sliderHeight)
+        audioFileLabel.textColor = UIColor.white
+        audioFileLabel.textAlignment = .center
+        audioFileLabel.font = UIFont.systemFont(ofSize: 9)
+        footerView.addSubview(audioFileLabel)
+        audioFileLabel.text = "Audio Bible"
 
-        audioSlider.frame = CGRect(x: sliderX, y: yCenter-20, width: sliderWidth, height: sliderHeight)
+        audioSlider.frame = CGRect(x: sliderX, y: yCenter-15, width: sliderWidth, height: sliderHeight)
         audioSlider.minimumValue = 0
         audioSlider.maximumValue = 1
         audioSlider.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
@@ -195,15 +269,14 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         playPauseButton.frame = CGRect(x: xCenter, y: yCenter, width: 50, height: 50)
         
         // Create the current position label
-        
-        currentPositionLabel.frame = CGRect(x: xCenter - 160, y: yCenter-35, width: 60, height: 50)
+        currentPositionLabel.frame = CGRect(x: xCenter - 160, y: yCenter-30, width: 60, height: 50)
         currentPositionLabel.textColor = UIColor.white
         currentPositionLabel.textAlignment = .center
         currentPositionLabel.font = UIFont.systemFont(ofSize: 9)
         footerView.addSubview(currentPositionLabel)
         
         // Create the total duration label
-        totalDurationLabel.frame = CGRect(x: xCenter + 160, y: yCenter-35, width: 60, height: 50)
+        totalDurationLabel.frame = CGRect(x: xCenter + 160, y: yCenter-30, width: 60, height: 50)
         totalDurationLabel.textColor = UIColor.white
         totalDurationLabel.textAlignment = .center
         totalDurationLabel.font = UIFont.systemFont(ofSize: 9)
@@ -224,21 +297,17 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     @objc func playPauseButtonTapped(_ sender: UIButton) {
-        if (audioPlayer == nil) {
-            let firstFile = folderFiles[0]
-            playAudio(file: firstFile)
-            playPauseButton.setImage(pauseImage, for: .normal)
-            let indexPath = IndexPath(row: 0, section: 0)
-            tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
-        } else {
-            if audioPlayer.isPlaying {
-                audioPlayer.pause()
+   
+            if AudioPlayerManager.shared.isPlaying() {
+                AudioPlayerManager.shared.pauseAudio()
+                AudioPlayerManager.shared.stopSliderUpdateTimer()
                 sender.setImage(playImage, for: .normal)
             } else {
-                audioPlayer.play()
+                AudioPlayerManager.shared.playAudio(folderName: folderName, file: folderFiles[currentFileIndex])
+                AudioPlayerManager.shared.startSliderUpdateTimer()
                 sender.setImage(pauseImage, for: .normal)
             }
-        }
+        
     }
     
     @objc func previousButtonTapped(_ sender: UIButton) {
@@ -251,7 +320,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         if previousIndex >= 0 && previousIndex < folderFiles.count {
             let previousFile = folderFiles[previousIndex]
-            playAudio(file: previousFile)
+//            playAudio(file: previousFile)
+            AudioPlayerManager.shared.playAudio(folderName: folderName, file: previousFile)
             
             // Deselect the current row
             tableView.deselectRow(at: selectedIndexPath, animated: false)
@@ -259,6 +329,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             // Select the previous row
             let previousIndexPath = IndexPath(row: previousIndex, section: selectedIndexPath.section)
             tableView.selectRow(at: previousIndexPath, animated: true, scrollPosition: .none)
+            currentFileIndex = previousIndex
         }
     }
 
@@ -272,7 +343,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         if nextIndex >= 0 && nextIndex < folderFiles.count {
             let nextFile = folderFiles[nextIndex]
-            playAudio(file: nextFile)
+//            playAudio(file: nextFile)
+            AudioPlayerManager.shared.playAudio(folderName: folderName, file: nextFile)
             
             // Deselect the current row
             tableView.deselectRow(at: selectedIndexPath, animated: false)
@@ -280,6 +352,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             // Select the next row
             let nextIndexPath = IndexPath(row: nextIndex, section: selectedIndexPath.section)
             tableView.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
+            currentFileIndex = nextIndex
         }
     }
     
@@ -288,114 +361,51 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let value = sender.value
         
         // Pause the audio player if it's currently playing
-        if audioPlayer.isPlaying {
+        if AudioPlayerManager.shared.isPlaying() {
             wasPlaying = true
-            audioPlayer.pause()
+            AudioPlayerManager.shared.pauseAudio()
         }
-        let duration = audioPlayer.duration
+        let duration = AudioPlayerManager.shared.duration()
         let seekTime = TimeInterval(value) * duration
-        audioPlayer.currentTime = seekTime
+        AudioPlayerManager.shared.setCurrentTime(time: seekTime)
         
         
         // Resume playback if it was previously playing
-        if !audioPlayer.isPlaying {
+        if !AudioPlayerManager.shared.isPlaying() {
             if (wasPlaying){
-                audioPlayer.play()
+                AudioPlayerManager.shared.resumeAudio()
             }
         }
     }
     
     @objc func sliderTouchUp(_ sender: UISlider) {
-        if audioPlayer.isPlaying {
-            audioPlayer.play()
+        if AudioPlayerManager.shared.isPlaying() {
+            AudioPlayerManager.shared.resumeAudio()
         }
     }
     
     // MARK: - Audio Playback
     
-    func playAudio(file: String) {
-        guard let filePath = Bundle.main.path(forResource: "AudioPlayerFiles/\(folderName!)/\(file)", ofType: nil) else {
-            return
-        }
-        
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: filePath))
-            audioPlayer.delegate = self
-            audioPlayer.prepareToPlay()
-            audioPlayer.play()
-            startSliderTimer()
-            // Update the position and duration labels based on the audio player state
-            updateDurationLabel(totalDurationLabel)
-        } catch {
-            print("Failed to play audio: \(error.localizedDescription)")
-        }
-    }
-    
-    func startSliderTimer() {
-        sliderTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateSlider), userInfo: nil, repeats: true)
-    }
-    
-    @objc func updateSlider() {
-        guard let audioPlayer = audioPlayer else {
-            return
-        }
-        
-        let currentTime = audioPlayer.currentTime
-        let duration = audioPlayer.duration
-        let sliderValue = Float(currentTime / duration)
-        audioSlider.value = sliderValue
-        updatePositionLabel(currentPositionLabel)
-    }
-    
     func updatePositionLabel(_ label: UILabel) {
-        if let player = audioPlayer {
-            let currentTime = Int(player.currentTime)
+ 
+            let currentTime = Int(AudioPlayerManager.shared.currentTime())
             let minutes = currentTime / 60
             let seconds = currentTime % 60
             label.text = String(format: "%02d:%02d", minutes, seconds)
-        }
+    
     }
 
     // Helper method to update the total duration label with the audio player's total duration
     func updateDurationLabel(_ label: UILabel) {
-        if let player = audioPlayer {
-            let duration = Int(player.duration)
+   
+            let duration = Int(AudioPlayerManager.shared.duration())
             let minutes = duration / 60
             let seconds = duration % 60
             label.text = String(format: "%02d:%02d", minutes, seconds)
-        }
+    
     }
-
     
-    // MARK: - AVAudioPlayerDelegate
-    
-    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-        print("audioPlayerDidFinishPlaying audioplayer playback finished unsuccessfully.")
-        guard flag else {
-            print("Audio playback finished unsuccessfully.")
-            return
-        }
-        
-        
-        print("flag = \(flag).")
-        // Perform any necessary actions after audio playback finishes
-        sliderTimer?.invalidate()
-        sliderTimer = nil
-        
-        // Find the index of the current playing file
-        guard let currentFile = player.url?.lastPathComponent,
-              let currentIndex = folderFiles.firstIndex(of: currentFile) else {
-            return
-        }
-        
-        // Check if there is a next file available
-        let nextIndex = currentIndex + 1
-        if nextIndex < folderFiles.count {
-            let nextFile = folderFiles[nextIndex]
-            playAudio(file: nextFile)
-            tableView.selectRow(at: IndexPath(row: nextIndex, section: 0), animated: true, scrollPosition: .none)
-        }
-        
-        
+    func updateFileInfoLabel(_ label: UILabel) {
+        label.text = AudioPlayerManager.shared.getFolderName() + " - Chapter: " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
     }
 }

@@ -645,6 +645,17 @@
 		376EDD3D2A138FE80029074A /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 376EDCD12A138FE80029074A /* MBProgressHUD */; };
 		376EDD452A1390780029074A /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 376EDD442A1390780029074A /* Samples */; };
 		376EDD472A13909C0029074A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376EDD462A13909C0029074A /* Media.xcassets */; };
+		379FF6A82A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6A92A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AA2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AB2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AC2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AD2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AE2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6AF2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6B02A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6B12A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
+		379FF6B22A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
 		37A8C12829B2348000569F92 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		37A8C12929B2348000569F92 /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		37A8C12A29B2348000569F92 /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -1238,6 +1249,7 @@
 		3791323729B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/UserSettings.strings; sourceTree = "<group>"; };
 		3791323829B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3791323929B5DA7900D06305 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
 		37A8C19129B2348000569F92 /* US Laws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US Laws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A8C19329B234EA00569F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A8C19429B234F800569F92 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1737,6 +1749,7 @@
 			children = (
 				37ED058A2A418C0300B64356 /* FolderListViewController.swift */,
 				37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */,
+				379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -2634,6 +2647,7 @@
 				0509570A29683682004F14AA /* CBZModule.swift in Sources */,
 				0509570B29683682004F14AA /* CBZViewController.swift in Sources */,
 				0509570C29683682004F14AA /* TTSView.swift in Sources */,
+				379FF6AC2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				0509570D29683682004F14AA /* ColorScheme.swift in Sources */,
 				0509570E29683682004F14AA /* DRMLibraryService.swift in Sources */,
 				0509570F29683682004F14AA /* DRMManagementTableViewController.swift in Sources */,
@@ -2718,6 +2732,7 @@
 				054C3539298B99EE002986E8 /* CBZModule.swift in Sources */,
 				054C353A298B99EE002986E8 /* CBZViewController.swift in Sources */,
 				054C353B298B99EE002986E8 /* TTSView.swift in Sources */,
+				379FF6AD2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				054C353C298B99EE002986E8 /* ColorScheme.swift in Sources */,
 				054C353D298B99EE002986E8 /* DRMLibraryService.swift in Sources */,
 				054C353E298B99EE002986E8 /* DRMManagementTableViewController.swift in Sources */,
@@ -2802,6 +2817,7 @@
 				05C8E99928BF97EF00DA8485 /* CBZModule.swift in Sources */,
 				05C8E99A28BF97EF00DA8485 /* CBZViewController.swift in Sources */,
 				05289AF829360358005D6C76 /* TTSView.swift in Sources */,
+				379FF6A82A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				05C8E99B28BF97EF00DA8485 /* ColorScheme.swift in Sources */,
 				05C8E99C28BF97EF00DA8485 /* DRMLibraryService.swift in Sources */,
 				05C8E99D28BF97EF00DA8485 /* DRMManagementTableViewController.swift in Sources */,
@@ -2886,6 +2902,7 @@
 				3755593129C2F1DD0049661D /* CBZModule.swift in Sources */,
 				3755593229C2F1DD0049661D /* CBZViewController.swift in Sources */,
 				3755593329C2F1DD0049661D /* TTSView.swift in Sources */,
+				379FF6B02A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				3755593429C2F1DD0049661D /* ColorScheme.swift in Sources */,
 				3755593529C2F1DD0049661D /* DRMLibraryService.swift in Sources */,
 				3755593629C2F1DD0049661D /* DRMManagementTableViewController.swift in Sources */,
@@ -2970,6 +2987,7 @@
 				376EDC5D2A1371600029074A /* CBZModule.swift in Sources */,
 				376EDC5E2A1371600029074A /* CBZViewController.swift in Sources */,
 				376EDC5F2A1371600029074A /* TTSView.swift in Sources */,
+				379FF6B12A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				376EDC602A1371600029074A /* ColorScheme.swift in Sources */,
 				376EDC612A1371600029074A /* DRMLibraryService.swift in Sources */,
 				376EDC622A1371600029074A /* DRMManagementTableViewController.swift in Sources */,
@@ -3054,6 +3072,7 @@
 				376EDCE22A138FE80029074A /* CBZModule.swift in Sources */,
 				376EDCE32A138FE80029074A /* CBZViewController.swift in Sources */,
 				376EDCE42A138FE80029074A /* TTSView.swift in Sources */,
+				379FF6B22A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				376EDCE52A138FE80029074A /* ColorScheme.swift in Sources */,
 				376EDCE62A138FE80029074A /* DRMLibraryService.swift in Sources */,
 				376EDCE72A138FE80029074A /* DRMManagementTableViewController.swift in Sources */,
@@ -3138,6 +3157,7 @@
 				37A8C13229B2348000569F92 /* CBZModule.swift in Sources */,
 				37A8C13329B2348000569F92 /* CBZViewController.swift in Sources */,
 				37A8C13429B2348000569F92 /* TTSView.swift in Sources */,
+				379FF6AA2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				37A8C13529B2348000569F92 /* ColorScheme.swift in Sources */,
 				37A8C13629B2348000569F92 /* DRMLibraryService.swift in Sources */,
 				37A8C13729B2348000569F92 /* DRMManagementTableViewController.swift in Sources */,
@@ -3222,6 +3242,7 @@
 				37ED05132A3C438B00B64356 /* CBZModule.swift in Sources */,
 				37ED05142A3C438B00B64356 /* CBZViewController.swift in Sources */,
 				37ED05152A3C438B00B64356 /* TTSView.swift in Sources */,
+				379FF6AE2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				37ED05162A3C438B00B64356 /* ColorScheme.swift in Sources */,
 				37ED05172A3C438B00B64356 /* DRMLibraryService.swift in Sources */,
 				37ED05182A3C438B00B64356 /* DRMManagementTableViewController.swift in Sources */,
@@ -3306,6 +3327,7 @@
 				C3A32ECE2927566F00EA386A /* CBZModule.swift in Sources */,
 				C3A32ECF2927566F00EA386A /* CBZViewController.swift in Sources */,
 				05289AFA29360358005D6C76 /* TTSView.swift in Sources */,
+				379FF6AB2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				C3A32ED02927566F00EA386A /* ColorScheme.swift in Sources */,
 				C3A32ED12927566F00EA386A /* DRMLibraryService.swift in Sources */,
 				C3A32ED22927566F00EA386A /* DRMManagementTableViewController.swift in Sources */,
@@ -3390,6 +3412,7 @@
 				C3E0FC5D29B1DF7F000791FA /* CBZModule.swift in Sources */,
 				C3E0FC5E29B1DF7F000791FA /* CBZViewController.swift in Sources */,
 				C3E0FC5F29B1DF7F000791FA /* TTSView.swift in Sources */,
+				379FF6AF2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				C3E0FC6029B1DF7F000791FA /* ColorScheme.swift in Sources */,
 				C3E0FC6129B1DF7F000791FA /* DRMLibraryService.swift in Sources */,
 				C3E0FC6229B1DF7F000791FA /* DRMManagementTableViewController.swift in Sources */,
@@ -3474,6 +3497,7 @@
 				ECE90167DD1F45850FA2380C /* CBZModule.swift in Sources */,
 				15E8C4A262237E817D8BF55B /* CBZViewController.swift in Sources */,
 				05289AF929360358005D6C76 /* TTSView.swift in Sources */,
+				379FF6A92A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
 				5A20DFDCFD88680D196C870D /* ColorScheme.swift in Sources */,
 				653C1610C425FF01976ADF76 /* DRMLibraryService.swift in Sources */,
 				524687DC0FD17B900832B634 /* DRMManagementTableViewController.swift in Sources */,
