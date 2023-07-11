@@ -20,4 +20,5 @@ struct Constants {
     static let entitlementID = "premium_entitlement"
     
     static let freeItemsAmount = "FreeItemsAmount"
+    static let freeAudioChapters = "FreeAudioChapters"
 }

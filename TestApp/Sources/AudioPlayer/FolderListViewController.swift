@@ -3,9 +3,11 @@ import AVFoundation
 import GoogleMobileAds
 import RevenueCat
 
-class FolderListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FolderListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADFullScreenContentDelegate {
     var folderNames = [String]() // Array containing the folder names
-    var adHelper = AdHelper()
+//    var adHelper = AdHelper()
+    
+    private var interstitial: GADInterstitialAd?
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -33,6 +35,12 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                self.loadAdmobInterstitial()
+            }
+        }
+        
         tableView.dataSource = self
         tableView.delegate = self
         
@@ -47,7 +55,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         // locked in portrait mode), the banner can be loaded in viewWillAppear.
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
             if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
-                self.adHelper.loadAdmobBanner(uiView: self)
+//                self.loadAdmobBanner(uiView: self)
             }
         }
     }
@@ -62,12 +70,18 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "FolderCell", for: indexPath)
         cell.textLabel?.text = folderNames[indexPath.row]
         
-        if indexPath.row >= 2 {
-            let lockImage = UIImage(named: "lock")
-            cell.imageView?.image = lockImage
-        } else {
+        if indexPath.row <= Bundle.main.object(forInfoDictionaryKey: Constants.freeAudioChapters) as! Int {
             let lockImage = UIImage(named: "arrow_right")
             cell.imageView?.image = lockImage
+        } else {
+            let lockImage = UIImage(named: "lock")
+            cell.imageView?.image = lockImage
+            Purchases.shared.getCustomerInfo { (customerInfo, error) in
+                if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true{
+                    let lockImage = UIImage(named: "arrow_right")
+                    cell.imageView?.image = lockImage
+                }
+            }
         }
         
         return cell
@@ -76,9 +90,22 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     // MARK: - UITableViewDelegate
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let folderName = folderNames[indexPath.row]
-        print("folderNames sender folderName = \(folderName)")
-        performSegue(withIdentifier: "ShowFolderContent", sender: folderName)
+        
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true ||
+                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeAudioChapters) as! Int {
+                if self.interstitial != nil {
+                    self.showInterstitial(uiView: self)
+                } else {
+                    print("Admob Interstitial wasn't ready")
+                    self.performSegueToAudio()
+                }
+            } else {
+                    let main = UIStoryboard(name: "PaywallBoard", bundle: nil).instantiateInitialViewController()!
+                    self.present(main, animated: true, completion: nil)
+            }
+        }
+        
     }
     
     // MARK: - Navigation
@@ -91,6 +118,57 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
             print("folderNames prepare  inside folderName = \(folderName)")
             destinationVC.folderName = folderName
         }
+    }
+    
+    func loadAdmobInterstitial() {
+        let request = GADRequest()
+        GADInterstitialAd.load(
+            withAdUnitID: Bundle.main.object(forInfoDictionaryKey: "AdmobInterID") as! String,
+            request: request,
+            completionHandler: { [self] ad, error in
+                if let error = error {
+                    print("Admob Interstitial Failed to load ad with error: \(error.localizedDescription)")
+                    return
+                }
+                interstitial = ad
+                interstitial?.fullScreenContentDelegate = self
+                print("Admob Interstitial was load successfully")
+            }
+        )
+    }
+    
+    func showInterstitial(uiView: UIViewController) {
+        if interstitial != nil {
+            interstitial?.present(fromRootViewController: uiView)
+          } else {
+            print("Admob Interstitial wasn't ready")
+          }
+    }
+    
+    /// Tells the delegate that the ad failed to present full screen content.
+    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
+        print("Admob Interstitial did fail to present full screen content.")
+        performSegueToAudio()
+    }
+
+    /// Tells the delegate that the ad will present full screen content.
+    func adWillPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Admob Interstitial will present full screen content.")
+    }
+
+    /// Tells the delegate that the ad dismissed full screen content.
+    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Admob Interstitial did dismiss full screen content.")
+        performSegueToAudio()
+    }
+    
+    func performSegueToAudio() {
+        guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
+            return
+        }
+        let folderName = self.folderNames[selectedIndexPath.row]
+        print("folderNames sender folderName = \(folderName)")
+        self.performSegue(withIdentifier: "ShowFolderContent", sender: folderName)
     }
 }
 
@@ -137,6 +215,14 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         nextButton.tintColor = .white
         previousButton.tintColor = .white
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print ("Admob Interstitial oops AVAudioSession")
+        }
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleSliderUpdateNotification(_:)), name: Notification.Name("SliderUpdateNotification"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleAudioInfoNotification(_:)), name: Notification.Name("AudioInfoUpdateNotification"), object: nil)
