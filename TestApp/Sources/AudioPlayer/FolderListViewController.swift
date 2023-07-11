@@ -61,6 +61,15 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FolderCell", for: indexPath)
         cell.textLabel?.text = folderNames[indexPath.row]
+        
+        if indexPath.row >= 2 {
+            let lockImage = UIImage(named: "lock")
+            cell.imageView?.image = lockImage
+        } else {
+            let lockImage = UIImage(named: "arrow_right")
+            cell.imageView?.image = lockImage
+        }
+        
         return cell
     }
     
@@ -92,18 +101,22 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     var folderFiles = [String]()
     var adHelper = AdHelper()
     
-    let playPauseButton = UIButton(type: .system)
+    let playPauseButton = UIButton()
     let playImage = UIImage(named: "player_play")
     let pauseImage = UIImage(named: "player_pause")
     
-    let previousButton = UIButton(type: .system)
-    let nextButton = UIButton(type: .system)
+    let previousButton = UIButton()
+    let previousImage = UIImage(named: "player_previous")
+    
+    let nextButton = UIButton()
+    let nextImage = UIImage(named: "player_next")
     
     let audioFileLabel = UILabel()
     
     let currentPositionLabel = UILabel()
     let totalDurationLabel = UILabel()
     let audioSlider = UISlider()
+    let sliderThumb = UIImage(named: "slider_thumb")
     
     var sliderTimer: Timer?
     
@@ -117,6 +130,13 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         tableView.delegate = self
         print("folderNames folderName = \(folderName)")
         loadFolderFiles()
+ 
+        audioSlider.setThumbImage(sliderThumb, for: .normal)
+        audioSlider.setThumbImage(sliderThumb, for: .highlighted)
+        audioSlider.minimumTrackTintColor = .white.withAlphaComponent(0.6)
+        
+        nextButton.tintColor = .white
+        previousButton.tintColor = .white
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleSliderUpdateNotification(_:)), name: Notification.Name("SliderUpdateNotification"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleAudioInfoNotification(_:)), name: Notification.Name("AudioInfoUpdateNotification"), object: nil)
@@ -218,7 +238,6 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     let FOOTER_HEIGHT: CGFloat = 80
-    
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         if tableView.numberOfRows(inSection: section) == 0 {
                return nil  // Return nil to hide the footer view
@@ -251,22 +270,21 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         // Create the previous button
         previousButton.frame = CGRect(x: xCenter - 100, y: yCenter, width: 50, height: 50)
-        previousButton.setImage(UIImage(named: "player_previous"), for: .normal)
+        previousButton.setImage(previousImage, for: .normal)
         previousButton.addTarget(self, action: #selector(previousButtonTapped(_:)), for: .touchUpInside)
         footerView.addSubview(previousButton)
            
-        
+        // Set the initial play/pause button position
         playPauseButton.setImage(playImage, for: .normal)
         playPauseButton.addTarget(self, action: #selector(playPauseButtonTapped(_:)), for: .touchUpInside)
+        playPauseButton.frame = CGRect(x: xCenter, y: yCenter, width: 50, height: 50)
+        footerView.addSubview(playPauseButton)
         
         // Create the next button
-        nextButton.frame = CGRect(x: xCenter + 100, y: yCenter, width: 50, height: 50)
-        nextButton.setImage(UIImage(named: "player_next"), for: .normal)
+        nextButton.setImage(nextImage, for: .normal)
         nextButton.addTarget(self, action: #selector(nextButtonTapped(_:)), for: .touchUpInside)
+        nextButton.frame = CGRect(x: xCenter + 100, y: yCenter, width: 50, height: 50)
         footerView.addSubview(nextButton)
-        
-        // Set the initial play/pause button position
-        playPauseButton.frame = CGRect(x: xCenter, y: yCenter, width: 50, height: 50)
         
         // Create the current position label
         currentPositionLabel.frame = CGRect(x: xCenter - 160, y: yCenter-30, width: 60, height: 50)
@@ -285,9 +303,6 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         // Set the initial values of the position and duration labels
         currentPositionLabel.text = "00:00"
         totalDurationLabel.text = "00:00"
-        
-        // Add the play/pause button to the footer view
-        footerView.addSubview(playPauseButton)
         
         return footerView
     }
