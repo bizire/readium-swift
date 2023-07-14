@@ -5,11 +5,14 @@ import RevenueCat
 
 class FolderListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADFullScreenContentDelegate {
     var folderNames = [String]() // Array containing the folder names
+    var folderHumanTitles = [String]() // Array containing the folder names
 //    var adHelper = AdHelper()
     
     private var interstitial: GADInterstitialAd?
     
     @IBOutlet weak var tableView: UITableView!
+    
+    
     
     private func initAudioPlayerFolders() {
         let docsURL = Bundle.main.resourceURL?.appendingPathComponent("AudioPlayerFiles")
@@ -24,7 +27,10 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
                     return fileManager.fileExists(atPath: url.path, isDirectory: &isDirectory) && isDirectory.boolValue
                 }
                 .map { $0.lastPathComponent }
-                .sorted()
+                
+            folderNames.sort { (name1, name2) -> Bool in
+                 return name1.localizedStandardCompare(name2) == .orderedAscending
+            }
             
             print("folderNames = \(folderNames)")
         } catch {
@@ -39,6 +45,17 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
             if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
                 self.loadAdmobInterstitial()
             }
+        }
+        
+        if let plistPath = Bundle.main.path(forResource: "AudioPlayerFiles/folders", ofType: "plist"),
+           let plistXML = FileManager.default.contents(atPath: plistPath),
+           let foldersDict = try? PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: nil) as? [String: Any],
+           let array = foldersDict["AudioFolders"] as? [String] {
+            // Use the audioFoldersArray containing the strings
+            folderHumanTitles = array
+            print("audioFoldersArray folderNames = \(folderHumanTitles)")
+        } else {
+            print("Failed to load the folders.plist file.")
         }
         
         tableView.dataSource = self
@@ -64,11 +81,13 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return folderNames.count
+//        return folderHumanTitles.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FolderCell", for: indexPath)
-        cell.textLabel?.text = folderNames[indexPath.row]
+        cell.textLabel?.text = folderHumanTitles[indexPath.row]
+//        cell.textLabel?.text = folderNames[indexPath.row]
         
         if indexPath.row <= Bundle.main.object(forInfoDictionaryKey: Constants.freeAudioChapters) as! Int {
             let lockImage = UIImage(named: "arrow_right")
@@ -112,11 +131,15 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("folderNames prepare sender folderName = \(sender)")
+       
         if segue.identifier == "ShowFolderContent",
-           let folderName = sender as? String,
+           let index = sender as? Int,
+           let folderHumanTitle = self.folderHumanTitles[index] as? String,
+           let folderName = self.folderNames[index] as? String,
            let destinationVC = segue.destination as? FolderContentViewController {
             print("folderNames prepare  inside folderName = \(folderName)")
             destinationVC.folderName = folderName
+            destinationVC.folderHumanTitle = folderHumanTitle
         }
     }
     
@@ -166,14 +189,14 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
             return
         }
-        let folderName = self.folderNames[selectedIndexPath.row]
-        print("folderNames sender folderName = \(folderName)")
-        self.performSegue(withIdentifier: "ShowFolderContent", sender: folderName)
+        print("folderNames sender folderName index = \(selectedIndexPath.row)")
+        self.performSegue(withIdentifier: "ShowFolderContent", sender: selectedIndexPath.row)
     }
 }
 
 class FolderContentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate,  AVAudioPlayerDelegate {
     var folderName: String!
+    var folderHumanTitle: String!
     var currentFileIndex = 0
     var currentFile = ""
     var folderFiles = [String]()
@@ -246,7 +269,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     @objc func handleAudioInfoNotification(_ notification: Notification) {
         updateDurationLabel(totalDurationLabel)
-        updateFileInfoLabel(audioFileLabel)
+        updateFileInfoLabel(audioFileLabel, folderHumanTitle)
     }
     
     @objc func handleAudioPlayerDidFinish(_ notification: Notification) {
@@ -295,7 +318,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: "FileCell", for: indexPath)
         let fileName = folderFiles[indexPath.row]
         let fileNameWithoutExtension = (fileName as NSString).deletingPathExtension
-        cell.textLabel?.text = "\(folderName!) - Chapter: \(fileNameWithoutExtension)"
+        cell.textLabel?.text = "\(folderHumanTitle!) - Chapter: \(fileNameWithoutExtension)"
         return cell
     }
     
@@ -507,7 +530,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     }
     
-    func updateFileInfoLabel(_ label: UILabel) {
-        label.text = AudioPlayerManager.shared.getFolderName() + " - Chapter: " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
+    func updateFileInfoLabel(_ label: UILabel, _ title: String) {
+        label.text = title + " - Chapter: " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
     }
 }

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AudioFolders</key>
+    <array>
+		<string>Genesis</string>
+		<string>Exodus</string>
+		<string>Leviticus</string>
+		<string>Numbers</string>
+		<string>Deuteronomy</string>
+		<string>Joshua</string>
+		<string>Judges</string>
+		<string>Ruth</string>
+		<string>1 Samuel</string>
+		<string>2 Samuel</string>
+		<string>1 Kings</string>
+		<string>2 Kings</string>
+		<string>1 Chronicles</string>
+		<string>2 Chronicles</string>
+		<string>Ezra</string>
+		<string>Nehemiah</string>
+		<string>Esther</string>
+		<string>Job</string>
+		<string>Psalms</string>
+		<string>Proverbs</string>
+		<string>Ecclesiastes</string>
+		<string>Song of Songs</string>
+		<string>Isaiah</string>
+		<string>Jeremiah</string>
+		<string>Lamentations</string>
+		<string>Ezekiel</string>
+		<string>Daniel</string>
+		<string>Hosea</string>
+		<string>Joel</string>
+		<string>Amos</string>
+		<string>Obadiah</string>
+		<string>Jonah</string>
+		<string>Micah</string>
+		<string>Nahum</string>
+		<string>Habakkuk</string>
+		<string>Zephaniah</string>
+		<string>Haggai</string>
+		<string>Zechariah</string>
+		<string>Malachi</string>
+		<string>Matthew</string>
+		<string>Mark</string>
+		<string>Luke</string>
+		<string>John</string>
+		<string>Acts</string>
+		<string>Romans</string>
+		<string>1 Corinthians</string>
+		<string>2 Corinthians</string>
+		<string>Galatians</string>
+		<string>Ephesians</string>
+		<string>Philippians</string>
+		<string>Colossians</string>
+		<string>1 Thessalonians</string>
+		<string>2 Thessalonians</string>
+		<string>1 Timothy</string>
+		<string>2 Timothy</string>
+		<string>Titus</string>
+		<string>Philemon</string>
+		<string>Hebrews</string>
+		<string>James</string>
+		<string>1 Peter</string>
+		<string>2 Peter</string>
+		<string>1 John</string>
+		<string>2 John</string>
+		<string>3 John</string>
+		<string>Jude</string>
+		<string>Revelation</string>
+    </array>
+</dict>
+</plist>
