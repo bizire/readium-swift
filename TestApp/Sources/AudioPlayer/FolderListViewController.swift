@@ -336,7 +336,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let yCenter = (footerView.frame.height - 40) * 0.8
         let xCenter = (footerView.frame.width - 50) / 2
         
-        let sliderWidth = footerView.frame.width - 120
+        let timeLabelWidth: CGFloat = 60
+        let sliderWidth = footerView.frame.width * 0.6
         let sliderHeight: CGFloat = 20
         let sliderX = (footerView.frame.width - sliderWidth) / 2
         
@@ -373,14 +374,14 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         footerView.addSubview(nextButton)
         
         // Create the current position label
-        currentPositionLabel.frame = CGRect(x: xCenter - 160, y: yCenter-30, width: 60, height: 50)
+        currentPositionLabel.frame = CGRect(x: sliderX/2 - timeLabelWidth/2, y: yCenter-30, width: timeLabelWidth, height: 50)
         currentPositionLabel.textColor = UIColor.white
         currentPositionLabel.textAlignment = .center
         currentPositionLabel.font = UIFont.systemFont(ofSize: 9)
         footerView.addSubview(currentPositionLabel)
         
         // Create the total duration label
-        totalDurationLabel.frame = CGRect(x: xCenter + 160, y: yCenter-30, width: 60, height: 50)
+        totalDurationLabel.frame = CGRect(x: footerView.frame.width - sliderX/2 - timeLabelWidth/2, y: yCenter-30, width: timeLabelWidth, height: 50)
         totalDurationLabel.textColor = UIColor.white
         totalDurationLabel.textAlignment = .center
         totalDurationLabel.font = UIFont.systemFont(ofSize: 9)

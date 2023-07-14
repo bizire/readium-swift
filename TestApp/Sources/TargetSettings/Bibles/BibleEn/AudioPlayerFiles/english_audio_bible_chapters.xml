@@ -1,0 +1,1323 @@
+<resources>
+	<string-array name="sounds_array1">
+		<item>"Genesis - Chapter 1"</item>
+		<item>"Genesis - Chapter 2"</item>
+		<item>"Genesis - Chapter 3"</item>
+		<item>"Genesis - Chapter 4"</item>
+		<item>"Genesis - Chapter 5"</item>
+		<item>"Genesis - Chapter 6"</item>
+		<item>"Genesis - Chapter 7"</item>
+		<item>"Genesis - Chapter 8"</item>
+		<item>"Genesis - Chapter 9"</item>
+		<item>"Genesis - Chapter 10"</item>
+		<item>"Genesis - Chapter 11"</item>
+		<item>"Genesis - Chapter 12"</item>
+		<item>"Genesis - Chapter 13"</item>
+		<item>"Genesis - Chapter 14"</item>
+		<item>"Genesis - Chapter 15"</item>
+		<item>"Genesis - Chapter 16"</item>
+		<item>"Genesis - Chapter 17"</item>
+		<item>"Genesis - Chapter 18"</item>
+		<item>"Genesis - Chapter 19"</item>
+		<item>"Genesis - Chapter 20"</item>
+		<item>"Genesis - Chapter 21"</item>
+		<item>"Genesis - Chapter 22"</item>
+		<item>"Genesis - Chapter 23"</item>
+		<item>"Genesis - Chapter 24"</item>
+		<item>"Genesis - Chapter 25"</item>
+		<item>"Genesis - Chapter 26"</item>
+		<item>"Genesis - Chapter 27"</item>
+		<item>"Genesis - Chapter 28"</item>
+		<item>"Genesis - Chapter 29"</item>
+		<item>"Genesis - Chapter 30"</item>
+		<item>"Genesis - Chapter 31"</item>
+		<item>"Genesis - Chapter 32"</item>
+		<item>"Genesis - Chapter 33"</item>
+		<item>"Genesis - Chapter 34"</item>
+		<item>"Genesis - Chapter 35"</item>
+		<item>"Genesis - Chapter 36"</item>
+		<item>"Genesis - Chapter 37"</item>
+		<item>"Genesis - Chapter 38"</item>
+		<item>"Genesis - Chapter 39"</item>
+		<item>"Genesis - Chapter 40"</item>
+		<item>"Genesis - Chapter 41"</item>
+		<item>"Genesis - Chapter 42"</item>
+		<item>"Genesis - Chapter 43"</item>
+		<item>"Genesis - Chapter 44"</item>
+		<item>"Genesis - Chapter 45"</item>
+		<item>"Genesis - Chapter 46"</item>
+		<item>"Genesis - Chapter 47"</item>
+		<item>"Genesis - Chapter 48"</item>
+		<item>"Genesis - Chapter 49"</item>
+		<item>"Genesis - Chapter 50"</item>
+	</string-array>
+	<string-array name="sounds_array2">
+		<item>"Exodus - Chapter 1"</item>
+		<item>"Exodus - Chapter 2"</item>
+		<item>"Exodus - Chapter 3"</item>
+		<item>"Exodus - Chapter 4"</item>
+		<item>"Exodus - Chapter 5"</item>
+		<item>"Exodus - Chapter 6"</item>
+		<item>"Exodus - Chapter 7"</item>
+		<item>"Exodus - Chapter 8"</item>
+		<item>"Exodus - Chapter 9"</item>
+		<item>"Exodus - Chapter 10"</item>
+		<item>"Exodus - Chapter 11"</item>
+		<item>"Exodus - Chapter 12"</item>
+		<item>"Exodus - Chapter 13"</item>
+		<item>"Exodus - Chapter 14"</item>
+		<item>"Exodus - Chapter 15"</item>
+		<item>"Exodus - Chapter 16"</item>
+		<item>"Exodus - Chapter 17"</item>
+		<item>"Exodus - Chapter 18"</item>
+		<item>"Exodus - Chapter 19"</item>
+		<item>"Exodus - Chapter 20"</item>
+		<item>"Exodus - Chapter 21"</item>
+		<item>"Exodus - Chapter 22"</item>
+		<item>"Exodus - Chapter 23"</item>
+		<item>"Exodus - Chapter 24"</item>
+		<item>"Exodus - Chapter 25"</item>
+		<item>"Exodus - Chapter 26"</item>
+		<item>"Exodus - Chapter 27"</item>
+		<item>"Exodus - Chapter 28"</item>
+		<item>"Exodus - Chapter 29"</item>
+		<item>"Exodus - Chapter 30"</item>
+		<item>"Exodus - Chapter 31"</item>
+		<item>"Exodus - Chapter 32"</item>
+		<item>"Exodus - Chapter 33"</item>
+		<item>"Exodus - Chapter 34"</item>
+		<item>"Exodus - Chapter 35"</item>
+		<item>"Exodus - Chapter 36"</item>
+		<item>"Exodus - Chapter 37"</item>
+		<item>"Exodus - Chapter 38"</item>
+		<item>"Exodus - Chapter 39"</item>
+		<item>"Exodus - Chapter 40"</item>
+	</string-array>
+	<string-array name="sounds_array3">
+		<item>"Leviticus - Chapter 1"</item>
+		<item>"Leviticus - Chapter 2"</item>
+		<item>"Leviticus - Chapter 3"</item>
+		<item>"Leviticus - Chapter 4"</item>
+		<item>"Leviticus - Chapter 5"</item>
+		<item>"Leviticus - Chapter 6"</item>
+		<item>"Leviticus - Chapter 7"</item>
+		<item>"Leviticus - Chapter 8"</item>
+		<item>"Leviticus - Chapter 9"</item>
+		<item>"Leviticus - Chapter 10"</item>
+		<item>"Leviticus - Chapter 11"</item>
+		<item>"Leviticus - Chapter 12"</item>
+		<item>"Leviticus - Chapter 13"</item>
+		<item>"Leviticus - Chapter 14"</item>
+		<item>"Leviticus - Chapter 15"</item>
+		<item>"Leviticus - Chapter 16"</item>
+		<item>"Leviticus - Chapter 17"</item>
+		<item>"Leviticus - Chapter 18"</item>
+		<item>"Leviticus - Chapter 19"</item>
+		<item>"Leviticus - Chapter 20"</item>
+		<item>"Leviticus - Chapter 21"</item>
+		<item>"Leviticus - Chapter 22"</item>
+		<item>"Leviticus - Chapter 23"</item>
+		<item>"Leviticus - Chapter 24"</item>
+		<item>"Leviticus - Chapter 25"</item>
+		<item>"Leviticus - Chapter 26"</item>
+		<item>"Leviticus - Chapter 27"</item>
+	</string-array>
+	<string-array name="sounds_array4">
+		<item>"Numbers - Chapter 1"</item>
+		<item>"Numbers - Chapter 2"</item>
+		<item>"Numbers - Chapter 3"</item>
+		<item>"Numbers - Chapter 4"</item>
+		<item>"Numbers - Chapter 5"</item>
+		<item>"Numbers - Chapter 6"</item>
+		<item>"Numbers - Chapter 7"</item>
+		<item>"Numbers - Chapter 8"</item>
+		<item>"Numbers - Chapter 9"</item>
+		<item>"Numbers - Chapter 10"</item>
+		<item>"Numbers - Chapter 11"</item>
+		<item>"Numbers - Chapter 12"</item>
+		<item>"Numbers - Chapter 13"</item>
+		<item>"Numbers - Chapter 14"</item>
+		<item>"Numbers - Chapter 15"</item>
+		<item>"Numbers - Chapter 16"</item>
+		<item>"Numbers - Chapter 17"</item>
+		<item>"Numbers - Chapter 18"</item>
+		<item>"Numbers - Chapter 19"</item>
+		<item>"Numbers - Chapter 20"</item>
+		<item>"Numbers - Chapter 21"</item>
+		<item>"Numbers - Chapter 22"</item>
+		<item>"Numbers - Chapter 23"</item>
+		<item>"Numbers - Chapter 24"</item>
+		<item>"Numbers - Chapter 25"</item>
+		<item>"Numbers - Chapter 26"</item>
+		<item>"Numbers - Chapter 27"</item>
+		<item>"Numbers - Chapter 28"</item>
+		<item>"Numbers - Chapter 29"</item>
+		<item>"Numbers - Chapter 30"</item>
+		<item>"Numbers - Chapter 31"</item>
+		<item>"Numbers - Chapter 32"</item>
+		<item>"Numbers - Chapter 33"</item>
+		<item>"Numbers - Chapter 34"</item>
+		<item>"Numbers - Chapter 35"</item>
+		<item>"Numbers - Chapter 36"</item>
+	</string-array>
+	<string-array name="sounds_array5">
+		<item>"Deuteronomy - Chapter 1"</item>
+		<item>"Deuteronomy - Chapter 2"</item>
+		<item>"Deuteronomy - Chapter 3"</item>
+		<item>"Deuteronomy - Chapter 4"</item>
+		<item>"Deuteronomy - Chapter 5"</item>
+		<item>"Deuteronomy - Chapter 6"</item>
+		<item>"Deuteronomy - Chapter 7"</item>
+		<item>"Deuteronomy - Chapter 8"</item>
+		<item>"Deuteronomy - Chapter 9"</item>
+		<item>"Deuteronomy - Chapter 10"</item>
+		<item>"Deuteronomy - Chapter 11"</item>
+		<item>"Deuteronomy - Chapter 12"</item>
+		<item>"Deuteronomy - Chapter 13"</item>
+		<item>"Deuteronomy - Chapter 14"</item>
+		<item>"Deuteronomy - Chapter 15"</item>
+		<item>"Deuteronomy - Chapter 16"</item>
+		<item>"Deuteronomy - Chapter 17"</item>
+		<item>"Deuteronomy - Chapter 18"</item>
+		<item>"Deuteronomy - Chapter 19"</item>
+		<item>"Deuteronomy - Chapter 20"</item>
+		<item>"Deuteronomy - Chapter 21"</item>
+		<item>"Deuteronomy - Chapter 22"</item>
+		<item>"Deuteronomy - Chapter 23"</item>
+		<item>"Deuteronomy - Chapter 24"</item>
+		<item>"Deuteronomy - Chapter 25"</item>
+		<item>"Deuteronomy - Chapter 26"</item>
+		<item>"Deuteronomy - Chapter 27"</item>
+		<item>"Deuteronomy - Chapter 28"</item>
+		<item>"Deuteronomy - Chapter 29"</item>
+		<item>"Deuteronomy - Chapter 30"</item>
+		<item>"Deuteronomy - Chapter 31"</item>
+		<item>"Deuteronomy - Chapter 32"</item>
+		<item>"Deuteronomy - Chapter 33"</item>
+		<item>"Deuteronomy - Chapter 34"</item>
+	</string-array>
+	<string-array name="sounds_array6">
+		<item>"Joshua - Chapter 1"</item>
+		<item>"Joshua - Chapter 2"</item>
+		<item>"Joshua - Chapter 3"</item>
+		<item>"Joshua - Chapter 4"</item>
+		<item>"Joshua - Chapter 5"</item>
+		<item>"Joshua - Chapter 6"</item>
+		<item>"Joshua - Chapter 7"</item>
+		<item>"Joshua - Chapter 8"</item>
+		<item>"Joshua - Chapter 9"</item>
+		<item>"Joshua - Chapter 10"</item>
+		<item>"Joshua - Chapter 11"</item>
+		<item>"Joshua - Chapter 12"</item>
+		<item>"Joshua - Chapter 13"</item>
+		<item>"Joshua - Chapter 14"</item>
+		<item>"Joshua - Chapter 15"</item>
+		<item>"Joshua - Chapter 16"</item>
+		<item>"Joshua - Chapter 17"</item>
+		<item>"Joshua - Chapter 18"</item>
+		<item>"Joshua - Chapter 19"</item>
+		<item>"Joshua - Chapter 20"</item>
+		<item>"Joshua - Chapter 21"</item>
+		<item>"Joshua - Chapter 22"</item>
+		<item>"Joshua - Chapter 23"</item>
+		<item>"Joshua - Chapter 24"</item>
+	</string-array>
+	<string-array name="sounds_array7">
+		<item>"Judges - Chapter 1"</item>
+		<item>"Judges - Chapter 2"</item>
+		<item>"Judges - Chapter 3"</item>
+		<item>"Judges - Chapter 4"</item>
+		<item>"Judges - Chapter 5"</item>
+		<item>"Judges - Chapter 6"</item>
+		<item>"Judges - Chapter 7"</item>
+		<item>"Judges - Chapter 8"</item>
+		<item>"Judges - Chapter 9"</item>
+		<item>"Judges - Chapter 10"</item>
+		<item>"Judges - Chapter 11"</item>
+		<item>"Judges - Chapter 12"</item>
+		<item>"Judges - Chapter 13"</item>
+		<item>"Judges - Chapter 14"</item>
+		<item>"Judges - Chapter 15"</item>
+		<item>"Judges - Chapter 16"</item>
+		<item>"Judges - Chapter 17"</item>
+		<item>"Judges - Chapter 18"</item>
+		<item>"Judges - Chapter 19"</item>
+		<item>"Judges - Chapter 20"</item>
+		<item>"Judges - Chapter 21"</item>
+	</string-array>
+	<string-array name="sounds_array8">
+		<item>"Ruth - Chapter 1"</item>
+		<item>"Ruth - Chapter 2"</item>
+		<item>"Ruth - Chapter 3"</item>
+		<item>"Ruth - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array9">
+		<item>"1 Samuel - Chapter 1"</item>
+		<item>"1 Samuel - Chapter 2"</item>
+		<item>"1 Samuel - Chapter 3"</item>
+		<item>"1 Samuel - Chapter 4"</item>
+		<item>"1 Samuel - Chapter 5"</item>
+		<item>"1 Samuel - Chapter 6"</item>
+		<item>"1 Samuel - Chapter 7"</item>
+		<item>"1 Samuel - Chapter 8"</item>
+		<item>"1 Samuel - Chapter 9"</item>
+		<item>"1 Samuel - Chapter 10"</item>
+		<item>"1 Samuel - Chapter 11"</item>
+		<item>"1 Samuel - Chapter 12"</item>
+		<item>"1 Samuel - Chapter 13"</item>
+		<item>"1 Samuel - Chapter 14"</item>
+		<item>"1 Samuel - Chapter 15"</item>
+		<item>"1 Samuel - Chapter 16"</item>
+		<item>"1 Samuel - Chapter 17"</item>
+		<item>"1 Samuel - Chapter 18"</item>
+		<item>"1 Samuel - Chapter 19"</item>
+		<item>"1 Samuel - Chapter 20"</item>
+		<item>"1 Samuel - Chapter 21"</item>
+		<item>"1 Samuel - Chapter 22"</item>
+		<item>"1 Samuel - Chapter 23"</item>
+		<item>"1 Samuel - Chapter 24"</item>
+		<item>"1 Samuel - Chapter 25"</item>
+		<item>"1 Samuel - Chapter 26"</item>
+		<item>"1 Samuel - Chapter 27"</item>
+		<item>"1 Samuel - Chapter 28"</item>
+		<item>"1 Samuel - Chapter 29"</item>
+		<item>"1 Samuel - Chapter 30"</item>
+		<item>"1 Samuel - Chapter 31"</item>
+	</string-array>
+	<string-array name="sounds_array10">
+		<item>"2 Samuel - Chapter 1"</item>
+		<item>"2 Samuel - Chapter 2"</item>
+		<item>"2 Samuel - Chapter 3"</item>
+		<item>"2 Samuel - Chapter 4"</item>
+		<item>"2 Samuel - Chapter 5"</item>
+		<item>"2 Samuel - Chapter 6"</item>
+		<item>"2 Samuel - Chapter 7"</item>
+		<item>"2 Samuel - Chapter 8"</item>
+		<item>"2 Samuel - Chapter 9"</item>
+		<item>"2 Samuel - Chapter 10"</item>
+		<item>"2 Samuel - Chapter 11"</item>
+		<item>"2 Samuel - Chapter 12"</item>
+		<item>"2 Samuel - Chapter 13"</item>
+		<item>"2 Samuel - Chapter 14"</item>
+		<item>"2 Samuel - Chapter 15"</item>
+		<item>"2 Samuel - Chapter 16"</item>
+		<item>"2 Samuel - Chapter 17"</item>
+		<item>"2 Samuel - Chapter 18"</item>
+		<item>"2 Samuel - Chapter 19"</item>
+		<item>"2 Samuel - Chapter 20"</item>
+		<item>"2 Samuel - Chapter 21"</item>
+		<item>"2 Samuel - Chapter 22"</item>
+		<item>"2 Samuel - Chapter 23"</item>
+		<item>"2 Samuel - Chapter 24"</item>
+	</string-array>
+	<string-array name="sounds_array11">
+		<item>"1 Kings - Chapter 1"</item>
+		<item>"1 Kings - Chapter 2"</item>
+		<item>"1 Kings - Chapter 3"</item>
+		<item>"1 Kings - Chapter 4"</item>
+		<item>"1 Kings - Chapter 5"</item>
+		<item>"1 Kings - Chapter 6"</item>
+		<item>"1 Kings - Chapter 7"</item>
+		<item>"1 Kings - Chapter 8"</item>
+		<item>"1 Kings - Chapter 9"</item>
+		<item>"1 Kings - Chapter 10"</item>
+		<item>"1 Kings - Chapter 11"</item>
+		<item>"1 Kings - Chapter 12"</item>
+		<item>"1 Kings - Chapter 13"</item>
+		<item>"1 Kings - Chapter 14"</item>
+		<item>"1 Kings - Chapter 15"</item>
+		<item>"1 Kings - Chapter 16"</item>
+		<item>"1 Kings - Chapter 17"</item>
+		<item>"1 Kings - Chapter 18"</item>
+		<item>"1 Kings - Chapter 19"</item>
+		<item>"1 Kings - Chapter 20"</item>
+		<item>"1 Kings - Chapter 21"</item>
+		<item>"1 Kings - Chapter 22"</item>
+	</string-array>
+	<string-array name="sounds_array12">
+		<item>"2 Kings - Chapter 1"</item>
+		<item>"2 Kings - Chapter 2"</item>
+		<item>"2 Kings - Chapter 3"</item>
+		<item>"2 Kings - Chapter 4"</item>
+		<item>"2 Kings - Chapter 5"</item>
+		<item>"2 Kings - Chapter 6"</item>
+		<item>"2 Kings - Chapter 7"</item>
+		<item>"2 Kings - Chapter 8"</item>
+		<item>"2 Kings - Chapter 9"</item>
+		<item>"2 Kings - Chapter 10"</item>
+		<item>"2 Kings - Chapter 11"</item>
+		<item>"2 Kings - Chapter 12"</item>
+		<item>"2 Kings - Chapter 13"</item>
+		<item>"2 Kings - Chapter 14"</item>
+		<item>"2 Kings - Chapter 15"</item>
+		<item>"2 Kings - Chapter 16"</item>
+		<item>"2 Kings - Chapter 17"</item>
+		<item>"2 Kings - Chapter 18"</item>
+		<item>"2 Kings - Chapter 19"</item>
+		<item>"2 Kings - Chapter 20"</item>
+		<item>"2 Kings - Chapter 21"</item>
+		<item>"2 Kings - Chapter 22"</item>
+		<item>"2 Kings - Chapter 23"</item>
+		<item>"2 Kings - Chapter 24"</item>
+		<item>"2 Kings - Chapter 25"</item>
+	</string-array>
+	<string-array name="sounds_array13">
+		<item>"1 Chronicles - Chapter 1"</item>
+		<item>"1 Chronicles - Chapter 2"</item>
+		<item>"1 Chronicles - Chapter 3"</item>
+		<item>"1 Chronicles - Chapter 4"</item>
+		<item>"1 Chronicles - Chapter 5"</item>
+		<item>"1 Chronicles - Chapter 6"</item>
+		<item>"1 Chronicles - Chapter 7"</item>
+		<item>"1 Chronicles - Chapter 8"</item>
+		<item>"1 Chronicles - Chapter 9"</item>
+		<item>"1 Chronicles - Chapter 10"</item>
+		<item>"1 Chronicles - Chapter 11"</item>
+		<item>"1 Chronicles - Chapter 12"</item>
+		<item>"1 Chronicles - Chapter 13"</item>
+		<item>"1 Chronicles - Chapter 14"</item>
+		<item>"1 Chronicles - Chapter 15"</item>
+		<item>"1 Chronicles - Chapter 16"</item>
+		<item>"1 Chronicles - Chapter 17"</item>
+		<item>"1 Chronicles - Chapter 18"</item>
+		<item>"1 Chronicles - Chapter 19"</item>
+		<item>"1 Chronicles - Chapter 20"</item>
+		<item>"1 Chronicles - Chapter 21"</item>
+		<item>"1 Chronicles - Chapter 22"</item>
+		<item>"1 Chronicles - Chapter 23"</item>
+		<item>"1 Chronicles - Chapter 24"</item>
+		<item>"1 Chronicles - Chapter 25"</item>
+		<item>"1 Chronicles - Chapter 26"</item>
+		<item>"1 Chronicles - Chapter 27"</item>
+		<item>"1 Chronicles - Chapter 28"</item>
+		<item>"1 Chronicles - Chapter 29"</item>
+	</string-array>
+	<string-array name="sounds_array14">
+		<item>"2 Chronicles - Chapter 1"</item>
+		<item>"2 Chronicles - Chapter 2"</item>
+		<item>"2 Chronicles - Chapter 3"</item>
+		<item>"2 Chronicles - Chapter 4"</item>
+		<item>"2 Chronicles - Chapter 5"</item>
+		<item>"2 Chronicles - Chapter 6"</item>
+		<item>"2 Chronicles - Chapter 7"</item>
+		<item>"2 Chronicles - Chapter 8"</item>
+		<item>"2 Chronicles - Chapter 9"</item>
+		<item>"2 Chronicles - Chapter 10"</item>
+		<item>"2 Chronicles - Chapter 11"</item>
+		<item>"2 Chronicles - Chapter 12"</item>
+		<item>"2 Chronicles - Chapter 13"</item>
+		<item>"2 Chronicles - Chapter 14"</item>
+		<item>"2 Chronicles - Chapter 15"</item>
+		<item>"2 Chronicles - Chapter 16"</item>
+		<item>"2 Chronicles - Chapter 17"</item>
+		<item>"2 Chronicles - Chapter 18"</item>
+		<item>"2 Chronicles - Chapter 19"</item>
+		<item>"2 Chronicles - Chapter 20"</item>
+		<item>"2 Chronicles - Chapter 21"</item>
+		<item>"2 Chronicles - Chapter 22"</item>
+		<item>"2 Chronicles - Chapter 23"</item>
+		<item>"2 Chronicles - Chapter 24"</item>
+		<item>"2 Chronicles - Chapter 25"</item>
+		<item>"2 Chronicles - Chapter 26"</item>
+		<item>"2 Chronicles - Chapter 27"</item>
+		<item>"2 Chronicles - Chapter 28"</item>
+		<item>"2 Chronicles - Chapter 29"</item>
+		<item>"2 Chronicles - Chapter 30"</item>
+		<item>"2 Chronicles - Chapter 31"</item>
+		<item>"2 Chronicles - Chapter 32"</item>
+		<item>"2 Chronicles - Chapter 33"</item>
+		<item>"2 Chronicles - Chapter 34"</item>
+		<item>"2 Chronicles - Chapter 35"</item>
+		<item>"2 Chronicles - Chapter 36"</item>
+	</string-array>
+	<string-array name="sounds_array15">
+		<item>"Ezra - Chapter 1"</item>
+		<item>"Ezra - Chapter 2"</item>
+		<item>"Ezra - Chapter 3"</item>
+		<item>"Ezra - Chapter 4"</item>
+		<item>"Ezra - Chapter 5"</item>
+		<item>"Ezra - Chapter 6"</item>
+		<item>"Ezra - Chapter 7"</item>
+		<item>"Ezra - Chapter 8"</item>
+		<item>"Ezra - Chapter 9"</item>
+		<item>"Ezra - Chapter 10"</item>
+	</string-array>
+	<string-array name="sounds_array16">
+		<item>"Nehemiah - Chapter 1"</item>
+		<item>"Nehemiah - Chapter 2"</item>
+		<item>"Nehemiah - Chapter 3"</item>
+		<item>"Nehemiah - Chapter 4"</item>
+		<item>"Nehemiah - Chapter 5"</item>
+		<item>"Nehemiah - Chapter 6"</item>
+		<item>"Nehemiah - Chapter 7"</item>
+		<item>"Nehemiah - Chapter 8"</item>
+		<item>"Nehemiah - Chapter 9"</item>
+		<item>"Nehemiah - Chapter 10"</item>
+		<item>"Nehemiah - Chapter 11"</item>
+		<item>"Nehemiah - Chapter 12"</item>
+		<item>"Nehemiah - Chapter 13"</item>
+	</string-array>
+	<string-array name="sounds_array17">
+		<item>"Esther - Chapter 1"</item>
+		<item>"Esther - Chapter 2"</item>
+		<item>"Esther - Chapter 3"</item>
+		<item>"Esther - Chapter 4"</item>
+		<item>"Esther - Chapter 5"</item>
+		<item>"Esther - Chapter 6"</item>
+		<item>"Esther - Chapter 7"</item>
+		<item>"Esther - Chapter 8"</item>
+		<item>"Esther - Chapter 9"</item>
+		<item>"Esther - Chapter 10"</item>
+	</string-array>
+	<string-array name="sounds_array18">
+		<item>"Job - Chapter 1"</item>
+		<item>"Job - Chapter 2"</item>
+		<item>"Job - Chapter 3"</item>
+		<item>"Job - Chapter 4"</item>
+		<item>"Job - Chapter 5"</item>
+		<item>"Job - Chapter 6"</item>
+		<item>"Job - Chapter 7"</item>
+		<item>"Job - Chapter 8"</item>
+		<item>"Job - Chapter 9"</item>
+		<item>"Job - Chapter 10"</item>
+		<item>"Job - Chapter 11"</item>
+		<item>"Job - Chapter 12"</item>
+		<item>"Job - Chapter 13"</item>
+		<item>"Job - Chapter 14"</item>
+		<item>"Job - Chapter 15"</item>
+		<item>"Job - Chapter 16"</item>
+		<item>"Job - Chapter 17"</item>
+		<item>"Job - Chapter 18"</item>
+		<item>"Job - Chapter 19"</item>
+		<item>"Job - Chapter 20"</item>
+		<item>"Job - Chapter 21"</item>
+		<item>"Job - Chapter 22"</item>
+		<item>"Job - Chapter 23"</item>
+		<item>"Job - Chapter 24"</item>
+		<item>"Job - Chapter 25"</item>
+		<item>"Job - Chapter 26"</item>
+		<item>"Job - Chapter 27"</item>
+		<item>"Job - Chapter 28"</item>
+		<item>"Job - Chapter 29"</item>
+		<item>"Job - Chapter 30"</item>
+		<item>"Job - Chapter 31"</item>
+		<item>"Job - Chapter 32"</item>
+		<item>"Job - Chapter 33"</item>
+		<item>"Job - Chapter 34"</item>
+		<item>"Job - Chapter 35"</item>
+		<item>"Job - Chapter 36"</item>
+		<item>"Job - Chapter 37"</item>
+		<item>"Job - Chapter 38"</item>
+		<item>"Job - Chapter 39"</item>
+		<item>"Job - Chapter 40"</item>
+		<item>"Job - Chapter 41"</item>
+		<item>"Job - Chapter 42"</item>
+	</string-array>
+	<string-array name="sounds_array19">
+		<item>"Psalms - Chapter 1"</item>
+		<item>"Psalms - Chapter 2"</item>
+		<item>"Psalms - Chapter 3"</item>
+		<item>"Psalms - Chapter 4"</item>
+		<item>"Psalms - Chapter 5"</item>
+		<item>"Psalms - Chapter 6"</item>
+		<item>"Psalms - Chapter 7"</item>
+		<item>"Psalms - Chapter 8"</item>
+		<item>"Psalms - Chapter 9"</item>
+		<item>"Psalms - Chapter 10"</item>
+		<item>"Psalms - Chapter 11"</item>
+		<item>"Psalms - Chapter 12"</item>
+		<item>"Psalms - Chapter 13"</item>
+		<item>"Psalms - Chapter 14"</item>
+		<item>"Psalms - Chapter 15"</item>
+		<item>"Psalms - Chapter 16"</item>
+		<item>"Psalms - Chapter 17"</item>
+		<item>"Psalms - Chapter 18"</item>
+		<item>"Psalms - Chapter 19"</item>
+		<item>"Psalms - Chapter 20"</item>
+		<item>"Psalms - Chapter 21"</item>
+		<item>"Psalms - Chapter 22"</item>
+		<item>"Psalms - Chapter 23"</item>
+		<item>"Psalms - Chapter 24"</item>
+		<item>"Psalms - Chapter 25"</item>
+		<item>"Psalms - Chapter 26"</item>
+		<item>"Psalms - Chapter 27"</item>
+		<item>"Psalms - Chapter 28"</item>
+		<item>"Psalms - Chapter 29"</item>
+		<item>"Psalms - Chapter 30"</item>
+		<item>"Psalms - Chapter 31"</item>
+		<item>"Psalms - Chapter 32"</item>
+		<item>"Psalms - Chapter 33"</item>
+		<item>"Psalms - Chapter 34"</item>
+		<item>"Psalms - Chapter 35"</item>
+		<item>"Psalms - Chapter 36"</item>
+		<item>"Psalms - Chapter 37"</item>
+		<item>"Psalms - Chapter 38"</item>
+		<item>"Psalms - Chapter 39"</item>
+		<item>"Psalms - Chapter 40"</item>
+		<item>"Psalms - Chapter 41"</item>
+		<item>"Psalms - Chapter 42"</item>
+		<item>"Psalms - Chapter 43"</item>
+		<item>"Psalms - Chapter 44"</item>
+		<item>"Psalms - Chapter 45"</item>
+		<item>"Psalms - Chapter 46"</item>
+		<item>"Psalms - Chapter 47"</item>
+		<item>"Psalms - Chapter 48"</item>
+		<item>"Psalms - Chapter 49"</item>
+		<item>"Psalms - Chapter 50"</item>
+		<item>"Psalms - Chapter 51"</item>
+		<item>"Psalms - Chapter 52"</item>
+		<item>"Psalms - Chapter 53"</item>
+		<item>"Psalms - Chapter 54"</item>
+		<item>"Psalms - Chapter 55"</item>
+		<item>"Psalms - Chapter 56"</item>
+		<item>"Psalms - Chapter 57"</item>
+		<item>"Psalms - Chapter 58"</item>
+		<item>"Psalms - Chapter 59"</item>
+		<item>"Psalms - Chapter 60"</item>
+		<item>"Psalms - Chapter 61"</item>
+		<item>"Psalms - Chapter 62"</item>
+		<item>"Psalms - Chapter 63"</item>
+		<item>"Psalms - Chapter 64"</item>
+		<item>"Psalms - Chapter 65"</item>
+		<item>"Psalms - Chapter 66"</item>
+		<item>"Psalms - Chapter 67"</item>
+		<item>"Psalms - Chapter 68"</item>
+		<item>"Psalms - Chapter 69"</item>
+		<item>"Psalms - Chapter 70"</item>
+		<item>"Psalms - Chapter 71"</item>
+		<item>"Psalms - Chapter 72"</item>
+		<item>"Psalms - Chapter 73"</item>
+		<item>"Psalms - Chapter 74"</item>
+		<item>"Psalms - Chapter 75"</item>
+		<item>"Psalms - Chapter 76"</item>
+		<item>"Psalms - Chapter 77"</item>
+		<item>"Psalms - Chapter 78"</item>
+		<item>"Psalms - Chapter 79"</item>
+		<item>"Psalms - Chapter 80"</item>
+		<item>"Psalms - Chapter 81"</item>
+		<item>"Psalms - Chapter 82"</item>
+		<item>"Psalms - Chapter 83"</item>
+		<item>"Psalms - Chapter 84"</item>
+		<item>"Psalms - Chapter 85"</item>
+		<item>"Psalms - Chapter 86"</item>
+		<item>"Psalms - Chapter 87"</item>
+		<item>"Psalms - Chapter 88"</item>
+		<item>"Psalms - Chapter 89"</item>
+		<item>"Psalms - Chapter 90"</item>
+		<item>"Psalms - Chapter 91"</item>
+		<item>"Psalms - Chapter 92"</item>
+		<item>"Psalms - Chapter 93"</item>
+		<item>"Psalms - Chapter 94"</item>
+		<item>"Psalms - Chapter 95"</item>
+		<item>"Psalms - Chapter 96"</item>
+		<item>"Psalms - Chapter 97"</item>
+		<item>"Psalms - Chapter 98"</item>
+		<item>"Psalms - Chapter 99"</item>
+		<item>"Psalms - Chapter 100"</item>
+		<item>"Psalms - Chapter 101"</item>
+		<item>"Psalms - Chapter 102"</item>
+		<item>"Psalms - Chapter 103"</item>
+		<item>"Psalms - Chapter 104"</item>
+		<item>"Psalms - Chapter 105"</item>
+		<item>"Psalms - Chapter 106"</item>
+		<item>"Psalms - Chapter 107"</item>
+		<item>"Psalms - Chapter 108"</item>
+		<item>"Psalms - Chapter 109"</item>
+		<item>"Psalms - Chapter 110"</item>
+		<item>"Psalms - Chapter 111"</item>
+		<item>"Psalms - Chapter 112"</item>
+		<item>"Psalms - Chapter 113"</item>
+		<item>"Psalms - Chapter 114"</item>
+		<item>"Psalms - Chapter 115"</item>
+		<item>"Psalms - Chapter 116"</item>
+		<item>"Psalms - Chapter 117"</item>
+		<item>"Psalms - Chapter 118"</item>
+		<item>"Psalms - Chapter 119"</item>
+		<item>"Psalms - Chapter 120"</item>
+		<item>"Psalms - Chapter 121"</item>
+		<item>"Psalms - Chapter 122"</item>
+		<item>"Psalms - Chapter 123"</item>
+		<item>"Psalms - Chapter 124"</item>
+		<item>"Psalms - Chapter 125"</item>
+		<item>"Psalms - Chapter 126"</item>
+		<item>"Psalms - Chapter 127"</item>
+		<item>"Psalms - Chapter 128"</item>
+		<item>"Psalms - Chapter 129"</item>
+		<item>"Psalms - Chapter 130"</item>
+		<item>"Psalms - Chapter 131"</item>
+		<item>"Psalms - Chapter 132"</item>
+		<item>"Psalms - Chapter 133"</item>
+		<item>"Psalms - Chapter 134"</item>
+		<item>"Psalms - Chapter 135"</item>
+		<item>"Psalms - Chapter 136"</item>
+		<item>"Psalms - Chapter 137"</item>
+		<item>"Psalms - Chapter 138"</item>
+		<item>"Psalms - Chapter 139"</item>
+		<item>"Psalms - Chapter 140"</item>
+		<item>"Psalms - Chapter 141"</item>
+		<item>"Psalms - Chapter 142"</item>
+		<item>"Psalms - Chapter 143"</item>
+		<item>"Psalms - Chapter 144"</item>
+		<item>"Psalms - Chapter 145"</item>
+		<item>"Psalms - Chapter 146"</item>
+		<item>"Psalms - Chapter 147"</item>
+		<item>"Psalms - Chapter 148"</item>
+		<item>"Psalms - Chapter 149"</item>
+		<item>"Psalms - Chapter 150"</item>
+	</string-array>
+	<string-array name="sounds_array20">
+		<item>"Proverbs - Chapter 1"</item>
+		<item>"Proverbs - Chapter 2"</item>
+		<item>"Proverbs - Chapter 3"</item>
+		<item>"Proverbs - Chapter 4"</item>
+		<item>"Proverbs - Chapter 5"</item>
+		<item>"Proverbs - Chapter 6"</item>
+		<item>"Proverbs - Chapter 7"</item>
+		<item>"Proverbs - Chapter 8"</item>
+		<item>"Proverbs - Chapter 9"</item>
+		<item>"Proverbs - Chapter 10"</item>
+		<item>"Proverbs - Chapter 11"</item>
+		<item>"Proverbs - Chapter 12"</item>
+		<item>"Proverbs - Chapter 13"</item>
+		<item>"Proverbs - Chapter 14"</item>
+		<item>"Proverbs - Chapter 15"</item>
+		<item>"Proverbs - Chapter 16"</item>
+		<item>"Proverbs - Chapter 17"</item>
+		<item>"Proverbs - Chapter 18"</item>
+		<item>"Proverbs - Chapter 19"</item>
+		<item>"Proverbs - Chapter 20"</item>
+		<item>"Proverbs - Chapter 21"</item>
+		<item>"Proverbs - Chapter 22"</item>
+		<item>"Proverbs - Chapter 23"</item>
+		<item>"Proverbs - Chapter 24"</item>
+		<item>"Proverbs - Chapter 25"</item>
+		<item>"Proverbs - Chapter 26"</item>
+		<item>"Proverbs - Chapter 27"</item>
+		<item>"Proverbs - Chapter 28"</item>
+		<item>"Proverbs - Chapter 29"</item>
+		<item>"Proverbs - Chapter 30"</item>
+		<item>"Proverbs - Chapter 31"</item>
+	</string-array>
+	<string-array name="sounds_array21">
+		<item>"Ecclesiastes - Chapter 1"</item>
+		<item>"Ecclesiastes - Chapter 2"</item>
+		<item>"Ecclesiastes - Chapter 3"</item>
+		<item>"Ecclesiastes - Chapter 4"</item>
+		<item>"Ecclesiastes - Chapter 5"</item>
+		<item>"Ecclesiastes - Chapter 6"</item>
+		<item>"Ecclesiastes - Chapter 7"</item>
+		<item>"Ecclesiastes - Chapter 8"</item>
+		<item>"Ecclesiastes - Chapter 9"</item>
+		<item>"Ecclesiastes - Chapter 10"</item>
+		<item>"Ecclesiastes - Chapter 11"</item>
+		<item>"Ecclesiastes - Chapter 12"</item>
+	</string-array>
+	<string-array name="sounds_array22">
+		<item>"Songs of Solomon - Chapter 1"</item>
+		<item>"Songs of Solomon - Chapter 2"</item>
+		<item>"Songs of Solomon - Chapter 3"</item>
+		<item>"Songs of Solomon - Chapter 4"</item>
+		<item>"Songs of Solomon - Chapter 5"</item>
+		<item>"Songs of Solomon - Chapter 6"</item>
+		<item>"Songs of Solomon - Chapter 7"</item>
+		<item>"Songs of Solomon - Chapter 8"</item>
+	</string-array>
+	<string-array name="sounds_array23">
+		<item>"Isaiah - Chapter 1"</item>
+		<item>"Isaiah - Chapter 2"</item>
+		<item>"Isaiah - Chapter 3"</item>
+		<item>"Isaiah - Chapter 4"</item>
+		<item>"Isaiah - Chapter 5"</item>
+		<item>"Isaiah - Chapter 6"</item>
+		<item>"Isaiah - Chapter 7"</item>
+		<item>"Isaiah - Chapter 8"</item>
+		<item>"Isaiah - Chapter 9"</item>
+		<item>"Isaiah - Chapter 10"</item>
+		<item>"Isaiah - Chapter 11"</item>
+		<item>"Isaiah - Chapter 12"</item>
+		<item>"Isaiah - Chapter 13"</item>
+		<item>"Isaiah - Chapter 14"</item>
+		<item>"Isaiah - Chapter 15"</item>
+		<item>"Isaiah - Chapter 16"</item>
+		<item>"Isaiah - Chapter 17"</item>
+		<item>"Isaiah - Chapter 18"</item>
+		<item>"Isaiah - Chapter 19"</item>
+		<item>"Isaiah - Chapter 20"</item>
+		<item>"Isaiah - Chapter 21"</item>
+		<item>"Isaiah - Chapter 22"</item>
+		<item>"Isaiah - Chapter 23"</item>
+		<item>"Isaiah - Chapter 24"</item>
+		<item>"Isaiah - Chapter 25"</item>
+		<item>"Isaiah - Chapter 26"</item>
+		<item>"Isaiah - Chapter 27"</item>
+		<item>"Isaiah - Chapter 28"</item>
+		<item>"Isaiah - Chapter 29"</item>
+		<item>"Isaiah - Chapter 30"</item>
+		<item>"Isaiah - Chapter 31"</item>
+		<item>"Isaiah - Chapter 32"</item>
+		<item>"Isaiah - Chapter 33"</item>
+		<item>"Isaiah - Chapter 34"</item>
+		<item>"Isaiah - Chapter 35"</item>
+		<item>"Isaiah - Chapter 36"</item>
+		<item>"Isaiah - Chapter 37"</item>
+		<item>"Isaiah - Chapter 38"</item>
+		<item>"Isaiah - Chapter 39"</item>
+		<item>"Isaiah - Chapter 40"</item>
+		<item>"Isaiah - Chapter 41"</item>
+		<item>"Isaiah - Chapter 42"</item>
+		<item>"Isaiah - Chapter 43"</item>
+		<item>"Isaiah - Chapter 44"</item>
+		<item>"Isaiah - Chapter 45"</item>
+		<item>"Isaiah - Chapter 46"</item>
+		<item>"Isaiah - Chapter 47"</item>
+		<item>"Isaiah - Chapter 48"</item>
+		<item>"Isaiah - Chapter 49"</item>
+		<item>"Isaiah - Chapter 50"</item>
+		<item>"Isaiah - Chapter 51"</item>
+		<item>"Isaiah - Chapter 52"</item>
+		<item>"Isaiah - Chapter 53"</item>
+		<item>"Isaiah - Chapter 54"</item>
+		<item>"Isaiah - Chapter 55"</item>
+		<item>"Isaiah - Chapter 56"</item>
+		<item>"Isaiah - Chapter 57"</item>
+		<item>"Isaiah - Chapter 58"</item>
+		<item>"Isaiah - Chapter 59"</item>
+		<item>"Isaiah - Chapter 60"</item>
+		<item>"Isaiah - Chapter 61"</item>
+		<item>"Isaiah - Chapter 62"</item>
+		<item>"Isaiah - Chapter 63"</item>
+		<item>"Isaiah - Chapter 64"</item>
+		<item>"Isaiah - Chapter 65"</item>
+		<item>"Isaiah - Chapter 66"</item>
+	</string-array>
+	<string-array name="sounds_array24">
+		<item>"Jeremiah - Chapter 1"</item>
+		<item>"Jeremiah - Chapter 2"</item>
+		<item>"Jeremiah - Chapter 3"</item>
+		<item>"Jeremiah - Chapter 4"</item>
+		<item>"Jeremiah - Chapter 5"</item>
+		<item>"Jeremiah - Chapter 6"</item>
+		<item>"Jeremiah - Chapter 7"</item>
+		<item>"Jeremiah - Chapter 8"</item>
+		<item>"Jeremiah - Chapter 9"</item>
+		<item>"Jeremiah - Chapter 10"</item>
+		<item>"Jeremiah - Chapter 11"</item>
+		<item>"Jeremiah - Chapter 12"</item>
+		<item>"Jeremiah - Chapter 13"</item>
+		<item>"Jeremiah - Chapter 14"</item>
+		<item>"Jeremiah - Chapter 15"</item>
+		<item>"Jeremiah - Chapter 16"</item>
+		<item>"Jeremiah - Chapter 17"</item>
+		<item>"Jeremiah - Chapter 18"</item>
+		<item>"Jeremiah - Chapter 19"</item>
+		<item>"Jeremiah - Chapter 20"</item>
+		<item>"Jeremiah - Chapter 21"</item>
+		<item>"Jeremiah - Chapter 22"</item>
+		<item>"Jeremiah - Chapter 23"</item>
+		<item>"Jeremiah - Chapter 24"</item>
+		<item>"Jeremiah - Chapter 25"</item>
+		<item>"Jeremiah - Chapter 26"</item>
+		<item>"Jeremiah - Chapter 27"</item>
+		<item>"Jeremiah - Chapter 28"</item>
+		<item>"Jeremiah - Chapter 29"</item>
+		<item>"Jeremiah - Chapter 30"</item>
+		<item>"Jeremiah - Chapter 31"</item>
+		<item>"Jeremiah - Chapter 32"</item>
+		<item>"Jeremiah - Chapter 33"</item>
+		<item>"Jeremiah - Chapter 34"</item>
+		<item>"Jeremiah - Chapter 35"</item>
+		<item>"Jeremiah - Chapter 36"</item>
+		<item>"Jeremiah - Chapter 37"</item>
+		<item>"Jeremiah - Chapter 38"</item>
+		<item>"Jeremiah - Chapter 39"</item>
+		<item>"Jeremiah - Chapter 40"</item>
+		<item>"Jeremiah - Chapter 41"</item>
+		<item>"Jeremiah - Chapter 42"</item>
+		<item>"Jeremiah - Chapter 43"</item>
+		<item>"Jeremiah - Chapter 44"</item>
+		<item>"Jeremiah - Chapter 45"</item>
+		<item>"Jeremiah - Chapter 46"</item>
+		<item>"Jeremiah - Chapter 47"</item>
+		<item>"Jeremiah - Chapter 48"</item>
+		<item>"Jeremiah - Chapter 49"</item>
+		<item>"Jeremiah - Chapter 50"</item>
+		<item>"Jeremiah - Chapter 51"</item>
+		<item>"Jeremiah - Chapter 52"</item>
+	</string-array>
+	<string-array name="sounds_array25">
+		<item>"Lamentations - Chapter 1"</item>
+		<item>"Lamentations - Chapter 2"</item>
+		<item>"Lamentations - Chapter 3"</item>
+		<item>"Lamentations - Chapter 4"</item>
+		<item>"Lamentations - Chapter 5"</item>
+	</string-array>
+	<string-array name="sounds_array26">
+		<item>"Ezekiel - Chapter 1"</item>
+		<item>"Ezekiel - Chapter 2"</item>
+		<item>"Ezekiel - Chapter 3"</item>
+		<item>"Ezekiel - Chapter 4"</item>
+		<item>"Ezekiel - Chapter 5"</item>
+		<item>"Ezekiel - Chapter 6"</item>
+		<item>"Ezekiel - Chapter 7"</item>
+		<item>"Ezekiel - Chapter 8"</item>
+		<item>"Ezekiel - Chapter 9"</item>
+		<item>"Ezekiel - Chapter 10"</item>
+		<item>"Ezekiel - Chapter 11"</item>
+		<item>"Ezekiel - Chapter 12"</item>
+		<item>"Ezekiel - Chapter 13"</item>
+		<item>"Ezekiel - Chapter 14"</item>
+		<item>"Ezekiel - Chapter 15"</item>
+		<item>"Ezekiel - Chapter 16"</item>
+		<item>"Ezekiel - Chapter 17"</item>
+		<item>"Ezekiel - Chapter 18"</item>
+		<item>"Ezekiel - Chapter 19"</item>
+		<item>"Ezekiel - Chapter 20"</item>
+		<item>"Ezekiel - Chapter 21"</item>
+		<item>"Ezekiel - Chapter 22"</item>
+		<item>"Ezekiel - Chapter 23"</item>
+		<item>"Ezekiel - Chapter 24"</item>
+		<item>"Ezekiel - Chapter 25"</item>
+		<item>"Ezekiel - Chapter 26"</item>
+		<item>"Ezekiel - Chapter 27"</item>
+		<item>"Ezekiel - Chapter 28"</item>
+		<item>"Ezekiel - Chapter 29"</item>
+		<item>"Ezekiel - Chapter 30"</item>
+		<item>"Ezekiel - Chapter 31"</item>
+		<item>"Ezekiel - Chapter 32"</item>
+		<item>"Ezekiel - Chapter 33"</item>
+		<item>"Ezekiel - Chapter 34"</item>
+		<item>"Ezekiel - Chapter 35"</item>
+		<item>"Ezekiel - Chapter 36"</item>
+		<item>"Ezekiel - Chapter 37"</item>
+		<item>"Ezekiel - Chapter 38"</item>
+		<item>"Ezekiel - Chapter 39"</item>
+		<item>"Ezekiel - Chapter 40"</item>
+		<item>"Ezekiel - Chapter 41"</item>
+		<item>"Ezekiel - Chapter 42"</item>
+		<item>"Ezekiel - Chapter 43"</item>
+		<item>"Ezekiel - Chapter 44"</item>
+		<item>"Ezekiel - Chapter 45"</item>
+		<item>"Ezekiel - Chapter 46"</item>
+		<item>"Ezekiel - Chapter 47"</item>
+		<item>"Ezekiel - Chapter 48"</item>
+	</string-array>
+	<string-array name="sounds_array27">
+		<item>"Daniel - Chapter 1"</item>
+		<item>"Daniel - Chapter 2"</item>
+		<item>"Daniel - Chapter 3"</item>
+		<item>"Daniel - Chapter 4"</item>
+		<item>"Daniel - Chapter 5"</item>
+		<item>"Daniel - Chapter 6"</item>
+		<item>"Daniel - Chapter 7"</item>
+		<item>"Daniel - Chapter 8"</item>
+		<item>"Daniel - Chapter 9"</item>
+		<item>"Daniel - Chapter 10"</item>
+		<item>"Daniel - Chapter 11"</item>
+		<item>"Daniel - Chapter 12"</item>
+	</string-array>
+	<string-array name="sounds_array28">
+		<item>"Hosea - Chapter 1"</item>
+		<item>"Hosea - Chapter 2"</item>
+		<item>"Hosea - Chapter 3"</item>
+		<item>"Hosea - Chapter 4"</item>
+		<item>"Hosea - Chapter 5"</item>
+		<item>"Hosea - Chapter 6"</item>
+		<item>"Hosea - Chapter 7"</item>
+		<item>"Hosea - Chapter 8"</item>
+		<item>"Hosea - Chapter 9"</item>
+		<item>"Hosea - Chapter 10"</item>
+		<item>"Hosea - Chapter 11"</item>
+		<item>"Hosea - Chapter 12"</item>
+		<item>"Hosea - Chapter 13"</item>
+		<item>"Hosea - Chapter 14"</item>
+	</string-array>
+	<string-array name="sounds_array29">
+		<item>"Joel - Chapter 1"</item>
+		<item>"Joel - Chapter 2"</item>
+		<item>"Joel - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array30">
+		<item>"Amos - Chapter 1"</item>
+		<item>"Amos - Chapter 2"</item>
+		<item>"Amos - Chapter 3"</item>
+		<item>"Amos - Chapter 4"</item>
+		<item>"Amos - Chapter 5"</item>
+		<item>"Amos - Chapter 6"</item>
+		<item>"Amos - Chapter 7"</item>
+		<item>"Amos - Chapter 8"</item>
+		<item>"Amos - Chapter 9"</item>
+	</string-array>
+	<string-array name="sounds_array31">
+		<item>"Obadiah - Chapter 1"</item>
+	</string-array>
+	<string-array name="sounds_array32">
+		<item>"Jonah - Chapter 1"</item>
+		<item>"Jonah - Chapter 2"</item>
+		<item>"Jonah - Chapter 3"</item>
+		<item>"Jonah - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array33">
+		<item>"Micah - Chapter 1"</item>
+		<item>"Micah - Chapter 2"</item>
+		<item>"Micah - Chapter 3"</item>
+		<item>"Micah - Chapter 4"</item>
+		<item>"Micah - Chapter 5"</item>
+		<item>"Micah - Chapter 6"</item>
+		<item>"Micah - Chapter 7"</item>
+	</string-array>
+	<string-array name="sounds_array34">
+		<item>"Nahum - Chapter 1"</item>
+		<item>"Nahum - Chapter 2"</item>
+		<item>"Nahum - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array35">
+		<item>"Habakkuk - Chapter 1"</item>
+		<item>"Habakkuk - Chapter 2"</item>
+		<item>"Habakkuk - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array36">
+		<item>"Zephaniah - Chapter 1"</item>
+		<item>"Zephaniah - Chapter 2"</item>
+		<item>"Zephaniah - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array37">
+		<item>"Haggai - Chapter 1"</item>
+		<item>"Haggai - Chapter 2"</item>
+	</string-array>
+	<string-array name="sounds_array38">
+		<item>"Zechariah - Chapter 1"</item>
+		<item>"Zechariah - Chapter 2"</item>
+		<item>"Zechariah - Chapter 3"</item>
+		<item>"Zechariah - Chapter 4"</item>
+		<item>"Zechariah - Chapter 5"</item>
+		<item>"Zechariah - Chapter 6"</item>
+		<item>"Zechariah - Chapter 7"</item>
+		<item>"Zechariah - Chapter 8"</item>
+		<item>"Zechariah - Chapter 9"</item>
+		<item>"Zechariah - Chapter 10"</item>
+		<item>"Zechariah - Chapter 11"</item>
+		<item>"Zechariah - Chapter 12"</item>
+		<item>"Zechariah - Chapter 13"</item>
+		<item>"Zechariah - Chapter 14"</item>
+	</string-array>
+	<string-array name="sounds_array39">
+		<item>"Malachi - Chapter 1"</item>
+		<item>"Malachi - Chapter 2"</item>
+		<item>"Malachi - Chapter 3"</item>
+		<item>"Malachi - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array40">
+		<item>"Matthew - Chapter 1"</item>
+		<item>"Matthew - Chapter 2"</item>
+		<item>"Matthew - Chapter 3"</item>
+		<item>"Matthew - Chapter 4"</item>
+		<item>"Matthew - Chapter 5"</item>
+		<item>"Matthew - Chapter 6"</item>
+		<item>"Matthew - Chapter 7"</item>
+		<item>"Matthew - Chapter 8"</item>
+		<item>"Matthew - Chapter 9"</item>
+		<item>"Matthew - Chapter 10"</item>
+		<item>"Matthew - Chapter 11"</item>
+		<item>"Matthew - Chapter 12"</item>
+		<item>"Matthew - Chapter 13"</item>
+		<item>"Matthew - Chapter 14"</item>
+		<item>"Matthew - Chapter 15"</item>
+		<item>"Matthew - Chapter 16"</item>
+		<item>"Matthew - Chapter 17"</item>
+		<item>"Matthew - Chapter 18"</item>
+		<item>"Matthew - Chapter 19"</item>
+		<item>"Matthew - Chapter 20"</item>
+		<item>"Matthew - Chapter 21"</item>
+		<item>"Matthew - Chapter 22"</item>
+		<item>"Matthew - Chapter 23"</item>
+		<item>"Matthew - Chapter 24"</item>
+		<item>"Matthew - Chapter 25"</item>
+		<item>"Matthew - Chapter 26"</item>
+		<item>"Matthew - Chapter 27"</item>
+		<item>"Matthew - Chapter 28"</item>
+	</string-array>
+	<string-array name="sounds_array41">
+		<item>"Mark - Chapter 1"</item>
+		<item>"Mark - Chapter 2"</item>
+		<item>"Mark - Chapter 3"</item>
+		<item>"Mark - Chapter 4"</item>
+		<item>"Mark - Chapter 5"</item>
+		<item>"Mark - Chapter 6"</item>
+		<item>"Mark - Chapter 7"</item>
+		<item>"Mark - Chapter 8"</item>
+		<item>"Mark - Chapter 9"</item>
+		<item>"Mark - Chapter 10"</item>
+		<item>"Mark - Chapter 11"</item>
+		<item>"Mark - Chapter 12"</item>
+		<item>"Mark - Chapter 13"</item>
+		<item>"Mark - Chapter 14"</item>
+		<item>"Mark - Chapter 15"</item>
+		<item>"Mark - Chapter 16"</item>
+	</string-array>
+	<string-array name="sounds_array42">
+		<item>"Luke - Chapter 1"</item>
+		<item>"Luke - Chapter 2"</item>
+		<item>"Luke - Chapter 3"</item>
+		<item>"Luke - Chapter 4"</item>
+		<item>"Luke - Chapter 5"</item>
+		<item>"Luke - Chapter 6"</item>
+		<item>"Luke - Chapter 7"</item>
+		<item>"Luke - Chapter 8"</item>
+		<item>"Luke - Chapter 9"</item>
+		<item>"Luke - Chapter 10"</item>
+		<item>"Luke - Chapter 11"</item>
+		<item>"Luke - Chapter 12"</item>
+		<item>"Luke - Chapter 13"</item>
+		<item>"Luke - Chapter 14"</item>
+		<item>"Luke - Chapter 15"</item>
+		<item>"Luke - Chapter 16"</item>
+		<item>"Luke - Chapter 17"</item>
+		<item>"Luke - Chapter 18"</item>
+		<item>"Luke - Chapter 19"</item>
+		<item>"Luke - Chapter 20"</item>
+		<item>"Luke - Chapter 21"</item>
+		<item>"Luke - Chapter 22"</item>
+		<item>"Luke - Chapter 23"</item>
+		<item>"Luke - Chapter 24"</item>
+	</string-array>
+	<string-array name="sounds_array43">
+		<item>"John - Chapter 1"</item>
+		<item>"John - Chapter 2"</item>
+		<item>"John - Chapter 3"</item>
+		<item>"John - Chapter 4"</item>
+		<item>"John - Chapter 5"</item>
+		<item>"John - Chapter 6"</item>
+		<item>"John - Chapter 7"</item>
+		<item>"John - Chapter 8"</item>
+		<item>"John - Chapter 9"</item>
+		<item>"John - Chapter 10"</item>
+		<item>"John - Chapter 11"</item>
+		<item>"John - Chapter 12"</item>
+		<item>"John - Chapter 13"</item>
+		<item>"John - Chapter 14"</item>
+		<item>"John - Chapter 15"</item>
+		<item>"John - Chapter 16"</item>
+		<item>"John - Chapter 17"</item>
+		<item>"John - Chapter 18"</item>
+		<item>"John - Chapter 19"</item>
+		<item>"John - Chapter 20"</item>
+		<item>"John - Chapter 21"</item>
+	</string-array>
+	<string-array name="sounds_array44">
+		<item>"Acts - Chapter 1"</item>
+		<item>"Acts - Chapter 2"</item>
+		<item>"Acts - Chapter 3"</item>
+		<item>"Acts - Chapter 4"</item>
+		<item>"Acts - Chapter 5"</item>
+		<item>"Acts - Chapter 6"</item>
+		<item>"Acts - Chapter 7"</item>
+		<item>"Acts - Chapter 8"</item>
+		<item>"Acts - Chapter 9"</item>
+		<item>"Acts - Chapter 10"</item>
+		<item>"Acts - Chapter 11"</item>
+		<item>"Acts - Chapter 12"</item>
+		<item>"Acts - Chapter 13"</item>
+		<item>"Acts - Chapter 14"</item>
+		<item>"Acts - Chapter 15"</item>
+		<item>"Acts - Chapter 16"</item>
+		<item>"Acts - Chapter 17"</item>
+		<item>"Acts - Chapter 18"</item>
+		<item>"Acts - Chapter 19"</item>
+		<item>"Acts - Chapter 20"</item>
+		<item>"Acts - Chapter 21"</item>
+		<item>"Acts - Chapter 22"</item>
+		<item>"Acts - Chapter 23"</item>
+		<item>"Acts - Chapter 24"</item>
+		<item>"Acts - Chapter 25"</item>
+		<item>"Acts - Chapter 26"</item>
+		<item>"Acts - Chapter 27"</item>
+		<item>"Acts - Chapter 28"</item>
+	</string-array>
+	<string-array name="sounds_array45">
+		<item>"Romans - Chapter 1"</item>
+		<item>"Romans - Chapter 2"</item>
+		<item>"Romans - Chapter 3"</item>
+		<item>"Romans - Chapter 4"</item>
+		<item>"Romans - Chapter 5"</item>
+		<item>"Romans - Chapter 6"</item>
+		<item>"Romans - Chapter 7"</item>
+		<item>"Romans - Chapter 8"</item>
+		<item>"Romans - Chapter 9"</item>
+		<item>"Romans - Chapter 10"</item>
+		<item>"Romans - Chapter 11"</item>
+		<item>"Romans - Chapter 12"</item>
+		<item>"Romans - Chapter 13"</item>
+		<item>"Romans - Chapter 14"</item>
+		<item>"Romans - Chapter 15"</item>
+		<item>"Romans - Chapter 16"</item>
+	</string-array>
+	<string-array name="sounds_array46">
+		<item>"1 Corinthians - Chapter 1"</item>
+		<item>"1 Corinthians - Chapter 2"</item>
+		<item>"1 Corinthians - Chapter 3"</item>
+		<item>"1 Corinthians - Chapter 4"</item>
+		<item>"1 Corinthians - Chapter 5"</item>
+		<item>"1 Corinthians - Chapter 6"</item>
+		<item>"1 Corinthians - Chapter 7"</item>
+		<item>"1 Corinthians - Chapter 8"</item>
+		<item>"1 Corinthians - Chapter 9"</item>
+		<item>"1 Corinthians - Chapter 10"</item>
+		<item>"1 Corinthians - Chapter 11"</item>
+		<item>"1 Corinthians - Chapter 12"</item>
+		<item>"1 Corinthians - Chapter 13"</item>
+		<item>"1 Corinthians - Chapter 14"</item>
+		<item>"1 Corinthians - Chapter 15"</item>
+		<item>"1 Corinthians - Chapter 16"</item>
+	</string-array>
+	<string-array name="sounds_array47">
+		<item>"2 Corinthians - Chapter 1"</item>
+		<item>"2 Corinthians - Chapter 2"</item>
+		<item>"2 Corinthians - Chapter 3"</item>
+		<item>"2 Corinthians - Chapter 4"</item>
+		<item>"2 Corinthians - Chapter 5"</item>
+		<item>"2 Corinthians - Chapter 6"</item>
+		<item>"2 Corinthians - Chapter 7"</item>
+		<item>"2 Corinthians - Chapter 8"</item>
+		<item>"2 Corinthians - Chapter 9"</item>
+		<item>"2 Corinthians - Chapter 10"</item>
+		<item>"2 Corinthians - Chapter 11"</item>
+		<item>"2 Corinthians - Chapter 12"</item>
+		<item>"2 Corinthians - Chapter 13"</item>
+	</string-array>
+	<string-array name="sounds_array48">
+		<item>"Galatians - Chapter 1"</item>
+		<item>"Galatians - Chapter 2"</item>
+		<item>"Galatians - Chapter 3"</item>
+		<item>"Galatians - Chapter 4"</item>
+		<item>"Galatians - Chapter 5"</item>
+		<item>"Galatians - Chapter 6"</item>
+	</string-array>
+	<string-array name="sounds_array49">
+		<item>"Ephesians - Chapter 1"</item>
+		<item>"Ephesians - Chapter 2"</item>
+		<item>"Ephesians - Chapter 3"</item>
+		<item>"Ephesians - Chapter 4"</item>
+		<item>"Ephesians - Chapter 5"</item>
+		<item>"Ephesians - Chapter 6"</item>
+	</string-array>
+	<string-array name="sounds_array50">
+		<item>"Philipppians - Chapter 1"</item>
+		<item>"Philipppians - Chapter 2"</item>
+		<item>"Philipppians - Chapter 3"</item>
+		<item>"Philipppians - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array51">
+		<item>"Colossians - Chapter 1"</item>
+		<item>"Colossians - Chapter 2"</item>
+		<item>"Colossians - Chapter 3"</item>
+		<item>"Colossians - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array52">
+		<item>"1 Thessalonians - Chapter 1"</item>
+		<item>"1 Thessalonians - Chapter 2"</item>
+		<item>"1 Thessalonians - Chapter 3"</item>
+		<item>"1 Thessalonians - Chapter 4"</item>
+		<item>"1 Thessalonians - Chapter 5"</item>
+	</string-array>
+	<string-array name="sounds_array53">
+		<item>"2 Thessalonians - Chapter 1"</item>
+		<item>"2 Thessalonians - Chapter 2"</item>
+		<item>"2 Thessalonians - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array54">
+		<item>"1 Timothy - Chapter 1"</item>
+		<item>"1 Timothy - Chapter 2"</item>
+		<item>"1 Timothy - Chapter 3"</item>
+		<item>"1 Timothy - Chapter 4"</item>
+		<item>"1 Timothy - Chapter 5"</item>
+		<item>"1 Timothy - Chapter 6"</item>
+	</string-array>
+	<string-array name="sounds_array55">
+		<item>"2 Timothy - Chapter 1"</item>
+		<item>"2 Timothy - Chapter 2"</item>
+		<item>"2 Timothy - Chapter 3"</item>
+		<item>"2 Timothy - Chapter 4"</item>
+	</string-array>
+	<string-array name="sounds_array56">
+		<item>"Titus - Chapter 1"</item>
+		<item>"Titus - Chapter 2"</item>
+		<item>"Titus - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array57">
+		<item>"Philemon - Chapter 1"</item>
+	</string-array>
+	<string-array name="sounds_array58">
+		<item>"Hebrews - Chapter 1"</item>
+		<item>"Hebrews - Chapter 2"</item>
+		<item>"Hebrews - Chapter 3"</item>
+		<item>"Hebrews - Chapter 4"</item>
+		<item>"Hebrews - Chapter 5"</item>
+		<item>"Hebrews - Chapter 6"</item>
+		<item>"Hebrews - Chapter 7"</item>
+		<item>"Hebrews - Chapter 8"</item>
+		<item>"Hebrews - Chapter 9"</item>
+		<item>"Hebrews - Chapter 10"</item>
+		<item>"Hebrews - Chapter 11"</item>
+		<item>"Hebrews - Chapter 12"</item>
+		<item>"Hebrews - Chapter 13"</item>
+	</string-array>
+	<string-array name="sounds_array59">
+		<item>"James - Chapter 1"</item>
+		<item>"James - Chapter 2"</item>
+		<item>"James - Chapter 3"</item>
+		<item>"James - Chapter 4"</item>
+		<item>"James - Chapter 5"</item>
+	</string-array>
+	<string-array name="sounds_array60">
+		<item>"1 Peter - Chapter 1"</item>
+		<item>"1 Peter - Chapter 2"</item>
+		<item>"1 Peter - Chapter 3"</item>
+		<item>"1 Peter - Chapter 4"</item>
+		<item>"1 Peter - Chapter 5"</item>
+	</string-array>
+	<string-array name="sounds_array61">
+		<item>"2 Peter - Chapter 1"</item>
+		<item>"2 Peter - Chapter 2"</item>
+		<item>"2 Peter - Chapter 3"</item>
+	</string-array>
+	<string-array name="sounds_array62">
+		<item>"1 John - Chapter 1"</item>
+		<item>"1 John - Chapter 2"</item>
+		<item>"1 John - Chapter 3"</item>
+		<item>"1 John - Chapter 4"</item>
+		<item>"1 John - Chapter 5"</item>
+	</string-array>
+	<string-array name="sounds_array63">
+		<item>"2 John - Chapter 1"</item>
+	</string-array>
+	<string-array name="sounds_array64">
+		<item>"3 John - Chapter 1"</item>
+	</string-array>
+	<string-array name="sounds_array65">
+		<item>"Jude - Chapter 1"</item>
+	</string-array>
+	<string-array name="sounds_array66">
+		<item>"Revelation - Chapter 1"</item>
+		<item>"Revelation - Chapter 2"</item>
+		<item>"Revelation - Chapter 3"</item>
+		<item>"Revelation - Chapter 4"</item>
+		<item>"Revelation - Chapter 5"</item>
+		<item>"Revelation - Chapter 6"</item>
+		<item>"Revelation - Chapter 7"</item>
+		<item>"Revelation - Chapter 8"</item>
+		<item>"Revelation - Chapter 9"</item>
+		<item>"Revelation - Chapter 10"</item>
+		<item>"Revelation - Chapter 11"</item>
+		<item>"Revelation - Chapter 12"</item>
+		<item>"Revelation - Chapter 13"</item>
+		<item>"Revelation - Chapter 14"</item>
+		<item>"Revelation - Chapter 15"</item>
+		<item>"Revelation - Chapter 16"</item>
+		<item>"Revelation - Chapter 17"</item>
+		<item>"Revelation - Chapter 18"</item>
+		<item>"Revelation - Chapter 19"</item>
+		<item>"Revelation - Chapter 20"</item>
+		<item>"Revelation - Chapter 21"</item>
+		<item>"Revelation - Chapter 22"</item>
+	</string-array>
+</resources>
