@@ -31,12 +31,33 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
             folderNames.sort { (name1, name2) -> Bool in
                  return name1.localizedStandardCompare(name2) == .orderedAscending
             }
-            
             print("folderNames = \(folderNames)")
+            
+            initAudioPlayerHumanTitles()
         } catch {
             print(error)
         }
     }
+    
+    func initAudioPlayerHumanTitles() {
+        if let plistPath = Bundle.main.path(forResource: "AudioPlayerFiles/folders", ofType: "plist"),
+           let plistXML = FileManager.default.contents(atPath: plistPath),
+           let foldersDict = try? PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: nil) as? [String: Any],
+           let array = foldersDict["AudioFolders"] as? [String] {
+            // Use the audioFoldersArray containing the strings
+            folderHumanTitles = array
+            print("audioFoldersArray folderNames = \(folderHumanTitles)")
+            
+            if (folderNames.count != folderHumanTitles.count) {
+                print("Number of folders on file system and in plist file is different. Use file system folder names")
+                folderHumanTitles = folderNames
+            }
+        } else {
+            print("Failed to load the folders.plist file. Use file system folder names")
+            folderHumanTitles = folderNames
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,16 +68,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
             }
         }
         
-        if let plistPath = Bundle.main.path(forResource: "AudioPlayerFiles/folders", ofType: "plist"),
-           let plistXML = FileManager.default.contents(atPath: plistPath),
-           let foldersDict = try? PropertyListSerialization.propertyList(from: plistXML, options: .mutableContainersAndLeaves, format: nil) as? [String: Any],
-           let array = foldersDict["AudioFolders"] as? [String] {
-            // Use the audioFoldersArray containing the strings
-            folderHumanTitles = array
-            print("audioFoldersArray folderNames = \(folderHumanTitles)")
-        } else {
-            print("Failed to load the folders.plist file.")
-        }
+        
         
         tableView.dataSource = self
         tableView.delegate = self
