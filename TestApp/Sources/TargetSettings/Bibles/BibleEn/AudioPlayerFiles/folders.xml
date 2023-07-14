@@ -1,6 +1,4 @@
-<resources>
-	<string name="app_name">Audio Bible</string>
- 
+<resources> 
 	<string-array name="packs_array">
 		<item>Genesis</item>
 		<item>Exodus</item>
@@ -69,6 +67,4 @@
 		<item>Jude</item>
 		<item>Revelation</item>
 	</string-array>
-	<string name="host">http://www.wordpocket.org/bibles/app/audio/1</string>
-	<string name="host_zip">http://vilendoo.com/audiobibles/english/</string>
 </resources>
