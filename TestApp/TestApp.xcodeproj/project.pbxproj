@@ -345,6 +345,17 @@
 		2AE9B2DA5C6E3F80293B841C /* LibraryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBACED055500DE4FD673361 /* LibraryModule.swift */; };
 		2D355EDEC14D340D0AB58BA5 /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
 		318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
+		373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32942A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32952A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32962A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32972A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32982A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F32992A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F329A2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F329B2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
+		373F329C2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		3755592729C2F1DD0049661D /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		3755592829C2F1DD0049661D /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		3755592929C2F1DD0049661D /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -1228,6 +1239,7 @@
 		2C20986FFBF781124291B16A /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
+		373F32912A6142EB00F50F49 /* FolderContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderContentViewController.swift; sourceTree = "<group>"; };
 		3755599029C2F1DD0049661D /* QuranEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3755599429C2F6A40049661D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1750,6 +1762,7 @@
 				37ED058A2A418C0300B64356 /* FolderListViewController.swift */,
 				37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */,
 				379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */,
+				373F32912A6142EB00F50F49 /* FolderContentViewController.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -2639,6 +2652,7 @@
 				0509570229683682004F14AA /* AnyPublisher.swift in Sources */,
 				0509570329683682004F14AA /* AppDelegate.swift in Sources */,
 				0509570429683682004F14AA /* AppModule.swift in Sources */,
+				373F32962A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				0509570529683682004F14AA /* AssociatedColors.swift in Sources */,
 				0509570629683682004F14AA /* BarButtonItem.swift in Sources */,
 				0509570729683682004F14AA /* Book.swift in Sources */,
@@ -2724,6 +2738,7 @@
 				054C3531298B99EE002986E8 /* AnyPublisher.swift in Sources */,
 				054C3532298B99EE002986E8 /* AppDelegate.swift in Sources */,
 				054C3533298B99EE002986E8 /* AppModule.swift in Sources */,
+				373F32972A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				054C3534298B99EE002986E8 /* AssociatedColors.swift in Sources */,
 				054C3535298B99EE002986E8 /* BarButtonItem.swift in Sources */,
 				054C3536298B99EE002986E8 /* Book.swift in Sources */,
@@ -2809,6 +2824,7 @@
 				05C8E99128BF97EF00DA8485 /* AnyPublisher.swift in Sources */,
 				05C8E99228BF97EF00DA8485 /* AppDelegate.swift in Sources */,
 				05C8E99328BF97EF00DA8485 /* AppModule.swift in Sources */,
+				373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				05C8E99428BF97EF00DA8485 /* AssociatedColors.swift in Sources */,
 				05C8E99528BF97EF00DA8485 /* BarButtonItem.swift in Sources */,
 				05C8E99628BF97EF00DA8485 /* Book.swift in Sources */,
@@ -2894,6 +2910,7 @@
 				3755592929C2F1DD0049661D /* AnyPublisher.swift in Sources */,
 				3755592A29C2F1DD0049661D /* AppDelegate.swift in Sources */,
 				3755592B29C2F1DD0049661D /* AppModule.swift in Sources */,
+				373F329A2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				3755592C29C2F1DD0049661D /* AssociatedColors.swift in Sources */,
 				3755592D29C2F1DD0049661D /* BarButtonItem.swift in Sources */,
 				3755592E29C2F1DD0049661D /* Book.swift in Sources */,
@@ -2979,6 +2996,7 @@
 				376EDC552A1371600029074A /* AnyPublisher.swift in Sources */,
 				376EDC562A1371600029074A /* AppDelegate.swift in Sources */,
 				376EDC572A1371600029074A /* AppModule.swift in Sources */,
+				373F329B2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				376EDC582A1371600029074A /* AssociatedColors.swift in Sources */,
 				376EDC592A1371600029074A /* BarButtonItem.swift in Sources */,
 				376EDC5A2A1371600029074A /* Book.swift in Sources */,
@@ -3064,6 +3082,7 @@
 				376EDCDA2A138FE80029074A /* AnyPublisher.swift in Sources */,
 				376EDCDB2A138FE80029074A /* AppDelegate.swift in Sources */,
 				376EDCDC2A138FE80029074A /* AppModule.swift in Sources */,
+				373F329C2A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				376EDCDD2A138FE80029074A /* AssociatedColors.swift in Sources */,
 				376EDCDE2A138FE80029074A /* BarButtonItem.swift in Sources */,
 				376EDCDF2A138FE80029074A /* Book.swift in Sources */,
@@ -3149,6 +3168,7 @@
 				37A8C12A29B2348000569F92 /* AnyPublisher.swift in Sources */,
 				37A8C12B29B2348000569F92 /* AppDelegate.swift in Sources */,
 				37A8C12C29B2348000569F92 /* AppModule.swift in Sources */,
+				373F32942A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				37A8C12D29B2348000569F92 /* AssociatedColors.swift in Sources */,
 				37A8C12E29B2348000569F92 /* BarButtonItem.swift in Sources */,
 				37A8C12F29B2348000569F92 /* Book.swift in Sources */,
@@ -3234,6 +3254,7 @@
 				37ED050B2A3C438B00B64356 /* AnyPublisher.swift in Sources */,
 				37ED050C2A3C438B00B64356 /* AppDelegate.swift in Sources */,
 				37ED050D2A3C438B00B64356 /* AppModule.swift in Sources */,
+				373F32982A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				37ED050E2A3C438B00B64356 /* AssociatedColors.swift in Sources */,
 				37ED050F2A3C438B00B64356 /* BarButtonItem.swift in Sources */,
 				37ED05102A3C438B00B64356 /* Book.swift in Sources */,
@@ -3319,6 +3340,7 @@
 				C3A32EC62927566F00EA386A /* AnyPublisher.swift in Sources */,
 				C3A32EC72927566F00EA386A /* AppDelegate.swift in Sources */,
 				C3A32EC82927566F00EA386A /* AppModule.swift in Sources */,
+				373F32952A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				C3A32EC92927566F00EA386A /* AssociatedColors.swift in Sources */,
 				C3A32ECA2927566F00EA386A /* BarButtonItem.swift in Sources */,
 				C3A32ECB2927566F00EA386A /* Book.swift in Sources */,
@@ -3404,6 +3426,7 @@
 				C3E0FC5529B1DF7F000791FA /* AnyPublisher.swift in Sources */,
 				C3E0FC5629B1DF7F000791FA /* AppDelegate.swift in Sources */,
 				C3E0FC5729B1DF7F000791FA /* AppModule.swift in Sources */,
+				373F32992A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				C3E0FC5829B1DF7F000791FA /* AssociatedColors.swift in Sources */,
 				C3E0FC5929B1DF7F000791FA /* BarButtonItem.swift in Sources */,
 				C3E0FC5A29B1DF7F000791FA /* Book.swift in Sources */,
@@ -3489,6 +3512,7 @@
 				7570EE3B52AA8DCD3BB7F3FD /* AnyPublisher.swift in Sources */,
 				BE5A931C42BDD682F0381D23 /* AppDelegate.swift in Sources */,
 				F0107DC19DEBF4FC33E2440C /* AppModule.swift in Sources */,
+				373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */,
 				D3D65B2DDDDA160DABB41EE9 /* AssociatedColors.swift in Sources */,
 				60D5630A79A734A0E112CE2F /* BarButtonItem.swift in Sources */,
 				C508D75B17670B8D30D7AAC7 /* Book.swift in Sources */,
