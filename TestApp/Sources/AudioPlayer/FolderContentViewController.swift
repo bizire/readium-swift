@@ -121,6 +121,13 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         nowPlayingInfo[MPMediaItemPropertyPlaybackDuration] = AudioPlayerManager.shared.duration()
         nowPlayingInfo[MPNowPlayingInfoPropertyPlaybackRate] = AudioPlayerManager.shared.rate()
         
+        let image = UIImage(named: "AppIcon")!
+        let artwork = MPMediaItemArtwork.init(boundsSize: image.size, requestHandler: { (size) -> UIImage in
+                return image
+        })
+        
+        nowPlayingInfo[MPMediaItemPropertyArtwork] = artwork
+        
         // Set the metadata
         MPNowPlayingInfoCenter.default().nowPlayingInfo = nowPlayingInfo
         if (AudioPlayerManager.shared.isPlaying()) {
