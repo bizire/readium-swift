@@ -10,28 +10,10 @@
 	<string>ca-app-pub-7590866680405485/8622449957</string>
 	<key>AdmobRewardID</key>
 	<string>ca-app-pub-7590866680405485/9935531620</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_cKclCyjjeVqEKBqLUlFUmtQayUa</string>
-	<key>privacyPolicyURL</key>
-	<string>https://vilendoo.com/Privacy-Policy/</string>
-	<key>termsOfUseURL</key>
-	<string>https://vilendoo.com/Terms-of-Use/</string>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>Кодексы РФ</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -221,8 +203,14 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FreeAudioChapters</key>
+	<integer>9</integer>
+	<key>FreeItemsAmount</key>
+	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7590866680405485~1483909118</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
@@ -236,6 +224,10 @@
 		<key>NSAllowsArbitraryLoadsInWebContent</key>
 		<true/>
 	</dict>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>RevenueCatPublicKey</key>
+	<string>appl_cKclCyjjeVqEKBqLUlFUmtQayUa</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -439,6 +431,10 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -566,5 +562,17 @@
 			</dict>
 		</dict>
 	</array>
+	<key>hasAudioPlayer</key>
+	<true/>
+	<key>hasPremiumContent</key>
+	<true/>
+	<key>hasSubscriptions</key>
+	<true/>
+	<key>numberPerRow</key>
+	<integer>3</integer>
+	<key>privacyPolicyURL</key>
+	<string>https://vilendoo.com/Privacy-Policy/</string>
+	<key>termsOfUseURL</key>
+	<string>https://vilendoo.com/Terms-of-Use/</string>
 </dict>
 </plist>

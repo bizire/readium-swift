@@ -16,6 +16,7 @@ import UIKit
 import RevenueCat
 import AppTrackingTransparency
 import AdSupport
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDelegate, PurchasesDelegate {
@@ -90,7 +91,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
                 AppOpenAdManager.shared.loadAd()
             }
         }
-
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print("Failed to set up audio session for background playback: \(error.localizedDescription)")
+        }
+        
         return true
     }
     

@@ -18,6 +18,10 @@
 	<integer>5</integer>
 	<key>FreeAudioChapters</key>
 	<integer>9</integer>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>privacyPolicyURL</key>
 	<string>https://sites.google.com/view/paulvi-app-bible/</string>
 	<key>termsOfUseURL</key>
