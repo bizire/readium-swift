@@ -9,6 +9,7 @@ import UIKit
 import AVFoundation
 import GoogleMobileAds
 import RevenueCat
+import MediaPlayer
 
 class FolderContentViewController: UIViewController, UITableViewDataSource, UITableViewDelegate,  AVAudioPlayerDelegate {
     var folderName: String!
@@ -54,18 +55,86 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         nextButton.tintColor = .white
         previousButton.tintColor = .white
         
-        do {
-            try AVAudioSession.sharedInstance().setCategory(.playback)
-            try AVAudioSession.sharedInstance().setActive(true)
-        } catch {
-            print ("Admob Interstitial oops AVAudioSession")
-        }
-        
-        
         NotificationCenter.default.addObserver(self, selector: #selector(handleSliderUpdateNotification(_:)), name: Notification.Name("SliderUpdateNotification"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleAudioInfoNotification(_:)), name: Notification.Name("AudioInfoUpdateNotification"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleAudioPlayerDidFinish(_:)), name: Notification.Name("AudioPlayerDidFinishPlaying"), object: nil)
+        
+        setupRemoteControl()
     }
+    
+    func setupRemoteControl(){
+        UIApplication.shared.beginReceivingRemoteControlEvents()
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = [MPMediaItemPropertyTitle: "YoPlayer"]
+        
+        setupRemoteTransportControls()
+    }
+    
+    func setupRemoteTransportControls() {
+        // Get the shared MPRemoteCommandCenter
+        let commandCenter = MPRemoteCommandCenter.shared()
+        
+        // Add handler for Play Command
+        commandCenter.playCommand.isEnabled = true
+        commandCenter.playCommand.addTarget { [unowned self] event in
+            currentFile = folderFiles[currentFileIndex]
+            print("\(currentFileIndex): commandCenter.playCommand.addTarget \(folderName) - \(currentFile)")
+            if !AudioPlayerManager.shared.isPlaying() {
+                AudioPlayerManager.shared.playAudio(folderName: folderName, file: currentFile)
+                return .success
+            }
+            return .commandFailed
+        }
+        
+        // Add handler for Pause Command
+        commandCenter.pauseCommand.isEnabled = true
+        commandCenter.pauseCommand.addTarget { [unowned self] event in
+            print("commandCenter.pauseCommand.addTarget")
+            if AudioPlayerManager.shared.isPlaying() {
+                AudioPlayerManager.shared.pauseAudio()
+                return .success
+            }
+            return .commandFailed
+        }
+        
+        commandCenter.nextTrackCommand.isEnabled = true
+        commandCenter.nextTrackCommand.addTarget{ [unowned self] event in
+            print("commandCenter.nextTrackCommand.addTarget")
+            nextButtonTapped(UIButton())
+            return .success
+        }
+        
+        commandCenter.previousTrackCommand.isEnabled = true
+        commandCenter.previousTrackCommand.addTarget{ [unowned self] event in
+            print("commandCenter.nextTrackCommand.addTarget")
+            previousButtonTapped(UIButton())
+            return .success
+        }
+    }
+    
+    func updateNowPlayingInfo() {
+        // Define Now Playing Info
+        var nowPlayingInfo = [String : Any]()
+        currentFile = (folderFiles[currentFileIndex] as NSString).deletingPathExtension
+        nowPlayingInfo[MPMediaItemPropertyTitle] = "\(folderName!) - \(currentFile)"
+        
+        nowPlayingInfo[MPNowPlayingInfoPropertyElapsedPlaybackTime] = AudioPlayerManager.shared.currentTime()
+        nowPlayingInfo[MPMediaItemPropertyPlaybackDuration] = AudioPlayerManager.shared.duration()
+        nowPlayingInfo[MPNowPlayingInfoPropertyPlaybackRate] = AudioPlayerManager.shared.rate()
+        
+        // Set the metadata
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = nowPlayingInfo
+        if (AudioPlayerManager.shared.isPlaying()) {
+            MPNowPlayingInfoCenter.default().playbackState = .playing
+        } else {
+            MPNowPlayingInfoCenter.default().playbackState = .paused
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//        AudioPlayerManager.shared.setupAudioSessionForBackgroundPlayback()
+//        AudioPlayerManager.shared.setupRemoteTransportControls()
+        }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
@@ -159,6 +228,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         }
         
         currentFileIndex = indexPath.row
+        updateNowPlayingInfo()
     }
     
     let FOOTER_HEIGHT: CGFloat = 80
@@ -247,7 +317,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
                 AudioPlayerManager.shared.startSliderUpdateTimer()
                 sender.setImage(pauseImage, for: .normal)
             }
-        
+        updateNowPlayingInfo()
     }
     
     @objc func previousButtonTapped(_ sender: UIButton) {
@@ -271,6 +341,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             tableView.selectRow(at: previousIndexPath, animated: true, scrollPosition: .none)
             currentFileIndex = previousIndex
         }
+        updateNowPlayingInfo()
     }
 
     @objc func nextButtonTapped(_ sender: UIButton) {
@@ -294,6 +365,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             tableView.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
             currentFileIndex = nextIndex
         }
+        updateNowPlayingInfo()
     }
     
     var wasPlaying = false

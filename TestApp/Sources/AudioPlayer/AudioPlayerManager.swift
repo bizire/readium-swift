@@ -105,6 +105,10 @@ class AudioPlayerManager: NSObject {
         return audioPlayer?.duration ?? 0.0
     }
     
+    func rate() -> Float {
+        return audioPlayer?.rate ?? 0.0
+    }
+    
     func updateSlider() {
            let currentTime = currentTime()
            let duration = duration()
