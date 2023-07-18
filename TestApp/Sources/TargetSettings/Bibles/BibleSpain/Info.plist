@@ -16,6 +16,8 @@
 	<array>
 		<string>audio</string>
 	</array>
+	<key>FreeAudioChapters</key>
+	<integer>5</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>es</string>
 	<key>CFBundleDisplayName</key>

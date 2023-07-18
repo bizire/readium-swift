@@ -12,6 +12,8 @@
 	<string>ca-app-pub-2983224055780222/3293401571</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>fr</string>
+	<key>FreeAudioChapters</key>
+	<integer>5</integer>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

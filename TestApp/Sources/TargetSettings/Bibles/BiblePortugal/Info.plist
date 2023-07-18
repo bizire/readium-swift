@@ -18,6 +18,8 @@
 	<string>XXXXXXXXXX</string>
 	<key>CFBundleDisplayName</key>
 	<string>Biblia</string>
+	<key>FreeAudioChapters</key>
+	<integer>5</integer>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
