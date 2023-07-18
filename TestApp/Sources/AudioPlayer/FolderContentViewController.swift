@@ -111,7 +111,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         }
     }
     
-    func updateNowPlayingInfo() {
+    func updatePlayingInfoCenter() {
         // Define Now Playing Info
         var nowPlayingInfo = [String : Any]()
         currentFile = (folderFiles[currentFileIndex] as NSString).deletingPathExtension
@@ -235,7 +235,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         }
         
         currentFileIndex = indexPath.row
-        updateNowPlayingInfo()
+        updatePlayingInfoCenter()
     }
     
     let FOOTER_HEIGHT: CGFloat = 80
@@ -324,7 +324,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
                 AudioPlayerManager.shared.startSliderUpdateTimer()
                 sender.setImage(pauseImage, for: .normal)
             }
-        updateNowPlayingInfo()
+        updatePlayingInfoCenter()
     }
     
     @objc func previousButtonTapped(_ sender: UIButton) {
@@ -348,7 +348,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             tableView.selectRow(at: previousIndexPath, animated: true, scrollPosition: .none)
             currentFileIndex = previousIndex
         }
-        updateNowPlayingInfo()
+        updatePlayingInfoCenter()
     }
 
     @objc func nextButtonTapped(_ sender: UIButton) {
@@ -372,7 +372,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
             tableView.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
             currentFileIndex = nextIndex
         }
-        updateNowPlayingInfo()
+        updatePlayingInfoCenter()
     }
     
     var wasPlaying = false
@@ -412,7 +412,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let seconds = currentTime % 60
         label.text = String(format: "%02d:%02d", minutes, seconds)
         
-        updateNowPlayingInfo()
+        updatePlayingInfoCenter()
         
     }
 
