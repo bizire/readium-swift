@@ -263,7 +263,7 @@ class LibraryViewController: UIViewController, Loggable {
         guard let flowLayout = self.collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {return}
         let contentWith = collectionView.collectionViewLayout.collectionViewContentSize.width
         
-        let minimumSpacing = CGFloat(5)
+        let minimumSpacing = CGFloat(4)
         let width = (contentWith - CGFloat(numberPerRow-1) * minimumSpacing) / CGFloat(numberPerRow)
         let height = width * 1.9
         
