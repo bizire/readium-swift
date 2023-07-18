@@ -12,6 +12,9 @@ Cartfile.resolved
 
 # Xcode
 
+*.mp3
+*.sfk
+
 ## User settings
 xcuserdata/
 
