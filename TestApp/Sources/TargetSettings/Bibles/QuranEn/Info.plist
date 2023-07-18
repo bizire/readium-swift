@@ -12,6 +12,10 @@
 	<string>ca-app-pub-2983224055780222/2732513467</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Quran</string>
 	<key>CFBundleDocumentTypes</key>
