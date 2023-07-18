@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>AudioFolders</key>
-    <array>
+	<key>AudioFolders</key>
+	<array>
 		<string>Genesis</string>
 		<string>Exodus</string>
 		<string>Leviticus</string>
@@ -62,7 +62,7 @@
 		<string>Titus</string>
 		<string>Philemon</string>
 		<string>Hebrews</string>
-		<string>James</string>
+		<string>James -</string>
 		<string>1 Peter</string>
 		<string>2 Peter</string>
 		<string>1 John</string>
@@ -70,6 +70,6 @@
 		<string>3 John</string>
 		<string>Jude</string>
 		<string>Revelation</string>
-    </array>
+	</array>
 </dict>
 </plist>
