@@ -86,7 +86,7 @@
 "paywall_lifetime" = "Vida";
 "paywall_month" = "Mês";
 "paywall_year" = "Ano";
-"paywall_header" = "• Desbloqueie o acesso total\n• Remova os anúncios na versão PRO\n• Novos livros adicionados todo mês\n• Todos os livros são atualizados continuamente";
+"paywall_header" = "• Desbloqueie o acesso total\n• Remova os anúncios na versão PRO\n• Desbloqueio do Reprodutor de Áudio\n• Todos os livros são atualizados continuamente";
 "restore_purchases" = "Restaurar compras";
 "nothing_to_restore" = "Você não tem nada para restaurar";
 "success_restore" = "Suas compras restauradas com sucesso";
