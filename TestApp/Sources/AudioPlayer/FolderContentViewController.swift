@@ -406,22 +406,23 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     // MARK: - Audio Playback
     
     func updatePositionLabel(_ label: UILabel) {
- 
-            let currentTime = Int(AudioPlayerManager.shared.currentTime())
-            let minutes = currentTime / 60
-            let seconds = currentTime % 60
-            label.text = String(format: "%02d:%02d", minutes, seconds)
-    
+        
+        let currentTime = Int(AudioPlayerManager.shared.currentTime())
+        let minutes = currentTime / 60
+        let seconds = currentTime % 60
+        label.text = String(format: "%02d:%02d", minutes, seconds)
+        
+        updateNowPlayingInfo()
+        
     }
 
     // Helper method to update the total duration label with the audio player's total duration
     func updateDurationLabel(_ label: UILabel) {
-   
-            let duration = Int(AudioPlayerManager.shared.duration())
-            let minutes = duration / 60
-            let seconds = duration % 60
-            label.text = String(format: "%02d:%02d", minutes, seconds)
-    
+        
+        let duration = Int(AudioPlayerManager.shared.duration())
+        let minutes = duration / 60
+        let seconds = duration % 60
+        label.text = String(format: "%02d:%02d", minutes, seconds)
     }
     
     func updateFileInfoLabel(_ label: UILabel, _ title: String) {
