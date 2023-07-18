@@ -345,6 +345,7 @@
 		2AE9B2DA5C6E3F80293B841C /* LibraryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBACED055500DE4FD673361 /* LibraryModule.swift */; };
 		2D355EDEC14D340D0AB58BA5 /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
 		318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
+		370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 370182502A6689DF0088EFB5 /* AudioPlayerFiles */; };
 		373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32942A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
@@ -1239,6 +1240,7 @@
 		2C20986FFBF781124291B16A /* BarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonItem.swift; sourceTree = "<group>"; };
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
+		370182502A6689DF0088EFB5 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		373F32912A6142EB00F50F49 /* FolderContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderContentViewController.swift; sourceTree = "<group>"; };
 		3755599029C2F1DD0049661D /* QuranEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1749,6 +1751,7 @@
 		37ED05742A3C43B600B64356 /* BiblePortugal */ = {
 			isa = PBXGroup;
 			children = (
+				370182502A6689DF0088EFB5 /* AudioPlayerFiles */,
 				37ED05782A3C480700B64356 /* Samples */,
 				37ED05752A3C442400B64356 /* Info.plist */,
 				37ED05762A3C44B100B64356 /* Media.xcassets */,
@@ -2557,6 +2560,7 @@
 			files = (
 				37ED05562A3C438B00B64356 /* About.storyboard in Resources */,
 				37ED05572A3C438B00B64356 /* Assets.xcassets in Resources */,
+				370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */,
 				37ED05582A3C438B00B64356 /* DRM.storyboard in Resources */,
 				37ED05592A3C438B00B64356 /* InfoPlist.strings in Resources */,
 				37ED055A2A3C438B00B64356 /* LaunchScreen.storyboard in Resources */,
