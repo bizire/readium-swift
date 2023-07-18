@@ -94,3 +94,6 @@ El usuario puede administrar la suscripción y la renovación automática puede 
 "restore_purchases" = "Restaurar las compras";
 "nothing_to_restore" = "No tienes nada que restaurar";
 "success_restore" = "Tus compras restauradas con éxito";
+
+
+"chapter" = "Capítulo";

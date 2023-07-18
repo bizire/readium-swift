@@ -209,7 +209,8 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: "FileCell", for: indexPath)
         let fileName = folderFiles[indexPath.row]
         let fileNameWithoutExtension = (fileName as NSString).deletingPathExtension
-        cell.textLabel?.text = "\(folderHumanTitle!) - Chapter: \(fileNameWithoutExtension)"
+        let chapterName = NSLocalizedString("chapter", comment: "")
+        cell.textLabel?.text = "\(folderHumanTitle!) - \(chapterName): \(fileNameWithoutExtension)"
         return cell
     }
     
@@ -426,6 +427,6 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func updateFileInfoLabel(_ label: UILabel, _ title: String) {
-        label.text = title + " - Chapter: " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
+        label.text = title + " - " + NSLocalizedString("chapter", comment: "") + ": " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
     }
 }

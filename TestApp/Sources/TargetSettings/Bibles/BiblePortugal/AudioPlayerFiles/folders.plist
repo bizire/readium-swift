@@ -4,72 +4,72 @@
 <dict>
 	<key>AudioFolders</key>
 	<array>
-		<string>Genesis</string>
-		<string>Exodus</string>
-		<string>Leviticus</string>
-		<string>Numbers</string>
-		<string>Deuteronomy</string>
-		<string>Joshua</string>
-		<string>Judges</string>
-		<string>Ruth</string>
-		<string>1 Samuel</string>
-		<string>2 Samuel</string>
-		<string>1 Kings</string>
-		<string>2 Kings</string>
-		<string>1 Chronicles</string>
-		<string>2 Chronicles</string>
-		<string>Ezra</string>
-		<string>Nehemiah</string>
-		<string>Esther</string>
-		<string>Job</string>
-		<string>Psalms</string>
-		<string>Proverbs</string>
-		<string>Ecclesiastes</string>
-		<string>Song of Songs</string>
-		<string>Isaiah</string>
-		<string>Jeremiah</string>
-		<string>Lamentations</string>
-		<string>Ezekiel</string>
+		<string>Gênesis</string>
+		<string>Exodo</string>
+		<string>Levítico</string>
+		<string>Números</string>
+		<string>Deuterenómio</string>
+		<string>Josué</string>
+		<string>Juízes</string>
+		<string>Rute</string>
+		<string>I Samuel</string>
+		<string>II Samuel</string>
+		<string>I Reis</string>
+		<string>II Reis</string>
+		<string>I Crónicas</string>
+		<string>II Crónicas</string>
+		<string>Esdras</string>
+		<string>Neemias</string>
+		<string>Ester</string>
+		<string>Jó</string>
+		<string>Salmos</string>
+		<string>Provérbios</string>
+		<string>Eclesiastes</string>
+		<string>Cantares de Salomão</string>
+		<string>Isaías</string>
+		<string>Jeremias</string>
+		<string>Lamentações</string>
+		<string>Ezequiel</string>
 		<string>Daniel</string>
-		<string>Hosea</string>
+		<string>Oseias</string>
 		<string>Joel</string>
-		<string>Amos</string>
-		<string>Obadiah</string>
-		<string>Jonah</string>
-		<string>Micah</string>
-		<string>Nahum</string>
-		<string>Habakkuk</string>
-		<string>Zephaniah</string>
-		<string>Haggai</string>
-		<string>Zechariah</string>
-		<string>Malachi</string>
-		<string>Matthew</string>
-		<string>Mark</string>
-		<string>Luke</string>
-		<string>John</string>
-		<string>Acts</string>
-		<string>Romans</string>
-		<string>1 Corinthians</string>
-		<string>2 Corinthians</string>
-		<string>Galatians</string>
-		<string>Ephesians</string>
-		<string>Philippians</string>
-		<string>Colossians</string>
-		<string>1 Thessalonians</string>
-		<string>2 Thessalonians</string>
-		<string>1 Timothy</string>
-		<string>2 Timothy</string>
-		<string>Titus</string>
-		<string>Philemon</string>
-		<string>Hebrews</string>
-		<string>James</string>
-		<string>1 Peter</string>
-		<string>2 Peter</string>
-		<string>1 John</string>
-		<string>2 John</string>
-		<string>3 John</string>
-		<string>Jude</string>
-		<string>Revelation</string>
+		<string>Amós</string>
+		<string>Obadias</string>
+		<string>Jonas</string>
+		<string>Miqueias</string>
+		<string>Naum</string>
+		<string>Habacuque</string>
+		<string>Sofonias</string>
+		<string>Ageu</string>
+		<string>Zacarias</string>
+		<string>Malaquias</string>
+		<string>Mateus</string>
+		<string>Marcos</string>
+		<string>Lucas</string>
+		<string>João</string>
+		<string>Actos</string>
+		<string>Romanos</string>
+		<string>I Coríntios</string>
+		<string>II Coríntios</string>
+		<string>Gálatas</string>
+		<string>Efésios</string>
+		<string>Filipenses</string>
+		<string>Colossenses</string>
+		<string>I Tessalonicenses</string>
+		<string>II Tessalonicenses</string>
+		<string>I Timóteo</string>
+		<string>II Timóteo</string>
+		<string>Tito</string>
+		<string>Filemon</string>
+		<string>Hebreus</string>
+		<string>Tiago</string>
+		<string>I Pedro</string>
+		<string>II Pedro</string>
+		<string>I João</string>
+		<string>II João</string>
+		<string>III João</string>
+		<string>Judas</string>
+		<string>Apocalipse</string>
 	</array>
 </dict>
 </plist>

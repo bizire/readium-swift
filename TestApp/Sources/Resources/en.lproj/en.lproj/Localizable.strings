@@ -200,3 +200,5 @@
 "restore_purchases" = "Restore purchases";
 "nothing_to_restore" = "You have nothing to restore";
 "success_restore" = "Your purchases restored successfully";
+
+"chapter" = "Chapter";

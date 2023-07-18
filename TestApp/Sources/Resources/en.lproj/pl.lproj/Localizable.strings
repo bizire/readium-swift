@@ -201,3 +201,5 @@ Subskrypcja może być zarządzana przez użytkownika, a automatyczne odnawianie
 "restore_purchases" = "Przywróć zakupy";
 "nothing_to_restore" = "Nie masz nic do przywrócenia";
 "success_restore" = "Twoje zakupy zostały pomyślnie przywrócone";
+
+"chapter" = "Rozdział";

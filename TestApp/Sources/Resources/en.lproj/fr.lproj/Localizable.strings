@@ -95,3 +95,5 @@ L'abonnement peut être géré par l'utilisateur et le renouvellement automatiqu
 "restore_purchases" = "Restaurer les achats";
 "nothing_to_restore" = "Vous n'avez rien à restaurer";
 "success_restore" = "Vos achats restaurés avec succès";
+
+"chapter" = "Chapitre";

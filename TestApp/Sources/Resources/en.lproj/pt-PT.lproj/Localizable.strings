@@ -92,3 +92,6 @@
 "success_restore" = "Suas compras restauradas com sucesso";
 
 "paywall_tos" = "A assinatura é renovada automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do final do período atual.\n\n A assinatura pode ser gerenciada pelo usuário e a renovação automática pode ser desativada acessando o Configurações da conta do usuário após a compra. A remoção do aplicativo não cancela automaticamente a assinatura.";
+
+
+"chapter" = "Capítulo";
