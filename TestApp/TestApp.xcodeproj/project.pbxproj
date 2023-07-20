@@ -457,6 +457,7 @@
 		3755598C29C2F1DD0049661D /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3755592029C2F1DD0049661D /* MBProgressHUD */; };
 		3755599529C2F6A40049661D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3755599429C2F6A40049661D /* Media.xcassets */; };
 		3755599729C2FAA50049661D /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 3755599629C2FAA50049661D /* Samples */; };
+		3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3764EB5B2A691210007E6607 /* AudioPlayerFiles */; };
 		376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		376EDC552A1371600029074A /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -1246,6 +1247,7 @@
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3755599429C2F6A40049661D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3755599629C2FAA50049661D /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		3764EB5B2A691210007E6607 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		376EDCBC2A1371600029074A /* QuranFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376EDCBF2A1371E10029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		376EDCC22A1372150029074A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 		05C8E9ED28BF9B5B00DA8485 /* KodeksyRu */ = {
 			isa = PBXGroup;
 			children = (
+				3764EB5B2A691210007E6607 /* AudioPlayerFiles */,
 				05C8E9EF28BFA49200DA8485 /* Samples */,
 				D26A1DBE3771E28684A255E2 /* Info.plist */,
 				05C95D1B2939E59700E4FD77 /* Media.xcassets */,
@@ -2583,6 +2586,7 @@
 			files = (
 				BC554D97079BEB92E83B8A6C /* About.storyboard in Resources */,
 				90FAB514369287FF6C5B019F /* Assets.xcassets in Resources */,
+				3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */,
 				05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,
 				0579E1D128E45F6D007C84E9 /* InfoPlist.strings in Resources */,
