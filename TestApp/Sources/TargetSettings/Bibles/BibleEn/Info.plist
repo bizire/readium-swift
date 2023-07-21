@@ -31,7 +31,7 @@
 	<key>hasSubscriptions</key>
 	<true/>
 	<key>hasAudioPlayer</key>
-	<false/>
+	<true/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>ITSAppUsesNonExemptEncryption</key>

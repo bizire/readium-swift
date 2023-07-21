@@ -346,6 +346,7 @@
 		2D355EDEC14D340D0AB58BA5 /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
 		318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
 		370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 370182502A6689DF0088EFB5 /* AudioPlayerFiles */; };
+		3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */; };
 		373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32942A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
@@ -1242,6 +1243,7 @@
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
 		370182502A6689DF0088EFB5 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		373F32912A6142EB00F50F49 /* FolderContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderContentViewController.swift; sourceTree = "<group>"; };
 		3755599029C2F1DD0049661D /* QuranEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1724,6 +1726,7 @@
 		376EDCBE2A1371A20029074A /* QuranFrench */ = {
 			isa = PBXGroup;
 			children = (
+				3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */,
 				376EDCC32A1373470029074A /* Samples */,
 				376EDCBF2A1371E10029074A /* Media.xcassets */,
 				376EDCC22A1372150029074A /* Info.plist */,
@@ -2497,6 +2500,7 @@
 			files = (
 				376EDCC42A1373470029074A /* Samples in Resources */,
 				376EDCA02A1371600029074A /* About.storyboard in Resources */,
+				3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */,
 				376EDCA12A1371600029074A /* Assets.xcassets in Resources */,
 				376EDCC12A1371F50029074A /* Media.xcassets in Resources */,
 				376EDCA22A1371600029074A /* DRM.storyboard in Resources */,

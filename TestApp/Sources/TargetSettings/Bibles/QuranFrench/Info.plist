@@ -562,6 +562,8 @@
 	<true/>
 	<key>hasSubscriptions</key>
 	<true/>
+	<key>hasAudioPlayer</key>
+	<true/>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>privacyPolicyURL</key>
