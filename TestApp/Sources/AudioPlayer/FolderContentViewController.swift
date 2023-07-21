@@ -37,6 +37,10 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     var sliderTimer: Timer?
     
+    let audioBookType = Bundle.main.object(forInfoDictionaryKey: "audioBookType") as? String ?? "book"
+    var chapterName = NSLocalizedString("chapter", comment: "")
+    
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -62,6 +66,10 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         NotificationCenter.default.addObserver(self, selector: #selector(handleAudioPlayerDidFinish(_:)), name: Notification.Name("AudioPlayerDidFinishPlaying"), object: nil)
         
         setupRemoteControl()
+        
+        if (audioBookType == "quran") {
+            chapterName = NSLocalizedString("surah", comment: "")
+        }
     }
     
     func setupRemoteControl(){
@@ -211,7 +219,6 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: "FileCell", for: indexPath)
         let fileName = folderFiles[indexPath.row]
         let fileNameWithoutExtension = (fileName as NSString).deletingPathExtension
-        let chapterName = NSLocalizedString("chapter", comment: "")
         cell.textLabel?.text = "\(folderHumanTitle!) - \(chapterName): \(fileNameWithoutExtension)"
         return cell
     }
@@ -429,7 +436,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func updateFileInfoLabel(_ label: UILabel, _ title: String) {
-        label.text = title + " - " + NSLocalizedString("chapter", comment: "") + ": " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
+        label.text = title + " - " + chapterName + ": " + (AudioPlayerManager.shared.getFileName() as NSString).deletingPathExtension
     }
 }
 

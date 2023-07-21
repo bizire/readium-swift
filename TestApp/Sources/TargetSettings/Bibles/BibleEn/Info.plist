@@ -32,6 +32,8 @@
 	<true/>
 	<key>hasAudioPlayer</key>
 	<true/>
+	<key>audioBookType</key>
+	<string>book</string>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>ITSAppUsesNonExemptEncryption</key>

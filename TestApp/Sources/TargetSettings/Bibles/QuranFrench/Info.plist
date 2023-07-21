@@ -564,6 +564,8 @@
 	<true/>
 	<key>hasAudioPlayer</key>
 	<true/>
+	<key>audioBookType</key>
+	<string>quran</string>
 	<key>numberPerRow</key>
 	<integer>3</integer>
 	<key>privacyPolicyURL</key>

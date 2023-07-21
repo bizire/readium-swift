@@ -70,6 +70,12 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         tableView.delegate = self
         
         initAudioPlayerFolders()
+        
+        let indexPath = IndexPath(row: 0, section: 0)
+        tableView.selectRow(at: indexPath, animated: true, scrollPosition: .none)
+        if (folderNames.count == 1) {
+            performSegueToAudio()
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
