@@ -4264,7 +4264,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.8.1;
+				CURRENT_PROJECT_VERSION = 1.8.3;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -4272,7 +4272,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.8.1;
+				MARKETING_VERSION = 1.8.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4289,7 +4289,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.8.1;
+				CURRENT_PROJECT_VERSION = 1.8.3;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -4297,7 +4297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.8.1;
+				MARKETING_VERSION = 1.8.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.en;
 				PRODUCT_NAME = "$(TARGET_NAME)";
