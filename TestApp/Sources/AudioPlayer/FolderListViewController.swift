@@ -71,6 +71,9 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         
         initAudioPlayerFolders()
         
+        let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName")  as? String ?? ""
+        self.navigationItem.title = Bundle.main.object(forInfoDictionaryKey: "AudioBookVersion") as? String ?? appName
+        
         let indexPath = IndexPath(row: 0, section: 0)
         tableView.selectRow(at: indexPath, animated: true, scrollPosition: .none)
         if (folderNames.count == 1) {

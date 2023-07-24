@@ -19,7 +19,7 @@
 		<string>audio</string>
 	</array>
 	<key>CFBundleDisplayName</key>
-	<string>Coran</string>
+	<string>Córan</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

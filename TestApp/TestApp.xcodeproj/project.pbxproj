@@ -1779,9 +1779,9 @@
 		37ED05892A418BC800B64356 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				37ED058A2A418C0300B64356 /* FolderListViewController.swift */,
 				37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */,
 				379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */,
+				37ED058A2A418C0300B64356 /* FolderListViewController.swift */,
 				373F32912A6142EB00F50F49 /* FolderContentViewController.swift */,
 			);
 			path = AudioPlayer;
