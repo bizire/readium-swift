@@ -1244,6 +1244,17 @@
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
 		370182502A6689DF0088EFB5 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		3738F7422A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/About.strings"; sourceTree = "<group>"; };
+		3738F7432A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Library.strings"; sourceTree = "<group>"; };
+		3738F7442A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/PublicationCollectionViewCell.strings"; sourceTree = "<group>"; };
+		3738F7452A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/PublicationMenuViewController.strings"; sourceTree = "<group>"; };
+		3738F7462A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/PaywallBoard.strings"; sourceTree = "<group>"; };
+		3738F7472A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/OPDS.strings"; sourceTree = "<group>"; };
+		3738F7482A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/DRM.strings"; sourceTree = "<group>"; };
+		3738F7492A6E5292006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/UserSettings.strings"; sourceTree = "<group>"; };
+		3738F74A2A6E5292006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3738F74B2A6E5292006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3738F74C2A6E5292006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		373F32912A6142EB00F50F49 /* FolderContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderContentViewController.swift; sourceTree = "<group>"; };
 		3755599029C2F1DD0049661D /* QuranEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2376,6 +2387,7 @@
 				fr,
 				es,
 				"pt-PT",
+				"pt-BR",
 			);
 			mainGroup = 1ED26426925A9C10B3DC859C;
 			packageReferences = (
@@ -3611,6 +3623,7 @@
 				0570AA1E297E855E00B78B80 /* ko */,
 				054C35A5298BAE3B002986E8 /* fr */,
 				37ED05802A3C654500B64356 /* pt-PT */,
+				3738F7482A6E5291006B71B9 /* pt-BR */,
 			);
 			name = DRM.storyboard;
 			sourceTree = "<group>";
@@ -3625,6 +3638,7 @@
 				054C35A3298BAE3B002986E8 /* fr */,
 				3791323629B5DA7900D06305 /* es */,
 				37ED057E2A3C654500B64356 /* pt-PT */,
+				3738F7462A6E5291006B71B9 /* pt-BR */,
 			);
 			name = PaywallBoard.storyboard;
 			sourceTree = "<group>";
@@ -3639,6 +3653,7 @@
 				054C35A8298BAE3B002986E8 /* fr */,
 				3791323829B5DA7900D06305 /* es */,
 				37ED05832A3C654600B64356 /* pt-PT */,
+				3738F74B2A6E5292006B71B9 /* pt-BR */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3653,6 +3668,7 @@
 				054C35A9298BAE3B002986E8 /* fr */,
 				3791323929B5DA7900D06305 /* es */,
 				37ED05842A3C654600B64356 /* pt-PT */,
+				3738F74C2A6E5292006B71B9 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			path = en.lproj;
@@ -3665,6 +3681,7 @@
 				0570AA20297E855E00B78B80 /* ko */,
 				054C35A7298BAE3B002986E8 /* fr */,
 				37ED05822A3C654600B64356 /* pt-PT */,
+				3738F74A2A6E5292006B71B9 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3680,6 +3697,7 @@
 				054C35A2298BAE3A002986E8 /* fr */,
 				3791323529B5DA7900D06305 /* es */,
 				37ED057D2A3C654500B64356 /* pt-PT */,
+				3738F7452A6E5291006B71B9 /* pt-BR */,
 			);
 			name = PublicationMenuViewController.xib;
 			sourceTree = "<group>";
@@ -3691,6 +3709,7 @@
 				0570AA1D297E855E00B78B80 /* ko */,
 				054C35A4298BAE3B002986E8 /* fr */,
 				37ED057F2A3C654500B64356 /* pt-PT */,
+				3738F7472A6E5291006B71B9 /* pt-BR */,
 			);
 			name = OPDS.storyboard;
 			sourceTree = "<group>";
@@ -3706,6 +3725,7 @@
 				054C35A0298BAE3A002986E8 /* fr */,
 				3791323429B5DA7800D06305 /* es */,
 				37ED057B2A3C654500B64356 /* pt-PT */,
+				3738F7432A6E5291006B71B9 /* pt-BR */,
 			);
 			name = Library.storyboard;
 			sourceTree = "<group>";
@@ -3720,6 +3740,7 @@
 				054C359F298BAE3A002986E8 /* fr */,
 				3791323329B5DA7800D06305 /* es */,
 				37ED057A2A3C654500B64356 /* pt-PT */,
+				3738F7422A6E5291006B71B9 /* pt-BR */,
 			);
 			name = About.storyboard;
 			sourceTree = "<group>";
@@ -3735,6 +3756,7 @@
 				054C35A6298BAE3B002986E8 /* fr */,
 				3791323729B5DA7900D06305 /* es */,
 				37ED05812A3C654600B64356 /* pt-PT */,
+				3738F7492A6E5292006B71B9 /* pt-BR */,
 			);
 			name = UserSettings.storyboard;
 			sourceTree = "<group>";
@@ -3746,6 +3768,7 @@
 				0570AA1A297E855D00B78B80 /* ko */,
 				054C35A1298BAE3A002986E8 /* fr */,
 				37ED057C2A3C654500B64356 /* pt-PT */,
+				3738F7442A6E5291006B71B9 /* pt-BR */,
 			);
 			name = PublicationCollectionViewCell.xib;
 			sourceTree = "<group>";

@@ -1,0 +1,42 @@
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "4Jb-8m-jtJ"; */
+"4Jb-8m-jtJ.title" = "About";
+
+/* Class = "UILabel"; text = "Rate the application"; ObjectID = "5Eh-02-w3x"; */
+"5Eh-02-w3x.text" = "Rate the application";
+
+/* Class = "UITableViewSection"; headerTitle = "Version"; ObjectID = "81r-ek-xdu"; */
+"81r-ek-xdu.headerTitle" = "Version";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "AJB-jl-oRw"; */
+"AJB-jl-oRw.text" = "version";
+
+/* Class = "UITableViewSection"; headerTitle = "Acknowledgments"; ObjectID = "C0F-Xn-bao"; */
+"C0F-Xn-bao.headerTitle" = "Acknowledgments";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Chj-Xu-pEV"; */
+"Chj-Xu-pEV.text" = "Detail";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "ETW-vh-NeW"; */
+"ETW-vh-NeW.text" = "name";
+
+/* Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "GHG-y0-JHc"; */
+"GHG-y0-JHc.text" = "Upgrade to Premium";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "IoA-oA-Dga"; */
+"IoA-oA-Dga.headerTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Restore purchases"; ObjectID = "UdW-hM-bJC"; */
+"UdW-hM-bJC.text" = "Restore purchases";
+
+/* Class = "UILabel"; text = "build"; ObjectID = "aQ4-bl-29m"; */
+"aQ4-bl-29m.text" = "build";
+
+/* Class = "UILabel"; text = "R2 Reader wouldn't have been developed without the financial help of the French State."; ObjectID = "goA-PY-6mv"; */
+"goA-PY-6mv.text" = "R2 Reader wouldn't have been developed without the financial help of the French State.";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "iRb-UO-KnL"; */
+"iRb-UO-KnL.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "uhp-hA-PYD"; */
+"uhp-hA-PYD.text" = "Detail";
