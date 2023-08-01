@@ -32,6 +32,12 @@
 	<true/>
 	<key>hasSubscriptions</key>
 	<true/>
+	<key>hasAudioPlayer</key>
+	<true/>
+	<key>audioBookType</key>
+	<string>book</string>
+	<key>AudioBookVersion</key>
+	<string>La Santa Biblia - Reina Valera</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>

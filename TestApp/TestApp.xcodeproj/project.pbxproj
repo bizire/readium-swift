@@ -894,6 +894,9 @@
 		37ED05A02A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
 		37ED05A12A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
 		37F2695D2A78EE8000BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F2695B2A78E7EB00BD3B77 /* AudioPlayerFiles */; };
+		37F2695F2A78F73500BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F2695E2A78F73500BD3B77 /* AudioPlayerFiles */; };
+		37F269612A78F74B00BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F269602A78F74B00BD3B77 /* AudioPlayerFiles */; };
+		37F269632A78F75B00BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F269622A78F75B00BD3B77 /* AudioPlayerFiles */; };
 		3A9344D4634E53FBC0ABA2DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8298F775261E56C7117369 /* Kingfisher */; };
 		3B976407BACECEE3611FB5F1 /* ReaderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC385C308B084FC1818C4C3B /* ReaderModule.swift */; };
 		42837DD1D2622D1C217E9C67 /* OPDSGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C335362E05BA9C2262377B5 /* OPDSGroupTableViewCell.swift */; };
@@ -1303,6 +1306,9 @@
 		37ED058A2A418C0300B64356 /* FolderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListViewController.swift; sourceTree = "<group>"; };
 		37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AudioPlayer.storyboard; sourceTree = "<group>"; };
 		37F2695B2A78E7EB00BD3B77 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		37F2695E2A78F73500BD3B77 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		37F269602A78F74B00BD3B77 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		37F269622A78F75B00BD3B77 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		3C2AECAB98D231AFEE0038AA /* OutlineViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewModels.swift; sourceTree = "<group>"; };
 		3C7ED5672B3672F2755778E7 /* BookmarkCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCellView.swift; sourceTree = "<group>"; };
 		43595DBE2748858D41904CFF /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
@@ -1624,6 +1630,7 @@
 		054C351D298B99C1002986E8 /* BibleFrench */ = {
 			isa = PBXGroup;
 			children = (
+				37F269602A78F74B00BD3B77 /* AudioPlayerFiles */,
 				054C359D298B9D37002986E8 /* Samples */,
 				054C359A298B9A2C002986E8 /* Info.plist */,
 				054C359B298B9A4C002986E8 /* Media.xcassets */,
@@ -1730,6 +1737,7 @@
 		3755599229C2F2380049661D /* QuranEn */ = {
 			isa = PBXGroup;
 			children = (
+				37F2695E2A78F73500BD3B77 /* AudioPlayerFiles */,
 				3755599629C2FAA50049661D /* Samples */,
 				3755599329C2F2800049661D /* Info.plist */,
 				3755599429C2F6A40049661D /* Media.xcassets */,
@@ -1962,6 +1970,7 @@
 		C3E0FCBE29B1E0B7000791FA /* BibleSpain */ = {
 			isa = PBXGroup;
 			children = (
+				37F269622A78F75B00BD3B77 /* AudioPlayerFiles */,
 				C3E0FCBF29B1E17B000791FA /* Info.plist */,
 				C3E0FCC229B1E5B3000791FA /* Samples */,
 				C3E0FCC029B1E44F000791FA /* Media.xcassets */,
@@ -2450,6 +2459,7 @@
 			files = (
 				054C357C298B99EE002986E8 /* About.storyboard in Resources */,
 				054C357D298B99EE002986E8 /* Assets.xcassets in Resources */,
+				37F269612A78F74B00BD3B77 /* AudioPlayerFiles in Resources */,
 				054C357F298B99EE002986E8 /* DRM.storyboard in Resources */,
 				054C3580298B99EE002986E8 /* InfoPlist.strings in Resources */,
 				054C359E298B9D38002986E8 /* Samples in Resources */,
@@ -2494,6 +2504,7 @@
 			files = (
 				3755597429C2F1DD0049661D /* About.storyboard in Resources */,
 				3755597529C2F1DD0049661D /* Assets.xcassets in Resources */,
+				37F2695F2A78F73500BD3B77 /* AudioPlayerFiles in Resources */,
 				3755597729C2F1DD0049661D /* DRM.storyboard in Resources */,
 				3755597829C2F1DD0049661D /* InfoPlist.strings in Resources */,
 				3755597929C2F1DD0049661D /* LaunchScreen.storyboard in Resources */,
@@ -2652,6 +2663,7 @@
 			files = (
 				C3E0FCA029B1DF7F000791FA /* About.storyboard in Resources */,
 				C3E0FCA129B1DF7F000791FA /* Assets.xcassets in Resources */,
+				37F269632A78F75B00BD3B77 /* AudioPlayerFiles in Resources */,
 				C3E0FCA329B1DF7F000791FA /* DRM.storyboard in Resources */,
 				C3E0FCA429B1DF7F000791FA /* InfoPlist.strings in Resources */,
 				C3E0FCA529B1DF7F000791FA /* LaunchScreen.storyboard in Resources */,

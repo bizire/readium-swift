@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioFolders</key>
+	<array>
+		<string>Genèse</string>
+		<string>Exode</string>
+		<string>Lévitique</string>
+		<string>Nombres</string>
+		<string>Deutéronome</string>
+		<string>Josué</string>
+		<string>Juges</string>
+		<string>Ruth</string>
+		<string>1 Samuel</string>
+		<string>2 Samuel</string>
+		<string>1 Rois</string>
+		<string>2 Rois</string>
+		<string>1 Chroniques</string>
+		<string>2 Chroniques</string>
+		<string>Esdras</string>
+		<string>Néhémie</string>
+		<string>Esther</string>
+		<string>Job</string>
+		<string>Psaumes</string>
+		<string>Proverbes</string>
+		<string>Ecclésiaste</string>
+		<string>Cantique</string>
+		<string>Esaïe</string>
+		<string>Jérémie</string>
+		<string>Lamentations</string>
+		<string>Ezéchiel</string>
+		<string>Daniel</string>
+		<string>Osée</string>
+		<string>Joël</string>
+		<string>Amos</string>
+		<string>Abdias</string>
+		<string>Jonas</string>
+		<string>Michée</string>
+		<string>Nahum</string>
+		<string>Habacuc</string>
+		<string>Sophonie</string>
+		<string>Aggée</string>
+		<string>Zacharie</string>
+		<string>Malachi</string>
+		<string>Matthieu</string>
+		<string>Marc</string>
+		<string>Luc</string>
+		<string>Jean</string>
+		<string>Actes</string>
+		<string>Romains</string>
+		<string>1 Corinthiens</string>
+		<string>2 Corinthiens</string>
+		<string>Galates</string>
+		<string>Ephésiens</string>
+		<string>Philippiens</string>
+		<string>Colossiens</string>
+		<string>1 Thessaloniciens</string>
+		<string>2 Thessaloniciens</string>
+		<string>1 Timothée</string>
+		<string>2 Timothée</string>
+		<string>Tite</string>
+		<string>Philémon</string>
+		<string>Hébreux</string>
+		<string>Jacques</string>
+		<string>1 Pierre</string>
+		<string>2 Pierre</string>
+		<string>1 Jean</string>
+		<string>2 Jean</string>
+		<string>3 Jean</string>
+		<string>Jude</string>
+		<string>Apocalypse</string>
+	</array>
+</dict>
+</plist>

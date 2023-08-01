@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioFolders</key>
+	<array>
+		<string>Génesis</string>
+		<string>Exodo</string>
+		<string>Levitico</string>
+		<string>Números</string>
+		<string>Deuterenomio</string>
+		<string>Josúe</string>
+		<string>Jueces</string>
+		<string>Rut</string>
+		<string>1 Samuel</string>
+		<string>2 Samuel</string>
+		<string>1 Reis</string>
+		<string>2 Reis</string>
+		<string>1 Crónicas</string>
+		<string>2 Crónicas</string>
+		<string>Esdras</string>
+		<string>Nehemías</string>
+		<string>Ester</string>
+		<string>Job</string>
+		<string>Salmos</string>
+		<string>Proverbios</string>
+		<string>Eclesiastés</string>
+		<string>Cantares</string>
+		<string>Isaías</string>
+		<string>Jeremías</string>
+		<string>Lamentaciones</string>
+		<string>Ezequiel</string>
+		<string>Daniel</string>
+		<string>Oseas</string>
+		<string>Joel</string>
+		<string>Amós</string>
+		<string>Abdias</string>
+		<string>Jonás</string>
+		<string>Miqueas</string>
+		<string>Nahum</string>
+		<string>Habacuc</string>
+		<string>Sofonías</string>
+		<string>Hageo</string>
+		<string>Zacarías</string>
+		<string>Malaquías</string>
+		<string>Mateo</string>
+		<string>Marcos</string>
+		<string>Lucas</string>
+		<string>Juan</string>
+		<string>Hechos</string>
+		<string>Romanos</string>
+		<string>1 Corintios</string>
+		<string>2 Corintios</string>
+		<string>Gálatas</string>
+		<string>Efesios</string>
+		<string>Filipenses</string>
+		<string>Colosenses</string>
+		<string>I Tesalonicenses</string>
+		<string>II Tesalonicenses</string>
+		<string>I Timoteo</string>
+		<string>II Timoteo</string>
+		<string>Tito</string>
+		<string>Filemón</string>
+		<string>Hebreos</string>
+		<string>Santiago</string>
+		<string>1 Pedro</string>
+		<string>2 Pedro</string>
+		<string>1 Juan</string>
+		<string>2 Juan</string>
+		<string>3 Juan</string>
+		<string>Judas</string>
+		<string>Apocalipsis</string>
+	</array>
+</dict>
+</plist>
