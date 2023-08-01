@@ -893,7 +893,7 @@
 		37ED059F2A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
 		37ED05A02A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
 		37ED05A12A418CFD00B64356 /* AudioPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ED05962A418CFD00B64356 /* AudioPlayer.storyboard */; };
-		37F2695C2A78E7EB00BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F2695B2A78E7EB00BD3B77 /* AudioPlayerFiles */; };
+		37F2695D2A78EE8000BD3B77 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 37F2695B2A78E7EB00BD3B77 /* AudioPlayerFiles */; };
 		3A9344D4634E53FBC0ABA2DA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2C8298F775261E56C7117369 /* Kingfisher */; };
 		3B976407BACECEE3611FB5F1 /* ReaderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC385C308B084FC1818C4C3B /* ReaderModule.swift */; };
 		42837DD1D2622D1C217E9C67 /* OPDSGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C335362E05BA9C2262377B5 /* OPDSGroupTableViewCell.swift */; };
@@ -2427,6 +2427,7 @@
 			files = (
 				0509577129683A18004F14AA /* Samples in Resources */,
 				0509574D29683682004F14AA /* About.storyboard in Resources */,
+				37F2695D2A78EE8000BD3B77 /* AudioPlayerFiles in Resources */,
 				0509574E29683682004F14AA /* Assets.xcassets in Resources */,
 				0509575029683682004F14AA /* DRM.storyboard in Resources */,
 				0509575129683682004F14AA /* InfoPlist.strings in Resources */,
@@ -2471,7 +2472,6 @@
 			files = (
 				05C8E9F228BFA64200DA8485 /* Samples in Resources */,
 				05C8E9D428BF97EF00DA8485 /* About.storyboard in Resources */,
-				37F2695C2A78E7EB00BD3B77 /* AudioPlayerFiles in Resources */,
 				05C95D1A2939E4A300E4FD77 /* Media.xcassets in Resources */,
 				0579E1D228E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				05C8E9D628BF97EF00DA8485 /* DRM.storyboard in Resources */,

@@ -32,6 +32,12 @@
 	<false/>
 	<key>numberPerRow</key>
 	<integer>2</integer>
+	<key>hasAudioPlayer</key>
+	<true/>
+	<key>audioBookType</key>
+	<string>book</string>
+	<key>AudioBookVersion</key>
+	<string>성경</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>CFBundleDevelopmentRegion</key>
