@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioFolders</key>
+	<array>
+		<string>창세기</string>
+		<string>출애굽기</string>
+		<string>레위기</string>
+		<string>민수기</string>
+		<string>신명기</string>
+		<string>여호수아</string>
+		<string>사사기</string>
+		<string>룻기</string>
+		<string>사무엘상</string>
+		<string>사무엘하</string>
+		<string>열왕기상</string>
+		<string>열왕기하</string>
+		<string>역대상</string>
+		<string>역대하</string>
+		<string>에스라</string>
+		<string>느헤미야</string>
+		<string>에스더</string>
+		<string>욥기</string>
+		<string>시편</string>
+		<string>잠언</string>
+		<string>전도서</string>
+		<string>아가</string>
+		<string>이사야</string>
+		<string>예레미야</string>
+		<string>예레미야 애가</string>
+		<string>에스겔</string>
+		<string>다니엘</string>
+		<string>호세아</string>
+		<string>요엘</string>
+		<string>아모스</string>
+		<string>오바댜</string>
+		<string>요나</string>
+		<string>미가</string>
+		<string>나훔</string>
+		<string>하박국</string>
+		<string>스바냐</string>
+		<string>학개</string>
+		<string>스가랴</string>
+		<string>말라기</string>
+		<string>마태복음</string>
+		<string>마가복음</string>
+		<string>누가복음</string>
+		<string>요한복음</string>
+		<string>사도행전</string>
+		<string>로마서</string>
+		<string>고린도전서</string>
+		<string>고린도후서</string>
+		<string>갈라디아서</string>
+		<string>에베소서</string>
+		<string>빌립보서</string>
+		<string>골로새서</string>
+		<string>데살로니가전서</string>
+		<string>데살로니가후서</string>
+		<string>디모데전서</string>
+		<string>디모데후서</string>
+		<string>디도서</string>
+		<string>빌레몬서</string>
+		<string>히브리서</string>
+		<string>야고보서</string>
+		<string>베드로전서</string>
+		<string>베드로후서</string>
+		<string>요한1서</string>
+		<string>요한2서</string>
+		<string>요한3서</string>
+		<string>유다서</string>
+		<string>요한계시록</string>
+	</array>
+</dict>
+</plist>
