@@ -29,7 +29,7 @@
 	<key>hasPremiumContent</key>
 	<true/>
 	<key>hasSubscriptions</key>
-	<false/>
+	<true/>
 	<key>hasAudioPlayer</key>
 	<true/>
 	<key>audioBookType</key>

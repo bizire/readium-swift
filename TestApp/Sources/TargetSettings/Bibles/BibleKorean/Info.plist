@@ -29,7 +29,7 @@
 	<key>hasPremiumContent</key>
 	<true/>
 	<key>hasSubscriptions</key>
-	<false/>
+	<true/>
 	<key>numberPerRow</key>
 	<integer>2</integer>
 	<key>hasAudioPlayer</key>
