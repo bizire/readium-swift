@@ -2,6 +2,8 @@
 "catalogs_tab" = "Flux OPDS";
 "audio_tab" = "Audio";
 "about_tab" = "À propos de";
+"media_tab" = "Media";
+
 "bouton_ok" = "OK";
 "cancel_button" = "Annuler";
 "confirmer_bouton" = "Confirmer";

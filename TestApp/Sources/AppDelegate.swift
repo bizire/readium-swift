@@ -60,20 +60,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         let opdsViewController = app.opds.rootViewController
         opdsViewController.tabBarItem = makeItem(title: "catalogs_tab", image: "catalogs")
         
+        // Media Feed
+        let mediaViewController = app.mediaViewController
+        mediaViewController.tabBarItem = makeItem(title: "media_tab", image: "catalogs")
+        
         // About
         let aboutViewController = app.aboutViewController
         aboutViewController.tabBarItem = makeItem(title: "about_tab", image: "about")
         
         let tabBarController = UITabBarController()
         let hasAudioPlayer = Bundle.main.object(forInfoDictionaryKey: "hasAudioPlayer") as? Bool ?? false
+        let hasMediaView = Bundle.main.object(forInfoDictionaryKey: "hasMediaView") as? Bool ?? false
         tabBarController.viewControllers = [
             libraryViewController,
 //            opdsViewController,
 //            audioPlayerViewController,
+//            mediaViewController,
             aboutViewController
         ]
         if (hasAudioPlayer) {
             tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
+        }
+        if (hasMediaView) {
+            tabBarController.viewControllers?.insert(mediaViewController, at: 2)
         }
         tabBarController.tabBar.tintColor = .label
 

@@ -2,6 +2,8 @@
 "catalogs_tab" = "Feeds OPDS";
 "audio_tab" = "Audio";
 "about_tab" = "Sobre";
+"media_tab" = "Media";
+
 "ok_button" = "OK";
 "cancel_button" = "Cancelar";
 "confirm_button" = "Confirme";

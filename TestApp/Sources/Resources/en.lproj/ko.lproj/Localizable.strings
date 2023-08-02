@@ -18,6 +18,7 @@
 "catalogs_tab" = "OPDS 피드";
 "audio_tab" = "Audio";
 "about_tab" = "정보";
+"media_tab" = "Media";
 
 /* Buttons */
 "ok_button" = "확인";

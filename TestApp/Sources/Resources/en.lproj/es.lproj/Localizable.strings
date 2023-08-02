@@ -2,6 +2,8 @@
 "catalogs_tab" = "Fuentes OPDS";
 "audio_tab" = "Audio";
 "about_tab" = "Acerca de";
+"media_tab" = "Media";
+
 "ok_button" = "OK";
 "boton_cancelar" = "Cancelar";
 "confirm_button" = "Confirmar";

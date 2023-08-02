@@ -18,6 +18,7 @@
 "catalogs_tab" = "OPDS Feeds";
 "audio_tab" = "Audio";
 "about_tab" = "About";
+"media_tab" = "Media";
 
 /* Buttons */
 "ok_button" = "OK";

@@ -18,6 +18,7 @@
 "catalogs_tab" = "OPDS Католог";
 "audio_tab" = "Аудио";
 "about_tab" = "Информация";
+"media_tab" = "Media";
 
 /* Buttons */
 "ok_button" = "OK";

@@ -18,6 +18,7 @@
 "catalogs_tab" = "Kanały OPDS";
 "audio_tab" = "Audio";
 "about_tab" = "O aplikacji";
+"media_tab" = "Media";
 
 /* Buttons */
 "ok_button" = "OK";
