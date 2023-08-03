@@ -458,6 +458,10 @@
 		3755598C29C2F1DD0049661D /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 3755592029C2F1DD0049661D /* MBProgressHUD */; };
 		3755599529C2F6A40049661D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3755599429C2F6A40049661D /* Media.xcassets */; };
 		3755599729C2FAA50049661D /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 3755599629C2FAA50049661D /* Samples */; };
+		375670B52A7BA7CE00DD0599 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 375670B42A7BA7CE00DD0599 /* PocketCastsUtils */; };
+		375670B62A7BA7CE00DD0599 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 375670B42A7BA7CE00DD0599 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		375670BA2A7BA89A00DD0599 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 375670B92A7BA89A00DD0599 /* PocketCastsDataModel */; };
+		375670BB2A7BA89A00DD0599 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 375670B92A7BA89A00DD0599 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3764EB5B2A691210007E6607 /* AudioPlayerFiles */; };
 		376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
@@ -770,6 +774,68 @@
 		37A8C18D29B2348000569F92 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 37A8C12129B2348000569F92 /* MBProgressHUD */; };
 		37A8C19529B234F800569F92 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A8C19429B234F800569F92 /* Media.xcassets */; };
 		37A8C19729B236E400569F92 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 37A8C19629B236E400569F92 /* Samples */; };
+		37ADA2352A7BAB2D0026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2342A7BAB2D0026ECD3 /* PocketCastsServer */; };
+		37ADA2362A7BAB2D0026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2342A7BAB2D0026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2382A7BACC20026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2372A7BACC20026ECD3 /* PocketCastsDataModel */; };
+		37ADA2392A7BACC20026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2372A7BACC20026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA23B2A7BACC20026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA23A2A7BACC20026ECD3 /* PocketCastsServer */; };
+		37ADA23C2A7BACC20026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA23A2A7BACC20026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA23E2A7BACC20026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA23D2A7BACC20026ECD3 /* PocketCastsUtils */; };
+		37ADA23F2A7BACC20026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA23D2A7BACC20026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2422A7BACD00026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2412A7BACD00026ECD3 /* PocketCastsDataModel */; };
+		37ADA2432A7BACD00026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2412A7BACD00026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2452A7BACD00026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2442A7BACD00026ECD3 /* PocketCastsServer */; };
+		37ADA2462A7BACD00026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2442A7BACD00026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2482A7BACD00026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2472A7BACD00026ECD3 /* PocketCastsUtils */; };
+		37ADA2492A7BACD00026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2472A7BACD00026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA24C2A7BACD80026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA24B2A7BACD80026ECD3 /* PocketCastsDataModel */; };
+		37ADA24D2A7BACD80026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA24B2A7BACD80026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA24F2A7BACD80026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA24E2A7BACD80026ECD3 /* PocketCastsServer */; };
+		37ADA2502A7BACD80026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA24E2A7BACD80026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2522A7BACD80026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2512A7BACD80026ECD3 /* PocketCastsUtils */; };
+		37ADA2532A7BACD80026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2512A7BACD80026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2562A7BACE00026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2552A7BACE00026ECD3 /* PocketCastsDataModel */; };
+		37ADA2572A7BACE00026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2552A7BACE00026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2592A7BACE00026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2582A7BACE00026ECD3 /* PocketCastsServer */; };
+		37ADA25A2A7BACE00026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2582A7BACE00026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA25C2A7BACE00026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA25B2A7BACE00026ECD3 /* PocketCastsUtils */; };
+		37ADA25D2A7BACE00026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA25B2A7BACE00026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2602A7BACE80026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA25F2A7BACE80026ECD3 /* PocketCastsDataModel */; };
+		37ADA2612A7BACE80026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA25F2A7BACE80026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2632A7BACE80026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2622A7BACE80026ECD3 /* PocketCastsServer */; };
+		37ADA2642A7BACE80026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2622A7BACE80026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2662A7BACE80026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2652A7BACE80026ECD3 /* PocketCastsUtils */; };
+		37ADA2672A7BACE80026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2652A7BACE80026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA26A2A7BACEF0026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2692A7BACEF0026ECD3 /* PocketCastsDataModel */; };
+		37ADA26B2A7BACEF0026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2692A7BACEF0026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA26D2A7BACEF0026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA26C2A7BACEF0026ECD3 /* PocketCastsServer */; };
+		37ADA26E2A7BACEF0026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA26C2A7BACEF0026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2702A7BACEF0026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA26F2A7BACEF0026ECD3 /* PocketCastsUtils */; };
+		37ADA2712A7BACEF0026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA26F2A7BACEF0026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2742A7BACF60026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2732A7BACF60026ECD3 /* PocketCastsDataModel */; };
+		37ADA2752A7BACF60026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2732A7BACF60026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2772A7BACF60026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2762A7BACF60026ECD3 /* PocketCastsServer */; };
+		37ADA2782A7BACF60026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2762A7BACF60026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA27A2A7BACF60026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2792A7BACF60026ECD3 /* PocketCastsUtils */; };
+		37ADA27B2A7BACF60026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2792A7BACF60026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA27E2A7BAD050026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA27D2A7BAD050026ECD3 /* PocketCastsDataModel */; };
+		37ADA27F2A7BAD050026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA27D2A7BAD050026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2812A7BAD050026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2802A7BAD050026ECD3 /* PocketCastsServer */; };
+		37ADA2822A7BAD050026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2802A7BAD050026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2842A7BAD050026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2832A7BAD050026ECD3 /* PocketCastsUtils */; };
+		37ADA2852A7BAD050026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2832A7BAD050026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2882A7BAD0C0026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2872A7BAD0C0026ECD3 /* PocketCastsDataModel */; };
+		37ADA2892A7BAD0C0026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2872A7BAD0C0026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA28B2A7BAD0C0026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA28A2A7BAD0C0026ECD3 /* PocketCastsServer */; };
+		37ADA28C2A7BAD0C0026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA28A2A7BAD0C0026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA28E2A7BAD0C0026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA28D2A7BAD0C0026ECD3 /* PocketCastsUtils */; };
+		37ADA28F2A7BAD0C0026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA28D2A7BAD0C0026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2922A7BAD140026ECD3 /* PocketCastsDataModel in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2912A7BAD140026ECD3 /* PocketCastsDataModel */; };
+		37ADA2932A7BAD140026ECD3 /* PocketCastsDataModel in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2912A7BAD140026ECD3 /* PocketCastsDataModel */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2952A7BAD140026ECD3 /* PocketCastsServer in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2942A7BAD140026ECD3 /* PocketCastsServer */; };
+		37ADA2962A7BAD140026ECD3 /* PocketCastsServer in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2942A7BAD140026ECD3 /* PocketCastsServer */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		37ADA2982A7BAD140026ECD3 /* PocketCastsUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2972A7BAD140026ECD3 /* PocketCastsUtils */; };
+		37ADA2992A7BAD140026ECD3 /* PocketCastsUtils in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 37ADA2972A7BAD140026ECD3 /* PocketCastsUtils */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		37ED05092A3C438B00B64356 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		37ED050A2A3C438B00B64356 /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		37ED050B2A3C438B00B64356 /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -1161,6 +1227,152 @@
 		FB941F0B378DBA34DF252A5C /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43595DBE2748858D41904CFF /* PDFViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		375670B72A7BA7CE00DD0599 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				375670B62A7BA7CE00DD0599 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2362A7BAB2D0026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				375670BB2A7BA89A00DD0599 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2402A7BACC20026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA23F2A7BACC20026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA23C2A7BACC20026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2392A7BACC20026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA24A2A7BACD00026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2492A7BACD00026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2462A7BACD00026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2432A7BACD00026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2542A7BACD80026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2532A7BACD80026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2502A7BACD80026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA24D2A7BACD80026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA25E2A7BACE00026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA25D2A7BACE00026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA25A2A7BACE00026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2572A7BACE00026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2682A7BACE80026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2672A7BACE80026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2642A7BACE80026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2612A7BACE80026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2722A7BACEF0026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2712A7BACEF0026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA26E2A7BACEF0026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA26B2A7BACEF0026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA27C2A7BACF60026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA27B2A7BACF60026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2782A7BACF60026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2752A7BACF60026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2862A7BAD050026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2852A7BAD050026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2822A7BAD050026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA27F2A7BAD050026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA2902A7BAD0C0026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA28F2A7BAD0C0026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA28C2A7BAD0C0026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2892A7BAD0C0026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ADA29A2A7BAD150026ECD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				37ADA2992A7BAD140026ECD3 /* PocketCastsUtils in Embed Frameworks */,
+				37ADA2962A7BAD140026ECD3 /* PocketCastsServer in Embed Frameworks */,
+				37ADA2932A7BAD140026ECD3 /* PocketCastsDataModel in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		01DD0948FF2B0226BAF8A58C /* Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 		0509576929683682004F14AA /* BibleKorean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleKorean.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1264,6 +1476,8 @@
 		3755599329C2F2800049661D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3755599429C2F6A40049661D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		3755599629C2FAA50049661D /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		375670B32A7BA73600DD0599 /* PocketCastsUtils */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PocketCastsUtils; sourceTree = "<group>"; };
+		375670B82A7BA82100DD0599 /* PocketCastsDataModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PocketCastsDataModel; sourceTree = "<group>"; };
 		3764EB5B2A691210007E6607 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		376EDCBC2A1371600029074A /* QuranFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376EDCBF2A1371E10029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1287,6 +1501,7 @@
 		37A8C19329B234EA00569F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A8C19429B234F800569F92 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		37A8C19629B236E400569F92 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		37ADA2332A7BAA700026ECD3 /* PocketCastsServer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PocketCastsServer; sourceTree = "<group>"; };
 		37ED05722A3C438B00B64356 /* BiblePortugal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblePortugal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37ED05752A3C442400B64356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37ED05762A3C44B100B64356 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -1389,11 +1604,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0509575C29683682004F14AA /* StoreKit.framework in Frameworks */,
+				375670B52A7BA7CE00DD0599 /* PocketCastsUtils in Frameworks */,
 				0509575D29683682004F14AA /* R2Shared in Frameworks */,
+				37ADA2352A7BAB2D0026ECD3 /* PocketCastsServer in Frameworks */,
 				0509575E29683682004F14AA /* RevenueCat in Frameworks */,
 				0509575F29683682004F14AA /* R2Streamer in Frameworks */,
 				0509576029683682004F14AA /* R2Navigator in Frameworks */,
 				0509576129683682004F14AA /* ReadiumOPDS in Frameworks */,
+				375670BA2A7BA89A00DD0599 /* PocketCastsDataModel in Frameworks */,
 				0509576229683682004F14AA /* GoogleMobileAds in Frameworks */,
 				0509576329683682004F14AA /* GRDB in Frameworks */,
 				0509576429683682004F14AA /* Kingfisher in Frameworks */,
@@ -1408,12 +1626,15 @@
 				054C358B298B99EE002986E8 /* StoreKit.framework in Frameworks */,
 				054C358C298B99EE002986E8 /* R2Shared in Frameworks */,
 				054C358D298B99EE002986E8 /* RevenueCat in Frameworks */,
+				37ADA2482A7BACD00026ECD3 /* PocketCastsUtils in Frameworks */,
 				054C358E298B99EE002986E8 /* R2Streamer in Frameworks */,
+				37ADA2452A7BACD00026ECD3 /* PocketCastsServer in Frameworks */,
 				054C358F298B99EE002986E8 /* R2Navigator in Frameworks */,
 				054C3590298B99EE002986E8 /* ReadiumOPDS in Frameworks */,
 				054C3591298B99EE002986E8 /* GoogleMobileAds in Frameworks */,
 				054C3592298B99EE002986E8 /* GRDB in Frameworks */,
 				054C3593298B99EE002986E8 /* Kingfisher in Frameworks */,
+				37ADA2422A7BACD00026ECD3 /* PocketCastsDataModel in Frameworks */,
 				054C3594298B99EE002986E8 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1425,12 +1646,15 @@
 				05592E6628C6107D00A9F993 /* StoreKit.framework in Frameworks */,
 				05C8E9E028BF97EF00DA8485 /* R2Shared in Frameworks */,
 				05FF1BA328CDDD150048FF43 /* RevenueCat in Frameworks */,
+				37ADA2982A7BAD140026ECD3 /* PocketCastsUtils in Frameworks */,
 				05C8E9E128BF97EF00DA8485 /* R2Streamer in Frameworks */,
+				37ADA2952A7BAD140026ECD3 /* PocketCastsServer in Frameworks */,
 				05C8E9E228BF97EF00DA8485 /* R2Navigator in Frameworks */,
 				05C8E9E328BF97EF00DA8485 /* ReadiumOPDS in Frameworks */,
 				0587F5F928C27B38004DCF93 /* GoogleMobileAds in Frameworks */,
 				05C8E9E428BF97EF00DA8485 /* GRDB in Frameworks */,
 				05C8E9E528BF97EF00DA8485 /* Kingfisher in Frameworks */,
+				37ADA2922A7BAD140026ECD3 /* PocketCastsDataModel in Frameworks */,
 				05C8E9E628BF97EF00DA8485 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1442,12 +1666,15 @@
 				3755598329C2F1DD0049661D /* StoreKit.framework in Frameworks */,
 				3755598429C2F1DD0049661D /* R2Shared in Frameworks */,
 				3755598529C2F1DD0049661D /* RevenueCat in Frameworks */,
+				37ADA2662A7BACE80026ECD3 /* PocketCastsUtils in Frameworks */,
 				3755598629C2F1DD0049661D /* R2Streamer in Frameworks */,
+				37ADA2632A7BACE80026ECD3 /* PocketCastsServer in Frameworks */,
 				3755598729C2F1DD0049661D /* R2Navigator in Frameworks */,
 				3755598829C2F1DD0049661D /* ReadiumOPDS in Frameworks */,
 				3755598929C2F1DD0049661D /* GoogleMobileAds in Frameworks */,
 				3755598A29C2F1DD0049661D /* GRDB in Frameworks */,
 				3755598B29C2F1DD0049661D /* Kingfisher in Frameworks */,
+				37ADA2602A7BACE80026ECD3 /* PocketCastsDataModel in Frameworks */,
 				3755598C29C2F1DD0049661D /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1459,12 +1686,15 @@
 				376EDCAF2A1371600029074A /* StoreKit.framework in Frameworks */,
 				376EDCB02A1371600029074A /* R2Shared in Frameworks */,
 				376EDCB12A1371600029074A /* RevenueCat in Frameworks */,
+				37ADA2702A7BACEF0026ECD3 /* PocketCastsUtils in Frameworks */,
 				376EDCB22A1371600029074A /* R2Streamer in Frameworks */,
+				37ADA26D2A7BACEF0026ECD3 /* PocketCastsServer in Frameworks */,
 				376EDCB32A1371600029074A /* R2Navigator in Frameworks */,
 				376EDCB42A1371600029074A /* ReadiumOPDS in Frameworks */,
 				376EDCB52A1371600029074A /* GoogleMobileAds in Frameworks */,
 				376EDCB62A1371600029074A /* GRDB in Frameworks */,
 				376EDCB72A1371600029074A /* Kingfisher in Frameworks */,
+				37ADA26A2A7BACEF0026ECD3 /* PocketCastsDataModel in Frameworks */,
 				376EDCB82A1371600029074A /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1476,12 +1706,15 @@
 				376EDD342A138FE80029074A /* StoreKit.framework in Frameworks */,
 				376EDD352A138FE80029074A /* R2Shared in Frameworks */,
 				376EDD362A138FE80029074A /* RevenueCat in Frameworks */,
+				37ADA27A2A7BACF60026ECD3 /* PocketCastsUtils in Frameworks */,
 				376EDD372A138FE80029074A /* R2Streamer in Frameworks */,
+				37ADA2772A7BACF60026ECD3 /* PocketCastsServer in Frameworks */,
 				376EDD382A138FE80029074A /* R2Navigator in Frameworks */,
 				376EDD392A138FE80029074A /* ReadiumOPDS in Frameworks */,
 				376EDD3A2A138FE80029074A /* GoogleMobileAds in Frameworks */,
 				376EDD3B2A138FE80029074A /* GRDB in Frameworks */,
 				376EDD3C2A138FE80029074A /* Kingfisher in Frameworks */,
+				37ADA2742A7BACF60026ECD3 /* PocketCastsDataModel in Frameworks */,
 				376EDD3D2A138FE80029074A /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1493,12 +1726,15 @@
 				37A8C18429B2348000569F92 /* StoreKit.framework in Frameworks */,
 				37A8C18529B2348000569F92 /* R2Shared in Frameworks */,
 				37A8C18629B2348000569F92 /* RevenueCat in Frameworks */,
+				37ADA2842A7BAD050026ECD3 /* PocketCastsUtils in Frameworks */,
 				37A8C18729B2348000569F92 /* R2Streamer in Frameworks */,
+				37ADA2812A7BAD050026ECD3 /* PocketCastsServer in Frameworks */,
 				37A8C18829B2348000569F92 /* R2Navigator in Frameworks */,
 				37A8C18929B2348000569F92 /* ReadiumOPDS in Frameworks */,
 				37A8C18A29B2348000569F92 /* GoogleMobileAds in Frameworks */,
 				37A8C18B29B2348000569F92 /* GRDB in Frameworks */,
 				37A8C18C29B2348000569F92 /* Kingfisher in Frameworks */,
+				37ADA27E2A7BAD050026ECD3 /* PocketCastsDataModel in Frameworks */,
 				37A8C18D29B2348000569F92 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1510,12 +1746,15 @@
 				37ED05652A3C438B00B64356 /* StoreKit.framework in Frameworks */,
 				37ED05662A3C438B00B64356 /* R2Shared in Frameworks */,
 				37ED05672A3C438B00B64356 /* RevenueCat in Frameworks */,
+				37ADA2522A7BACD80026ECD3 /* PocketCastsUtils in Frameworks */,
 				37ED05682A3C438B00B64356 /* R2Streamer in Frameworks */,
+				37ADA24F2A7BACD80026ECD3 /* PocketCastsServer in Frameworks */,
 				37ED05692A3C438B00B64356 /* R2Navigator in Frameworks */,
 				37ED056A2A3C438B00B64356 /* ReadiumOPDS in Frameworks */,
 				37ED056B2A3C438B00B64356 /* GoogleMobileAds in Frameworks */,
 				37ED056C2A3C438B00B64356 /* GRDB in Frameworks */,
 				37ED056D2A3C438B00B64356 /* Kingfisher in Frameworks */,
+				37ADA24C2A7BACD80026ECD3 /* PocketCastsDataModel in Frameworks */,
 				37ED056E2A3C438B00B64356 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1527,12 +1766,15 @@
 				C3A32F1C2927566F00EA386A /* StoreKit.framework in Frameworks */,
 				C3A32F1D2927566F00EA386A /* R2Shared in Frameworks */,
 				C3A32F1E2927566F00EA386A /* RevenueCat in Frameworks */,
+				37ADA23E2A7BACC20026ECD3 /* PocketCastsUtils in Frameworks */,
 				C3A32F1F2927566F00EA386A /* R2Streamer in Frameworks */,
+				37ADA23B2A7BACC20026ECD3 /* PocketCastsServer in Frameworks */,
 				C3A32F202927566F00EA386A /* R2Navigator in Frameworks */,
 				C3A32F212927566F00EA386A /* ReadiumOPDS in Frameworks */,
 				C3A32F222927566F00EA386A /* GoogleMobileAds in Frameworks */,
 				C3A32F232927566F00EA386A /* GRDB in Frameworks */,
 				C3A32F242927566F00EA386A /* Kingfisher in Frameworks */,
+				37ADA2382A7BACC20026ECD3 /* PocketCastsDataModel in Frameworks */,
 				C3A32F252927566F00EA386A /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1544,12 +1786,15 @@
 				C3E0FCAF29B1DF7F000791FA /* StoreKit.framework in Frameworks */,
 				C3E0FCB029B1DF7F000791FA /* R2Shared in Frameworks */,
 				C3E0FCB129B1DF7F000791FA /* RevenueCat in Frameworks */,
+				37ADA25C2A7BACE00026ECD3 /* PocketCastsUtils in Frameworks */,
 				C3E0FCB229B1DF7F000791FA /* R2Streamer in Frameworks */,
+				37ADA2592A7BACE00026ECD3 /* PocketCastsServer in Frameworks */,
 				C3E0FCB329B1DF7F000791FA /* R2Navigator in Frameworks */,
 				C3E0FCB429B1DF7F000791FA /* ReadiumOPDS in Frameworks */,
 				C3E0FCB529B1DF7F000791FA /* GoogleMobileAds in Frameworks */,
 				C3E0FCB629B1DF7F000791FA /* GRDB in Frameworks */,
 				C3E0FCB729B1DF7F000791FA /* Kingfisher in Frameworks */,
+				37ADA2562A7BACE00026ECD3 /* PocketCastsDataModel in Frameworks */,
 				C3E0FCB829B1DF7F000791FA /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1561,12 +1806,15 @@
 				05592E6528C6106A00A9F993 /* StoreKit.framework in Frameworks */,
 				5CFD27FD29C5BD394143003B /* R2Shared in Frameworks */,
 				05FF1BA128CDDCA00048FF43 /* RevenueCat in Frameworks */,
+				37ADA28E2A7BAD0C0026ECD3 /* PocketCastsUtils in Frameworks */,
 				C56984E92B7A2E926C636838 /* R2Streamer in Frameworks */,
+				37ADA28B2A7BAD0C0026ECD3 /* PocketCastsServer in Frameworks */,
 				F4ED5C6327FFE523E8CF4B80 /* R2Navigator in Frameworks */,
 				B439819652514BC673FD5A5F /* ReadiumOPDS in Frameworks */,
 				0587F5F728C27B2E004DCF93 /* GoogleMobileAds in Frameworks */,
 				90FFD5E5DAF8DFC2444292BD /* GRDB in Frameworks */,
 				3A9344D4634E53FBC0ABA2DA /* Kingfisher in Frameworks */,
+				37ADA2882A7BAD0C0026ECD3 /* PocketCastsDataModel in Frameworks */,
 				AA3364D3A5D8CD239796F5BF /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1743,6 +1991,24 @@
 				3755599429C2F6A40049661D /* Media.xcassets */,
 			);
 			path = QuranEn;
+			sourceTree = "<group>";
+		};
+		375670B02A7BA6B700DD0599 /* Podcasts */ = {
+			isa = PBXGroup;
+			children = (
+				375670B12A7BA6C800DD0599 /* Modules */,
+			);
+			path = Podcasts;
+			sourceTree = "<group>";
+		};
+		375670B12A7BA6C800DD0599 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				37ADA2332A7BAA700026ECD3 /* PocketCastsServer */,
+				375670B82A7BA82100DD0599 /* PocketCastsDataModel */,
+				375670B32A7BA73600DD0599 /* PocketCastsUtils */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		376EDCBE2A1371A20029074A /* QuranFrench */ = {
@@ -2005,6 +2271,7 @@
 				05C8E9EC28BF9B4700DA8485 /* TargetSettings */,
 				50CE47A8753BDF2AFC906382 /* App */,
 				37ED05892A418BC800B64356 /* AudioPlayer */,
+				375670B02A7BA6B700DD0599 /* Podcasts */,
 				8A2F34A5F130F65CB7D45DA8 /* Common */,
 				7047830EFDF29D208984C29F /* Data */,
 				E9807BBEBF8401FB0BA852FF /* Library */,
@@ -2077,6 +2344,7 @@
 				050956FF29683682004F14AA /* Sources */,
 				0509574C29683682004F14AA /* Resources */,
 				0509575B29683682004F14AA /* Frameworks */,
+				375670B72A7BA7CE00DD0599 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2093,6 +2361,9 @@
 				050956F929683682004F14AA /* MBProgressHUD */,
 				050956FB29683682004F14AA /* GoogleMobileAds */,
 				050956FD29683682004F14AA /* RevenueCat */,
+				375670B42A7BA7CE00DD0599 /* PocketCastsUtils */,
+				375670B92A7BA89A00DD0599 /* PocketCastsDataModel */,
+				37ADA2342A7BAB2D0026ECD3 /* PocketCastsServer */,
 			);
 			productName = TestApp;
 			productReference = 0509576929683682004F14AA /* BibleKorean.app */;
@@ -2105,6 +2376,7 @@
 				054C352E298B99EE002986E8 /* Sources */,
 				054C357B298B99EE002986E8 /* Resources */,
 				054C358A298B99EE002986E8 /* Frameworks */,
+				37ADA24A2A7BACD00026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2121,6 +2393,9 @@
 				054C3528298B99EE002986E8 /* MBProgressHUD */,
 				054C352A298B99EE002986E8 /* GoogleMobileAds */,
 				054C352C298B99EE002986E8 /* RevenueCat */,
+				37ADA2412A7BACD00026ECD3 /* PocketCastsDataModel */,
+				37ADA2442A7BACD00026ECD3 /* PocketCastsServer */,
+				37ADA2472A7BACD00026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 054C3598298B99EE002986E8 /* BibleFrench.app */;
@@ -2133,6 +2408,7 @@
 				05C8E98E28BF97EF00DA8485 /* Sources */,
 				05C8E9D228BF97EF00DA8485 /* Resources */,
 				05C8E9DF28BF97EF00DA8485 /* Frameworks */,
+				37ADA29A2A7BAD150026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2149,6 +2425,9 @@
 				05C8E98C28BF97EF00DA8485 /* MBProgressHUD */,
 				0587F5F828C27B38004DCF93 /* GoogleMobileAds */,
 				05FF1BA228CDDD150048FF43 /* RevenueCat */,
+				37ADA2912A7BAD140026ECD3 /* PocketCastsDataModel */,
+				37ADA2942A7BAD140026ECD3 /* PocketCastsServer */,
+				37ADA2972A7BAD140026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 05C8E9EA28BF97EF00DA8485 /* KodeksyPl.app */;
@@ -2161,6 +2440,7 @@
 				3755592629C2F1DD0049661D /* Sources */,
 				3755597329C2F1DD0049661D /* Resources */,
 				3755598229C2F1DD0049661D /* Frameworks */,
+				37ADA2682A7BACE80026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2177,6 +2457,9 @@
 				3755592029C2F1DD0049661D /* MBProgressHUD */,
 				3755592229C2F1DD0049661D /* GoogleMobileAds */,
 				3755592429C2F1DD0049661D /* RevenueCat */,
+				37ADA25F2A7BACE80026ECD3 /* PocketCastsDataModel */,
+				37ADA2622A7BACE80026ECD3 /* PocketCastsServer */,
+				37ADA2652A7BACE80026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 3755599029C2F1DD0049661D /* QuranEn.app */;
@@ -2189,6 +2472,7 @@
 				376EDC522A1371600029074A /* Sources */,
 				376EDC9F2A1371600029074A /* Resources */,
 				376EDCAE2A1371600029074A /* Frameworks */,
+				37ADA2722A7BACEF0026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2205,6 +2489,9 @@
 				376EDC4C2A1371600029074A /* MBProgressHUD */,
 				376EDC4E2A1371600029074A /* GoogleMobileAds */,
 				376EDC502A1371600029074A /* RevenueCat */,
+				37ADA2692A7BACEF0026ECD3 /* PocketCastsDataModel */,
+				37ADA26C2A7BACEF0026ECD3 /* PocketCastsServer */,
+				37ADA26F2A7BACEF0026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 376EDCBC2A1371600029074A /* QuranFrench.app */;
@@ -2217,6 +2504,7 @@
 				376EDCD72A138FE80029074A /* Sources */,
 				376EDD242A138FE80029074A /* Resources */,
 				376EDD332A138FE80029074A /* Frameworks */,
+				37ADA27C2A7BACF60026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2233,6 +2521,9 @@
 				376EDCD12A138FE80029074A /* MBProgressHUD */,
 				376EDCD32A138FE80029074A /* GoogleMobileAds */,
 				376EDCD52A138FE80029074A /* RevenueCat */,
+				37ADA2732A7BACF60026ECD3 /* PocketCastsDataModel */,
+				37ADA2762A7BACF60026ECD3 /* PocketCastsServer */,
+				37ADA2792A7BACF60026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 376EDD412A138FE80029074A /* KodeksyAu.app */;
@@ -2245,6 +2536,7 @@
 				37A8C12729B2348000569F92 /* Sources */,
 				37A8C17429B2348000569F92 /* Resources */,
 				37A8C18329B2348000569F92 /* Frameworks */,
+				37ADA2862A7BAD050026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2261,6 +2553,9 @@
 				37A8C12129B2348000569F92 /* MBProgressHUD */,
 				37A8C12329B2348000569F92 /* GoogleMobileAds */,
 				37A8C12529B2348000569F92 /* RevenueCat */,
+				37ADA27D2A7BAD050026ECD3 /* PocketCastsDataModel */,
+				37ADA2802A7BAD050026ECD3 /* PocketCastsServer */,
+				37ADA2832A7BAD050026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 37A8C19129B2348000569F92 /* US Laws.app */;
@@ -2273,6 +2568,7 @@
 				37ED05082A3C438B00B64356 /* Sources */,
 				37ED05552A3C438B00B64356 /* Resources */,
 				37ED05642A3C438B00B64356 /* Frameworks */,
+				37ADA2542A7BACD80026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2289,6 +2585,9 @@
 				37ED05022A3C438B00B64356 /* MBProgressHUD */,
 				37ED05042A3C438B00B64356 /* GoogleMobileAds */,
 				37ED05062A3C438B00B64356 /* RevenueCat */,
+				37ADA24B2A7BACD80026ECD3 /* PocketCastsDataModel */,
+				37ADA24E2A7BACD80026ECD3 /* PocketCastsServer */,
+				37ADA2512A7BACD80026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 37ED05722A3C438B00B64356 /* BiblePortugal.app */;
@@ -2301,6 +2600,7 @@
 				F8E9582A14D6D60C1727FDD4 /* Sources */,
 				4E709BC17A880D20E0A6C284 /* Resources */,
 				ECE286862E1EDFD8B918F23A /* Frameworks */,
+				37ADA2902A7BAD0C0026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2317,6 +2617,9 @@
 				C3115DBE2D75A51EF161141D /* MBProgressHUD */,
 				0587F5F628C27B2E004DCF93 /* GoogleMobileAds */,
 				05FF1BA028CDDCA00048FF43 /* RevenueCat */,
+				37ADA2872A7BAD0C0026ECD3 /* PocketCastsDataModel */,
+				37ADA28A2A7BAD0C0026ECD3 /* PocketCastsServer */,
+				37ADA28D2A7BAD0C0026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = 246DC4CD3FA60DFDA45B7132 /* KodeksyRu.app */;
@@ -2329,6 +2632,7 @@
 				C3A32EC32927566F00EA386A /* Sources */,
 				C3A32F0D2927566F00EA386A /* Resources */,
 				C3A32F1B2927566F00EA386A /* Frameworks */,
+				37ADA2402A7BACC20026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2345,6 +2649,9 @@
 				C3A32EBD2927566F00EA386A /* MBProgressHUD */,
 				C3A32EBF2927566F00EA386A /* GoogleMobileAds */,
 				C3A32EC12927566F00EA386A /* RevenueCat */,
+				37ADA2372A7BACC20026ECD3 /* PocketCastsDataModel */,
+				37ADA23A2A7BACC20026ECD3 /* PocketCastsServer */,
+				37ADA23D2A7BACC20026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = C3A32F292927566F00EA386A /* BibleEn.app */;
@@ -2357,6 +2664,7 @@
 				C3E0FC5229B1DF7F000791FA /* Sources */,
 				C3E0FC9F29B1DF7F000791FA /* Resources */,
 				C3E0FCAE29B1DF7F000791FA /* Frameworks */,
+				37ADA25E2A7BACE00026ECD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2373,6 +2681,9 @@
 				C3E0FC4C29B1DF7F000791FA /* MBProgressHUD */,
 				C3E0FC4E29B1DF7F000791FA /* GoogleMobileAds */,
 				C3E0FC5029B1DF7F000791FA /* RevenueCat */,
+				37ADA2552A7BACE00026ECD3 /* PocketCastsDataModel */,
+				37ADA2582A7BACE00026ECD3 /* PocketCastsServer */,
+				37ADA25B2A7BACE00026ECD3 /* PocketCastsUtils */,
 			);
 			productName = TestApp;
 			productReference = C3E0FCBC29B1DF7F000791FA /* BibleSpain.app */;
@@ -5299,6 +5610,14 @@
 			package = 3755592529C2F1DD0049661D /* XCRemoteSwiftPackageReference "purchases-ios" */;
 			productName = RevenueCat;
 		};
+		375670B42A7BA7CE00DD0599 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		375670B92A7BA89A00DD0599 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
 		376EDC432A1371600029074A /* R2Shared */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 376EDC442A1371600029074A /* XCRemoteSwiftPackageReference "swift-toolkit" */;
@@ -5433,6 +5752,130 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 37A8C12629B2348000569F92 /* XCRemoteSwiftPackageReference "purchases-ios" */;
 			productName = RevenueCat;
+		};
+		37ADA2342A7BAB2D0026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2372A7BACC20026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA23A2A7BACC20026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA23D2A7BACC20026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2412A7BACD00026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2442A7BACD00026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2472A7BACD00026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA24B2A7BACD80026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA24E2A7BACD80026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2512A7BACD80026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2552A7BACE00026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2582A7BACE00026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA25B2A7BACE00026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA25F2A7BACE80026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2622A7BACE80026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2652A7BACE80026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2692A7BACEF0026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA26C2A7BACEF0026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA26F2A7BACEF0026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2732A7BACF60026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2762A7BACF60026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2792A7BACF60026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA27D2A7BAD050026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2802A7BAD050026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2832A7BAD050026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2872A7BAD0C0026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA28A2A7BAD0C0026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA28D2A7BAD0C0026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
+		};
+		37ADA2912A7BAD140026ECD3 /* PocketCastsDataModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsDataModel;
+		};
+		37ADA2942A7BAD140026ECD3 /* PocketCastsServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsServer;
+		};
+		37ADA2972A7BAD140026ECD3 /* PocketCastsUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PocketCastsUtils;
 		};
 		37ED04F92A3C438B00B64356 /* R2Shared */ = {
 			isa = XCSwiftPackageProductDependency;
