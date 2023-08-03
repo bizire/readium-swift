@@ -61,7 +61,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         super.viewDidLoad()
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                 self.loadAdmobInterstitial()
             }
         }
@@ -88,7 +88,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         // the safe area is known. If safe area is not a concern (e.g., your app is
         // locked in portrait mode), the banner can be loaded in viewWillAppear.
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
 //                self.adHelper.loadAdmobBanner(uiView: self)
             }
         }
@@ -106,14 +106,14 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         cell.textLabel?.text = folderHumanTitles[indexPath.row]
 //        cell.textLabel?.text = folderNames[indexPath.row]
         
-        if indexPath.row <= Bundle.main.object(forInfoDictionaryKey: Constants.freeAudioChapters) as! Int {
+        if indexPath.row <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeAudioChapters) as! Int {
             let lockImage = UIImage(named: "arrow_right")
             cell.imageView?.image = lockImage
         } else {
             let lockImage = UIImage(named: "lock")
             cell.imageView?.image = lockImage
             Purchases.shared.getCustomerInfo { (customerInfo, error) in
-                if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true{
+                if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true{
                     let lockImage = UIImage(named: "arrow_right")
                     cell.imageView?.image = lockImage
                 }
@@ -128,8 +128,8 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true ||
-                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeAudioChapters) as! Int {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true ||
+                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeAudioChapters) as! Int {
                 if self.interstitial != nil {
                     self.showInterstitial(uiView: self)
                 } else {

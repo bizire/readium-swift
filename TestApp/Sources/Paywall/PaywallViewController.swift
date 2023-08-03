@@ -205,7 +205,7 @@ class PaywallViewController: UITableViewController {
                     self.present(UIAlertController.errorAlert(message: error.localizedDescription), animated: true, completion: nil)
                 } else {
                     /// - If the entitlement is active after the purchase completed, dismiss the paywall
-                    if purchaserInfo?.entitlements[Constants.entitlementID]?.isActive == true {
+                    if purchaserInfo?.entitlements[StringConstants.entitlementID]?.isActive == true {
                         self.dismissModal()
                     }
                 }

@@ -186,7 +186,7 @@ class LibraryViewController: UIViewController, Loggable {
         }
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                 self.adHelper.loadAdmobInterstitial()
             }
         }
@@ -204,7 +204,7 @@ class LibraryViewController: UIViewController, Loggable {
         // the safe area is known. If safe area is not a concern (e.g., your app is
         // locked in portrait mode), the banner can be loaded in viewWillAppear.
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                 self.adHelper.loadAdmobBanner(uiView: self)
             }
         }
@@ -445,11 +445,11 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
         
-        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeItemsAmount) as! Int) {
+        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeItemsAmount) as! Int) {
             cell.lockImageView.isHidden = true
         } else {
             Purchases.shared.getCustomerInfo { (customerInfo, error) in
-                if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true{
+                if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true{
                     cell.lockImageView.isHidden = true
                 } else {
                     cell.lockImageView.isHidden = false
@@ -506,8 +506,8 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         let book = books[indexPath.item]
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive == true ||
-                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: Constants.freeItemsAmount) as! Int {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true ||
+                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeItemsAmount) as! Int {
                 
                 self.adHelper.showInterstitial(uiView: self)
                 self.library.openBook(book, forPresentation: true, sender: self)

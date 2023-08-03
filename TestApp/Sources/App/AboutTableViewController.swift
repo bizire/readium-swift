@@ -49,7 +49,7 @@ class AboutTableViewController: UITableViewController {
         // the safe area is known. If safe area is not a concern (e.g., your app is
         // locked in portrait mode), the banner can be loaded in viewWillAppear.
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                 self.adHelper.loadAdmobBanner(uiView: self)
             }
         }
@@ -82,7 +82,7 @@ class AboutTableViewController: UITableViewController {
                     if let error = error {
                         self.present(UIAlertController.errorAlert(message: error.localizedDescription), animated: true, completion: nil)
                     }
-                    if purchaserInfo?.entitlements[Constants.entitlementID]?.isActive == true {
+                    if purchaserInfo?.entitlements[StringConstants.entitlementID]?.isActive == true {
                         self.showSimpleAlert(message: NSLocalizedString("success_restore", comment: ""))
                     } else {
                         self.showSimpleAlert(message: NSLocalizedString("nothing_to_restore", comment: ""))

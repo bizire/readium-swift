@@ -11,7 +11,7 @@ import Foundation
  Configuration file for your app's RevenueCat settings.
  */
 
-struct Constants {
+struct StringConstants {
     
     /*
      The entitlement ID from the RevenueCat dashboard that is activated upon successful in-app purchase for the duration of the purchase.

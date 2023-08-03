@@ -81,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         if (hasAudioPlayer) {
             tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
         }
-        if (hasMediaView) {
+        if (true) {
             tabBarController.viewControllers?.insert(mediaViewController, at: 2)
         }
         tabBarController.tabBar.tintColor = .label
@@ -96,7 +96,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         Purchases.shared.delegate = self
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                 AppOpenAdManager.shared.loadAd()
             }
         }
@@ -145,7 +145,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
             if (appBecomeActiveCounter > 1 || launchedAppDelegateCounter > 1) {
                 
                 Purchases.shared.getCustomerInfo { (customerInfo, error) in
-                    if customerInfo?.entitlements[Constants.entitlementID]?.isActive != true {
+                    if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
                         print("appBecomeActiveCounter = \(self.appBecomeActiveCounter) & launchedAppDelegateCounter = \(self.launchedAppDelegateCounter)")
                         AppOpenAdManager.shared.showAdIfAvailable(viewController: rootViewController)
                     }
