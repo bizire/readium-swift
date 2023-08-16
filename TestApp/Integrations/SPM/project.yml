@@ -4,10 +4,10 @@ options:
 packages:
   Readium:
     url: https://github.com/readium/swift-toolkit.git
-    version: 2.3.0
+    version: 2.4.0
   GRDB:
     url: https://github.com/groue/GRDB.swift.git
-    from: 5.8.0
+    from: 5.26.0
   Kingfisher:
     url: https://github.com/onevcat/Kingfisher.git
     from: 5.15.8
@@ -16,10 +16,10 @@ packages:
     from: 1.2.0
   SwiftSoup:
     url: https://github.com/scinfu/SwiftSoup.git
-    from: 2.3.2
+    from: 2.5.3
   AdMob:
     url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
-    from: 9.9.0
+    from: 10.8.0
   RevenueCat:
     url: https://github.com/RevenueCat/purchases-ios.git
     version: 4.12.0
@@ -27,7 +27,7 @@ targets:
   ReadiumBook:
     type: application
     platform: iOS
-    deploymentTarget: "14.0"
+    deploymentTarget: "15.0"
     sources: 
       - path: Sources
     dependencies:
