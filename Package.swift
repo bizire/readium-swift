@@ -28,6 +28,7 @@ let package = Package(
         .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.12.2"),
         // 0.9.12 requires iOS 12+
         .package(url: "https://github.com/weichsel/ZIPFoundation.git", "0.9.0"..<"0.9.12"),
+        .package(url: "https://github.com/Automattic/Automattic-Tracks-iOS", "0.13.0")
     ],
     targets: [
         .target(
