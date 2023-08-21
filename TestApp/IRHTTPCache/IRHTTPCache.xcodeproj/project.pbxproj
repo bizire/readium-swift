@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F91C20260D873D00990563 /* IRHTTPCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91C1E260D873D00990563 /* IRHTTPCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D19260DD3DA00990563 /* IRHCError.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D17260DD3DA00990563 /* IRHCError.h */; };
+		B5F91D1A260DD3DA00990563 /* IRHCError.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D18260DD3DA00990563 /* IRHCError.m */; };
+		B5F91D1F260DD3F200990563 /* IRHCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D1D260DD3F200990563 /* IRHCLog.h */; };
+		B5F91D20260DD3F200990563 /* IRHCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D1E260DD3F200990563 /* IRHCLog.m */; };
+		B5F91D24260DD40300990563 /* IRHCMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D22260DD40300990563 /* IRHCMacro.h */; };
+		B5F91D29260DD41300990563 /* IRHCRange.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D27260DD41300990563 /* IRHCRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D2A260DD41300990563 /* IRHCRange.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D28260DD41300990563 /* IRHCRange.m */; };
+		B5F91D2F260DD4C200990563 /* IRHCDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D2D260DD4C200990563 /* IRHCDownload.h */; };
+		B5F91D30260DD4C200990563 /* IRHCDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D2E260DD4C200990563 /* IRHCDownload.m */; };
+		B5F91D36260DD50800990563 /* IRHCDataCacheItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D34260DD50800990563 /* IRHCDataCacheItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D37260DD50800990563 /* IRHCDataCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D35260DD50800990563 /* IRHCDataCacheItem.m */; };
+		B5F91D3C260DD51800990563 /* IRHCDataCacheItemZone.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D3A260DD51800990563 /* IRHCDataCacheItemZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D3D260DD51800990563 /* IRHCDataCacheItemZone.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D3B260DD51800990563 /* IRHCDataCacheItemZone.m */; };
+		B5F91D41260DD53100990563 /* IRHCDataCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D3F260DD53100990563 /* IRHCDataCallback.h */; };
+		B5F91D42260DD53100990563 /* IRHCDataCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D40260DD53100990563 /* IRHCDataCallback.m */; };
+		B5F91D46260DD58200990563 /* IRHCDataFileSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D44260DD58200990563 /* IRHCDataFileSource.h */; };
+		B5F91D47260DD58200990563 /* IRHCDataFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D45260DD58200990563 /* IRHCDataFileSource.m */; };
+		B5F91D4B260DD59300990563 /* IRHCDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D49260DD59300990563 /* IRHCDataLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D4C260DD59300990563 /* IRHCDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D4A260DD59300990563 /* IRHCDataLoader.m */; };
+		B5F91D50260DD5A600990563 /* IRHCDataNetworkSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D4E260DD5A600990563 /* IRHCDataNetworkSource.h */; };
+		B5F91D51260DD5A600990563 /* IRHCDataNetworkSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D4F260DD5A600990563 /* IRHCDataNetworkSource.m */; };
+		B5F91D55260DD5B600990563 /* IRHCDataReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D53260DD5B600990563 /* IRHCDataReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D56260DD5B600990563 /* IRHCDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D54260DD5B600990563 /* IRHCDataReader.m */; };
+		B5F91D5A260DD5C400990563 /* IRHCDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D58260DD5C400990563 /* IRHCDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D5B260DD5C400990563 /* IRHCDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D59260DD5C400990563 /* IRHCDataRequest.m */; };
+		B5F91D5F260DD5D200990563 /* IRHCDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D5D260DD5D200990563 /* IRHCDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F91D60260DD5D200990563 /* IRHCDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D5E260DD5D200990563 /* IRHCDataResponse.m */; };
+		B5F91D64260DD5E400990563 /* IRHCDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D62260DD5E400990563 /* IRHCDataSource.h */; };
+		B5F91D69260DD5F600990563 /* IRHCDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D67260DD5F600990563 /* IRHCDataSourceManager.h */; };
+		B5F91D6A260DD5F600990563 /* IRHCDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D68260DD5F600990563 /* IRHCDataSourceManager.m */; };
+		B5F91D6E260DD60800990563 /* IRHCDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D6C260DD60700990563 /* IRHCDataStorage.h */; };
+		B5F91D6F260DD60800990563 /* IRHCDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D6D260DD60700990563 /* IRHCDataStorage.m */; };
+		B5F91D73260DD61600990563 /* IRHCDataUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D71260DD61600990563 /* IRHCDataUnit.h */; };
+		B5F91D74260DD61600990563 /* IRHCDataUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D72260DD61600990563 /* IRHCDataUnit.m */; };
+		B5F91D78260DD62800990563 /* IRHCDataUnitItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D76260DD62800990563 /* IRHCDataUnitItem.h */; };
+		B5F91D79260DD62800990563 /* IRHCDataUnitItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D77260DD62800990563 /* IRHCDataUnitItem.m */; };
+		B5F91D7D260DD63800990563 /* IRHCDataUnitPool.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D7B260DD63800990563 /* IRHCDataUnitPool.h */; };
+		B5F91D7E260DD63800990563 /* IRHCDataUnitPool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D7C260DD63800990563 /* IRHCDataUnitPool.m */; };
+		B5F91D82260DD64700990563 /* IRHCDataUnitQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D80260DD64700990563 /* IRHCDataUnitQueue.h */; };
+		B5F91D83260DD64700990563 /* IRHCDataUnitQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D81260DD64700990563 /* IRHCDataUnitQueue.m */; };
+		B5F91DA82611D14800990563 /* IRHCHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91DA62611D14800990563 /* IRHCHTTPConnection.h */; };
+		B5F91DA92611D14800990563 /* IRHCHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DA72611D14800990563 /* IRHCHTTPConnection.m */; };
+		B5F91DAF2611D16A00990563 /* IRHCHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91DAD2611D16A00990563 /* IRHCHTTPResponse.h */; };
+		B5F91DB02611D16A00990563 /* IRHCHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DAE2611D16A00990563 /* IRHCHTTPResponse.m */; };
+		B5F91DB52611D17600990563 /* IRHCHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91DB32611D17600990563 /* IRHCHTTPServer.h */; };
+		B5F91DB62611D17600990563 /* IRHCHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DB42611D17600990563 /* IRHCHTTPServer.m */; };
+		B5F91DBC2611D25700990563 /* IRHCPathTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91DBA2611D25700990563 /* IRHCPathTool.h */; };
+		B5F91DBD2611D25700990563 /* IRHCPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DBB2611D25700990563 /* IRHCPathTool.m */; };
+		B5F91DC22611D26400990563 /* IRHCURLTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91DC02611D26400990563 /* IRHCURLTool.h */; };
+		B5F91DC32611D26400990563 /* IRHCURLTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DC12611D26400990563 /* IRHCURLTool.m */; };
+		B5F91DEA2612C99F00990563 /* IRHCData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D33260DD4EF00990563 /* IRHCData+Internal.h */; };
+		B5F91DF92612CDBC00990563 /* IRHTTPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91DF82612CDBC00990563 /* IRHTTPCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5F91DF22612CA1E00990563 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54A17123ABD84D076472AF7A /* Pods_IRHTTPCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRHTTPCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRHTTPCache.release.xcconfig"; path = "Target Support Files/Pods-IRHTTPCache/Pods-IRHTTPCache.release.xcconfig"; sourceTree = "<group>"; };
+		B5F91C1B260D873D00990563 /* IRHTTPCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRHTTPCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F91C1E260D873D00990563 /* IRHTTPCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHTTPCache.h; sourceTree = "<group>"; };
+		B5F91C1F260D873D00990563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F91D17260DD3DA00990563 /* IRHCError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCError.h; sourceTree = "<group>"; };
+		B5F91D18260DD3DA00990563 /* IRHCError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCError.m; sourceTree = "<group>"; };
+		B5F91D1D260DD3F200990563 /* IRHCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCLog.h; sourceTree = "<group>"; };
+		B5F91D1E260DD3F200990563 /* IRHCLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCLog.m; sourceTree = "<group>"; };
+		B5F91D22260DD40300990563 /* IRHCMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCMacro.h; sourceTree = "<group>"; };
+		B5F91D27260DD41300990563 /* IRHCRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCRange.h; sourceTree = "<group>"; };
+		B5F91D28260DD41300990563 /* IRHCRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCRange.m; sourceTree = "<group>"; };
+		B5F91D2D260DD4C200990563 /* IRHCDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDownload.h; sourceTree = "<group>"; };
+		B5F91D2E260DD4C200990563 /* IRHCDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDownload.m; sourceTree = "<group>"; };
+		B5F91D33260DD4EF00990563 /* IRHCData+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRHCData+Internal.h"; sourceTree = "<group>"; };
+		B5F91D34260DD50800990563 /* IRHCDataCacheItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataCacheItem.h; sourceTree = "<group>"; };
+		B5F91D35260DD50800990563 /* IRHCDataCacheItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataCacheItem.m; sourceTree = "<group>"; };
+		B5F91D3A260DD51800990563 /* IRHCDataCacheItemZone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataCacheItemZone.h; sourceTree = "<group>"; };
+		B5F91D3B260DD51800990563 /* IRHCDataCacheItemZone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataCacheItemZone.m; sourceTree = "<group>"; };
+		B5F91D3F260DD53100990563 /* IRHCDataCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataCallback.h; sourceTree = "<group>"; };
+		B5F91D40260DD53100990563 /* IRHCDataCallback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataCallback.m; sourceTree = "<group>"; };
+		B5F91D44260DD58200990563 /* IRHCDataFileSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataFileSource.h; sourceTree = "<group>"; };
+		B5F91D45260DD58200990563 /* IRHCDataFileSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataFileSource.m; sourceTree = "<group>"; };
+		B5F91D49260DD59300990563 /* IRHCDataLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataLoader.h; sourceTree = "<group>"; };
+		B5F91D4A260DD59300990563 /* IRHCDataLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataLoader.m; sourceTree = "<group>"; };
+		B5F91D4E260DD5A600990563 /* IRHCDataNetworkSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataNetworkSource.h; sourceTree = "<group>"; };
+		B5F91D4F260DD5A600990563 /* IRHCDataNetworkSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataNetworkSource.m; sourceTree = "<group>"; };
+		B5F91D53260DD5B600990563 /* IRHCDataReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataReader.h; sourceTree = "<group>"; };
+		B5F91D54260DD5B600990563 /* IRHCDataReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataReader.m; sourceTree = "<group>"; };
+		B5F91D58260DD5C400990563 /* IRHCDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataRequest.h; sourceTree = "<group>"; };
+		B5F91D59260DD5C400990563 /* IRHCDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataRequest.m; sourceTree = "<group>"; };
+		B5F91D5D260DD5D200990563 /* IRHCDataResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataResponse.h; sourceTree = "<group>"; };
+		B5F91D5E260DD5D200990563 /* IRHCDataResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataResponse.m; sourceTree = "<group>"; };
+		B5F91D62260DD5E400990563 /* IRHCDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataSource.h; sourceTree = "<group>"; };
+		B5F91D67260DD5F600990563 /* IRHCDataSourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataSourceManager.h; sourceTree = "<group>"; };
+		B5F91D68260DD5F600990563 /* IRHCDataSourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataSourceManager.m; sourceTree = "<group>"; };
+		B5F91D6C260DD60700990563 /* IRHCDataStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataStorage.h; sourceTree = "<group>"; };
+		B5F91D6D260DD60700990563 /* IRHCDataStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataStorage.m; sourceTree = "<group>"; };
+		B5F91D71260DD61600990563 /* IRHCDataUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataUnit.h; sourceTree = "<group>"; };
+		B5F91D72260DD61600990563 /* IRHCDataUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataUnit.m; sourceTree = "<group>"; };
+		B5F91D76260DD62800990563 /* IRHCDataUnitItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataUnitItem.h; sourceTree = "<group>"; };
+		B5F91D77260DD62800990563 /* IRHCDataUnitItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataUnitItem.m; sourceTree = "<group>"; };
+		B5F91D7B260DD63800990563 /* IRHCDataUnitPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataUnitPool.h; sourceTree = "<group>"; };
+		B5F91D7C260DD63800990563 /* IRHCDataUnitPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataUnitPool.m; sourceTree = "<group>"; };
+		B5F91D80260DD64700990563 /* IRHCDataUnitQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCDataUnitQueue.h; sourceTree = "<group>"; };
+		B5F91D81260DD64700990563 /* IRHCDataUnitQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCDataUnitQueue.m; sourceTree = "<group>"; };
+		B5F91DA62611D14800990563 /* IRHCHTTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPConnection.h; sourceTree = "<group>"; };
+		B5F91DA72611D14800990563 /* IRHCHTTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPConnection.m; sourceTree = "<group>"; };
+		B5F91DAC2611D15900990563 /* IRHCHTTPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPHeader.h; sourceTree = "<group>"; };
+		B5F91DAD2611D16A00990563 /* IRHCHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPResponse.h; sourceTree = "<group>"; };
+		B5F91DAE2611D16A00990563 /* IRHCHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPResponse.m; sourceTree = "<group>"; };
+		B5F91DB32611D17600990563 /* IRHCHTTPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCHTTPServer.h; sourceTree = "<group>"; };
+		B5F91DB42611D17600990563 /* IRHCHTTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCHTTPServer.m; sourceTree = "<group>"; };
+		B5F91DBA2611D25700990563 /* IRHCPathTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCPathTool.h; sourceTree = "<group>"; };
+		B5F91DBB2611D25700990563 /* IRHCPathTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCPathTool.m; sourceTree = "<group>"; };
+		B5F91DC02611D26400990563 /* IRHCURLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCURLTool.h; sourceTree = "<group>"; };
+		B5F91DC12611D26400990563 /* IRHCURLTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCURLTool.m; sourceTree = "<group>"; };
+		B5F91DF82612CDBC00990563 /* IRHTTPCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHTTPCache.m; sourceTree = "<group>"; };
+		E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRHTTPCache.debug.xcconfig"; path = "Target Support Files/Pods-IRHTTPCache/Pods-IRHTTPCache.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F91C18260D873D00990563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F7A0F1ED9A8EB300F74D0CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */,
+				ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5F91C11260D873D00990563 = {
+			isa = PBXGroup;
+			children = (
+				B5F91C1D260D873D00990563 /* IRHTTPCache */,
+				B5F91C1C260D873D00990563 /* Products */,
+				B5F91DEF2612CA1E00990563 /* Frameworks */,
+				6F7A0F1ED9A8EB300F74D0CA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F91C1C260D873D00990563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91C1B260D873D00990563 /* IRHTTPCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F91C1D260D873D00990563 /* IRHTTPCache */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91C55260D880900990563 /* Classes */,
+				B5F91C1F260D873D00990563 /* Info.plist */,
+			);
+			path = IRHTTPCache;
+			sourceTree = "<group>";
+		};
+		B5F91C55260D880900990563 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91C1E260D873D00990563 /* IRHTTPCache.h */,
+				B5F91DF82612CDBC00990563 /* IRHTTPCache.m */,
+				B5F91DB92611D23B00990563 /* IRHCTools */,
+				B5F91DA52611D12D00990563 /* IRHCHTTPServer */,
+				B5F91D16260DD39900990563 /* IRHCDataStorage */,
+				B5F91D15260DD38E00990563 /* IRHCDownload */,
+				B5F91D14260DD34E00990563 /* IRHCCommon */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B5F91D14260DD34E00990563 /* IRHCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91D17260DD3DA00990563 /* IRHCError.h */,
+				B5F91D18260DD3DA00990563 /* IRHCError.m */,
+				B5F91D1D260DD3F200990563 /* IRHCLog.h */,
+				B5F91D1E260DD3F200990563 /* IRHCLog.m */,
+				B5F91D22260DD40300990563 /* IRHCMacro.h */,
+				B5F91D27260DD41300990563 /* IRHCRange.h */,
+				B5F91D28260DD41300990563 /* IRHCRange.m */,
+			);
+			path = IRHCCommon;
+			sourceTree = "<group>";
+		};
+		B5F91D15260DD38E00990563 /* IRHCDownload */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91D2D260DD4C200990563 /* IRHCDownload.h */,
+				B5F91D2E260DD4C200990563 /* IRHCDownload.m */,
+			);
+			path = IRHCDownload;
+			sourceTree = "<group>";
+		};
+		B5F91D16260DD39900990563 /* IRHCDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91D33260DD4EF00990563 /* IRHCData+Internal.h */,
+				B5F91D34260DD50800990563 /* IRHCDataCacheItem.h */,
+				B5F91D35260DD50800990563 /* IRHCDataCacheItem.m */,
+				B5F91D3A260DD51800990563 /* IRHCDataCacheItemZone.h */,
+				B5F91D3B260DD51800990563 /* IRHCDataCacheItemZone.m */,
+				B5F91D3F260DD53100990563 /* IRHCDataCallback.h */,
+				B5F91D40260DD53100990563 /* IRHCDataCallback.m */,
+				B5F91D44260DD58200990563 /* IRHCDataFileSource.h */,
+				B5F91D45260DD58200990563 /* IRHCDataFileSource.m */,
+				B5F91D49260DD59300990563 /* IRHCDataLoader.h */,
+				B5F91D4A260DD59300990563 /* IRHCDataLoader.m */,
+				B5F91D4E260DD5A600990563 /* IRHCDataNetworkSource.h */,
+				B5F91D4F260DD5A600990563 /* IRHCDataNetworkSource.m */,
+				B5F91D53260DD5B600990563 /* IRHCDataReader.h */,
+				B5F91D54260DD5B600990563 /* IRHCDataReader.m */,
+				B5F91D58260DD5C400990563 /* IRHCDataRequest.h */,
+				B5F91D59260DD5C400990563 /* IRHCDataRequest.m */,
+				B5F91D5D260DD5D200990563 /* IRHCDataResponse.h */,
+				B5F91D5E260DD5D200990563 /* IRHCDataResponse.m */,
+				B5F91D62260DD5E400990563 /* IRHCDataSource.h */,
+				B5F91D67260DD5F600990563 /* IRHCDataSourceManager.h */,
+				B5F91D68260DD5F600990563 /* IRHCDataSourceManager.m */,
+				B5F91D6C260DD60700990563 /* IRHCDataStorage.h */,
+				B5F91D6D260DD60700990563 /* IRHCDataStorage.m */,
+				B5F91D71260DD61600990563 /* IRHCDataUnit.h */,
+				B5F91D72260DD61600990563 /* IRHCDataUnit.m */,
+				B5F91D76260DD62800990563 /* IRHCDataUnitItem.h */,
+				B5F91D77260DD62800990563 /* IRHCDataUnitItem.m */,
+				B5F91D7B260DD63800990563 /* IRHCDataUnitPool.h */,
+				B5F91D7C260DD63800990563 /* IRHCDataUnitPool.m */,
+				B5F91D80260DD64700990563 /* IRHCDataUnitQueue.h */,
+				B5F91D81260DD64700990563 /* IRHCDataUnitQueue.m */,
+			);
+			path = IRHCDataStorage;
+			sourceTree = "<group>";
+		};
+		B5F91DA52611D12D00990563 /* IRHCHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91DAC2611D15900990563 /* IRHCHTTPHeader.h */,
+				B5F91DA62611D14800990563 /* IRHCHTTPConnection.h */,
+				B5F91DA72611D14800990563 /* IRHCHTTPConnection.m */,
+				B5F91DAD2611D16A00990563 /* IRHCHTTPResponse.h */,
+				B5F91DAE2611D16A00990563 /* IRHCHTTPResponse.m */,
+				B5F91DB32611D17600990563 /* IRHCHTTPServer.h */,
+				B5F91DB42611D17600990563 /* IRHCHTTPServer.m */,
+			);
+			path = IRHCHTTPServer;
+			sourceTree = "<group>";
+		};
+		B5F91DB92611D23B00990563 /* IRHCTools */ = {
+			isa = PBXGroup;
+			children = (
+				B5F91DBA2611D25700990563 /* IRHCPathTool.h */,
+				B5F91DBB2611D25700990563 /* IRHCPathTool.m */,
+				B5F91DC02611D26400990563 /* IRHCURLTool.h */,
+				B5F91DC12611D26400990563 /* IRHCURLTool.m */,
+			);
+			path = IRHCTools;
+			sourceTree = "<group>";
+		};
+		B5F91DEF2612CA1E00990563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54A17123ABD84D076472AF7A /* Pods_IRHTTPCache.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5F91C16260D873D00990563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F91DA82611D14800990563 /* IRHCHTTPConnection.h in Headers */,
+				B5F91D2F260DD4C200990563 /* IRHCDownload.h in Headers */,
+				B5F91D46260DD58200990563 /* IRHCDataFileSource.h in Headers */,
+				B5F91C20260D873D00990563 /* IRHTTPCache.h in Headers */,
+				B5F91D69260DD5F600990563 /* IRHCDataSourceManager.h in Headers */,
+				B5F91D24260DD40300990563 /* IRHCMacro.h in Headers */,
+				B5F91D1F260DD3F200990563 /* IRHCLog.h in Headers */,
+				B5F91D3C260DD51800990563 /* IRHCDataCacheItemZone.h in Headers */,
+				B5F91D5A260DD5C400990563 /* IRHCDataRequest.h in Headers */,
+				B5F91D64260DD5E400990563 /* IRHCDataSource.h in Headers */,
+				B5F91D4B260DD59300990563 /* IRHCDataLoader.h in Headers */,
+				B5F91DBC2611D25700990563 /* IRHCPathTool.h in Headers */,
+				B5F91D36260DD50800990563 /* IRHCDataCacheItem.h in Headers */,
+				B5F91D50260DD5A600990563 /* IRHCDataNetworkSource.h in Headers */,
+				B5F91DAF2611D16A00990563 /* IRHCHTTPResponse.h in Headers */,
+				B5F91D73260DD61600990563 /* IRHCDataUnit.h in Headers */,
+				B5F91D6E260DD60800990563 /* IRHCDataStorage.h in Headers */,
+				B5F91D82260DD64700990563 /* IRHCDataUnitQueue.h in Headers */,
+				B5F91D29260DD41300990563 /* IRHCRange.h in Headers */,
+				B5F91D7D260DD63800990563 /* IRHCDataUnitPool.h in Headers */,
+				B5F91D5F260DD5D200990563 /* IRHCDataResponse.h in Headers */,
+				B5F91D41260DD53100990563 /* IRHCDataCallback.h in Headers */,
+				B5F91D19260DD3DA00990563 /* IRHCError.h in Headers */,
+				B5F91DC22611D26400990563 /* IRHCURLTool.h in Headers */,
+				B5F91DB52611D17600990563 /* IRHCHTTPServer.h in Headers */,
+				B5F91DEA2612C99F00990563 /* IRHCData+Internal.h in Headers */,
+				B5F91D55260DD5B600990563 /* IRHCDataReader.h in Headers */,
+				B5F91D78260DD62800990563 /* IRHCDataUnitItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5F91C1A260D873D00990563 /* IRHTTPCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F91C23260D873D00990563 /* Build configuration list for PBXNativeTarget "IRHTTPCache" */;
+			buildPhases = (
+				98129E9471831C1CF58401B8 /* [CP] Check Pods Manifest.lock */,
+				B5F91C16260D873D00990563 /* Headers */,
+				B5F91C17260D873D00990563 /* Sources */,
+				B5F91C18260D873D00990563 /* Frameworks */,
+				B5F91C19260D873D00990563 /* Resources */,
+				B5F91DF22612CA1E00990563 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRHTTPCache;
+			productName = IRHTTPCache;
+			productReference = B5F91C1B260D873D00990563 /* IRHTTPCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F91C12260D873D00990563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B5F91C1A260D873D00990563 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B5F91C15260D873D00990563 /* Build configuration list for PBXProject "IRHTTPCache" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F91C11260D873D00990563;
+			productRefGroup = B5F91C1C260D873D00990563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F91C1A260D873D00990563 /* IRHTTPCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F91C19260D873D00990563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98129E9471831C1CF58401B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRHTTPCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F91C17260D873D00990563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F91D47260DD58200990563 /* IRHCDataFileSource.m in Sources */,
+				B5F91D6F260DD60800990563 /* IRHCDataStorage.m in Sources */,
+				B5F91D79260DD62800990563 /* IRHCDataUnitItem.m in Sources */,
+				B5F91D5B260DD5C400990563 /* IRHCDataRequest.m in Sources */,
+				B5F91D7E260DD63800990563 /* IRHCDataUnitPool.m in Sources */,
+				B5F91DB02611D16A00990563 /* IRHCHTTPResponse.m in Sources */,
+				B5F91DB62611D17600990563 /* IRHCHTTPServer.m in Sources */,
+				B5F91DA92611D14800990563 /* IRHCHTTPConnection.m in Sources */,
+				B5F91D6A260DD5F600990563 /* IRHCDataSourceManager.m in Sources */,
+				B5F91DF92612CDBC00990563 /* IRHTTPCache.m in Sources */,
+				B5F91D37260DD50800990563 /* IRHCDataCacheItem.m in Sources */,
+				B5F91DBD2611D25700990563 /* IRHCPathTool.m in Sources */,
+				B5F91D83260DD64700990563 /* IRHCDataUnitQueue.m in Sources */,
+				B5F91D42260DD53100990563 /* IRHCDataCallback.m in Sources */,
+				B5F91D51260DD5A600990563 /* IRHCDataNetworkSource.m in Sources */,
+				B5F91D60260DD5D200990563 /* IRHCDataResponse.m in Sources */,
+				B5F91D4C260DD59300990563 /* IRHCDataLoader.m in Sources */,
+				B5F91D74260DD61600990563 /* IRHCDataUnit.m in Sources */,
+				B5F91D3D260DD51800990563 /* IRHCDataCacheItemZone.m in Sources */,
+				B5F91D56260DD5B600990563 /* IRHCDataReader.m in Sources */,
+				B5F91D20260DD3F200990563 /* IRHCLog.m in Sources */,
+				B5F91D2A260DD41300990563 /* IRHCRange.m in Sources */,
+				B5F91D1A260DD3DA00990563 /* IRHCError.m in Sources */,
+				B5F91D30260DD4C200990563 /* IRHCDownload.m in Sources */,
+				B5F91DC32611D26400990563 /* IRHCURLTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5F91C21260D873D00990563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5F91C22260D873D00990563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5F91C24260D873D00990563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IRHTTPCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons163.IRHTTPCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F91C25260D873D00990563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T6VV6T753H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IRHTTPCache/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = irons163.IRHTTPCache;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F91C15260D873D00990563 /* Build configuration list for PBXProject "IRHTTPCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F91C21260D873D00990563 /* Debug */,
+				B5F91C22260D873D00990563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F91C23260D873D00990563 /* Build configuration list for PBXNativeTarget "IRHTTPCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F91C24260D873D00990563 /* Debug */,
+				B5F91C25260D873D00990563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F91C12260D873D00990563 /* Project object */;
+}
