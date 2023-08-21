@@ -601,6 +601,39 @@
 		3763AB2F2A93405D00EFC5E3 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB102A93405D00EFC5E3 /* Podcast.swift */; };
 		3763AB302A93405D00EFC5E3 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB102A93405D00EFC5E3 /* Podcast.swift */; };
 		3763AB312A93405D00EFC5E3 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB102A93405D00EFC5E3 /* Podcast.swift */; };
+		3763AB7B2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB7C2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB7D2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB7E2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB7F2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB802A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB812A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB822A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB832A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB842A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB852A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */; };
+		3763AB882A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB892A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8A2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8B2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8C2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8D2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8E2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB8F2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB902A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB912A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB922A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
+		3763AB952A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB962A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB972A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB982A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB992A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9A2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9B2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9C2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9D2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9E2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763AB9F2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
 		3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3764EB5B2A691210007E6607 /* AudioPlayerFiles */; };
 		376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
@@ -1665,6 +1698,9 @@
 		3763AB0E2A93405C00EFC5E3 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		3763AB0F2A93405D00EFC5E3 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		3763AB102A93405D00EFC5E3 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		3764EB5B2A691210007E6607 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		376EDCBC2A1371600029074A /* QuranFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376EDCBF2A1371E10029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -2275,6 +2311,30 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3763AB792A934B1900EFC5E3 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		3763AB862A934B3100EFC5E3 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		3763AB932A934B4300EFC5E3 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
 		376EDCBE2A1371A20029074A /* QuranFrench */ = {
 			isa = PBXGroup;
 			children = (
@@ -2330,6 +2390,9 @@
 		3785DDC82A8F735900C8D1A7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3763AB932A934B4300EFC5E3 /* MainTabBar */,
+				3763AB862A934B3100EFC5E3 /* Downloads */,
+				3763AB792A934B1900EFC5E3 /* Favorites */,
 				3785DDD62A8F742300C8D1A7 /* Episodes */,
 				3785DDC92A8F740100C8D1A7 /* PodcastsSearch */,
 			);
@@ -3379,6 +3442,7 @@
 				0509570029683682004F14AA /* AboutTableViewController.swift in Sources */,
 				0509570129683682004F14AA /* AdvancedSettingsViewController.swift in Sources */,
 				0509570229683682004F14AA /* AnyPublisher.swift in Sources */,
+				3763AB9A2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				0509570329683682004F14AA /* AppDelegate.swift in Sources */,
 				0509570429683682004F14AA /* AppModule.swift in Sources */,
 				3785DDA02A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3392,6 +3456,7 @@
 				3785DD782A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				0509570929683682004F14AA /* BookmarkCellView.swift in Sources */,
 				0509570A29683682004F14AA /* CBZModule.swift in Sources */,
+				3763AB8D2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				0509570B29683682004F14AA /* CBZViewController.swift in Sources */,
 				0509570C29683682004F14AA /* TTSView.swift in Sources */,
 				379FF6AC2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3467,6 +3532,7 @@
 				0509574629683682004F14AA /* Toast.swift in Sources */,
 				0509574729683682004F14AA /* UIImage.swift in Sources */,
 				0509574829683682004F14AA /* UIViewController.swift in Sources */,
+				3763AB802A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				0509574929683682004F14AA /* UserSettingsNavigationController.swift in Sources */,
 				37ED058F2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				0509574A29683682004F14AA /* UserSettingsTableViewController.swift in Sources */,
@@ -3482,6 +3548,7 @@
 				054C352F298B99EE002986E8 /* AboutTableViewController.swift in Sources */,
 				054C3530298B99EE002986E8 /* AdvancedSettingsViewController.swift in Sources */,
 				054C3531298B99EE002986E8 /* AnyPublisher.swift in Sources */,
+				3763AB9B2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				054C3532298B99EE002986E8 /* AppDelegate.swift in Sources */,
 				054C3533298B99EE002986E8 /* AppModule.swift in Sources */,
 				3785DDA12A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3495,6 +3562,7 @@
 				3785DD792A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				054C3538298B99EE002986E8 /* BookmarkCellView.swift in Sources */,
 				054C3539298B99EE002986E8 /* CBZModule.swift in Sources */,
+				3763AB8E2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				054C353A298B99EE002986E8 /* CBZViewController.swift in Sources */,
 				054C353B298B99EE002986E8 /* TTSView.swift in Sources */,
 				379FF6AD2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3570,6 +3638,7 @@
 				054C3575298B99EE002986E8 /* Toast.swift in Sources */,
 				054C3576298B99EE002986E8 /* UIImage.swift in Sources */,
 				054C3577298B99EE002986E8 /* UIViewController.swift in Sources */,
+				3763AB812A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				054C3578298B99EE002986E8 /* UserSettingsNavigationController.swift in Sources */,
 				37ED05902A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				054C3579298B99EE002986E8 /* UserSettingsTableViewController.swift in Sources */,
@@ -3585,6 +3654,7 @@
 				05C8E98F28BF97EF00DA8485 /* AboutTableViewController.swift in Sources */,
 				05C8E99028BF97EF00DA8485 /* AdvancedSettingsViewController.swift in Sources */,
 				05C8E99128BF97EF00DA8485 /* AnyPublisher.swift in Sources */,
+				3763AB952A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				05C8E99228BF97EF00DA8485 /* AppDelegate.swift in Sources */,
 				05C8E99328BF97EF00DA8485 /* AppModule.swift in Sources */,
 				3785DD9B2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3598,6 +3668,7 @@
 				3785DD732A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				05C8E99828BF97EF00DA8485 /* BookmarkCellView.swift in Sources */,
 				05C8E99928BF97EF00DA8485 /* CBZModule.swift in Sources */,
+				3763AB882A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				05C8E99A28BF97EF00DA8485 /* CBZViewController.swift in Sources */,
 				05289AF829360358005D6C76 /* TTSView.swift in Sources */,
 				379FF6A82A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3673,6 +3744,7 @@
 				05C8E9CD28BF97EF00DA8485 /* Toast.swift in Sources */,
 				05C8E9CE28BF97EF00DA8485 /* UIImage.swift in Sources */,
 				05C8E9CF28BF97EF00DA8485 /* UIViewController.swift in Sources */,
+				3763AB7B2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				05C8E9D028BF97EF00DA8485 /* UserSettingsNavigationController.swift in Sources */,
 				37ED058B2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				05C8E9D128BF97EF00DA8485 /* UserSettingsTableViewController.swift in Sources */,
@@ -3688,6 +3760,7 @@
 				3755592729C2F1DD0049661D /* AboutTableViewController.swift in Sources */,
 				3755592829C2F1DD0049661D /* AdvancedSettingsViewController.swift in Sources */,
 				3755592929C2F1DD0049661D /* AnyPublisher.swift in Sources */,
+				3763AB9E2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				3755592A29C2F1DD0049661D /* AppDelegate.swift in Sources */,
 				3755592B29C2F1DD0049661D /* AppModule.swift in Sources */,
 				3785DDA42A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3701,6 +3774,7 @@
 				3785DD7C2A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				3755593029C2F1DD0049661D /* BookmarkCellView.swift in Sources */,
 				3755593129C2F1DD0049661D /* CBZModule.swift in Sources */,
+				3763AB912A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				3755593229C2F1DD0049661D /* CBZViewController.swift in Sources */,
 				3755593329C2F1DD0049661D /* TTSView.swift in Sources */,
 				379FF6B02A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3776,6 +3850,7 @@
 				3755596D29C2F1DD0049661D /* Toast.swift in Sources */,
 				3755596E29C2F1DD0049661D /* UIImage.swift in Sources */,
 				3755596F29C2F1DD0049661D /* UIViewController.swift in Sources */,
+				3763AB842A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				3755597029C2F1DD0049661D /* UserSettingsNavigationController.swift in Sources */,
 				37ED05932A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				3755597129C2F1DD0049661D /* UserSettingsTableViewController.swift in Sources */,
@@ -3791,6 +3866,7 @@
 				376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */,
 				376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */,
 				376EDC552A1371600029074A /* AnyPublisher.swift in Sources */,
+				3763AB9F2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				376EDC562A1371600029074A /* AppDelegate.swift in Sources */,
 				376EDC572A1371600029074A /* AppModule.swift in Sources */,
 				3785DDA52A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3804,6 +3880,7 @@
 				3785DD7D2A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				376EDC5C2A1371600029074A /* BookmarkCellView.swift in Sources */,
 				376EDC5D2A1371600029074A /* CBZModule.swift in Sources */,
+				3763AB922A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				376EDC5E2A1371600029074A /* CBZViewController.swift in Sources */,
 				376EDC5F2A1371600029074A /* TTSView.swift in Sources */,
 				379FF6B12A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3879,6 +3956,7 @@
 				376EDC992A1371600029074A /* Toast.swift in Sources */,
 				376EDC9A2A1371600029074A /* UIImage.swift in Sources */,
 				376EDC9B2A1371600029074A /* UIViewController.swift in Sources */,
+				3763AB852A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				376EDC9C2A1371600029074A /* UserSettingsNavigationController.swift in Sources */,
 				37ED05942A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				376EDC9D2A1371600029074A /* UserSettingsTableViewController.swift in Sources */,
@@ -3894,6 +3972,7 @@
 				376EDCD82A138FE80029074A /* AboutTableViewController.swift in Sources */,
 				376EDCD92A138FE80029074A /* AdvancedSettingsViewController.swift in Sources */,
 				376EDCDA2A138FE80029074A /* AnyPublisher.swift in Sources */,
+				3763AB982A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				376EDCDB2A138FE80029074A /* AppDelegate.swift in Sources */,
 				376EDCDC2A138FE80029074A /* AppModule.swift in Sources */,
 				3785DD9E2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3907,6 +3986,7 @@
 				3785DD762A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				376EDCE12A138FE80029074A /* BookmarkCellView.swift in Sources */,
 				376EDCE22A138FE80029074A /* CBZModule.swift in Sources */,
+				3763AB8B2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				376EDCE32A138FE80029074A /* CBZViewController.swift in Sources */,
 				376EDCE42A138FE80029074A /* TTSView.swift in Sources */,
 				379FF6B22A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -3982,6 +4062,7 @@
 				376EDD1E2A138FE80029074A /* Toast.swift in Sources */,
 				376EDD1F2A138FE80029074A /* UIImage.swift in Sources */,
 				376EDD202A138FE80029074A /* UIViewController.swift in Sources */,
+				3763AB7E2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				376EDD212A138FE80029074A /* UserSettingsNavigationController.swift in Sources */,
 				37ED05952A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				376EDD222A138FE80029074A /* UserSettingsTableViewController.swift in Sources */,
@@ -3997,6 +4078,7 @@
 				37A8C12829B2348000569F92 /* AboutTableViewController.swift in Sources */,
 				37A8C12929B2348000569F92 /* AdvancedSettingsViewController.swift in Sources */,
 				37A8C12A29B2348000569F92 /* AnyPublisher.swift in Sources */,
+				3763AB972A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				37A8C12B29B2348000569F92 /* AppDelegate.swift in Sources */,
 				37A8C12C29B2348000569F92 /* AppModule.swift in Sources */,
 				3785DD9D2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4010,6 +4092,7 @@
 				3785DD752A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				37A8C13129B2348000569F92 /* BookmarkCellView.swift in Sources */,
 				37A8C13229B2348000569F92 /* CBZModule.swift in Sources */,
+				3763AB8A2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				37A8C13329B2348000569F92 /* CBZViewController.swift in Sources */,
 				37A8C13429B2348000569F92 /* TTSView.swift in Sources */,
 				379FF6AA2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -4085,6 +4168,7 @@
 				37A8C16E29B2348000569F92 /* Toast.swift in Sources */,
 				37A8C16F29B2348000569F92 /* UIImage.swift in Sources */,
 				37A8C17029B2348000569F92 /* UIViewController.swift in Sources */,
+				3763AB7D2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				37A8C17129B2348000569F92 /* UserSettingsNavigationController.swift in Sources */,
 				37ED058D2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				37A8C17229B2348000569F92 /* UserSettingsTableViewController.swift in Sources */,
@@ -4100,6 +4184,7 @@
 				37ED05092A3C438B00B64356 /* AboutTableViewController.swift in Sources */,
 				37ED050A2A3C438B00B64356 /* AdvancedSettingsViewController.swift in Sources */,
 				37ED050B2A3C438B00B64356 /* AnyPublisher.swift in Sources */,
+				3763AB9C2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				37ED050C2A3C438B00B64356 /* AppDelegate.swift in Sources */,
 				37ED050D2A3C438B00B64356 /* AppModule.swift in Sources */,
 				3785DDA22A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4113,6 +4198,7 @@
 				3785DD7A2A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				37ED05122A3C438B00B64356 /* BookmarkCellView.swift in Sources */,
 				37ED05132A3C438B00B64356 /* CBZModule.swift in Sources */,
+				3763AB8F2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				37ED05142A3C438B00B64356 /* CBZViewController.swift in Sources */,
 				37ED05152A3C438B00B64356 /* TTSView.swift in Sources */,
 				379FF6AE2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -4188,6 +4274,7 @@
 				37ED054F2A3C438B00B64356 /* Toast.swift in Sources */,
 				37ED05502A3C438B00B64356 /* UIImage.swift in Sources */,
 				37ED05512A3C438B00B64356 /* UIViewController.swift in Sources */,
+				3763AB822A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				37ED05522A3C438B00B64356 /* UserSettingsNavigationController.swift in Sources */,
 				37ED05912A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				37ED05532A3C438B00B64356 /* UserSettingsTableViewController.swift in Sources */,
@@ -4203,6 +4290,7 @@
 				C3A32EC42927566F00EA386A /* AboutTableViewController.swift in Sources */,
 				C3A32EC52927566F00EA386A /* AdvancedSettingsViewController.swift in Sources */,
 				C3A32EC62927566F00EA386A /* AnyPublisher.swift in Sources */,
+				3763AB992A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				C3A32EC72927566F00EA386A /* AppDelegate.swift in Sources */,
 				C3A32EC82927566F00EA386A /* AppModule.swift in Sources */,
 				3785DD9F2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4216,6 +4304,7 @@
 				3785DD772A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				C3A32ECD2927566F00EA386A /* BookmarkCellView.swift in Sources */,
 				C3A32ECE2927566F00EA386A /* CBZModule.swift in Sources */,
+				3763AB8C2A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				C3A32ECF2927566F00EA386A /* CBZViewController.swift in Sources */,
 				05289AFA29360358005D6C76 /* TTSView.swift in Sources */,
 				379FF6AB2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -4291,6 +4380,7 @@
 				C3A32F072927566F00EA386A /* Toast.swift in Sources */,
 				C3A32F082927566F00EA386A /* UIImage.swift in Sources */,
 				C3A32F092927566F00EA386A /* UIViewController.swift in Sources */,
+				3763AB7F2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				C3A32F0A2927566F00EA386A /* UserSettingsNavigationController.swift in Sources */,
 				37ED058E2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				C3A32F0B2927566F00EA386A /* UserSettingsTableViewController.swift in Sources */,
@@ -4306,6 +4396,7 @@
 				C3E0FC5329B1DF7F000791FA /* AboutTableViewController.swift in Sources */,
 				C3E0FC5429B1DF7F000791FA /* AdvancedSettingsViewController.swift in Sources */,
 				C3E0FC5529B1DF7F000791FA /* AnyPublisher.swift in Sources */,
+				3763AB9D2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				C3E0FC5629B1DF7F000791FA /* AppDelegate.swift in Sources */,
 				C3E0FC5729B1DF7F000791FA /* AppModule.swift in Sources */,
 				3785DDA32A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4319,6 +4410,7 @@
 				3785DD7B2A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				C3E0FC5C29B1DF7F000791FA /* BookmarkCellView.swift in Sources */,
 				C3E0FC5D29B1DF7F000791FA /* CBZModule.swift in Sources */,
+				3763AB902A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				C3E0FC5E29B1DF7F000791FA /* CBZViewController.swift in Sources */,
 				C3E0FC5F29B1DF7F000791FA /* TTSView.swift in Sources */,
 				379FF6AF2A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -4394,6 +4486,7 @@
 				C3E0FC9929B1DF7F000791FA /* Toast.swift in Sources */,
 				C3E0FC9A29B1DF7F000791FA /* UIImage.swift in Sources */,
 				C3E0FC9B29B1DF7F000791FA /* UIViewController.swift in Sources */,
+				3763AB832A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				C3E0FC9C29B1DF7F000791FA /* UserSettingsNavigationController.swift in Sources */,
 				37ED05922A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				C3E0FC9D29B1DF7F000791FA /* UserSettingsTableViewController.swift in Sources */,
@@ -4409,6 +4502,7 @@
 				66BBF21937922BFF203BD22B /* AboutTableViewController.swift in Sources */,
 				284546FC2F5DE90C0C42739A /* AdvancedSettingsViewController.swift in Sources */,
 				7570EE3B52AA8DCD3BB7F3FD /* AnyPublisher.swift in Sources */,
+				3763AB962A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				BE5A931C42BDD682F0381D23 /* AppDelegate.swift in Sources */,
 				F0107DC19DEBF4FC33E2440C /* AppModule.swift in Sources */,
 				3785DD9C2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4422,6 +4516,7 @@
 				3785DD742A8F72F200C8D1A7 /* NetworkService.swift in Sources */,
 				9D03C5BDE244F59C6E2DBECB /* BookmarkCellView.swift in Sources */,
 				ECE90167DD1F45850FA2380C /* CBZModule.swift in Sources */,
+				3763AB892A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */,
 				15E8C4A262237E817D8BF55B /* CBZViewController.swift in Sources */,
 				05289AF929360358005D6C76 /* TTSView.swift in Sources */,
 				379FF6A92A58626D009AFCED /* AudioPlayerManager.swift in Sources */,
@@ -4497,6 +4592,7 @@
 				E113EFB445A7E3D742FD2613 /* Toast.swift in Sources */,
 				D409F84BA5B8795E5267DE40 /* UIImage.swift in Sources */,
 				53231B2AF0C7495885C02F67 /* UIViewController.swift in Sources */,
+				3763AB7C2A934B2700EFC5E3 /* FavoritesViewController.swift in Sources */,
 				10AE9794149FE28BD342938D /* UserSettingsNavigationController.swift in Sources */,
 				37ED058C2A418C0300B64356 /* FolderListViewController.swift in Sources */,
 				27751F7E452D817E5A9F13A6 /* UserSettingsTableViewController.swift in Sources */,
