@@ -68,14 +68,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         let aboutViewController = app.aboutViewController
         aboutViewController.tabBarItem = makeItem(title: "about_tab", image: "about")
         
-        let tabBarController = UITabBarController()
+        let tabBarController = AppTabBarViewController()
         let hasAudioPlayer = Bundle.main.object(forInfoDictionaryKey: "hasAudioPlayer") as? Bool ?? false
         let hasMediaView = Bundle.main.object(forInfoDictionaryKey: "hasMediaView") as? Bool ?? false
         tabBarController.viewControllers = [
             libraryViewController,
 //            opdsViewController,
 //            audioPlayerViewController,
-//            mediaViewController,
+            mediaViewController,
             aboutViewController
         ]
         if (hasAudioPlayer) {

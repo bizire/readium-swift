@@ -634,6 +634,21 @@
 		3763AB9D2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
 		3763AB9E2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
 		3763AB9F2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
+		3763ABA62A934CF400EFC5E3 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		3763ABA72A934CF400EFC5E3 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3763ABAE2A934DA200EFC5E3 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		3763ABAF2A934DA200EFC5E3 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3763ABB12A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB22A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB32A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB42A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB52A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB62A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB72A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB82A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABB92A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABBA2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
+		3763ABBB2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
 		3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3764EB5B2A691210007E6607 /* AudioPlayerFiles */; };
 		376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
@@ -1469,6 +1484,23 @@
 		FB941F0B378DBA34DF252A5C /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43595DBE2748858D41904CFF /* PDFViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3763ABA42A934CCF00EFC5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5F91C1B260D873D00990563;
+			remoteInfo = IRHTTPCache;
+		};
+		3763ABAC2A934D8E00EFC5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5F91C60260D8C7B00990563;
+			remoteInfo = IRCocoaHTTPServer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		375670B72A7BA7CE00DD0599 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -1486,6 +1518,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3763ABAF2A934DA200EFC5E3 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
+				3763ABA72A934CF400EFC5E3 /* IRHTTPCache.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1701,6 +1735,9 @@
 		3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRHTTPCache.xcodeproj; path = IRHTTPCache/IRHTTPCache.xcodeproj; sourceTree = "<group>"; };
+		3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRCocoaHTTPServer.xcodeproj; path = IRCocoaHTTPServer/IRCocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
+		3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarViewController.swift; sourceTree = "<group>"; };
 		3764EB5B2A691210007E6607 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		376EDCBC2A1371600029074A /* QuranFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376EDCBF2A1371E10029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -2000,7 +2037,9 @@
 				C3A32F1D2927566F00EA386A /* R2Shared in Frameworks */,
 				C3A32F1E2927566F00EA386A /* RevenueCat in Frameworks */,
 				C3A32F1F2927566F00EA386A /* R2Streamer in Frameworks */,
+				3763ABAE2A934DA200EFC5E3 /* IRCocoaHTTPServer.framework in Frameworks */,
 				C3A32F202927566F00EA386A /* R2Navigator in Frameworks */,
+				3763ABA62A934CF400EFC5E3 /* IRHTTPCache.framework in Frameworks */,
 				3785DDE72A8F74EB00C8D1A7 /* Alamofire in Frameworks */,
 				3785DE042A8F765C00C8D1A7 /* SDWebImage in Frameworks */,
 				C3A32F212927566F00EA386A /* ReadiumOPDS in Frameworks */,
@@ -2180,6 +2219,8 @@
 		1ED26426925A9C10B3DC859C = {
 			isa = PBXGroup;
 			children = (
+				3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */,
+				3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */,
 				C367C1B92934CF65001239E5 /* Docs */,
 				DE3A9F7FDF76C6B0B8FB2FFC /* Sources */,
 				373576F027873391B8FAC423 /* Products */,
@@ -2335,6 +2376,22 @@
 			path = MainTabBar;
 			sourceTree = "<group>";
 		};
+		3763ABA12A934CCF00EFC5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3763ABA92A934D8E00EFC5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		376EDCBE2A1371A20029074A /* QuranFrench */ = {
 			isa = PBXGroup;
 			children = (
@@ -2462,6 +2519,7 @@
 				DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */,
 				D7768A1D1FA79C3F1FB8DEEE /* About.storyboard */,
 				5BF7E71E8C0ABD5B77C83B87 /* AppModule.swift */,
+				3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3109,6 +3167,16 @@
 				3785DE112A8F76B000C8D1A7 /* XCRemoteSwiftPackageReference "FeedKit" */,
 			);
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3763ABA92A934D8E00EFC5E3 /* Products */;
+					ProjectRef = 3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */;
+				},
+				{
+					ProductGroup = 3763ABA12A934CCF00EFC5E3 /* Products */;
+					ProjectRef = 3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				05C8E98228BF97EF00DA8485 /* KodeksyPl */,
@@ -3125,6 +3193,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRHTTPCache.framework;
+			remoteRef = 3763ABA42A934CCF00EFC5E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRCocoaHTTPServer.framework;
+			remoteRef = 3763ABAC2A934D8E00EFC5E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0509574C29683682004F14AA /* Resources */ = {
@@ -3515,6 +3600,7 @@
 				0509573829683682004F14AA /* PublicationCollectionViewCell.swift in Sources */,
 				0509573929683682004F14AA /* PublicationMenuViewController.swift in Sources */,
 				0509573A29683682004F14AA /* ReaderError.swift in Sources */,
+				3763ABB62A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				0509573B29683682004F14AA /* ReaderFactory.swift in Sources */,
 				0509573C29683682004F14AA /* AppOpenAdManager.swift in Sources */,
 				0509573D29683682004F14AA /* ReaderFormatModule.swift in Sources */,
@@ -3621,6 +3707,7 @@
 				054C3567298B99EE002986E8 /* PublicationCollectionViewCell.swift in Sources */,
 				054C3568298B99EE002986E8 /* PublicationMenuViewController.swift in Sources */,
 				054C3569298B99EE002986E8 /* ReaderError.swift in Sources */,
+				3763ABB72A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				054C356A298B99EE002986E8 /* ReaderFactory.swift in Sources */,
 				054C356B298B99EE002986E8 /* AppOpenAdManager.swift in Sources */,
 				054C356C298B99EE002986E8 /* ReaderFormatModule.swift in Sources */,
@@ -3727,6 +3814,7 @@
 				05C8E9C228BF97EF00DA8485 /* PublicationCollectionViewCell.swift in Sources */,
 				05C8E9C328BF97EF00DA8485 /* PublicationMenuViewController.swift in Sources */,
 				05C8E9C428BF97EF00DA8485 /* ReaderError.swift in Sources */,
+				3763ABB12A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				05C8E9C528BF97EF00DA8485 /* ReaderFactory.swift in Sources */,
 				05592E6328C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				05C8E9C628BF97EF00DA8485 /* ReaderFormatModule.swift in Sources */,
@@ -3833,6 +3921,7 @@
 				3755595F29C2F1DD0049661D /* PublicationCollectionViewCell.swift in Sources */,
 				3755596029C2F1DD0049661D /* PublicationMenuViewController.swift in Sources */,
 				3755596129C2F1DD0049661D /* ReaderError.swift in Sources */,
+				3763ABBA2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				3755596229C2F1DD0049661D /* ReaderFactory.swift in Sources */,
 				3755596329C2F1DD0049661D /* AppOpenAdManager.swift in Sources */,
 				3755596429C2F1DD0049661D /* ReaderFormatModule.swift in Sources */,
@@ -3939,6 +4028,7 @@
 				376EDC8B2A1371600029074A /* PublicationCollectionViewCell.swift in Sources */,
 				376EDC8C2A1371600029074A /* PublicationMenuViewController.swift in Sources */,
 				376EDC8D2A1371600029074A /* ReaderError.swift in Sources */,
+				3763ABBB2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				376EDC8E2A1371600029074A /* ReaderFactory.swift in Sources */,
 				376EDC8F2A1371600029074A /* AppOpenAdManager.swift in Sources */,
 				376EDC902A1371600029074A /* ReaderFormatModule.swift in Sources */,
@@ -4045,6 +4135,7 @@
 				376EDD102A138FE80029074A /* PublicationCollectionViewCell.swift in Sources */,
 				376EDD112A138FE80029074A /* PublicationMenuViewController.swift in Sources */,
 				376EDD122A138FE80029074A /* ReaderError.swift in Sources */,
+				3763ABB42A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				376EDD132A138FE80029074A /* ReaderFactory.swift in Sources */,
 				376EDD142A138FE80029074A /* AppOpenAdManager.swift in Sources */,
 				376EDD152A138FE80029074A /* ReaderFormatModule.swift in Sources */,
@@ -4151,6 +4242,7 @@
 				37A8C16029B2348000569F92 /* PublicationCollectionViewCell.swift in Sources */,
 				37A8C16129B2348000569F92 /* PublicationMenuViewController.swift in Sources */,
 				37A8C16229B2348000569F92 /* ReaderError.swift in Sources */,
+				3763ABB32A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				37A8C16329B2348000569F92 /* ReaderFactory.swift in Sources */,
 				37A8C16429B2348000569F92 /* AppOpenAdManager.swift in Sources */,
 				37A8C16529B2348000569F92 /* ReaderFormatModule.swift in Sources */,
@@ -4257,6 +4349,7 @@
 				37ED05412A3C438B00B64356 /* PublicationCollectionViewCell.swift in Sources */,
 				37ED05422A3C438B00B64356 /* PublicationMenuViewController.swift in Sources */,
 				37ED05432A3C438B00B64356 /* ReaderError.swift in Sources */,
+				3763ABB82A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				37ED05442A3C438B00B64356 /* ReaderFactory.swift in Sources */,
 				37ED05452A3C438B00B64356 /* AppOpenAdManager.swift in Sources */,
 				37ED05462A3C438B00B64356 /* ReaderFormatModule.swift in Sources */,
@@ -4363,6 +4456,7 @@
 				C3A32EF92927566F00EA386A /* PublicationCollectionViewCell.swift in Sources */,
 				C3A32EFA2927566F00EA386A /* PublicationMenuViewController.swift in Sources */,
 				C3A32EFB2927566F00EA386A /* ReaderError.swift in Sources */,
+				3763ABB52A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				C3A32EFC2927566F00EA386A /* ReaderFactory.swift in Sources */,
 				C3A32EFD2927566F00EA386A /* AppOpenAdManager.swift in Sources */,
 				C3A32EFE2927566F00EA386A /* ReaderFormatModule.swift in Sources */,
@@ -4469,6 +4563,7 @@
 				C3E0FC8B29B1DF7F000791FA /* PublicationCollectionViewCell.swift in Sources */,
 				C3E0FC8C29B1DF7F000791FA /* PublicationMenuViewController.swift in Sources */,
 				C3E0FC8D29B1DF7F000791FA /* ReaderError.swift in Sources */,
+				3763ABB92A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				C3E0FC8E29B1DF7F000791FA /* ReaderFactory.swift in Sources */,
 				C3E0FC8F29B1DF7F000791FA /* AppOpenAdManager.swift in Sources */,
 				C3E0FC9029B1DF7F000791FA /* ReaderFormatModule.swift in Sources */,
@@ -4575,6 +4670,7 @@
 				B7866A1F4C40ADC539A1B4E7 /* PublicationCollectionViewCell.swift in Sources */,
 				17EA3963643289799F9A32DE /* PublicationMenuViewController.swift in Sources */,
 				4803E73C8BCCAD6A0ACD70B2 /* ReaderError.swift in Sources */,
+				3763ABB22A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				C27BD6674DD958FB749FAD51 /* ReaderFactory.swift in Sources */,
 				05592E6228C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				5AACFFC96E9EE8C3758D58BB /* ReaderFormatModule.swift in Sources */,

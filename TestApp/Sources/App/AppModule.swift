@@ -68,9 +68,12 @@ final class AppModule {
     }()
     
     private(set) lazy var mediaViewController: UIViewController = {
-        let storyboard = UIStoryboard(name: "AudioPlayer", bundle: nil)
-        let mediaViewController = storyboard.instantiateViewController(withIdentifier: "FolderListViewController") as! FolderListViewController
-        return UINavigationController(rootViewController: mediaViewController)
+        let rootViewController = PodcastsSearchViewController()
+        let navigationController = UINavigationController(rootViewController: rootViewController)
+        rootViewController.navigationItem.title = "Search"
+        navigationController.tabBarItem.title   = "Search"
+        navigationController.tabBarItem.image   = #imageLiteral(resourceName: "search")
+        return navigationController
     }()
 
 }
