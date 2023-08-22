@@ -236,7 +236,7 @@ class LibraryViewController: UIViewController, Loggable {
         collectionView.collectionViewLayout.invalidateLayout()
     }
 
-    static let numberPerRowFromPlist = Bundle.main.object(forInfoDictionaryKey: "numberPerRow") as? Int ?? 3
+    static let numberPerRowFromPlist = ConstantsTarget.numberPerRow
     
     static let iPadLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: numberPerRowFromPlist+1, .landscape: numberPerRowFromPlist+2]
     static let iPhoneLayoutNumberPerRow:[ScreenOrientation: Int] = [.portrait: numberPerRowFromPlist, .landscape: numberPerRowFromPlist+1]
@@ -447,7 +447,7 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         cell.titleLabel.text = book.title
         cell.authorLabel.text = book.authors
         
-        if (indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeItemsAmount) as! Int) {
+        if (indexPath.item <= ConstantsTarget.freeItemsAmount) {
             cell.lockImageView.isHidden = true
         } else {
             Purchases.shared.getCustomerInfo { (customerInfo, error) in
@@ -509,7 +509,7 @@ extension LibraryViewController: UICollectionViewDelegateFlowLayout, UICollectio
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
             if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true ||
-                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeItemsAmount) as! Int {
+                indexPath.item <= ConstantsTarget.freeItemsAmount {
                 
                 self.adHelper.showInterstitial(uiView: self)
                 self.library.openBook(book, forPresentation: true, sender: self)

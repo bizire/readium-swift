@@ -128,7 +128,7 @@ class PaywallViewController: UITableViewController {
         termsLabel.trailingAnchor.constraint(equalTo: footerView.trailingAnchor).isActive = true
         termsLabel.topAnchor.constraint(equalTo: privacyButton.bottomAnchor, constant: 30).isActive = true
         
-        termsLabel.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasSubscriptions") as? Bool ?? true)
+        termsLabel.isHidden = !(ConstantsTarget.hasSubscriptions)
 
         return footerView
     }
@@ -136,7 +136,7 @@ class PaywallViewController: UITableViewController {
     @objc func pressedPrivacy() {
         print("pressedPrivacy")
         
-        guard let url = URL(string: Bundle.main.object(forInfoDictionaryKey: "privacyPolicyURL") as! String) else {
+        guard let url = URL(string: ConstantsTarget.privacyPolicyURL) else {
           return //be safe
         }
 
@@ -149,7 +149,7 @@ class PaywallViewController: UITableViewController {
     
     @objc func pressedTerms() {
         print("pressedTerms")
-        guard let url = URL(string: Bundle.main.object(forInfoDictionaryKey: "termsOfUseURL") as! String) else {
+        guard let url = URL(string: ConstantsTarget.termsOfUseURL) else {
           return //be safe
         }
 

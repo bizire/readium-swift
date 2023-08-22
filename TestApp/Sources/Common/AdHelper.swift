@@ -17,7 +17,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     override init() {
         super.init()
         //bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView.adUnitID = Bundle.main.object(forInfoDictionaryKey: "AdmobBannerID") as? String
+        bannerView.adUnitID = ConstantsTarget.adUnitIDBanner
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         print("admob bannerView.adUnitID \(bannerView.adUnitID)")
     }
@@ -69,7 +69,7 @@ class AdHelper: NSObject, GADFullScreenContentDelegate, GADBannerViewDelegate {
     func loadAdmobInterstitial() {
         let request = GADRequest()
         GADInterstitialAd.load(
-            withAdUnitID: Bundle.main.object(forInfoDictionaryKey: "AdmobInterID") as! String,
+            withAdUnitID: ConstantsTarget.adUnitIDInterstitial,
             request: request,
             completionHandler: { [self] ad, error in
                 if let error = error {

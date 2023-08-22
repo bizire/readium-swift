@@ -25,6 +25,7 @@ struct ConstantsTarget {
     
     static let numberPerRow = 3
     static let freeItemsAmount = 5
+    static let freeAudioChapters = 5
     
     static let hasPremiumContent = true
     static let hasSubscriptions = true

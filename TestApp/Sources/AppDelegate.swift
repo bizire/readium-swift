@@ -69,8 +69,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         aboutViewController.tabBarItem = makeItem(title: "about_tab", image: "about")
         
         let tabBarController = AppTabBarViewController()
-        let hasAudioPlayer = Bundle.main.object(forInfoDictionaryKey: "hasAudioPlayer") as? Bool ?? false
-        let hasMediaView = Bundle.main.object(forInfoDictionaryKey: "hasMediaView") as? Bool ?? false
         tabBarController.viewControllers = [
             libraryViewController,
 //            opdsViewController,
@@ -78,10 +76,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
 //            mediaViewController,
             aboutViewController
         ]
-        if (hasAudioPlayer) {
+        if (ConstantsTarget.hasAudioPlayer) {
             tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
         }
-        if (hasMediaView) {
+        if (ConstantsTarget.hasMediaView) {
             tabBarController.viewControllers?.insert(mediaViewController, at: 2)
         }
         tabBarController.tabBar.tintColor = .label
@@ -91,8 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         window?.makeKeyAndVisible()
         
         Purchases.logLevel = .debug
-        let revenueCatPublicKey = Bundle.main.object(forInfoDictionaryKey: "RevenueCatPublicKey") as! String
-        Purchases.configure(withAPIKey: revenueCatPublicKey)
+        Purchases.configure(withAPIKey: ConstantsTarget.revenueCatPublicKey)
         
         Purchases.shared.delegate = self
         Purchases.shared.getCustomerInfo { (customerInfo, error) in

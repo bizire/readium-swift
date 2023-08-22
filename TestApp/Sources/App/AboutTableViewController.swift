@@ -38,8 +38,8 @@ class AboutTableViewController: UITableViewController {
         nameCell.textLabel?.text = NSLocalizedString("name_app_caption", comment: "Caption for the app title in About screen")
         nameCell.detailTextLabel?.text = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String
         
-        upgradeCell.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasPremiumContent") as? Bool ?? true)
-        restoreCell.isHidden = !(Bundle.main.object(forInfoDictionaryKey: "hasPremiumContent") as? Bool ?? true)
+        upgradeCell.isHidden = !(ConstantsTarget.hasPremiumContent)
+        restoreCell.isHidden = !(ConstantsTarget.hasPremiumContent)
     }
     
     override func viewDidAppear(_ animated: Bool) {

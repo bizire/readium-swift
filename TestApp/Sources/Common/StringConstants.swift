@@ -18,7 +18,4 @@ struct StringConstants {
      */
     //#error("Modify this property to reflect your app's entitlement identifier, then comment this line out.")
     static let entitlementID = "premium_entitlement"
-    
-    static let freeItemsAmount = "FreeItemsAmount"
-    static let freeAudioChapters = "FreeAudioChapters"
 }

@@ -71,8 +71,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         
         initAudioPlayerFolders()
         
-        let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName")  as? String ?? ""
-        self.navigationItem.title = Bundle.main.object(forInfoDictionaryKey: "AudioBookVersion") as? String ?? appName
+        self.navigationItem.title = ConstantsTarget.audioBookVersion
         
         let indexPath = IndexPath(row: 0, section: 0)
         tableView.selectRow(at: indexPath, animated: true, scrollPosition: .none)
@@ -107,7 +106,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         cell.textLabel?.text = folderHumanTitles[indexPath.row]
 //        cell.textLabel?.text = folderNames[indexPath.row]
         
-        if indexPath.row <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeAudioChapters) as! Int {
+        if indexPath.row <= ConstantsTarget.freeAudioChapters {
             let lockImage = UIImage(named: "arrow_right")
             cell.imageView?.image = lockImage
         } else {
@@ -130,7 +129,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
         
         Purchases.shared.getCustomerInfo { (customerInfo, error) in
             if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive == true ||
-                indexPath.item <= Bundle.main.object(forInfoDictionaryKey: StringConstants.freeAudioChapters) as! Int {
+                indexPath.item <= ConstantsTarget.freeAudioChapters {
                 if self.interstitial != nil {
                     self.showInterstitial(uiView: self)
                 } else {
@@ -164,7 +163,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     func loadAdmobInterstitial() {
         let request = GADRequest()
         GADInterstitialAd.load(
-            withAdUnitID: Bundle.main.object(forInfoDictionaryKey: "AdmobInterID") as! String,
+            withAdUnitID: ConstantsTarget.adUnitIDInterstitial,
             request: request,
             completionHandler: { [self] ad, error in
                 if let error = error {

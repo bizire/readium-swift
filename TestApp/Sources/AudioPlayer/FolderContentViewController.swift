@@ -37,7 +37,6 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
     
     var sliderTimer: Timer?
     
-    let audioBookType = Bundle.main.object(forInfoDictionaryKey: "audioBookType") as? String ?? "book"
     var chapterName = NSLocalizedString("chapter", comment: "")
     
     
@@ -67,7 +66,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         
         setupRemoteControl()
         
-        if (audioBookType == "quran") {
+        if (ConstantsTarget.audioBookType == "quran") {
             chapterName = NSLocalizedString("surah", comment: "")
         }
     }
