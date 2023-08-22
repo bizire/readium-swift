@@ -21,6 +21,30 @@ final class PodcastsSearchViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetup()
+        
+        timer?.invalidate()
+        timer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { timer in
+            NetworkService.shared.fetchPodcasts(searchText: "god", completionHandler: { podcasts in
+                self.podcasts = podcasts
+                self.tableView.reloadData()
+            })
+        })
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear PodcastsSearchViewController")
+        
+        if let wasPlayerLaunch = UIApplication.mainTabBarController?.wasPlayerLaunch {
+            // Use the unwrapped value of wasPlayerLaunch here
+            if wasPlayerLaunch {
+                UIApplication.mainTabBarController?.minimizePlayerDetails()
+            } else {
+                // The value of wasPlayerLaunch is false
+            }
+        } else {
+            // UIApplication.mainTabBarController is nil or wasPlayerLaunch is not available
+        }
     }
 
 }
@@ -107,7 +131,7 @@ extension PodcastsSearchViewController {
     private func setupSearchBar() {
         self.definesPresentationContext                   = true
         navigationItem.searchController                   = searchController
-        navigationItem.hidesSearchBarWhenScrolling        = false
+        navigationItem.hidesSearchBarWhenScrolling        = true
         searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.delegate               = self
     }

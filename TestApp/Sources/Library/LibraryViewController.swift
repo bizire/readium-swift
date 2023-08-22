@@ -208,6 +208,8 @@ class LibraryViewController: UIViewController, Loggable {
                 self.adHelper.loadAdmobBanner(uiView: self)
             }
         }
+        
+        UIApplication.mainTabBarController?.dismissPlayerDetails()
       }
     
     @objc func handleAppDidBecomeActiveNotification(notification: Notification) {

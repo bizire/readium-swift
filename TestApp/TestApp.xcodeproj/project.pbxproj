@@ -623,17 +623,6 @@
 		3763AB902A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
 		3763AB912A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
 		3763AB922A934B3900EFC5E3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */; };
-		3763AB952A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB962A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB972A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB982A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB992A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9A2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9B2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9C2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9D2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9E2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
-		3763AB9F2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */; };
 		3763ABA62A934CF400EFC5E3 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
 		3763ABA72A934CF400EFC5E3 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3763ABAE2A934DA200EFC5E3 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
@@ -1734,7 +1723,6 @@
 		3763AB102A93405D00EFC5E3 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		3763AB7A2A934B2700EFC5E3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		3763AB872A934B3900EFC5E3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
-		3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRHTTPCache.xcodeproj; path = IRHTTPCache/IRHTTPCache.xcodeproj; sourceTree = "<group>"; };
 		3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRCocoaHTTPServer.xcodeproj; path = IRCocoaHTTPServer/IRCocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
 		3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarViewController.swift; sourceTree = "<group>"; };
@@ -2371,7 +2359,6 @@
 		3763AB932A934B4300EFC5E3 /* MainTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				3763AB942A934B4900EFC5E3 /* MainTabBarViewController.swift */,
 			);
 			path = MainTabBar;
 			sourceTree = "<group>";
@@ -3527,7 +3514,6 @@
 				0509570029683682004F14AA /* AboutTableViewController.swift in Sources */,
 				0509570129683682004F14AA /* AdvancedSettingsViewController.swift in Sources */,
 				0509570229683682004F14AA /* AnyPublisher.swift in Sources */,
-				3763AB9A2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				0509570329683682004F14AA /* AppDelegate.swift in Sources */,
 				0509570429683682004F14AA /* AppModule.swift in Sources */,
 				3785DDA02A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3634,7 +3620,6 @@
 				054C352F298B99EE002986E8 /* AboutTableViewController.swift in Sources */,
 				054C3530298B99EE002986E8 /* AdvancedSettingsViewController.swift in Sources */,
 				054C3531298B99EE002986E8 /* AnyPublisher.swift in Sources */,
-				3763AB9B2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				054C3532298B99EE002986E8 /* AppDelegate.swift in Sources */,
 				054C3533298B99EE002986E8 /* AppModule.swift in Sources */,
 				3785DDA12A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3741,7 +3726,6 @@
 				05C8E98F28BF97EF00DA8485 /* AboutTableViewController.swift in Sources */,
 				05C8E99028BF97EF00DA8485 /* AdvancedSettingsViewController.swift in Sources */,
 				05C8E99128BF97EF00DA8485 /* AnyPublisher.swift in Sources */,
-				3763AB952A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				05C8E99228BF97EF00DA8485 /* AppDelegate.swift in Sources */,
 				05C8E99328BF97EF00DA8485 /* AppModule.swift in Sources */,
 				3785DD9B2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3848,7 +3832,6 @@
 				3755592729C2F1DD0049661D /* AboutTableViewController.swift in Sources */,
 				3755592829C2F1DD0049661D /* AdvancedSettingsViewController.swift in Sources */,
 				3755592929C2F1DD0049661D /* AnyPublisher.swift in Sources */,
-				3763AB9E2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				3755592A29C2F1DD0049661D /* AppDelegate.swift in Sources */,
 				3755592B29C2F1DD0049661D /* AppModule.swift in Sources */,
 				3785DDA42A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -3955,7 +3938,6 @@
 				376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */,
 				376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */,
 				376EDC552A1371600029074A /* AnyPublisher.swift in Sources */,
-				3763AB9F2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				376EDC562A1371600029074A /* AppDelegate.swift in Sources */,
 				376EDC572A1371600029074A /* AppModule.swift in Sources */,
 				3785DDA52A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4062,7 +4044,6 @@
 				376EDCD82A138FE80029074A /* AboutTableViewController.swift in Sources */,
 				376EDCD92A138FE80029074A /* AdvancedSettingsViewController.swift in Sources */,
 				376EDCDA2A138FE80029074A /* AnyPublisher.swift in Sources */,
-				3763AB982A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				376EDCDB2A138FE80029074A /* AppDelegate.swift in Sources */,
 				376EDCDC2A138FE80029074A /* AppModule.swift in Sources */,
 				3785DD9E2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4169,7 +4150,6 @@
 				37A8C12829B2348000569F92 /* AboutTableViewController.swift in Sources */,
 				37A8C12929B2348000569F92 /* AdvancedSettingsViewController.swift in Sources */,
 				37A8C12A29B2348000569F92 /* AnyPublisher.swift in Sources */,
-				3763AB972A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				37A8C12B29B2348000569F92 /* AppDelegate.swift in Sources */,
 				37A8C12C29B2348000569F92 /* AppModule.swift in Sources */,
 				3785DD9D2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4276,7 +4256,6 @@
 				37ED05092A3C438B00B64356 /* AboutTableViewController.swift in Sources */,
 				37ED050A2A3C438B00B64356 /* AdvancedSettingsViewController.swift in Sources */,
 				37ED050B2A3C438B00B64356 /* AnyPublisher.swift in Sources */,
-				3763AB9C2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				37ED050C2A3C438B00B64356 /* AppDelegate.swift in Sources */,
 				37ED050D2A3C438B00B64356 /* AppModule.swift in Sources */,
 				3785DDA22A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4383,7 +4362,6 @@
 				C3A32EC42927566F00EA386A /* AboutTableViewController.swift in Sources */,
 				C3A32EC52927566F00EA386A /* AdvancedSettingsViewController.swift in Sources */,
 				C3A32EC62927566F00EA386A /* AnyPublisher.swift in Sources */,
-				3763AB992A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				C3A32EC72927566F00EA386A /* AppDelegate.swift in Sources */,
 				C3A32EC82927566F00EA386A /* AppModule.swift in Sources */,
 				3785DD9F2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4490,7 +4468,6 @@
 				C3E0FC5329B1DF7F000791FA /* AboutTableViewController.swift in Sources */,
 				C3E0FC5429B1DF7F000791FA /* AdvancedSettingsViewController.swift in Sources */,
 				C3E0FC5529B1DF7F000791FA /* AnyPublisher.swift in Sources */,
-				3763AB9D2A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				C3E0FC5629B1DF7F000791FA /* AppDelegate.swift in Sources */,
 				C3E0FC5729B1DF7F000791FA /* AppModule.swift in Sources */,
 				3785DDA32A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,
@@ -4597,7 +4574,6 @@
 				66BBF21937922BFF203BD22B /* AboutTableViewController.swift in Sources */,
 				284546FC2F5DE90C0C42739A /* AdvancedSettingsViewController.swift in Sources */,
 				7570EE3B52AA8DCD3BB7F3FD /* AnyPublisher.swift in Sources */,
-				3763AB962A934B4900EFC5E3 /* MainTabBarViewController.swift in Sources */,
 				BE5A931C42BDD682F0381D23 /* AppDelegate.swift in Sources */,
 				F0107DC19DEBF4FC33E2440C /* AppModule.swift in Sources */,
 				3785DD9C2A8F731A00C8D1A7 /* UserDefaults+Extensions.swift in Sources */,

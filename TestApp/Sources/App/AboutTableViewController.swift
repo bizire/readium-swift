@@ -53,6 +53,7 @@ class AboutTableViewController: UITableViewController {
                 self.adHelper.loadAdmobBanner(uiView: self)
             }
         }
+        UIApplication.mainTabBarController?.dismissPlayerDetails()
     }
     
     // MARK: - Table view data source

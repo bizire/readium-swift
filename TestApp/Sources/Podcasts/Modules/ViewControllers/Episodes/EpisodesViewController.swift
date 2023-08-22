@@ -25,6 +25,22 @@ final class EpisodesViewController: UITableViewController {
         super.viewDidLoad()
         initialSetup()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("viewDidAppear EpisodesViewController")
+        
+        if let wasPlayerLaunch = UIApplication.mainTabBarController?.wasPlayerLaunch {
+            // Use the unwrapped value of wasPlayerLaunch here
+            if wasPlayerLaunch {
+                UIApplication.mainTabBarController?.minimizePlayerDetails()
+            } else {
+                // The value of wasPlayerLaunch is false
+            }
+        } else {
+            // UIApplication.mainTabBarController is nil or wasPlayerLaunch is not available
+        }
+    }
 
 }
 

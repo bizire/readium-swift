@@ -1,5 +1,5 @@
 //
-//  MainTabBarViewController.swift
+//  AppTabBarViewController.swift
 //  IRPodcast
 //
 //  Created by Phil on 2021/4/27.
@@ -14,6 +14,8 @@ class AppTabBarViewController: UITabBarController {
     fileprivate var maximizedTopAnchorConstraint: NSLayoutConstraint!
     fileprivate var minimizedTopAnchorConstraint: NSLayoutConstraint!
     fileprivate var bottomAnchorConstraint: NSLayoutConstraint!
+    
+    var wasPlayerLaunch = false
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -32,6 +34,14 @@ extension AppTabBarViewController {
 
     // MARK: - Internal
     @objc func minimizePlayerDetails() {
+        print("Readium AppTabBarViewController minimizePlayerDetails")
+        
+        maximizedTopAnchorConstraint.isActive = false
+        minimizedTopAnchorConstraint.isActive = false
+        
+        playerDetailsView.translatesAutoresizingMaskIntoConstraints = false
+        minimizedTopAnchorConstraint = playerDetailsView.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: -64)
+        
         maximizedTopAnchorConstraint.isActive = false
         bottomAnchorConstraint.constant = view.frame.height
         minimizedTopAnchorConstraint.isActive = true
@@ -45,10 +55,37 @@ extension AppTabBarViewController {
             self.playerDetailsView.maximizedStackView.alpha = 0
             self.playerDetailsView.miniPlayerView.alpha = 1
         })
+        
+    }
+    
+    @objc func dismissPlayerDetails() {
+        print("Readium AppTabBarViewController dismissPlayerDetails")
+        
+        playerDetailsView.pause()
+        
+        maximizedTopAnchorConstraint.isActive = false
+        minimizedTopAnchorConstraint.isActive = false
+        
+        playerDetailsView.translatesAutoresizingMaskIntoConstraints = false
+        minimizedTopAnchorConstraint = playerDetailsView.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: 0)
+        
+        maximizedTopAnchorConstraint.isActive = false
+        bottomAnchorConstraint.constant = view.frame.height
+        minimizedTopAnchorConstraint.isActive = true
+
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7,
+                       initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+
+            self.view.layoutIfNeeded()
+            self.tabBar.transform = .identity
+
+            self.playerDetailsView.maximizedStackView.alpha = 0
+            self.playerDetailsView.miniPlayerView.alpha = 0
+        })
     }
 
     func maximizePlayerDetails(episode: Episode?, playlistEpisodes: [Episode] = []) {
-        print("Readium Podcast maximizePlayerDetails")
+        print("Readium AppTabBarViewController maximizePlayerDetails")
         minimizedTopAnchorConstraint.isActive = false
         maximizedTopAnchorConstraint.isActive = true
         maximizedTopAnchorConstraint.constant = 0
@@ -69,6 +106,8 @@ extension AppTabBarViewController {
             self.playerDetailsView.maximizedStackView.alpha = 1
             self.playerDetailsView.miniPlayerView.alpha = 0
         })
+        
+        wasPlayerLaunch = true
     }
 
     fileprivate func setupPlayerDetailsView() {
@@ -86,7 +125,7 @@ extension AppTabBarViewController {
         return navigationController
     }
 
-    private func setupConstraintsForPlayerDetailsView() {
+    func setupConstraintsForPlayerDetailsView() {
         playerDetailsView.translatesAutoresizingMaskIntoConstraints = false
 
         maximizedTopAnchorConstraint = playerDetailsView.topAnchor.constraint(equalTo: view.topAnchor,

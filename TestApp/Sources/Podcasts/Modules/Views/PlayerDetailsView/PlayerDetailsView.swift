@@ -175,7 +175,7 @@ extension PlayerDetailsView {
 
     }
 
-    @objc fileprivate func playPause() {
+    @objc func playPause() {
         if player.timeControlStatus == .paused {
             player.play()
             playPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
@@ -190,6 +190,17 @@ extension PlayerDetailsView {
             setupElapsedTime(playbackRate: 0)
         }
     }
+    
+    @objc func pause() {
+        if player.timeControlStatus == .playing {
+            player.pause()
+            playPauseButton.setImage(#imageLiteral(resourceName: "play"), for: .normal)
+            miniPlayPauseButton.setImage(#imageLiteral(resourceName: "play"), for: .normal)
+            shrinkEpisodeImageView()
+            setupElapsedTime(playbackRate: 0)
+        }
+    }
+
 
     @IBAction fileprivate func rewind(_ sender: Any) {
         seekToCurrentTime(delta: -15)
