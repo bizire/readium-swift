@@ -346,6 +346,46 @@
 		2D355EDEC14D340D0AB58BA5 /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
 		318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
 		370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 370182502A6689DF0088EFB5 /* AudioPlayerFiles */; };
+		371EC7332A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7342A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7352A94AE7D002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC7362A94AE7D002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7372A94AE83002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7382A94AE83002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7392A94AE83002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC73A2A94AE83002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC73B2A94AE8D002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC73C2A94AE8D002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC73D2A94AE8D002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC73E2A94AE8D002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC73F2A94AE94002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7402A94AE94002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7412A94AE94002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC7422A94AE94002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7432A94AE9A002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7442A94AE9A002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7452A94AE9A002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC7462A94AE9A002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7472A94AEA0002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7482A94AEA0002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7492A94AEA0002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC74A2A94AEA0002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC74B2A94AEAD002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC74C2A94AEAD002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC74D2A94AEAD002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC74E2A94AEAD002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC74F2A94AEB4002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7502A94AEB4002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7512A94AEB4002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC7522A94AEB4002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7532A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7542A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7552A94AEBA002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC7562A94AEBA002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7572A94AEC0002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
+		371EC7582A94AEC0002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7592A94AEC1002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
+		371EC75A2A94AEC1002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */; };
 		373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
@@ -1497,6 +1537,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC7362A94AE7D002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7342A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1519,6 +1561,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC73A2A94AE83002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7382A94AE83002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1529,6 +1573,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC73E2A94AE8D002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC73C2A94AE8D002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1539,6 +1585,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC7422A94AE94002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7402A94AE94002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1549,6 +1597,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC7462A94AE9A002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7442A94AE9A002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1559,6 +1609,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC74A2A94AEA0002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7482A94AEA0002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1569,6 +1621,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC74E2A94AEAD002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC74C2A94AEAD002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1579,6 +1633,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC7522A94AEB4002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7502A94AEB4002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1589,6 +1645,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC7562A94AEBA002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7542A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1599,6 +1657,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				371EC75A2A94AEC1002BDD55 /* IRHTTPCache.framework in Embed Frameworks */,
+				371EC7582A94AEC0002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1860,6 +1920,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7332A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				0509575C29683682004F14AA /* StoreKit.framework in Frameworks */,
 				3785DE1D2A8F76D600C8D1A7 /* FeedKit in Frameworks */,
 				0509575D29683682004F14AA /* R2Shared in Frameworks */,
@@ -1872,6 +1933,7 @@
 				0509576229683682004F14AA /* GoogleMobileAds in Frameworks */,
 				0509576329683682004F14AA /* GRDB in Frameworks */,
 				0509576429683682004F14AA /* Kingfisher in Frameworks */,
+				371EC7352A94AE7D002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				0509576529683682004F14AA /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1880,6 +1942,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7372A94AE83002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				054C358B298B99EE002986E8 /* StoreKit.framework in Frameworks */,
 				3785DE1F2A8F76DC00C8D1A7 /* FeedKit in Frameworks */,
 				054C358C298B99EE002986E8 /* R2Shared in Frameworks */,
@@ -1892,6 +1955,7 @@
 				054C3591298B99EE002986E8 /* GoogleMobileAds in Frameworks */,
 				054C3592298B99EE002986E8 /* GRDB in Frameworks */,
 				054C3593298B99EE002986E8 /* Kingfisher in Frameworks */,
+				371EC7392A94AE83002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				054C3594298B99EE002986E8 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1900,6 +1964,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7572A94AEC0002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				05592E6628C6107D00A9F993 /* StoreKit.framework in Frameworks */,
 				3785DE132A8F76B000C8D1A7 /* FeedKit in Frameworks */,
 				05C8E9E028BF97EF00DA8485 /* R2Shared in Frameworks */,
@@ -1912,6 +1977,7 @@
 				0587F5F928C27B38004DCF93 /* GoogleMobileAds in Frameworks */,
 				05C8E9E428BF97EF00DA8485 /* GRDB in Frameworks */,
 				05C8E9E528BF97EF00DA8485 /* Kingfisher in Frameworks */,
+				371EC7592A94AEC1002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				05C8E9E628BF97EF00DA8485 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1920,6 +1986,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7432A94AE9A002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				3755598329C2F1DD0049661D /* StoreKit.framework in Frameworks */,
 				3785DE252A8F76EE00C8D1A7 /* FeedKit in Frameworks */,
 				3755598429C2F1DD0049661D /* R2Shared in Frameworks */,
@@ -1932,6 +1999,7 @@
 				3755598929C2F1DD0049661D /* GoogleMobileAds in Frameworks */,
 				3755598A29C2F1DD0049661D /* GRDB in Frameworks */,
 				3755598B29C2F1DD0049661D /* Kingfisher in Frameworks */,
+				371EC7452A94AE9A002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				3755598C29C2F1DD0049661D /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1940,6 +2008,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7472A94AEA0002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				376EDCAF2A1371600029074A /* StoreKit.framework in Frameworks */,
 				3785DE272A8F76F400C8D1A7 /* FeedKit in Frameworks */,
 				376EDCB02A1371600029074A /* R2Shared in Frameworks */,
@@ -1952,6 +2021,7 @@
 				376EDCB52A1371600029074A /* GoogleMobileAds in Frameworks */,
 				376EDCB62A1371600029074A /* GRDB in Frameworks */,
 				376EDCB72A1371600029074A /* Kingfisher in Frameworks */,
+				371EC7492A94AEA0002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				376EDCB82A1371600029074A /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1960,6 +2030,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC74B2A94AEAD002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				376EDD342A138FE80029074A /* StoreKit.framework in Frameworks */,
 				3785DE192A8F76CB00C8D1A7 /* FeedKit in Frameworks */,
 				376EDD352A138FE80029074A /* R2Shared in Frameworks */,
@@ -1972,6 +2043,7 @@
 				376EDD3A2A138FE80029074A /* GoogleMobileAds in Frameworks */,
 				376EDD3B2A138FE80029074A /* GRDB in Frameworks */,
 				376EDD3C2A138FE80029074A /* Kingfisher in Frameworks */,
+				371EC74D2A94AEAD002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				376EDD3D2A138FE80029074A /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1980,6 +2052,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC74F2A94AEB4002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				37A8C18429B2348000569F92 /* StoreKit.framework in Frameworks */,
 				3785DE172A8F76C600C8D1A7 /* FeedKit in Frameworks */,
 				37A8C18529B2348000569F92 /* R2Shared in Frameworks */,
@@ -1992,6 +2065,7 @@
 				37A8C18A29B2348000569F92 /* GoogleMobileAds in Frameworks */,
 				37A8C18B29B2348000569F92 /* GRDB in Frameworks */,
 				37A8C18C29B2348000569F92 /* Kingfisher in Frameworks */,
+				371EC7512A94AEB4002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				37A8C18D29B2348000569F92 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2000,6 +2074,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC73B2A94AE8D002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				37ED05652A3C438B00B64356 /* StoreKit.framework in Frameworks */,
 				3785DE212A8F76E200C8D1A7 /* FeedKit in Frameworks */,
 				37ED05662A3C438B00B64356 /* R2Shared in Frameworks */,
@@ -2012,6 +2087,7 @@
 				37ED056B2A3C438B00B64356 /* GoogleMobileAds in Frameworks */,
 				37ED056C2A3C438B00B64356 /* GRDB in Frameworks */,
 				37ED056D2A3C438B00B64356 /* Kingfisher in Frameworks */,
+				371EC73D2A94AE8D002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				37ED056E2A3C438B00B64356 /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2042,6 +2118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC73F2A94AE94002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				C3E0FCAF29B1DF7F000791FA /* StoreKit.framework in Frameworks */,
 				3785DE232A8F76E800C8D1A7 /* FeedKit in Frameworks */,
 				C3E0FCB029B1DF7F000791FA /* R2Shared in Frameworks */,
@@ -2054,6 +2131,7 @@
 				C3E0FCB529B1DF7F000791FA /* GoogleMobileAds in Frameworks */,
 				C3E0FCB629B1DF7F000791FA /* GRDB in Frameworks */,
 				C3E0FCB729B1DF7F000791FA /* Kingfisher in Frameworks */,
+				371EC7412A94AE94002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				C3E0FCB829B1DF7F000791FA /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2062,6 +2140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EC7532A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */,
 				05592E6528C6106A00A9F993 /* StoreKit.framework in Frameworks */,
 				3785DE152A8F76C000C8D1A7 /* FeedKit in Frameworks */,
 				5CFD27FD29C5BD394143003B /* R2Shared in Frameworks */,
@@ -2074,6 +2153,7 @@
 				0587F5F728C27B2E004DCF93 /* GoogleMobileAds in Frameworks */,
 				90FFD5E5DAF8DFC2444292BD /* GRDB in Frameworks */,
 				3A9344D4634E53FBC0ABA2DA /* Kingfisher in Frameworks */,
+				371EC7552A94AEBA002BDD55 /* IRHTTPCache.framework in Frameworks */,
 				AA3364D3A5D8CD239796F5BF /* MBProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
