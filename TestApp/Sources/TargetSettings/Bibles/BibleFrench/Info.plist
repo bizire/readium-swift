@@ -4,18 +4,6 @@
 <dict>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~4085477834</string>
-	<key>AdmobBannerID</key>
-	<string>ca-app-pub-2983224055780222/8595003835</string>
-	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/8110969862</string>
-	<key>AdmobOpenID</key>
-	<string>ca-app-pub-2983224055780222/9840367397</string>
-	<key>AdmobRewardID</key>
-	<string>ca-app-pub-2983224055780222/8068120722</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_HTaCcRwsNcVbFiEKRYHBGDaDqkS</string>
-	<key>FreeAudioChapters</key>
-	<integer>5</integer>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
@@ -24,28 +12,6 @@
 	<string>fr</string>
 	<key>CFBundleDisplayName</key>
 	<string>la Bible</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>hasAudioPlayer</key>
-	<true/>
-	<key>hasMediaView</key>
-	<true/>
-	<key>mediaSearchTerm</key>
-	<string>La Bible</string>
-	<key>audioBookType</key>
-	<string>book</string>
-	<key>AudioBookVersion</key>
-	<string>La Sainte Bible - Louis Segond</string>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://sites.google.com/view/paulvi-app-bible/</string>
-	<key>termsOfUseURL</key>
-	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>CFBundleDocumentTypes</key>
