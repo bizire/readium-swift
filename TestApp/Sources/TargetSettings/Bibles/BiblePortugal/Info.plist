@@ -560,6 +560,8 @@
 	</array>
 	<key>hasPremiumContent</key>
 	<true/>
+	<key>hasMediaView</key>
+	<true/>
 	<key>hasSubscriptions</key>
 	<false/>
 	<key>hasAudioPlayer</key>

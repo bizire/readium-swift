@@ -75,7 +75,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
             libraryViewController,
 //            opdsViewController,
 //            audioPlayerViewController,
-            mediaViewController,
+//            mediaViewController,
             aboutViewController
         ]
         if (hasAudioPlayer) {

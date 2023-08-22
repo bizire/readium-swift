@@ -28,6 +28,8 @@
 	<true/>
 	<key>hasAudioPlayer</key>
 	<true/>
+	<key>hasMediaView</key>
+	<true/>
 	<key>audioBookType</key>
 	<string>book</string>
 	<key>AudioBookVersion</key>
