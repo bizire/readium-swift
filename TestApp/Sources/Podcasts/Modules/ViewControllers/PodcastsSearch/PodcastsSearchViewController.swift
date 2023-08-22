@@ -7,6 +7,8 @@
 
 import UIKit
 import Alamofire
+import GoogleMobileAds
+import RevenueCat
 
 // TODO: Replase strings with type-safety values
 
@@ -16,6 +18,8 @@ final class PodcastsSearchViewController: UITableViewController {
     fileprivate var podcasts = [Podcast]()
     fileprivate var timer: Timer?
     fileprivate let searchController = UISearchController(searchResultsController: nil)
+    
+    var adHelper = AdHelper()
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -29,6 +33,12 @@ final class PodcastsSearchViewController: UITableViewController {
                 self.tableView.reloadData()
             })
         })
+        
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
+                self.adHelper.loadAdmobInterstitial()
+            }
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -93,10 +103,16 @@ extension PodcastsSearchViewController {
 
     // MARK: Navigation
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
+                self.adHelper.showInterstitial(uiView: self)
+            }
+        }
         let episodesController = EpisodesViewController()
-        let podcast = podcasts[indexPath.row]
+        let podcast = self.podcasts[indexPath.row]
         episodesController.podcast = podcast
-        navigationController?.pushViewController(episodesController, animated: true)
+        self.navigationController?.pushViewController(episodesController, animated: true)
     }
 }
 
