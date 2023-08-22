@@ -26,9 +26,11 @@ final class PodcastsSearchViewController: UITableViewController {
         super.viewDidLoad()
         initialSetup()
         
+        let mediaSearchTerm = Bundle.main.object(forInfoDictionaryKey: "mediaSearchTerm") as? String ?? "Bible"
+        
         timer?.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { timer in
-            NetworkService.shared.fetchPodcasts(searchText: "god", completionHandler: { podcasts in
+            NetworkService.shared.fetchPodcasts(searchText: mediaSearchTerm, completionHandler: { podcasts in
                 self.podcasts = podcasts
                 self.tableView.reloadData()
             })

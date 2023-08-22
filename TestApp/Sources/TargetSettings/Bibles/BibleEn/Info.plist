@@ -30,6 +30,8 @@
 	<true/>
 	<key>hasMediaView</key>
 	<true/>
+	<key>mediaSearchTerm</key>
+	<string>Bible</string>
 	<key>audioBookType</key>
 	<string>book</string>
 	<key>AudioBookVersion</key>

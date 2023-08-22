@@ -566,6 +566,8 @@
 	<true/>
 	<key>hasMediaView</key>
 	<true/>
+	<key>mediaSearchTerm</key>
+	<string>Quran</string>
 	<key>audioBookType</key>
 	<string>quran</string>
 	<key>AudioBookVersion</key>

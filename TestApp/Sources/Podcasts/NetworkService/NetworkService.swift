@@ -26,7 +26,7 @@ extension NetworkService {
     func fetchPodcasts(searchText: String, completionHandler: @escaping ([Podcast]) -> Void) {
         print("\n\t\tSearching for podcasts...")
         
-        let parameters = ["term": searchText, "media": "podcast"]
+        let parameters = ["term": searchText, "media": "podcast", "country": "br"]
         
         AF.request(baseiTunesSearchURL,
                    method: .get,

@@ -562,6 +562,8 @@
 	<true/>
 	<key>hasMediaView</key>
 	<true/>
+	<key>mediaSearchTerm</key>
+	<string>Biblia</string>
 	<key>hasSubscriptions</key>
 	<false/>
 	<key>hasAudioPlayer</key>

@@ -386,6 +386,17 @@
 		371EC7582A94AEC0002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		371EC7592A94AEC1002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
 		371EC75A2A94AEC1002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC75C2A94BB51002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC75B2A94BB51002BDD55 /* ConstantsTarget.swift */; };
+		371EC7622A951CFD002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7612A951CFD002BDD55 /* ConstantsTarget.swift */; };
+		371EC7642A951D16002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7632A951D16002BDD55 /* ConstantsTarget.swift */; };
+		371EC7662A951D28002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7652A951D28002BDD55 /* ConstantsTarget.swift */; };
+		371EC7682A951D3F002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7672A951D3F002BDD55 /* ConstantsTarget.swift */; };
+		371EC76A2A951D4E002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7692A951D4E002BDD55 /* ConstantsTarget.swift */; };
+		371EC76C2A951D72002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC76B2A951D72002BDD55 /* ConstantsTarget.swift */; };
+		371EC76E2A951DE9002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC76D2A951DE9002BDD55 /* ConstantsTarget.swift */; };
+		371EC7702A951E09002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC76F2A951E09002BDD55 /* ConstantsTarget.swift */; };
+		371EC7722A951E28002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7712A951E28002BDD55 /* ConstantsTarget.swift */; };
+		371EC7742A951E37002BDD55 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EC7732A951E37002BDD55 /* ConstantsTarget.swift */; };
 		3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */; };
 		373F32922A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
 		373F32932A6142EB00F50F49 /* FolderContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F32912A6142EB00F50F49 /* FolderContentViewController.swift */; };
@@ -1751,6 +1762,17 @@
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
 		370182502A6689DF0088EFB5 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		371EC75B2A94BB51002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7612A951CFD002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7632A951D16002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7652A951D28002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7672A951D3F002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7692A951D4E002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC76B2A951D72002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC76D2A951DE9002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC76F2A951E09002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7712A951E28002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
+		371EC7732A951E37002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
 		3738F7402A6A83A0006B71B9 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		3738F7422A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/About.strings"; sourceTree = "<group>"; };
 		3738F7432A6E5291006B71B9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Library.strings"; sourceTree = "<group>"; };
@@ -2168,6 +2190,7 @@
 				0509577029683A18004F14AA /* Samples */,
 				0509576C296836E2004F14AA /* Media.xcassets */,
 				0509576E29683869004F14AA /* Info.plist */,
+				371EC7672A951D3F002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = BibleKorean;
 			sourceTree = "<group>";
@@ -2221,6 +2244,7 @@
 				054C359D298B9D37002986E8 /* Samples */,
 				054C359A298B9A2C002986E8 /* Info.plist */,
 				054C359B298B9A4C002986E8 /* Media.xcassets */,
+				371EC7652A951D28002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = BibleFrench;
 			sourceTree = "<group>";
@@ -2251,6 +2275,7 @@
 				05C8E9EF28BFA49200DA8485 /* Samples */,
 				D26A1DBE3771E28684A255E2 /* Info.plist */,
 				05C95D1B2939E59700E4FD77 /* Media.xcassets */,
+				371EC76F2A951E09002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = KodeksyRu;
 			sourceTree = "<group>";
@@ -2261,6 +2286,7 @@
 				05C8E9F128BFA64200DA8485 /* Samples */,
 				0587F5F428C10115004DCF93 /* Info.plist */,
 				05C95D192939E4A300E4FD77 /* Media.xcassets */,
+				371EC7712A951E28002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = KodeksyPl;
 			sourceTree = "<group>";
@@ -2331,6 +2357,7 @@
 				3755599629C2FAA50049661D /* Samples */,
 				3755599329C2F2800049661D /* Info.plist */,
 				3755599429C2F6A40049661D /* Media.xcassets */,
+				371EC75B2A94BB51002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = QuranEn;
 			sourceTree = "<group>";
@@ -2466,6 +2493,7 @@
 				376EDCC32A1373470029074A /* Samples */,
 				376EDCBF2A1371E10029074A /* Media.xcassets */,
 				376EDCC22A1372150029074A /* Info.plist */,
+				371EC7612A951CFD002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = QuranFrench;
 			sourceTree = "<group>";
@@ -2476,6 +2504,7 @@
 				376EDD442A1390780029074A /* Samples */,
 				376EDD432A13901E0029074A /* Info.plist */,
 				376EDD462A13909C0029074A /* Media.xcassets */,
+				371EC76D2A951DE9002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = KodeksyAu;
 			sourceTree = "<group>";
@@ -2545,6 +2574,7 @@
 				37A8C19629B236E400569F92 /* Samples */,
 				37A8C19329B234EA00569F92 /* Info.plist */,
 				37A8C19429B234F800569F92 /* Media.xcassets */,
+				371EC7732A951E37002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = KodeksyUs;
 			sourceTree = "<group>";
@@ -2556,6 +2586,7 @@
 				37ED05782A3C480700B64356 /* Samples */,
 				37ED05752A3C442400B64356 /* Info.plist */,
 				37ED05762A3C44B100B64356 /* Media.xcassets */,
+				371EC7692A951D4E002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = BiblePortugal;
 			sourceTree = "<group>";
@@ -2737,6 +2768,7 @@
 				C3EFA32E29275AE300EACE42 /* Samples */,
 				C3A32F2C2927580B00EA386A /* Info.plist */,
 				05C95D172939E48600E4FD77 /* Media.xcassets */,
+				371EC7632A951D16002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = BibleEn;
 			sourceTree = "<group>";
@@ -2748,6 +2780,7 @@
 				C3E0FCBF29B1E17B000791FA /* Info.plist */,
 				C3E0FCC229B1E5B3000791FA /* Samples */,
 				C3E0FCC029B1E44F000791FA /* Media.xcassets */,
+				371EC76B2A951D72002BDD55 /* ConstantsTarget.swift */,
 			);
 			path = BibleSpain;
 			sourceTree = "<group>";
@@ -3671,6 +3704,7 @@
 				0509573C29683682004F14AA /* AppOpenAdManager.swift in Sources */,
 				0509573D29683682004F14AA /* ReaderFormatModule.swift in Sources */,
 				0509573E29683682004F14AA /* ReaderModule.swift in Sources */,
+				371EC7682A951D3F002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACA2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				0509573F29683682004F14AA /* PackageCellView.swift in Sources */,
 				3785DD8A2A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -3777,6 +3811,7 @@
 				054C356B298B99EE002986E8 /* AppOpenAdManager.swift in Sources */,
 				054C356C298B99EE002986E8 /* ReaderFormatModule.swift in Sources */,
 				054C356D298B99EE002986E8 /* ReaderModule.swift in Sources */,
+				371EC7662A951D28002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACB2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				054C356E298B99EE002986E8 /* PackageCellView.swift in Sources */,
 				3785DD8B2A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -3883,6 +3918,7 @@
 				05592E6328C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				05C8E9C628BF97EF00DA8485 /* ReaderFormatModule.swift in Sources */,
 				05C8E9C728BF97EF00DA8485 /* ReaderModule.swift in Sources */,
+				371EC7722A951E28002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC52A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				05FF1BB628CF4DB80048FF43 /* PackageCellView.swift in Sources */,
 				3785DD852A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -3989,6 +4025,7 @@
 				3755596329C2F1DD0049661D /* AppOpenAdManager.swift in Sources */,
 				3755596429C2F1DD0049661D /* ReaderFormatModule.swift in Sources */,
 				3755596529C2F1DD0049661D /* ReaderModule.swift in Sources */,
+				371EC75C2A94BB51002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACE2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				3755596629C2F1DD0049661D /* PackageCellView.swift in Sources */,
 				3785DD8E2A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4095,6 +4132,7 @@
 				376EDC8F2A1371600029074A /* AppOpenAdManager.swift in Sources */,
 				376EDC902A1371600029074A /* ReaderFormatModule.swift in Sources */,
 				376EDC912A1371600029074A /* ReaderModule.swift in Sources */,
+				371EC7622A951CFD002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACF2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				376EDC922A1371600029074A /* PackageCellView.swift in Sources */,
 				3785DD8F2A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4201,6 +4239,7 @@
 				376EDD142A138FE80029074A /* AppOpenAdManager.swift in Sources */,
 				376EDD152A138FE80029074A /* ReaderFormatModule.swift in Sources */,
 				376EDD162A138FE80029074A /* ReaderModule.swift in Sources */,
+				371EC76E2A951DE9002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC82A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				376EDD172A138FE80029074A /* PackageCellView.swift in Sources */,
 				3785DD882A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4307,6 +4346,7 @@
 				37A8C16429B2348000569F92 /* AppOpenAdManager.swift in Sources */,
 				37A8C16529B2348000569F92 /* ReaderFormatModule.swift in Sources */,
 				37A8C16629B2348000569F92 /* ReaderModule.swift in Sources */,
+				371EC7742A951E37002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC72A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				37A8C16729B2348000569F92 /* PackageCellView.swift in Sources */,
 				3785DD872A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4358,6 +4398,7 @@
 				3763AAE52A93400000EFC5E3 /* EpisodeCell.swift in Sources */,
 				37ED05172A3C438B00B64356 /* DRMLibraryService.swift in Sources */,
 				37ED05182A3C438B00B64356 /* DRMManagementTableViewController.swift in Sources */,
+				371EC76A2A951D4E002BDD55 /* ConstantsTarget.swift in Sources */,
 				37ED05192A3C438B00B64356 /* DRMViewModel.swift in Sources */,
 				3763AAFE2A93402300EFC5E3 /* PodcastCell.swift in Sources */,
 				3785DDC32A8F731A00C8D1A7 /* RSSFeed+Extensions.swift in Sources */,
@@ -4519,6 +4560,7 @@
 				C3A32EFD2927566F00EA386A /* AppOpenAdManager.swift in Sources */,
 				C3A32EFE2927566F00EA386A /* ReaderFormatModule.swift in Sources */,
 				C3A32EFF2927566F00EA386A /* ReaderModule.swift in Sources */,
+				371EC7642A951D16002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC92A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				C3A32F002927566F00EA386A /* PackageCellView.swift in Sources */,
 				3785DD892A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4625,6 +4667,7 @@
 				C3E0FC8F29B1DF7F000791FA /* AppOpenAdManager.swift in Sources */,
 				C3E0FC9029B1DF7F000791FA /* ReaderFormatModule.swift in Sources */,
 				C3E0FC9129B1DF7F000791FA /* ReaderModule.swift in Sources */,
+				371EC76C2A951D72002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACD2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				C3E0FC9229B1DF7F000791FA /* PackageCellView.swift in Sources */,
 				3785DD8D2A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
@@ -4731,6 +4774,7 @@
 				05592E6228C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				5AACFFC96E9EE8C3758D58BB /* ReaderFormatModule.swift in Sources */,
 				3B976407BACECEE3611FB5F1 /* ReaderModule.swift in Sources */,
+				371EC7702A951E09002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC62A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
 				05FF1BB528CF4DB80048FF43 /* PackageCellView.swift in Sources */,
 				3785DD862A8F731A00C8D1A7 /* String+Extensions.swift in Sources */,
