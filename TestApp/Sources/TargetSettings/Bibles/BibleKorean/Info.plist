@@ -4,44 +4,10 @@
 <dict>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~6503702747</string>
-	<key>AdmobBannerID</key>
-	<string>ca-app-pub-2983224055780222/8961263559</string>
-	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/5264888674</string>
-	<key>AdmobOpenID</key>
-	<string>ca-app-pub-2983224055780222/7648181885</string>
-	<key>AdmobRewardID</key>
-	<string>ca-app-pub-2983224055780222/5022018545</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_YLNpEdTxvPYvsNPuPTZYrHPguky</string>
-	<key>FreeAudioChapters</key>
-	<integer>5</integer>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
 	</array>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://sites.google.com/view/paulvi-app-bible/</string>
-	<key>termsOfUseURL</key>
-	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>numberPerRow</key>
-	<integer>2</integer>
-	<key>hasAudioPlayer</key>
-	<true/>
-	<key>hasMediaView</key>
-	<true/>
-	<key>mediaSearchTerm</key>
-	<string>성경</string>
-	<key>audioBookType</key>
-	<string>book</string>
-	<key>AudioBookVersion</key>
-	<string>성경</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>CFBundleDevelopmentRegion</key>

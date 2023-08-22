@@ -10,20 +10,20 @@ import UIKit
 
 struct ConstantsTarget {
     
-    static let adUnitIDBanner       = "XXXXXXXX"
-    static let adUnitIDInterstitial = "XXXXXXXX"
+    static let adUnitIDBanner       = "ca-app-pub-2983224055780222/8961263559"
+    static let adUnitIDInterstitial = "ca-app-pub-2983224055780222/5264888674"
     static let adUnitIDNative       = "XXXXXXXX"
-    static let adUnitIDOpen         = "XXXXXXXX"
-    static let adUnitIDRewarded     = "XXXXXXXX"
+    static let adUnitIDOpen         = "ca-app-pub-2983224055780222/7648181885"
+    static let adUnitIDRewarded     = "ca-app-pub-2983224055780222/5022018545"
     
-    static let revenueCatPublicKey = ""
+    static let revenueCatPublicKey = "appl_YLNpEdTxvPYvsNPuPTZYrHPguky"
     
-    static let audioBookType = ""
-    static let audioBookVersion = ""
-    static let mediaSearchTerm = ""
-    static let podcastCountry = ""
+    static let audioBookType = "book"
+    static let audioBookVersion = "성경"
+    static let mediaSearchTerm = "성경"
+    static let podcastCountry = "ko"
     
-    static let numberPerRow = 3
+    static let numberPerRow = 2
     static let freeItemsAmount = 5
     static let freeAudioChapters = 5
     
