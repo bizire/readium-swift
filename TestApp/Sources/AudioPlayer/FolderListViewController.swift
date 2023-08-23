@@ -82,7 +82,7 @@ class FolderListViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("FolderListViewController viewDidAppear Admob Banner Folder List")
+        print("viewDidAppear FolderListViewController")
         // Note loadBannerAd is called in viewDidAppear as this is the first time that
         // the safe area is known. If safe area is not a concern (e.g., your app is
         // locked in portrait mode), the banner can be loaded in viewWillAppear.

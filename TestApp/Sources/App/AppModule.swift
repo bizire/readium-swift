@@ -70,9 +70,9 @@ final class AppModule {
     private(set) lazy var mediaViewController: UIViewController = {
         let rootViewController = PodcastsSearchViewController()
         let navigationController = UINavigationController(rootViewController: rootViewController)
-        rootViewController.navigationItem.title = "Search"
-        navigationController.tabBarItem.title   = "Search"
-        navigationController.tabBarItem.image   = #imageLiteral(resourceName: "search")
+//        rootViewController.navigationItem.title = "Search"
+//        navigationController.tabBarItem.title   = "Search"
+//        navigationController.tabBarItem.image   = #imageLiteral(resourceName: "search")
         return navigationController
     }()
 

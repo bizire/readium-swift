@@ -16,6 +16,7 @@ class AppTabBarViewController: UITabBarController {
     fileprivate var bottomAnchorConstraint: NSLayoutConstraint!
     
     var wasPlayerLaunch = false
+    var podcastPlayerState: PlayerState = .hide
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -55,7 +56,7 @@ extension AppTabBarViewController {
             self.playerDetailsView.maximizedStackView.alpha = 0
             self.playerDetailsView.miniPlayerView.alpha = 1
         })
-        
+        podcastPlayerState = .mini
     }
     
     @objc func dismissPlayerDetails() {
@@ -82,6 +83,7 @@ extension AppTabBarViewController {
             self.playerDetailsView.maximizedStackView.alpha = 0
             self.playerDetailsView.miniPlayerView.alpha = 0
         })
+        podcastPlayerState = .hide
     }
 
     func maximizePlayerDetails(episode: Episode?, playlistEpisodes: [Episode] = []) {
@@ -108,6 +110,7 @@ extension AppTabBarViewController {
         })
         
         wasPlayerLaunch = true
+        podcastPlayerState = .maxi
     }
 
     fileprivate func setupPlayerDetailsView() {

@@ -199,7 +199,7 @@ class LibraryViewController: UIViewController, Loggable {
         navigationController?.navigationBar.barTintColor = .systemBackground
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.label]
         
-        print("viewDidAppear Admob Banner Library")
+        print("viewDidAppear Admob Banner LibraryViewController")
         // Note loadBannerAd is called in viewDidAppear as this is the first time that
         // the safe area is known. If safe area is not a concern (e.g., your app is
         // locked in portrait mode), the banner can be loaded in viewWillAppear.
@@ -209,7 +209,18 @@ class LibraryViewController: UIViewController, Loggable {
             }
         }
         
-        UIApplication.mainTabBarController?.dismissPlayerDetails()
+        switch UIApplication.mainTabBarController?.podcastPlayerState {
+        case .hide:
+            print("podcastPlayerState is hide")
+        case .mini:
+            print("podcastPlayerState is mini, so dismiss")
+            UIApplication.mainTabBarController?.dismissPlayerDetails()
+        case .maxi:
+            print("podcastPlayerState is maxi, so dismiss")
+            UIApplication.mainTabBarController?.dismissPlayerDetails()
+        case .none:
+            print("podcastPlayerState is none")
+        }
       }
     
     @objc func handleAppDidBecomeActiveNotification(notification: Notification) {

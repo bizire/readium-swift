@@ -15,6 +15,12 @@ import IRHTTPCache
 // FIXME: Extract mini player in its own class
 // FIXME: Write MediaPlayerService and AVService
 
+enum PlayerState {
+    case hide
+    case mini
+    case maxi
+}
+
 class PlayerDetailsView: UIView {
 
     // MARK: - Properties
