@@ -2,18 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AdmobBannerID</key>
-	<string>ca-app-pub-2983224055780222/1164829665</string>
-	<key>AdmobInterID</key>
-	<string>ca-app-pub-2983224055780222/8851747998</string>
-	<key>AdmobOpenID</key>
-	<string>ca-app-pub-2983224055780222/7793268450</string>
-	<key>AdmobRewardID</key>
-	<string>ca-app-pub-2983224055780222/2732513467</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>FreeAudioChapters</key>
-	<integer>5</integer>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
@@ -209,8 +199,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2983224055780222~7634605918</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -230,8 +218,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_ZWHuQKyqqwtykhLTOZVJWctVnmX</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -558,25 +544,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>hasAudioPlayer</key>
-	<true/>
-	<key>hasMediaView</key>
-	<true/>
-	<key>mediaSearchTerm</key>
-	<string>Quran</string>
-	<key>audioBookType</key>
-	<string>quran</string>
-	<key>AudioBookVersion</key>
-	<string>Quran</string>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://sites.google.com/view/paulvi-app-bible/</string>
-	<key>termsOfUseURL</key>
-	<string>https://sites.google.com/view/paulvi-app-terms-conditions/</string>
 </dict>
 </plist>
