@@ -21,7 +21,7 @@ struct ConstantsTarget {
     static let audioBookType = "book"
     static let audioBookVersion = "성경"
     static let mediaSearchTerm = "성경"
-    static let podcastCountry = "ko"
+    static let podcastCountry = "kr"
     
     static let numberPerRow = 2
     static let freeItemsAmount = 5
