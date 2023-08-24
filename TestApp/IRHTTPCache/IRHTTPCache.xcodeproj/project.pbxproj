@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A47FD42A976182000BC97A /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A47FD32A976182000BC97A /* IRCocoaHTTPServer.framework */; };
+		37A47FD52A976182000BC97A /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37A47FD32A976182000BC97A /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5F91C20260D873D00990563 /* IRHTTPCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91C1E260D873D00990563 /* IRHTTPCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5F91D19260DD3DA00990563 /* IRHCError.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F91D17260DD3DA00990563 /* IRHCError.h */; };
 		B5F91D1A260DD3DA00990563 /* IRHCError.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F91D18260DD3DA00990563 /* IRHCError.m */; };
@@ -69,6 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				37A47FD52A976182000BC97A /* IRCocoaHTTPServer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,8 +79,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		54A17123ABD84D076472AF7A /* Pods_IRHTTPCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRHTTPCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRHTTPCache.release.xcconfig"; path = "Target Support Files/Pods-IRHTTPCache/Pods-IRHTTPCache.release.xcconfig"; sourceTree = "<group>"; };
+		37A47FD32A976182000BC97A /* IRCocoaHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IRCocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F91C1B260D873D00990563 /* IRHTTPCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRHTTPCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F91C1E260D873D00990563 /* IRHTTPCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHTTPCache.h; sourceTree = "<group>"; };
 		B5F91C1F260D873D00990563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,7 +136,6 @@
 		B5F91DC02611D26400990563 /* IRHCURLTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRHCURLTool.h; sourceTree = "<group>"; };
 		B5F91DC12611D26400990563 /* IRHCURLTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHCURLTool.m; sourceTree = "<group>"; };
 		B5F91DF82612CDBC00990563 /* IRHTTPCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRHTTPCache.m; sourceTree = "<group>"; };
-		E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRHTTPCache.debug.xcconfig"; path = "Target Support Files/Pods-IRHTTPCache/Pods-IRHTTPCache.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,17 +143,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A47FD42A976182000BC97A /* IRCocoaHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37A47FD22A976182000BC97A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A47FD32A976182000BC97A /* IRCocoaHTTPServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F7A0F1ED9A8EB300F74D0CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */,
-				ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -162,8 +170,8 @@
 			children = (
 				B5F91C1D260D873D00990563 /* IRHTTPCache */,
 				B5F91C1C260D873D00990563 /* Products */,
-				B5F91DEF2612CA1E00990563 /* Frameworks */,
 				6F7A0F1ED9A8EB300F74D0CA /* Pods */,
+				37A47FD22A976182000BC97A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,14 +293,6 @@
 			path = IRHCTools;
 			sourceTree = "<group>";
 		};
-		B5F91DEF2612CA1E00990563 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54A17123ABD84D076472AF7A /* Pods_IRHTTPCache.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -338,7 +338,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5F91C23260D873D00990563 /* Build configuration list for PBXNativeTarget "IRHTTPCache" */;
 			buildPhases = (
-				98129E9471831C1CF58401B8 /* [CP] Check Pods Manifest.lock */,
 				B5F91C16260D873D00990563 /* Headers */,
 				B5F91C17260D873D00990563 /* Sources */,
 				B5F91C18260D873D00990563 /* Frameworks */,
@@ -394,31 +393,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		98129E9471831C1CF58401B8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IRHTTPCache-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5F91C17260D873D00990563 /* Sources */ = {
@@ -576,7 +550,6 @@
 		};
 		B5F91C24260D873D00990563 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1EB5DB256BD2C1FB0022AC2 /* Pods-IRHTTPCache.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -600,7 +573,6 @@
 		};
 		B5F91C25260D873D00990563 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACBB07B168BE9107E250C9FB /* Pods-IRHTTPCache.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
