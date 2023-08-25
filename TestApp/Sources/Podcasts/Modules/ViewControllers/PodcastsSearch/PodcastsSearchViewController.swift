@@ -76,15 +76,20 @@ extension PodcastsSearchViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 132
     }
-
+    
+    
     // MARK: Header Setup
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let label = UILabel()
-        label.text = "Please, enter a search term."
-        label.textAlignment = .center
-        label.textColor = .purple
-        label.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
-        return label
+        let headerView = UIView(frame: CGRect(x: 0, y: 200, width: 0, height: 0))
+        let image = UIImage(named: "appicon")
+        let button = UIButton()
+        button.setImage(image, for: .normal)
+        headerView.addSubview(button)
+        
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.centerXAnchor.constraint(equalTo: headerView.centerXAnchor).isActive = true
+        button.centerYAnchor.constraint(equalTo: headerView.centerYAnchor).isActive = true
+        return headerView
     }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
