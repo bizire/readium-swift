@@ -5346,7 +5346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.5;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = C44T395X8A;
 				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyUs/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "US Laws";
@@ -5356,7 +5356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
 				PRODUCT_NAME = "US Laws";
@@ -5370,7 +5370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.5;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = C44T395X8A;
 				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyUs/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "US Laws";
@@ -5380,7 +5380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
 				PRODUCT_NAME = "US Laws";
