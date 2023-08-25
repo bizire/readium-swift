@@ -10,18 +10,18 @@ import UIKit
 
 struct ConstantsTarget {
     
-    static let adUnitIDBanner       = "XXXXXXXX"
-    static let adUnitIDInterstitial = "XXXXXXXX"
+    static let adUnitIDBanner       = "ca-app-pub-7590866680405485/5066348328"
+    static let adUnitIDInterstitial = "ca-app-pub-7590866680405485/3753266657"
     static let adUnitIDNative       = "XXXXXXXX"
-    static let adUnitIDOpen         = "XXXXXXXX"
-    static let adUnitIDRewarded     = "XXXXXXXX"
+    static let adUnitIDOpen         = "ca-app-pub-7590866680405485/1127103315"
+    static let adUnitIDRewarded     = "ca-app-pub-7590866680405485/2440184986"
     
-    static let revenueCatPublicKey = ""
+    static let revenueCatPublicKey = "appl_tEvttxyQyKlJNOieBmSlwbTKADC"
     
-    static let audioBookType = ""
-    static let audioBookVersion = ""
-    static let mediaSearchTerm = ""
-    static let podcastCountry = ""
+    static let audioBookType = "book"
+    static let audioBookVersion = "Kodeksy PL"
+    static let mediaSearchTerm = "prawnik"
+    static let podcastCountry = "pl"
     
     static let numberPerRow = 3
     static let freeItemsAmount = 5
@@ -30,11 +30,11 @@ struct ConstantsTarget {
     static let hasPremiumContent = true
     static let hasSubscriptions = true
     
-    static let hasAudioPlayer = true
+    static let hasAudioPlayer = false
     static let hasMediaView = true
     
-    static let privacyPolicyURL = "https://sites.google.com/view/paulvi-app-bible/"
-    static let termsOfUseURL = "https://sites.google.com/view/paulvi-app-terms-conditions/"
+    static let privacyPolicyURL = "https://vilendoo.com/Privacy-Policy/"
+    static let termsOfUseURL = "https://vilendoo.com/Terms-of-Use/"
     
 }
 
