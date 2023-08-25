@@ -689,7 +689,6 @@
 		3763ABB92A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
 		3763ABBA2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
 		3763ABBB2A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */; };
-		3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 3764EB5B2A691210007E6607 /* AudioPlayerFiles */; };
 		376EDC532A1371600029074A /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		376EDC542A1371600029074A /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		376EDC552A1371600029074A /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -1808,7 +1807,6 @@
 		3763ABA02A934CCF00EFC5E3 /* IRHTTPCache.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRHTTPCache.xcodeproj; path = IRHTTPCache/IRHTTPCache.xcodeproj; sourceTree = "<group>"; };
 		3763ABA82A934D8E00EFC5E3 /* IRCocoaHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRCocoaHTTPServer.xcodeproj; path = IRCocoaHTTPServer/IRCocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
 		3763ABB02A9356AA00EFC5E3 /* AppTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarViewController.swift; sourceTree = "<group>"; };
-		3764EB5B2A691210007E6607 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
 		376EDCBC2A1371600029074A /* QuranFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376EDCBF2A1371E10029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		376EDCC22A1372150029074A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2271,7 +2269,6 @@
 		05C8E9ED28BF9B5B00DA8485 /* KodeksyRu */ = {
 			isa = PBXGroup;
 			children = (
-				3764EB5B2A691210007E6607 /* AudioPlayerFiles */,
 				05C8E9EF28BFA49200DA8485 /* Samples */,
 				D26A1DBE3771E28684A255E2 /* Info.plist */,
 				05C95D1B2939E59700E4FD77 /* Media.xcassets */,
@@ -3540,7 +3537,6 @@
 				BC554D97079BEB92E83B8A6C /* About.storyboard in Resources */,
 				90FAB514369287FF6C5B019F /* Assets.xcassets in Resources */,
 				3763AA932A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
-				3764EB5C2A691210007E6607 /* AudioPlayerFiles in Resources */,
 				05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */,
 				3763AB032A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,

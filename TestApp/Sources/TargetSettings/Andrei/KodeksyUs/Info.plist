@@ -4,14 +4,6 @@
 <dict>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7590866680405485~3145241733</string>
-	<key>AdmobBannerID</key>
-	<string>ca-app-pub-7590866680405485/1787943945</string>
-	<key>AdmobInterID</key>
-	<string>ca-app-pub-7590866680405485/9052190445</string>
-	<key>AdmobOpenID</key>
-	<string>ca-app-pub-7590866680405485/3448509976</string>
-	<key>AdmobRewardID</key>
-	<string>XXXXXXX</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -205,8 +197,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
@@ -224,8 +214,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_uYqoQbDYKrthCtbBzWQXgmslOhh</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -554,15 +542,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://vilendoo.com/Privacy-Policy/</string>
-	<key>termsOfUseURL</key>
-	<string>https://vilendoo.com/Terms-of-Use/</string>
 </dict>
 </plist>

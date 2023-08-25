@@ -304,8 +304,11 @@ class LibraryViewController: UIViewController, Loggable {
             print(docsArray)
              for doc in docsArray {
                 let epubName = doc
-                let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples")
-                addBookFromSample(url: epubFileURL!)
+                 if let epubFileURL = Bundle.main.url(forResource: epubName, withExtension: "", subdirectory: "Samples") {
+                     addBookFromSample(url: epubFileURL)
+                 } else {
+                     print("initBooksFromSamples epubFileURL is nil for epubName: \(epubName)")
+                 }
             }
         } catch {
             print(error)

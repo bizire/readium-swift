@@ -80,7 +80,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
             tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
         }
         if (ConstantsTarget.hasMediaView) {
-            tabBarController.viewControllers?.insert(mediaViewController, at: 2)
+            if (ConstantsTarget.hasAudioPlayer) {
+                tabBarController.viewControllers?.insert(mediaViewController, at: 2)
+            } else {
+                tabBarController.viewControllers?.insert(mediaViewController, at: 1)
+            }
         }
         tabBarController.tabBar.tintColor = .label
 

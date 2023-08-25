@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AdmobBannerID</key>
-	<string>ca-app-pub-7590866680405485/4874776639</string>
-	<key>AdmobInterID</key>
-	<string>ca-app-pub-7590866680405485/3561694962</string>
-	<key>AdmobOpenID</key>
-	<string>ca-app-pub-7590866680405485/8622449957</string>
-	<key>AdmobRewardID</key>
-	<string>ca-app-pub-7590866680405485/9935531620</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -203,10 +195,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>FreeAudioChapters</key>
-	<integer>9</integer>
-	<key>FreeItemsAmount</key>
-	<integer>5</integer>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7590866680405485~1483909118</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -226,8 +214,6 @@
 	</dict>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
-	<key>RevenueCatPublicKey</key>
-	<string>appl_cKclCyjjeVqEKBqLUlFUmtQayUa</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -562,17 +548,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>hasAudioPlayer</key>
-	<true/>
-	<key>hasPremiumContent</key>
-	<true/>
-	<key>hasSubscriptions</key>
-	<true/>
-	<key>numberPerRow</key>
-	<integer>3</integer>
-	<key>privacyPolicyURL</key>
-	<string>https://vilendoo.com/Privacy-Policy/</string>
-	<key>termsOfUseURL</key>
-	<string>https://vilendoo.com/Terms-of-Use/</string>
 </dict>
 </plist>
