@@ -78,8 +78,10 @@ class LibraryViewController: UIViewController, Loggable {
                 from: self,
                 completionHandler: { dismissError in
                   if UMPConsentInformation.sharedInstance.consentStatus == UMPConsentStatus.obtained {
-                      print("startUMPConsent UMPConsentStatus is obtained: you can show ADs")
+                      print("startUMPConsent UMPConsentStatus is obtained: you can show ADs or Paywall")
                       // App can start requesting ads.
+                      let main = UIStoryboard(name: "PaywallBoard", bundle: nil).instantiateInitialViewController()!
+                      self.present(main, animated: true, completion: nil)
                   }
 
                 })
