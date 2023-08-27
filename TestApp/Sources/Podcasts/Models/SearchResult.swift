@@ -8,6 +8,6 @@
 import Foundation
 
 struct SearchResult: Decodable {
-    let resultCount: Int
-    let results: [Podcast]
+    var resultCount: Int
+    var results: [Podcast]
 }

@@ -41,7 +41,15 @@ extension NetworkService {
                     
                     guard let data = dataResponse.data else { return }
                     do {
-                        let searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
+                        var searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
+                        searchResult.results = searchResult.results.filter { podcast in
+                            return !(podcast.feedUrl?.hasPrefix("http://podcast.faithcomesbyhearing.com"))!
+                            }
+                        for podcast in searchResult.results {
+                            print("Podcast name: \(podcast.feedUrl)")
+//                            print("Podcast artist: \(podcast.artistName)")
+                        }
+                        
                         completionHandler(searchResult.results)
                     } catch let decodeError {
                         print("\n\t\tFailed to decode:", decodeError)
