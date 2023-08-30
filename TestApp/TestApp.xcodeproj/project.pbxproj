@@ -375,7 +375,7 @@
 		371EC74D2A94AEAD002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
 		371EC74E2A94AEAD002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		371EC7512A94AEB4002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
-		371EC7522A94AEB4002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		371EC7522A94AEB4002BDD55 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		371EC7532A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
 		371EC7542A94AEBA002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		371EC7552A94AEBA002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
@@ -1020,7 +1020,7 @@
 		3785DE252A8F76EE00C8D1A7 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3785DE242A8F76EE00C8D1A7 /* FeedKit */; };
 		3785DE272A8F76F400C8D1A7 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3785DE262A8F76F400C8D1A7 /* FeedKit */; };
 		379FC92D2A98F61600390643 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
-		379FC92E2A98F61600390643 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		379FC92E2A98F61600390643 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		379FF6A82A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
 		379FF6A92A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
 		379FF6AA2A58626D009AFCED /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FF6A72A58626D009AFCED /* AudioPlayerManager.swift */; };
@@ -5346,7 +5346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.7;
+				CURRENT_PROJECT_VERSION = 1.9;
 				DEVELOPMENT_TEAM = C44T395X8A;
 				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyUs/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "US Laws";
@@ -5356,7 +5356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7;
+				MARKETING_VERSION = 1.9;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
 				PRODUCT_NAME = "US Laws";
@@ -5370,7 +5370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.7;
+				CURRENT_PROJECT_VERSION = 1.9;
 				DEVELOPMENT_TEAM = C44T395X8A;
 				INFOPLIST_FILE = Sources/TargetSettings/Andrei/KodeksyUs/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "US Laws";
@@ -5380,7 +5380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7;
+				MARKETING_VERSION = 1.9;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodinplex.book.kodeksy.us;
 				PRODUCT_NAME = "US Laws";
