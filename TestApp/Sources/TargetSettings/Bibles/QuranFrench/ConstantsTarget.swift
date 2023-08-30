@@ -20,8 +20,10 @@ struct ConstantsTarget {
     
     static let audioBookType = "quran"
     static let audioBookVersion = "Córan Audio"
-    static let mediaSearchTerm = "Córan"
+    static let mediaSearchTerm: [String] = ["Córan"]
     static let podcastCountry = "fr"
+    
+    static let excludeFromSearch: [String] = ["http://podcast.faithcomesbyhearing.com"]
     
     static let numberPerRow = 3
     static let freeItemsAmount = 5

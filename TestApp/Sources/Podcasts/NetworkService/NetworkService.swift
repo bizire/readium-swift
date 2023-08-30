@@ -23,39 +23,45 @@ final class NetworkService {
 // MARK: - Fetching podcasts
 extension NetworkService {
     
-    func fetchPodcasts(searchText: String, completionHandler: @escaping ([Podcast]) -> Void) {
+    func fetchPodcasts(searchTexts: [String], completionHandler: @escaping ([Podcast]) -> Void) {
         print("\n\t\tSearching for podcasts...")
         
-        let parameters = ["term": searchText, "media": "podcast", "country": ConstantsTarget.podcastCountry]
-        
-        AF.request(baseiTunesSearchURL,
-                   method: .get,
-                   parameters: parameters,
-                   encoding: URLEncoding.default,
-                   headers: nil).responseData { dataResponse in
-                    
-                    if let error = dataResponse.error {
-                        print("\n\t\tFailed with error:", error)
-                        return
-                    }
-                    
-                    guard let data = dataResponse.data else { return }
-                    do {
-                        var searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
-                        searchResult.results = searchResult.results.filter { podcast in
-                            return !(podcast.feedUrl?.hasPrefix("http://podcast.faithcomesbyhearing.com"))!
-                            }
-                        for podcast in searchResult.results {
-                            print("Podcast name: \(podcast.feedUrl)")
-//                            print("Podcast artist: \(podcast.artistName)")
+        for searchText in searchTexts {
+            let parameters = ["term": searchText, "media": "podcast", "country": ConstantsTarget.podcastCountry]
+            
+            AF.request(baseiTunesSearchURL,
+                       method: .get,
+                       parameters: parameters,
+                       encoding: URLEncoding.default,
+                       headers: nil).responseData { dataResponse in
+                        
+                        if let error = dataResponse.error {
+                            print("\n\t\tFailed with error:", error)
+                            return
                         }
                         
-                        completionHandler(searchResult.results)
-                    } catch let decodeError {
-                        print("\n\t\tFailed to decode:", decodeError)
-                    }
-                    
-                   }
+                        guard let data = dataResponse.data else { return }
+                        do {
+                            var searchResult = try JSONDecoder().decode(SearchResult.self, from: data)
+                            
+                            for exclude in ConstantsTarget.excludeFromSearch {
+                                print("exclude = \(exclude)")
+                                searchResult.results = searchResult.results.filter { podcast in
+                                    var podcastHasPrefix = podcast.feedUrl?.hasPrefix(exclude)
+                                    return !(podcastHasPrefix ?? false)
+                                }
+                            }
+                            
+                            for podcast in searchResult.results {
+                                print("Podcast name: \(podcast.feedUrl)")
+                            }
+                            completionHandler(searchResult.results)
+                        } catch let decodeError {
+                            print("\n\t\tFailed to decode:", decodeError)
+                        }
+                        
+                       }
+        }
     }
     
 }
@@ -65,6 +71,9 @@ extension NetworkService {
 extension NetworkService {
     
     func fetchEpisodes(feedUrl: String, completionHandler: @escaping ([Episode]) -> Void) {
+//        var furl = "https://vilendoo.com/remote_config/similar_apps/korean_pod.xml"
+//        var furl = "https://vilendoo.com/remote_config/similar_apps/podcast.xml"
+//        guard let url = URL(string: furl.httpsUrlString) else { return }
         guard let url = URL(string: feedUrl.httpsUrlString) else { return }
         
         DispatchQueue.global(qos: .background).async {

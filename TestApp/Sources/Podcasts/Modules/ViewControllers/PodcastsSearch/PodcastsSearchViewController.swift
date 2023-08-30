@@ -28,8 +28,9 @@ final class PodcastsSearchViewController: UITableViewController {
         
         timer?.invalidate()
         timer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { timer in
-            NetworkService.shared.fetchPodcasts(searchText: ConstantsTarget.mediaSearchTerm, completionHandler: { podcasts in
-                self.podcasts = podcasts
+            NetworkService.shared.fetchPodcasts(searchTexts: ConstantsTarget.mediaSearchTerm, completionHandler: { podcasts in
+//                self.podcasts = podcasts
+                self.podcasts.append(contentsOf: podcasts)
                 self.tableView.reloadData()
             })
         })
@@ -130,8 +131,9 @@ extension PodcastsSearchViewController: UISearchBarDelegate {
         tableView.reloadData()
 
         timer?.invalidate()
+        var searchTexts: [String] = [searchText]
         timer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: false, block: { timer in
-            NetworkService.shared.fetchPodcasts(searchText: searchText, completionHandler: { podcasts in
+            NetworkService.shared.fetchPodcasts(searchTexts: searchTexts, completionHandler: { podcasts in
                 self.podcasts = podcasts
                 self.tableView.reloadData()
             })

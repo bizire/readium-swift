@@ -20,8 +20,27 @@ struct ConstantsTarget {
     
     static let audioBookType = "book"
     static let audioBookVersion = "성경"
-    static let mediaSearchTerm = "성경"
+    static let mediaSearchTerm: [String] = [
+        "예수 그리스도",        // Jesus Christ
+        "성경",               // Bible
+        "기독교",              // Christian
+    ]
     static let podcastCountry = "kr"
+    
+    static let excludeFromSearch: [String] = [
+        "http://pod.ssenhosting.com",
+        "http://pod1.cgntv.net",
+        "http://rss.jbch.org/sermon/podcast_video_academy_kor.xml",
+        "https://feeds.buzzsprout.com/2066727.rss",
+        "https://feeds.feedburner.com/godcast2015",
+        "http://podcast.faithcomesbyhearing.com",
+        "http://jyudas.synology.me",
+        "http://cbspodcast.com/podcast",
+        "https://goodnewstv.kr",
+        "https://www.goodnewstv.kr",
+        "https://feeds.feedburner.com/pearl-of-great-price",
+        "https://feeds.feedburner.com/old-testament-stories-kor"
+    ]
     
     static let numberPerRow = 2
     static let freeItemsAmount = 5
