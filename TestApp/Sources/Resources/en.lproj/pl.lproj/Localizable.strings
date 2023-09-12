@@ -16,7 +16,7 @@
 /* Library tab title */
 "bookshelf_tab" = "Półka na książki";
 "catalogs_tab" = "Kanały OPDS";
-"audio_tab" = "Audio";
+"audio_tab" = "Audio Offline";
 "about_tab" = "O aplikacji";
 "media_tab" = "Media";
 

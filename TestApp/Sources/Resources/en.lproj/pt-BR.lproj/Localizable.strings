@@ -1,8 +1,8 @@
 "bookshelf_tab" = "Estante";
 "catalogs_tab" = "Feeds OPDS";
-"audio_tab" = "Audio";
+"audio_tab" = "Áudio off-line";
 "about_tab" = "Sobre";
-"media_tab" = "Media";
+"media_tab" = "Meios";
 
 "ok_button" = "OK";
 "cancel_button" = "Cancelar";

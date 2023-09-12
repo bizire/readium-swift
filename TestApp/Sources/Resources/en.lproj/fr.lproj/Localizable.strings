@@ -1,8 +1,8 @@
 "bookshelf_tab" = "Bibliothèque";
 "catalogs_tab" = "Flux OPDS";
-"audio_tab" = "Audio";
+"audio_tab" = "Audio hors ligne";
 "about_tab" = "À propos de";
-"media_tab" = "Media";
+"media_tab" = "Médias";
 
 "bouton_ok" = "OK";
 "cancel_button" = "Annuler";

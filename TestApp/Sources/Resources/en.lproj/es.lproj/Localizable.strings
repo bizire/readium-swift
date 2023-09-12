@@ -1,8 +1,8 @@
 "bookshelf_tab" = "Estantería";
 "catalogs_tab" = "Fuentes OPDS";
-"audio_tab" = "Audio";
+"audio_tab" = "Audio sin conexión";
 "about_tab" = "Acerca de";
-"media_tab" = "Media";
+"media_tab" = "Medios";
 
 "ok_button" = "OK";
 "boton_cancelar" = "Cancelar";

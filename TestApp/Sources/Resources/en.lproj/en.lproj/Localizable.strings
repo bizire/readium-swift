@@ -16,7 +16,7 @@
 /* Library tab title */
 "bookshelf_tab" = "Bookshelf";
 "catalogs_tab" = "OPDS Feeds";
-"audio_tab" = "Audio";
+"audio_tab" = "Audio Offline";
 "about_tab" = "About";
 "media_tab" = "Media";
 
