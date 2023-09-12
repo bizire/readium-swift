@@ -35,7 +35,7 @@ class PlayerDetailsView: UIView {
             miniPlayPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
 
             setupNowPlayingInfo()
-            setupAudioSession()
+//            setupAudioSession()
             playEpisode()
 
             guard let url = URL(string: episode.imageUrl?.httpsUrlString ?? "") else { return }
@@ -251,7 +251,7 @@ extension PlayerDetailsView {
 
     fileprivate func setupAudioSession() {
         do {
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setCategory(.playback)
             try AVAudioSession.sharedInstance().setActive(true)
         } catch let sessionError {
             print("\n\t\tFailed to activate session:", sessionError)
