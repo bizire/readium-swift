@@ -68,7 +68,7 @@ extension AppTabBarViewController {
         minimizedTopAnchorConstraint.isActive = false
         
         playerDetailsView.translatesAutoresizingMaskIntoConstraints = false
-        minimizedTopAnchorConstraint = playerDetailsView.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: 0)
+        minimizedTopAnchorConstraint = playerDetailsView.topAnchor.constraint(equalTo: tabBar.topAnchor, constant: 128)
         
         maximizedTopAnchorConstraint.isActive = false
         bottomAnchorConstraint.constant = view.frame.height
