@@ -8,3 +8,6 @@ https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/
 
 Country codes:
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+iPhone 6.7' display screenshots:
+1290x2796
