@@ -19,6 +19,7 @@
 "audio_tab" = "Аудио Оффлайн";
 "about_tab" = "Инфо";
 "media_tab" = "Медиа";
+"news_tab" = "Новости";
 
 /* Buttons */
 "ok_button" = "OK";

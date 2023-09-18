@@ -19,6 +19,7 @@
 "audio_tab" = "Audio Offline";
 "about_tab" = "About";
 "media_tab" = "Media";
+"news_tab" = "News";
 
 /* Buttons */
 "ok_button" = "OK";

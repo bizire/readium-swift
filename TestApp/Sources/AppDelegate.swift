@@ -64,6 +64,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         let mediaViewController = app.mediaViewController
         mediaViewController.tabBarItem = makeItem(title: "media_tab", image: "catalogs")
         
+        // News Feed
+        let newsViewController = app.newsViewController
+        newsViewController.tabBarItem = makeItem(title: "news_tab", image: "catalogs")
+        
         // About
         let aboutViewController = app.aboutViewController
         aboutViewController.tabBarItem = makeItem(title: "about_tab", image: "about")
@@ -72,20 +76,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         tabBarController.viewControllers = [
             libraryViewController,
 //            opdsViewController,
-//            audioPlayerViewController,
-//            mediaViewController,
-            aboutViewController
         ]
         if (ConstantsTarget.hasAudioPlayer) {
-            tabBarController.viewControllers?.insert(audioPlayerViewController, at: 1)
+            tabBarController.viewControllers?.append(audioPlayerViewController)
         }
         if (ConstantsTarget.hasMediaView) {
-            if (ConstantsTarget.hasAudioPlayer) {
-                tabBarController.viewControllers?.insert(mediaViewController, at: 2)
-            } else {
-                tabBarController.viewControllers?.insert(mediaViewController, at: 1)
-            }
+            tabBarController.viewControllers?.append(mediaViewController)
         }
+        if (ConstantsTarget.hasNewsView) {
+            tabBarController.viewControllers?.append(newsViewController)
+        }
+        tabBarController.viewControllers?.append(aboutViewController)
         tabBarController.tabBar.tintColor = .label
 
         window = UIWindow(frame: UIScreen.main.bounds)

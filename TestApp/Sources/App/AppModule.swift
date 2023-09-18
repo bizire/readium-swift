@@ -75,6 +75,12 @@ final class AppModule {
 //        navigationController.tabBarItem.image   = #imageLiteral(resourceName: "search")
         return navigationController
     }()
+    
+    private(set) lazy var newsViewController: UIViewController = {
+        let storyboard = UIStoryboard(name: "AudioPlayer", bundle: nil)
+        let audioplayerViewController = storyboard.instantiateViewController(withIdentifier: "FolderListViewController") as! FolderListViewController
+        return UINavigationController(rootViewController: audioplayerViewController)
+    }()
 
 }
 
