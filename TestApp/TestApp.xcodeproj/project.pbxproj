@@ -887,6 +887,28 @@
 		376EDD3D2A138FE80029074A /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 376EDCD12A138FE80029074A /* MBProgressHUD */; };
 		376EDD452A1390780029074A /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 376EDD442A1390780029074A /* Samples */; };
 		376EDD472A13909C0029074A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376EDD462A13909C0029074A /* Media.xcassets */; };
+		377E88652AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E88662AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E88672AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E88682AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E88692AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886A2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886B2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886C2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886D2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886E2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E886F2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E88642AB84024006ADAA1 /* NewsFeed.storyboard */; };
+		377E88712AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88722AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88732AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88742AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88752AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88762AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88772AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88782AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E88792AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E887A2AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
+		377E887B2AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */; };
 		3785DD732A8F72F200C8D1A7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785DD722A8F72F200C8D1A7 /* NetworkService.swift */; };
 		3785DD742A8F72F200C8D1A7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785DD722A8F72F200C8D1A7 /* NetworkService.swift */; };
 		3785DD752A8F72F200C8D1A7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785DD722A8F72F200C8D1A7 /* NetworkService.swift */; };
@@ -1817,6 +1839,8 @@
 		376EDD442A1390780029074A /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		376EDD462A13909C0029074A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		376EDD9D2A1764DF0029074A /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		377E88642AB84024006ADAA1 /* NewsFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
+		377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		3785DD722A8F72F200C8D1A7 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3785DD7F2A8F731900C8D1A7 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		3785DD802A8F731900C8D1A7 /* CMTime+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+Extensions.swift"; sourceTree = "<group>"; };
@@ -2506,6 +2530,15 @@
 			path = KodeksyAu;
 			sourceTree = "<group>";
 		};
+		377E88632AB83FE2006ADAA1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				377E88642AB84024006ADAA1 /* NewsFeed.storyboard */,
+				377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		3785DD712A8F72D700C8D1A7 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
@@ -2810,6 +2843,7 @@
 				50CE47A8753BDF2AFC906382 /* App */,
 				37ED05892A418BC800B64356 /* AudioPlayer */,
 				375670B02A7BA6B700DD0599 /* Podcasts */,
+				377E88632AB83FE2006ADAA1 /* News */,
 				8A2F34A5F130F65CB7D45DA8 /* Common */,
 				7047830EFDF29D208984C29F /* Data */,
 				E9807BBEBF8401FB0BA852FF /* Library */,
@@ -3314,6 +3348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0509577129683A18004F14AA /* Samples in Resources */,
+				377E886A2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				0509574D29683682004F14AA /* About.storyboard in Resources */,
 				3763AA972A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F2695D2A78EE8000BD3B77 /* AudioPlayerFiles in Resources */,
@@ -3342,6 +3377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				054C357C298B99EE002986E8 /* About.storyboard in Resources */,
+				377E886B2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				054C357D298B99EE002986E8 /* Assets.xcassets in Resources */,
 				3763AA982A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F269612A78F74B00BD3B77 /* AudioPlayerFiles in Resources */,
@@ -3376,6 +3412,7 @@
 				0579E1D228E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				3763AA922A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAB2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
+				377E88652AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				05C8E9D628BF97EF00DA8485 /* DRM.storyboard in Resources */,
 				37ED05972A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				05647AF628D358EC00AEBE48 /* PaywallBoard.storyboard in Resources */,
@@ -3397,6 +3434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3755597429C2F1DD0049661D /* About.storyboard in Resources */,
+				377E886E2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				3755597529C2F1DD0049661D /* Assets.xcassets in Resources */,
 				3763AA9B2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F2695F2A78F73500BD3B77 /* AudioPlayerFiles in Resources */,
@@ -3425,6 +3463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376EDCC42A1373470029074A /* Samples in Resources */,
+				377E886F2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				376EDCA02A1371600029074A /* About.storyboard in Resources */,
 				3763AA9C2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */,
@@ -3459,6 +3498,7 @@
 				376EDD262A138FE80029074A /* InfoPlist.strings in Resources */,
 				3763AA952A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAE2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
+				377E88682AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				376EDD272A138FE80029074A /* DRM.storyboard in Resources */,
 				37ED05A12A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				376EDD282A138FE80029074A /* PaywallBoard.storyboard in Resources */,
@@ -3486,6 +3526,7 @@
 				37A8C17A29B2348000569F92 /* PaywallBoard.storyboard in Resources */,
 				3763AA942A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAD2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
+				377E88672AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				37A8C17B29B2348000569F92 /* LaunchScreen.storyboard in Resources */,
 				37ED05992A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				37A8C17C29B2348000569F92 /* Assets.xcassets in Resources */,
@@ -3507,6 +3548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37ED05562A3C438B00B64356 /* About.storyboard in Resources */,
+				377E886C2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				37ED05572A3C438B00B64356 /* Assets.xcassets in Resources */,
 				3763AA992A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */,
@@ -3541,6 +3583,7 @@
 				3763AB032A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,
 				0579E1D128E45F6D007C84E9 /* InfoPlist.strings in Resources */,
+				377E88662AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				37ED05982A418CFD00B64356 /* AudioPlayer.storyboard in Resources */,
 				A76472C2F4B19FB6946708D1 /* LaunchScreen.storyboard in Resources */,
 				05647AF528D358EC00AEBE48 /* PaywallBoard.storyboard in Resources */,
@@ -3562,6 +3605,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A32F0E2927566F00EA386A /* About.storyboard in Resources */,
+				377E88692AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				C3A32F0F2927566F00EA386A /* Assets.xcassets in Resources */,
 				3763AA962A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				05C95D182939E48600E4FD77 /* Media.xcassets in Resources */,
@@ -3590,6 +3634,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E0FCA029B1DF7F000791FA /* About.storyboard in Resources */,
+				377E886D2AB84024006ADAA1 /* NewsFeed.storyboard in Resources */,
 				C3E0FCA129B1DF7F000791FA /* Assets.xcassets in Resources */,
 				3763AA9A2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F269632A78F75B00BD3B77 /* AudioPlayerFiles in Resources */,
@@ -3699,6 +3744,7 @@
 				0509573B29683682004F14AA /* ReaderFactory.swift in Sources */,
 				0509573C29683682004F14AA /* AppOpenAdManager.swift in Sources */,
 				0509573D29683682004F14AA /* ReaderFormatModule.swift in Sources */,
+				377E88762AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				0509573E29683682004F14AA /* ReaderModule.swift in Sources */,
 				371EC7682A951D3F002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACA2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -3806,6 +3852,7 @@
 				054C356A298B99EE002986E8 /* ReaderFactory.swift in Sources */,
 				054C356B298B99EE002986E8 /* AppOpenAdManager.swift in Sources */,
 				054C356C298B99EE002986E8 /* ReaderFormatModule.swift in Sources */,
+				377E88772AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				054C356D298B99EE002986E8 /* ReaderModule.swift in Sources */,
 				371EC7662A951D28002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACB2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -3913,6 +3960,7 @@
 				05C8E9C528BF97EF00DA8485 /* ReaderFactory.swift in Sources */,
 				05592E6328C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				05C8E9C628BF97EF00DA8485 /* ReaderFormatModule.swift in Sources */,
+				377E88712AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				05C8E9C728BF97EF00DA8485 /* ReaderModule.swift in Sources */,
 				371EC7722A951E28002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC52A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4020,6 +4068,7 @@
 				3755596229C2F1DD0049661D /* ReaderFactory.swift in Sources */,
 				3755596329C2F1DD0049661D /* AppOpenAdManager.swift in Sources */,
 				3755596429C2F1DD0049661D /* ReaderFormatModule.swift in Sources */,
+				377E887A2AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				3755596529C2F1DD0049661D /* ReaderModule.swift in Sources */,
 				371EC75C2A94BB51002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACE2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4127,6 +4176,7 @@
 				376EDC8E2A1371600029074A /* ReaderFactory.swift in Sources */,
 				376EDC8F2A1371600029074A /* AppOpenAdManager.swift in Sources */,
 				376EDC902A1371600029074A /* ReaderFormatModule.swift in Sources */,
+				377E887B2AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				376EDC912A1371600029074A /* ReaderModule.swift in Sources */,
 				371EC7622A951CFD002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACF2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4234,6 +4284,7 @@
 				376EDD132A138FE80029074A /* ReaderFactory.swift in Sources */,
 				376EDD142A138FE80029074A /* AppOpenAdManager.swift in Sources */,
 				376EDD152A138FE80029074A /* ReaderFormatModule.swift in Sources */,
+				377E88742AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				376EDD162A138FE80029074A /* ReaderModule.swift in Sources */,
 				371EC76E2A951DE9002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC82A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4341,6 +4392,7 @@
 				37A8C16329B2348000569F92 /* ReaderFactory.swift in Sources */,
 				37A8C16429B2348000569F92 /* AppOpenAdManager.swift in Sources */,
 				37A8C16529B2348000569F92 /* ReaderFormatModule.swift in Sources */,
+				377E88732AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				37A8C16629B2348000569F92 /* ReaderModule.swift in Sources */,
 				371EC7742A951E37002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC72A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4448,6 +4500,7 @@
 				3763ABB82A9356AA00EFC5E3 /* AppTabBarViewController.swift in Sources */,
 				37ED05442A3C438B00B64356 /* ReaderFactory.swift in Sources */,
 				37ED05452A3C438B00B64356 /* AppOpenAdManager.swift in Sources */,
+				377E88782AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				37ED05462A3C438B00B64356 /* ReaderFormatModule.swift in Sources */,
 				37ED05472A3C438B00B64356 /* ReaderModule.swift in Sources */,
 				3763AACC2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4555,6 +4608,7 @@
 				C3A32EFC2927566F00EA386A /* ReaderFactory.swift in Sources */,
 				C3A32EFD2927566F00EA386A /* AppOpenAdManager.swift in Sources */,
 				C3A32EFE2927566F00EA386A /* ReaderFormatModule.swift in Sources */,
+				377E88752AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				C3A32EFF2927566F00EA386A /* ReaderModule.swift in Sources */,
 				371EC7642A951D16002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC92A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4662,6 +4716,7 @@
 				C3E0FC8E29B1DF7F000791FA /* ReaderFactory.swift in Sources */,
 				C3E0FC8F29B1DF7F000791FA /* AppOpenAdManager.swift in Sources */,
 				C3E0FC9029B1DF7F000791FA /* ReaderFormatModule.swift in Sources */,
+				377E88792AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				C3E0FC9129B1DF7F000791FA /* ReaderModule.swift in Sources */,
 				371EC76C2A951D72002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AACD2A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,
@@ -4769,6 +4824,7 @@
 				C27BD6674DD958FB749FAD51 /* ReaderFactory.swift in Sources */,
 				05592E6228C5210700A9F993 /* AppOpenAdManager.swift in Sources */,
 				5AACFFC96E9EE8C3758D58BB /* ReaderFormatModule.swift in Sources */,
+				377E88722AB84089006ADAA1 /* NewsFeedViewController.swift in Sources */,
 				3B976407BACECEE3611FB5F1 /* ReaderModule.swift in Sources */,
 				371EC7702A951E09002BDD55 /* ConstantsTarget.swift in Sources */,
 				3763AAC62A933FE700EFC5E3 /* FavoritePodcastCell.swift in Sources */,

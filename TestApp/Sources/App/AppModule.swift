@@ -77,9 +77,9 @@ final class AppModule {
     }()
     
     private(set) lazy var newsViewController: UIViewController = {
-        let storyboard = UIStoryboard(name: "AudioPlayer", bundle: nil)
-        let audioplayerViewController = storyboard.instantiateViewController(withIdentifier: "FolderListViewController") as! FolderListViewController
-        return UINavigationController(rootViewController: audioplayerViewController)
+        let storyboard = UIStoryboard(name: "NewsFeed", bundle: nil)
+        let newsFeedViewController = storyboard.instantiateViewController(withIdentifier: "NewsFeedViewController") as! NewsFeedViewController
+        return UINavigationController(rootViewController: newsFeedViewController)
     }()
 
 }
