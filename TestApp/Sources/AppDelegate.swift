@@ -66,7 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         // News Feed
         let newsViewController = app.newsViewController
-        newsViewController.tabBarItem = makeItem(title: "news_tab", image: "catalogs")
+        newsViewController.tabBarItem = makeItem(title: "news_tab", image: "news")
         
         // About
         let aboutViewController = app.aboutViewController

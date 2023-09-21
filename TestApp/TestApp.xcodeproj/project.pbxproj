@@ -346,6 +346,28 @@
 		2D355EDEC14D340D0AB58BA5 /* OPDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C011B37CD577B7C0213AA82 /* OPDS.storyboard */; };
 		318408EE11083A735939E341 /* OPDSPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A1F7CB45E0A6EA7B35AB2B /* OPDSPlaceholderView.swift */; };
 		370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */ = {isa = PBXBuildFile; fileRef = 370182502A6689DF0088EFB5 /* AudioPlayerFiles */; };
+		370B62AA2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62AB2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62AC2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62AD2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62AE2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62AF2AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B02AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B12AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B22AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B32AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B42AB9902600FE19CF /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B62A92AB9902600FE19CF /* NewsCell.xib */; };
+		370B62B62AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62B72AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62B82AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62B92AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BA2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BB2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BC2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BD2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BE2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62BF2AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
+		370B62C02AB990B600FE19CF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B62B52AB990B600FE19CF /* NewsCell.swift */; };
 		371EC7332A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; };
 		371EC7342A94AE7D002BDD55 /* IRCocoaHTTPServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABAD2A934D8E00EFC5E3 /* IRCocoaHTTPServer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		371EC7352A94AE7D002BDD55 /* IRHTTPCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; };
@@ -1783,6 +1805,8 @@
 		2D6F2B794D46850FE4855C47 /* HighlightCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCellView.swift; sourceTree = "<group>"; };
 		2FC4AFAA5901EF0C3C6F6BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserSettings.storyboard; sourceTree = "<group>"; };
 		370182502A6689DF0088EFB5 /* AudioPlayerFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioPlayerFiles; sourceTree = "<group>"; };
+		370B62A92AB9902600FE19CF /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		370B62B52AB990B600FE19CF /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		371EC75B2A94BB51002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
 		371EC7612A951CFD002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
 		371EC7632A951D16002BDD55 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
@@ -2535,6 +2559,8 @@
 			children = (
 				377E88642AB84024006ADAA1 /* NewsFeed.storyboard */,
 				377E88702AB84089006ADAA1 /* NewsFeedViewController.swift */,
+				370B62A92AB9902600FE19CF /* NewsCell.xib */,
+				370B62B52AB990B600FE19CF /* NewsCell.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -3353,6 +3379,7 @@
 				3763AA972A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F2695D2A78EE8000BD3B77 /* AudioPlayerFiles in Resources */,
 				0509574E29683682004F14AA /* Assets.xcassets in Resources */,
+				370B62AF2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB072A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				0509575029683682004F14AA /* DRM.storyboard in Resources */,
 				0509575129683682004F14AA /* InfoPlist.strings in Resources */,
@@ -3382,6 +3409,7 @@
 				3763AA982A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F269612A78F74B00BD3B77 /* AudioPlayerFiles in Resources */,
 				054C357F298B99EE002986E8 /* DRM.storyboard in Resources */,
+				370B62B02AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB082A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				054C3580298B99EE002986E8 /* InfoPlist.strings in Resources */,
 				054C359E298B9D38002986E8 /* Samples in Resources */,
@@ -3409,6 +3437,7 @@
 				05C8E9F228BFA64200DA8485 /* Samples in Resources */,
 				05C8E9D428BF97EF00DA8485 /* About.storyboard in Resources */,
 				05C95D1A2939E4A300E4FD77 /* Media.xcassets in Resources */,
+				370B62AA2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				0579E1D228E45F6D007C84E9 /* InfoPlist.strings in Resources */,
 				3763AA922A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAB2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
@@ -3439,6 +3468,7 @@
 				3763AA9B2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F2695F2A78F73500BD3B77 /* AudioPlayerFiles in Resources */,
 				3755597729C2F1DD0049661D /* DRM.storyboard in Resources */,
+				370B62B32AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB0B2A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				3755597829C2F1DD0049661D /* InfoPlist.strings in Resources */,
 				3755597929C2F1DD0049661D /* LaunchScreen.storyboard in Resources */,
@@ -3468,6 +3498,7 @@
 				3763AA9C2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3738F7412A6A83A0006B71B9 /* AudioPlayerFiles in Resources */,
 				376EDCA12A1371600029074A /* Assets.xcassets in Resources */,
+				370B62B42AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB0C2A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				376EDCC12A1371F50029074A /* Media.xcassets in Resources */,
 				376EDCA22A1371600029074A /* DRM.storyboard in Resources */,
@@ -3495,6 +3526,7 @@
 				376EDD452A1390780029074A /* Samples in Resources */,
 				376EDD252A138FE80029074A /* About.storyboard in Resources */,
 				376EDD472A13909C0029074A /* Media.xcassets in Resources */,
+				370B62AD2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				376EDD262A138FE80029074A /* InfoPlist.strings in Resources */,
 				3763AA952A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAE2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
@@ -3523,6 +3555,7 @@
 				37A8C17629B2348000569F92 /* About.storyboard in Resources */,
 				37A8C17829B2348000569F92 /* InfoPlist.strings in Resources */,
 				37A8C17929B2348000569F92 /* DRM.storyboard in Resources */,
+				370B62AC2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				37A8C17A29B2348000569F92 /* PaywallBoard.storyboard in Resources */,
 				3763AA942A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				3763AAAD2A933F9100EFC5E3 /* PodcastsSearchingView.xib in Resources */,
@@ -3553,6 +3586,7 @@
 				3763AA992A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				370182512A6689DF0088EFB5 /* AudioPlayerFiles in Resources */,
 				37ED05582A3C438B00B64356 /* DRM.storyboard in Resources */,
+				370B62B12AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB092A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				37ED05592A3C438B00B64356 /* InfoPlist.strings in Resources */,
 				37ED055A2A3C438B00B64356 /* LaunchScreen.storyboard in Resources */,
@@ -3580,6 +3614,7 @@
 				90FAB514369287FF6C5B019F /* Assets.xcassets in Resources */,
 				3763AA932A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				05C95D1C2939E59700E4FD77 /* Media.xcassets in Resources */,
+				370B62AB2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB032A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				89E0F3F968F06D1AF4F10E1C /* DRM.storyboard in Resources */,
 				0579E1D128E45F6D007C84E9 /* InfoPlist.strings in Resources */,
@@ -3610,6 +3645,7 @@
 				3763AA962A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				05C95D182939E48600E4FD77 /* Media.xcassets in Resources */,
 				C3A32F102927566F00EA386A /* DRM.storyboard in Resources */,
+				370B62AE2AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB062A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				C3A32F112927566F00EA386A /* InfoPlist.strings in Resources */,
 				C3A32F122927566F00EA386A /* LaunchScreen.storyboard in Resources */,
@@ -3639,6 +3675,7 @@
 				3763AA9A2A933F7500EFC5E3 /* PlayerDetailsView.xib in Resources */,
 				37F269632A78F75B00BD3B77 /* AudioPlayerFiles in Resources */,
 				C3E0FCA329B1DF7F000791FA /* DRM.storyboard in Resources */,
+				370B62B22AB9902600FE19CF /* NewsCell.xib in Resources */,
 				3763AB0A2A93402300EFC5E3 /* PodcastCell.xib in Resources */,
 				C3E0FCA429B1DF7F000791FA /* InfoPlist.strings in Resources */,
 				C3E0FCA529B1DF7F000791FA /* LaunchScreen.storyboard in Resources */,
@@ -3729,6 +3766,7 @@
 				0509572F29683682004F14AA /* TTSViewModel.swift in Sources */,
 				0509573029683682004F14AA /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB62A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62BB2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				0509573129683682004F14AA /* OPDSRootTableViewController.swift in Sources */,
 				0509573229683682004F14AA /* OutlineTableView.swift in Sources */,
 				0509573329683682004F14AA /* OutlineViewModels.swift in Sources */,
@@ -3837,6 +3875,7 @@
 				054C355E298B99EE002986E8 /* TTSViewModel.swift in Sources */,
 				054C355F298B99EE002986E8 /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB72A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62BC2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				054C3560298B99EE002986E8 /* OPDSRootTableViewController.swift in Sources */,
 				054C3561298B99EE002986E8 /* OutlineTableView.swift in Sources */,
 				054C3562298B99EE002986E8 /* OutlineViewModels.swift in Sources */,
@@ -3945,6 +3984,7 @@
 				05289AFC29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				05C8E9BA28BF97EF00DA8485 /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB12A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62B62AB990B600FE19CF /* NewsCell.swift in Sources */,
 				05C8E9BB28BF97EF00DA8485 /* OPDSRootTableViewController.swift in Sources */,
 				05C8E9BC28BF97EF00DA8485 /* OutlineTableView.swift in Sources */,
 				05C8E9BD28BF97EF00DA8485 /* OutlineViewModels.swift in Sources */,
@@ -4053,6 +4093,7 @@
 				3755595629C2F1DD0049661D /* TTSViewModel.swift in Sources */,
 				3755595729C2F1DD0049661D /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDBA2A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62BF2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				3755595829C2F1DD0049661D /* OPDSRootTableViewController.swift in Sources */,
 				3755595929C2F1DD0049661D /* OutlineTableView.swift in Sources */,
 				3755595A29C2F1DD0049661D /* OutlineViewModels.swift in Sources */,
@@ -4161,6 +4202,7 @@
 				376EDC822A1371600029074A /* TTSViewModel.swift in Sources */,
 				376EDC832A1371600029074A /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDBB2A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62C02AB990B600FE19CF /* NewsCell.swift in Sources */,
 				376EDC842A1371600029074A /* OPDSRootTableViewController.swift in Sources */,
 				376EDC852A1371600029074A /* OutlineTableView.swift in Sources */,
 				376EDC862A1371600029074A /* OutlineViewModels.swift in Sources */,
@@ -4269,6 +4311,7 @@
 				376EDD072A138FE80029074A /* TTSViewModel.swift in Sources */,
 				376EDD082A138FE80029074A /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB42A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62B92AB990B600FE19CF /* NewsCell.swift in Sources */,
 				376EDD092A138FE80029074A /* OPDSRootTableViewController.swift in Sources */,
 				376EDD0A2A138FE80029074A /* OutlineTableView.swift in Sources */,
 				376EDD0B2A138FE80029074A /* OutlineViewModels.swift in Sources */,
@@ -4377,6 +4420,7 @@
 				37A8C15729B2348000569F92 /* TTSViewModel.swift in Sources */,
 				37A8C15829B2348000569F92 /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB32A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62B82AB990B600FE19CF /* NewsCell.swift in Sources */,
 				37A8C15929B2348000569F92 /* OPDSRootTableViewController.swift in Sources */,
 				37A8C15A29B2348000569F92 /* OutlineTableView.swift in Sources */,
 				37A8C15B29B2348000569F92 /* OutlineViewModels.swift in Sources */,
@@ -4485,6 +4529,7 @@
 				37ED05372A3C438B00B64356 /* OPDSPublicationInfoViewController.swift in Sources */,
 				37ED05382A3C438B00B64356 /* TTSViewModel.swift in Sources */,
 				37ED05392A3C438B00B64356 /* OPDSPublicationTableViewCell.swift in Sources */,
+				370B62BD2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				3785DDB82A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
 				37ED053A2A3C438B00B64356 /* OPDSRootTableViewController.swift in Sources */,
 				37ED053B2A3C438B00B64356 /* OutlineTableView.swift in Sources */,
@@ -4593,6 +4638,7 @@
 				05289AFE29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				C3A32EF12927566F00EA386A /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB52A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62BA2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				C3A32EF22927566F00EA386A /* OPDSRootTableViewController.swift in Sources */,
 				C3A32EF32927566F00EA386A /* OutlineTableView.swift in Sources */,
 				C3A32EF42927566F00EA386A /* OutlineViewModels.swift in Sources */,
@@ -4701,6 +4747,7 @@
 				C3E0FC8229B1DF7F000791FA /* TTSViewModel.swift in Sources */,
 				C3E0FC8329B1DF7F000791FA /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB92A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62BE2AB990B600FE19CF /* NewsCell.swift in Sources */,
 				C3E0FC8429B1DF7F000791FA /* OPDSRootTableViewController.swift in Sources */,
 				C3E0FC8529B1DF7F000791FA /* OutlineTableView.swift in Sources */,
 				C3E0FC8629B1DF7F000791FA /* OutlineViewModels.swift in Sources */,
@@ -4809,6 +4856,7 @@
 				05289AFD29360379005D6C76 /* TTSViewModel.swift in Sources */,
 				B562669B42AA447E0E6F125F /* OPDSPublicationTableViewCell.swift in Sources */,
 				3785DDB22A8F731A00C8D1A7 /* UIApplication+Extensions.swift in Sources */,
+				370B62B72AB990B600FE19CF /* NewsCell.swift in Sources */,
 				8AF48CB4A32FC5B76EA555A5 /* OPDSRootTableViewController.swift in Sources */,
 				98886CAA8C2A61A59DDFEA1F /* OutlineTableView.swift in Sources */,
 				8CCF1E229F5553751EE1D173 /* OutlineViewModels.swift in Sources */,
@@ -5019,7 +5067,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleKorean/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "성경";
@@ -5029,7 +5077,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.korean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5046,7 +5094,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_TEAM = DCMJJYX234;
 				INFOPLIST_FILE = Sources/TargetSettings/Bibles/BibleKorean/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "성경";
@@ -5056,7 +5104,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvi.app.book.bible.korean;
 				PRODUCT_NAME = "$(TARGET_NAME)";
