@@ -19,7 +19,7 @@
 "audio_tab" = "오디오 오프라인";
 "about_tab" = "정보";
 "media_tab" = "미디어";
-"news_tab" = "News";
+"news_tab" = "소식";
 
 /* Buttons */
 "ok_button" = "확인";

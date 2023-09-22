@@ -10,11 +10,18 @@ import UIKit
 import FeedKit
 import RevenueCat
 
-let feedURL = URL(string: "https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREUxYWpjU0FtVnVLQUFQAQ?hl=en-US&gl=US&ceid=US:en")!
+let feedURL = URL(string: ConstantsTarget.newsURL)!
 //let feedURL = URL(string: "http://images.apple.com/main/rss/hotnews/hotnews.rss")!
 
 class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    let newsLogosArray = [
+        UIImage(named:"news-logo-1")!,
+        UIImage(named:"news-logo-2")!,
+        UIImage(named:"news-logo-3")!,
+        UIImage(named:"news-logo-4")!,
+        UIImage(named:"news-logo-5")!
+    ]
     
     @IBOutlet weak var newsFeedTableView: UITableView!
     
@@ -83,6 +90,11 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as! NewsCell
         cell.news = self.rssFeed?.items?[indexPath.row]
+        
+        let listSize = self.rssFeed?.items?.count ?? 0
+        let modulo = Int(indexPath.row) % newsLogosArray.count
+        print("modulo = \(modulo), listSize = \(listSize)")
+        cell.setLogo(logoImage: newsLogosArray[modulo])
         return cell
     }
     
@@ -93,7 +105,8 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
 //                self.adHelper.showInterstitial(uiView: self)
 //            }
 //        }
-        let newsUrl = URL(string: "")!
+        guard let link = self.rssFeed?.items?[indexPath.row].link else { return }
+        guard let newsUrl = URL(string: link) else { return }
         UIApplication.shared.open(newsUrl)
       
     }

@@ -34,7 +34,10 @@ struct ConstantsTarget {
     
     static let hasAudioPlayer = true
     static let hasMediaView = true
-    static let hasNewsView = false
+    static let hasNewsView = true
+    
+    // search: biblia+reina+valera
+    static let newsURL = "https://news.google.com/rss/search?q=biblia+reina+valera&hl=es-419&gl=MX&ceid=MX%3Aes-419"
     
     static let privacyPolicyURL = "https://sites.google.com/view/paulvi-app-bible/"
     static let termsOfUseURL = "https://sites.google.com/view/paulvi-app-terms-conditions/"

@@ -26,9 +26,14 @@ final class NewsCell: UITableViewCell {
             pubDateLabelView.text = news?.pubDate?.formatted(date: .abbreviated, time: .omitted)
             sourceLabelView.text = news?.source?.value
 
-            guard let url = URL(string: "https://media.newyorker.com/photos/64dbedca70aff61ba0f99d91/1:1/w_100,c_limit/230828_r42815.jpg") else { return }
-            newsImageView.sd_setImage(with: url)
+//            guard let url = URL(string: "https://media.newyorker.com/photos/64dbedca70aff61ba0f99d91/1:1/w_100,c_limit/230828_r42815.jpg") else { return }
+//            newsImageView.sd_setImage(with: url)
+//            newsImageView.image = UIImage(named:"news-logo-1")
         }
+    }
+    
+    func setLogo(logoImage: UIImage) {
+        newsImageView.image = logoImage
     }
     
 }

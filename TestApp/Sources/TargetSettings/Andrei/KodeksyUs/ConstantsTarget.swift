@@ -36,6 +36,8 @@ struct ConstantsTarget {
     static let hasMediaView = true
     static let hasNewsView = false
     
+    static let newsURL = ""
+    
     static let privacyPolicyURL = "https://vilendoo.com/Privacy-Policy/"
     static let termsOfUseURL = "https://vilendoo.com/Terms-of-Use/"
     
