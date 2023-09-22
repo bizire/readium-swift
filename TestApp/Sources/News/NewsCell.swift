@@ -22,8 +22,8 @@ final class NewsCell: UITableViewCell {
     // maybe force-unwrapping?
     var news: RSSFeedItem? {
         didSet {
-            titleLabelView.text = news?.title
-            pubDateLabelView.text = news?.pubDate?.formatted()
+            titleLabelView.text = news?.title?.replacingOccurrences(of: " - \((news?.source?.value)!)", with: "")
+            pubDateLabelView.text = news?.pubDate?.formatted(date: .abbreviated, time: .omitted)
             sourceLabelView.text = news?.source?.value
 
             guard let url = URL(string: "https://media.newyorker.com/photos/64dbedca70aff61ba0f99d91/1:1/w_100,c_limit/230828_r42815.jpg") else { return }

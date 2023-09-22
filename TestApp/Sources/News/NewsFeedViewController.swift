@@ -43,14 +43,6 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
                 // Grab the parsed feed directly as an optional rss, atom or json feed object
                 self.rssFeed = feed.rssFeed
                 
-                // Or alternatively...
-                //
-                // switch feed {
-                // case let .rss(feed): break
-                // case let .atom(feed): break
-                // case let .json(feed): break
-                // }
-                
                 // Then back to the Main thread to update the UI.
                 DispatchQueue.main.async {
                     self.newsFeedTableView.reloadData()
@@ -89,26 +81,21 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = reusableCell()
-//        cell.textLabel?.text = self.rssFeed?.items?[indexPath.row].title ?? "[no title]"
-//        cell.detailTextLabel?.text = "sdgfadfg"
-////        cell.contentConfiguration.
-//        cell.imageView?.image = UIImage(named: "arrow_right")
-//        return cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as! NewsCell
         cell.news = self.rssFeed?.items?[indexPath.row]
         return cell
     }
     
-//    func reusableCell() -> UITableViewCell {
-//        let reuseIdentifier = "Cell"
-//        if let cell = self.newsFeedTableView.dequeueReusableCell(withIdentifier: reuseIdentifier) {
-//            return cell
-//
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+//        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+//            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
+//                self.adHelper.showInterstitial(uiView: self)
+//            }
 //        }
-//        let cell = UITableViewCell(style: .value1, reuseIdentifier: reuseIdentifier)
-//        cell.accessoryType = .disclosureIndicator
-//        return cell
-//    }
+        let newsUrl = URL(string: "")!
+        UIApplication.shared.open(newsUrl)
+      
+    }
     
 }
