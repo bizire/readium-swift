@@ -11,3 +11,6 @@ https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 iPhone 6.7' display screenshots:
 1290x2796
+
+Google News Rss Feed:
+https://www.aakashweb.com/articles/google-news-rss-feed-url/
