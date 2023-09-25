@@ -9,11 +9,12 @@ import Foundation
 import UIKit
 import FeedKit
 import RevenueCat
+import GoogleMobileAds
 
 let feedURL = URL(string: ConstantsTarget.newsURL)!
 //let feedURL = URL(string: "http://images.apple.com/main/rss/hotnews/hotnews.rss")!
 
-class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADFullScreenContentDelegate {
 
     let newsLogosArray = [
         UIImage(named:"news-logo-1")!,
@@ -28,6 +29,8 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
     let parser = FeedParser(URL: feedURL)
     var rssFeed: RSSFeed?
     var adHelper = AdHelper()
+    private var interstitial: GADInterstitialAd?
+    private var selectedNewsIndex: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +66,54 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
         self.newsFeedTableView.estimatedRowHeight = 80
         self.newsFeedTableView.rowHeight = UITableView.automaticDimension
         
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
+                self.loadAdmobInterstitial()
+            }
+        }
+        
+    }
+    
+    func loadAdmobInterstitial() {
+        let request = GADRequest()
+        GADInterstitialAd.load(
+            withAdUnitID: ConstantsTarget.adUnitIDInterstitial,
+            request: request,
+            completionHandler: { [self] ad, error in
+                if let error = error {
+                    print("Admob Interstitial NewsFeedViewController Failed to load ad with error: \(error.localizedDescription)")
+                    return
+                }
+                interstitial = ad
+                interstitial?.fullScreenContentDelegate = self
+                print("Admob Interstitial NewsFeedViewController was load successfully")
+            }
+        )
+    }
+    
+    func showInterstitial(uiView: UIViewController) {
+        if interstitial != nil {
+            interstitial?.present(fromRootViewController: uiView)
+          } else {
+            print("Admob Interstitial NewsFeedViewController wasn't ready")
+          }
+    }
+    
+    /// Tells the delegate that the ad failed to present full screen content.
+    func ad(_ ad: GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: Error) {
+        print("Admob Interstitial NewsFeedViewController did fail to present full screen content.")
+        self.openNewsArticle(self.selectedNewsIndex)
+    }
+
+    /// Tells the delegate that the ad will present full screen content.
+    func adWillPresentFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Admob Interstitial NewsFeedViewController will present full screen content.")
+    }
+
+    /// Tells the delegate that the ad dismissed full screen content.
+    func adDidDismissFullScreenContent(_ ad: GADFullScreenPresentingAd) {
+        print("Admob Interstitial NewsFeedViewController did dismiss full screen content.")
+        self.openNewsArticle(self.selectedNewsIndex)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -99,16 +150,20 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       
-//        Purchases.shared.getCustomerInfo { (customerInfo, error) in
-//            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
-//                self.adHelper.showInterstitial(uiView: self)
-//            }
-//        }
-        guard let link = self.rssFeed?.items?[indexPath.row].link else { return }
+        self.selectedNewsIndex = indexPath.row
+        Purchases.shared.getCustomerInfo { (customerInfo, error) in
+            if customerInfo?.entitlements[StringConstants.entitlementID]?.isActive != true {
+                self.showInterstitial(uiView: self)
+            } else {
+                self.openNewsArticle(self.selectedNewsIndex)
+            }
+        }
+    }
+    
+    func openNewsArticle(_ index: Int) {
+        guard let link = self.rssFeed?.items?[index].link else { return }
         guard let newsUrl = URL(string: link) else { return }
         UIApplication.shared.open(newsUrl)
-      
     }
     
 }
