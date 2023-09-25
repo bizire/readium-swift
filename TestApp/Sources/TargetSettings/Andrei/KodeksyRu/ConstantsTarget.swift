@@ -34,9 +34,9 @@ struct ConstantsTarget {
     
     static let hasAudioPlayer = false
     static let hasMediaView = true
-    static let hasNewsView = false
+    static let hasNewsView = true
     
-    static let newsURL = ""
+    static let newsURL = "https://news.google.com/rss/search?q=%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B%20%D1%80%D1%84&hl=ru&gl=RU"
     
     static let privacyPolicyURL = "https://vilendoo.com/Privacy-Policy/"
     static let termsOfUseURL = "https://vilendoo.com/Terms-of-Use/"
