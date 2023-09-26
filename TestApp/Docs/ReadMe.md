@@ -14,3 +14,9 @@ iPhone 6.7' display screenshots:
 
 Google News Rss Feed:
 https://www.aakashweb.com/articles/google-news-rss-feed-url/
+
+Converter
+https://github.com/rudism/creepypasta2epub
+
+Librivox:
+https://librivox.org/search?q=horror&search_form=advanced
