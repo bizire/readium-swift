@@ -96,6 +96,7 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
             interstitial?.present(fromRootViewController: uiView)
           } else {
             print("Admob Interstitial NewsFeedViewController wasn't ready")
+            self.openNewsArticle(self.selectedNewsIndex)
           }
     }
     
