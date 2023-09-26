@@ -2041,7 +2041,6 @@
 		37A8C19629B236E400569F92 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		37A8F7AD2A8E25BC00BF0C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37B08EA92AC2D50300010487 /* StoriesHorrorEn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoriesHorrorEn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B08EAA2AC2D50400010487 /* BibleEn copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BibleEn copy-Info.plist"; path = "/Users/andreiaks/XCodeProjects/readium-swift/TestApp/BibleEn copy-Info.plist"; sourceTree = "<absolute>"; };
 		37B08EAC2AC2D5C500010487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B08EAE2AC2D61700010487 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
 		37B08EB02AC2D69C00010487 /* ConstantsTarget_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget_Example.swift; sourceTree = "<group>"; };
@@ -2491,7 +2490,7 @@
 			children = (
 				054C351C298B980A002986E8 /* Andrei */,
 				054C351B298B96AB002986E8 /* Bibles */,
-				37B08DFD2AC2D4E300010487 /* Stroies */,
+				37B08DFD2AC2D4E300010487 /* Stories */,
 				0579E1D428E45F6D007C84E9 /* InfoPlist.strings */,
 			);
 			path = TargetSettings;
@@ -2548,7 +2547,6 @@
 				373576F027873391B8FAC423 /* Products */,
 				0587F5F528C27B2E004DCF93 /* Frameworks */,
 				C367C1B82934CEA9001239E5 /* Design */,
-				37B08EAA2AC2D50400010487 /* BibleEn copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2820,12 +2818,12 @@
 			path = KodeksyUs;
 			sourceTree = "<group>";
 		};
-		37B08DFD2AC2D4E300010487 /* Stroies */ = {
+		37B08DFD2AC2D4E300010487 /* Stories */ = {
 			isa = PBXGroup;
 			children = (
 				37B08EAB2AC2D56F00010487 /* StoriesHorrorEn */,
 			);
-			path = Stroies;
+			path = Stories;
 			sourceTree = "<group>";
 		};
 		37B08EAB2AC2D56F00010487 /* StoriesHorrorEn */ = {
@@ -5878,7 +5876,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = "BibleEn copy-Info.plist";
+				INFOPLIST_FILE = Sources/TargetSettings/Stories/StoriesHorrorEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5903,7 +5901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = DCMJJYX234;
-				INFOPLIST_FILE = "BibleEn copy-Info.plist";
+				INFOPLIST_FILE = Sources/TargetSettings/Stories/StoriesHorrorEn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
