@@ -50,11 +50,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         // Library
         let libraryViewController = app.library.rootViewController
-        libraryViewController.tabBarItem = makeItem(title: "bookshelf_tab", image: "bookshelf")
+        var tabNameBookshelf = NSLocalizedString("bookshelf_tab", comment: "Title")
+        if (ConstantsTarget.tabTitleBookshelf != "") {
+            tabNameBookshelf = ConstantsTarget.tabTitleBookshelf
+        }
+        libraryViewController.tabBarItem = makeItem(title: tabNameBookshelf, image: "bookshelf")
         
         // Audio Player
         let audioPlayerViewController = app.audioplayerViewController
-        audioPlayerViewController.tabBarItem = makeItem(title: "audio_tab", image: "audio")
+        var tabNameAudio = NSLocalizedString("audio_tab", comment: "Title")
+        if (ConstantsTarget.tabTitleAudio != "") {
+            tabNameAudio = ConstantsTarget.tabTitleAudio
+        }
+        audioPlayerViewController.tabBarItem = makeItem(title: tabNameAudio, image: "audio")
         
         // OPDS Feeds
         let opdsViewController = app.opds.rootViewController
@@ -62,11 +70,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GADFullScreenContentDeleg
         
         // Media Feed
         let mediaViewController = app.mediaViewController
-        mediaViewController.tabBarItem = makeItem(title: "media_tab", image: "catalogs")
+        var tabNameMedia = NSLocalizedString("media_tab", comment: "Title")
+        if (ConstantsTarget.tabTitleMedia != "") {
+            tabNameMedia = ConstantsTarget.tabTitleMedia
+        }
+        mediaViewController.tabBarItem = makeItem(title: tabNameMedia, image: "catalogs")
         
         // News Feed
         let newsViewController = app.newsViewController
-        newsViewController.tabBarItem = makeItem(title: "news_tab", image: "news")
+        var tabNameNews = NSLocalizedString("news_tab", comment: "Title")
+        if (ConstantsTarget.tabTitleNews != "") {
+            tabNameNews = ConstantsTarget.tabTitleNews
+        }
+        newsViewController.tabBarItem = makeItem(title: tabNameNews, image: "news")
         
         // About
         let aboutViewController = app.aboutViewController

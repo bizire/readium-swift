@@ -36,6 +36,11 @@ struct ConstantsTarget {
     static let hasMediaView = true
     static let hasNewsView = true
     
+    static let tabTitleBookshelf = ""
+    static let tabTitleAudio = ""
+    static let tabTitleMedia = ""
+    static let tabTitleNews = ""
+    
     static let newsURL = "https://news.google.com/rss/search?q=law%20us&hl=en-US&gl=US&ceid=US%3Aen"
     
     static let privacyPolicyURL = "https://vilendoo.com/Privacy-Policy/"

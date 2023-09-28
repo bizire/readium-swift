@@ -38,7 +38,11 @@ class NewsFeedViewController: UIViewController, UITableViewDataSource, UITableVi
         newsFeedTableView.delegate = self
         newsFeedTableView.dataSource = self
         
-        self.title = NSLocalizedString("news_tab", comment: "Title")
+        if (ConstantsTarget.tabTitleNews == "") {
+            self.navigationItem.title = NSLocalizedString("news_tab", comment: "Title")
+        } else {
+            self.navigationItem.title = ConstantsTarget.tabTitleNews
+        }
         
         let nib = UINib(nibName: "NewsCell", bundle: nil)
         newsFeedTableView.register(nib, forCellReuseIdentifier: "NewsCell")

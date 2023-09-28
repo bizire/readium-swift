@@ -18,8 +18,8 @@ struct ConstantsTarget {
     static let revenueCatPublicKey = "XXXXXXXX"
     
     static let audioBookType = "book"
-    static let audioBookVersion = "Creepypasta"
-    static let mediaSearchTerm: [String] = ["creepypasta"]
+    static let audioBookVersion = "Halloween"
+    static let mediaSearchTerm: [String] = ["halloween"]
     static let podcastCountry = "us"
     
     static let excludeFromSearch: [String] = ["http://podcast.faithcomesbyhearing.com"]
@@ -35,7 +35,12 @@ struct ConstantsTarget {
     static let hasMediaView = true
     static let hasNewsView = true
     
-    static let newsURL = "https://news.google.com/rss/search?q=horror%20stories&hl=en-US&gl=US&ceid=US%3Aen"
+    static let tabTitleBookshelf = "Creepypastas"
+    static let tabTitleAudio = ""
+    static let tabTitleMedia = "Audio Stories"
+    static let tabTitleNews = "Halloween News"
+    
+    static let newsURL = "https://news.google.com/rss/search?q=halloween&hl=en-US&gl=US&ceid=US%3Aen"
     
     static let privacyPolicyURL = "https://sites.google.com/view/paulvi-app-bible/"
     static let termsOfUseURL = "https://sites.google.com/view/paulvi-app-terms-conditions/"

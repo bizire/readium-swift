@@ -36,6 +36,11 @@ struct ConstantsTarget {
     static let hasMediaView = true
     static let hasNewsView = true
     
+    static let tabTitleBookshelf = ""
+    static let tabTitleAudio = ""
+    static let tabTitleMedia = ""
+    static let tabTitleNews = ""
+    
     static let newsURL = "https://news.google.com/rss/search?q=quran&hl=en-US&gl=US"
     
     static let privacyPolicyURL = "https://sites.google.com/view/paulvi-app-bible/"

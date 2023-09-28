@@ -40,6 +40,12 @@ final class PodcastsSearchViewController: UITableViewController {
                 self.adHelper.loadAdmobInterstitial()
             }
         }
+        
+        if (ConstantsTarget.tabTitleMedia == "") {
+            self.navigationItem.title = NSLocalizedString("media_tab", comment: "Title")
+        } else {
+            self.navigationItem.title = ConstantsTarget.tabTitleMedia
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {

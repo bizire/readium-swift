@@ -192,6 +192,12 @@ class LibraryViewController: UIViewController, Loggable {
                 self.adHelper.loadAdmobInterstitial()
             }
         }
+        
+        if (ConstantsTarget.tabTitleBookshelf == "") {
+            self.navigationItem.title = NSLocalizedString("bookshelf_tab", comment: "Title")
+        } else {
+            self.navigationItem.title = ConstantsTarget.tabTitleBookshelf
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -1457,6 +1457,7 @@
 		37B08F662AC552D300010487 /* IRHTTPCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3763ABA52A934CCF00EFC5E3 /* IRHTTPCache.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		37B08F712AC5545D00010487 /* ConstantsTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B08F702AC5545D00010487 /* ConstantsTarget.swift */; };
 		37B08F732AC5548100010487 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B08F722AC5548100010487 /* Media.xcassets */; };
+		37B08F752AC55CB700010487 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 37B08F742AC55CB700010487 /* Samples */; };
 		37ED05092A3C438B00B64356 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0047FA2CA811ED2C674AFA /* AboutTableViewController.swift */; };
 		37ED050A2A3C438B00B64356 /* AdvancedSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4364134C79E92201F17A5 /* AdvancedSettingsViewController.swift */; };
 		37ED050B2A3C438B00B64356 /* AnyPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CF4E36F6AE6DA648CC27 /* AnyPublisher.swift */; };
@@ -2202,6 +2203,7 @@
 		37B08F6D2AC553E700010487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B08F702AC5545D00010487 /* ConstantsTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTarget.swift; sourceTree = "<group>"; };
 		37B08F722AC5548100010487 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		37B08F742AC55CB700010487 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
 		37ED05722A3C438B00B64356 /* BiblePortugal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblePortugal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37ED05752A3C442400B64356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37ED05762A3C44B100B64356 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -3020,6 +3022,7 @@
 		37B08F6C2AC5531200010487 /* StoriesHalloweenEn */ = {
 			isa = PBXGroup;
 			children = (
+				37B08F742AC55CB700010487 /* Samples */,
 				37B08F6D2AC553E700010487 /* Info.plist */,
 				37B08F702AC5545D00010487 /* ConstantsTarget.swift */,
 				37B08F722AC5548100010487 /* Media.xcassets */,
@@ -4082,6 +4085,7 @@
 				37B08F492AC552D300010487 /* Library.storyboard in Resources */,
 				37B08F4A2AC552D300010487 /* FavoritePodcastCell.xib in Resources */,
 				37B08F4B2AC552D300010487 /* PodcastsSearchingView.xib in Resources */,
+				37B08F752AC55CB700010487 /* Samples in Resources */,
 				37B08F4D2AC552D300010487 /* Localizable.strings in Resources */,
 				37B08F4E2AC552D300010487 /* OPDS.storyboard in Resources */,
 				37B08F4F2AC552D300010487 /* AudioPlayer.storyboard in Resources */,
