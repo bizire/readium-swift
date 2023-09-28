@@ -20,3 +20,5 @@ https://github.com/rudism/creepypasta2epub
 
 Librivox:
 https://librivox.org/search?q=horror&search_form=advanced
+
+https://www.creepypasta.org/

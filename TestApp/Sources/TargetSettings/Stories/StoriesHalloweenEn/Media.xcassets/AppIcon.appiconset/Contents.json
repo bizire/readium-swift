@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Depositphotos_28023247_XL.jpg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -270,7 +270,7 @@ class FolderContentViewController: UIViewController, UITableViewDataSource, UITa
         audioFileLabel.textAlignment = .center
         audioFileLabel.font = UIFont.systemFont(ofSize: 9)
         footerView.addSubview(audioFileLabel)
-        audioFileLabel.text = "Audio Bible"
+        audioFileLabel.text = ConstantsTarget.audioBookVersion
 
         audioSlider.frame = CGRect(x: sliderX, y: yCenter-15, width: sliderWidth, height: sliderHeight)
         audioSlider.minimumValue = 0
